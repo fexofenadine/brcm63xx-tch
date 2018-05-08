@@ -1,0 +1,139 @@
+Package: freecwmp
+Version: 2014-06-12-8f3c163fc85337e63bfa64da3c02f10d1fe3b169
+Depends: libc, libcurl, libfreecwmp, libuci, libubox, libubus, libmicroxml, shflags
+Source: feeds/management/freecwmp
+License: GPL-2.0+
+Section: utils
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 28262
+Filename: management/freecwmp_2014-06-12-8f3c163fc85337e63bfa64da3c02f10d1fe3b169_brcm63xx-tch.ipk
+Size: 28924
+MD5Sum: 414f0eff5c41752268782e8e7e47e56d
+SHA256sum: b6db8458a5c142b9ca0d0b240ab645b299f0f20b8d5b0d387684649f88593a68
+Description:  A free client implementation of CWMP (TR-069) protocol
+
+Package: freenetconfd
+Version: 2015-04-27-021a87e1ba32832462aec1c540b5d518e1cfbf0a
+Depends: libc, libuci, libubox, libubus, libroxml
+Source: feeds/management/freenetconfd
+License: GPL-2.0+
+Section: utils
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 14588
+Filename: management/freenetconfd_2015-04-27-021a87e1ba32832462aec1c540b5d518e1cfbf0a_brcm63xx-tch.ipk
+Size: 15269
+MD5Sum: b085954d2a52a800d5c3240d2a394bbb
+SHA256sum: 3efda902f0c41bc13848311906dd79af5a1805168c9b10dbfeea7ff7b5c20a09
+Description:  netconf server
+
+Package: freesub
+Version: 2014-12-03-a1a38e80c6642af723d6aa65f64910dcf27cb3da
+Depends: libc, libubox
+Source: feeds/management/freesub
+License: GPL-2.0+
+Section: utils
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 2761
+Filename: management/freesub_2014-12-03-a1a38e80c6642af723d6aa65f64910dcf27cb3da_brcm63xx-tch.ipk
+Size: 3558
+MD5Sum: c4deb7ecaf97cc15584b30c7a00bab15
+SHA256sum: f44019d8c41f23c834205e15c33c91bb57a8c1dab000b5b2afb27613e997a993
+Description:  SSH subsystem helper
+
+Package: libfreecwmp
+Version: 2014-06-12-d2fdd97d66fde14859c06228a922066d9e8b669b
+Depends: libc
+Source: feeds/management/libfreecwmp
+License: GPL-2.0+
+Section: libs
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 2295
+Filename: management/libfreecwmp_2014-06-12-d2fdd97d66fde14859c06228a922066d9e8b669b_brcm63xx-tch.ipk
+Size: 3078
+MD5Sum: ad157864bdfae30386644002537740d6
+SHA256sum: 48922a9c4449b47d2619df5ae3421fe629b581fa1df61b51c036803a2e991911
+Description:  CWMP library
+
+Package: libmicroxml
+Version: 2012-06-11-72965423184f24cc0b963d91c2d1863cdb01b6aa
+Depends: libc
+Source: feeds/management/libmicroxml
+Section: libs
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 17837
+Filename: management/libmicroxml_2012-06-11-72965423184f24cc0b963d91c2d1863cdb01b6aa_brcm63xx-tch.ipk
+Size: 18250
+MD5Sum: da46ca2456c6747aacc3410129ec1805
+SHA256sum: f7ef7bd28086a856280df2bd5891e9ea48f204fad81c01ab25918b92eb3e0b13
+Description:  A micro sized XML library
+
+Package: libnetconf
+Version: 0.9.1-1
+Depends: libc, libxml2, zlib, libxslt, libcurl, libssh2
+Source: feeds/management/libnetconf
+License: BSD-3-Clause
+Section: libs
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 167502
+Filename: management/libnetconf_0.9.1-1_brcm63xx-tch.ipk
+Size: 168282
+MD5Sum: 447e555afb9830a2e1751437a78ee9ed
+SHA256sum: 0377d5c81fb8306b7f30d1ace8188b7338db48e15052f29fc32b9f9c9380f6b3
+Description:  libnetconf is the NETCONF library in C intended for building NETCONF clients and servers.
+ 
+ libnetconf provides basic functions to connect NETCONF client and server to each other via
+ SSH, to send and receive NETCONF messages and to store and work with the configuration data 
+ in a datastore.
+
+Package: libssh
+Version: 2014-07-10-59a179950150d0305d6189ce9c126a9a0c5f6ab4
+Depends: libc, libpthread, librt, zlib, libopenssl
+Source: feeds/management/libssh
+License: LGPL-2.1+ BSD-2-Clause
+Section: lib
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 99558
+Filename: management/libssh_2014-07-10-59a179950150d0305d6189ce9c126a9a0c5f6ab4_brcm63xx-tch.ipk
+Size: 100457
+MD5Sum: c3fd505fb4e050a0737c8e0a516ac6b2
+SHA256sum: d7da90ca1264031a9f1e6e8d7091b8f03e3f12e5b92258d3d29cd95e551d700d
+Description:  libssh is a mulitplatform C library implementing the SSHv2 and SSHv1 protocol
+ for client and server implementations.
+
+Package: shflags
+Version: 2012-06-11_r133-1.0.x
+Depends: libc, getopt
+Source: feeds/management/shflags
+License: LGPL-2.1
+Section: libs
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 4296
+Filename: management/shflags_2012-06-11_r133-1.0.x_brcm63xx-tch.ipk
+Size: 5043
+MD5Sum: db3f75840f37a465f45399d65fa8b0c2
+SHA256sum: 8cc9c9f2d55e1d29a3a7db9648c110e2ab3e224aaa01d367993e893ac7734789
+Description:  command-line flags module for Unix shell scripts
+
+Package: shtool
+Version: 2.0.8-1
+Depends: libc
+Source: feeds/management/shtool
+License: GPL-2.0+
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 33563
+Filename: management/shtool_2.0.8-1_brcm63xx-tch.ipk
+Size: 34409
+MD5Sum: c7e638c8dc4b7824519f71914fb4388d
+SHA256sum: 9188838376cac58e042cc2e220bd8187dddadc008b92808739b7109af649ba97
+Description:  GNU shtool is a compilation of small but very stable and portable shell
+ scripts into a single shell tool.
+
