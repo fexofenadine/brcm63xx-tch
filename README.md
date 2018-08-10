@@ -13,4 +13,4 @@ For example, edit your /etc/opkg/distfeeds.conf to include the lines:
     
     opkg update
     
-    :)
+:)
