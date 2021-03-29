@@ -7,7 +7,7 @@ Section: net
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4241
-Filename: routing/464xlat_6_brcm63xx-tch.ipk
+Filename: 464xlat_6_brcm63xx-tch.ipk
 Size: 4963
 MD5Sum: 4610c3a6bce8bb333954d0188f52ad74
 SHA256sum: a005dcb700844039367ecec8e0c9666b1dd1052533c78a18face982d7f0216f3
@@ -22,7 +22,7 @@ Section: net
 Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
 Architecture: brcm63xx-tch
 Installed-Size: 21265
-Filename: routing/ahcpd_0.53-2_brcm63xx-tch.ipk
+Filename: ahcpd_0.53-2_brcm63xx-tch.ipk
 Size: 22069
 MD5Sum: 1792562dea40817d676b249044fda553
 SHA256sum: 44e2cf569c065b73211a77d0686e637c181354b4f2f06cc10418cd87891242c3
@@ -39,7 +39,7 @@ License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
 Installed-Size: 19254
-Filename: routing/alfred_2014.4.0-0_brcm63xx-tch.ipk
+Filename: alfred_2014.4.0-0_brcm63xx-tch.ipk
 Size: 20182
 MD5Sum: 243835d4cd385ae9f95659d2b31ce98c
 SHA256sum: 2386b1eb1da29a542f8844fed5855aba4c382182745f62d425bc71a3c15419d4
@@ -66,7 +66,7 @@ Section: net
 Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
 Architecture: brcm63xx-tch
 Installed-Size: 52556
-Filename: routing/babeld_1.6.1-1_brcm63xx-tch.ipk
+Filename: babeld_1.6.1-1_brcm63xx-tch.ipk
 Size: 53500
 MD5Sum: 36c3df76cdf5cc021b47c4c450c85acb
 SHA256sum: 26cc83cb3c1bdb95d8582a700870d495ad0a3297ae5dfb01c2584d8217a8a1af
@@ -86,7 +86,7 @@ Section: net
 Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
 Architecture: brcm63xx-tch
 Installed-Size: 3772
-Filename: routing/babel-pinger_0.1-1_brcm63xx-tch.ipk
+Filename: babel-pinger_0.1-1_brcm63xx-tch.ipk
 Size: 4583
 MD5Sum: 7dfdebfd26970fcbfe9915fa4c05eaa1
 SHA256sum: b512c478837bad58bf04cb4706e9d12c24dc13e111a546d6d2e97f5182281b1d
@@ -103,7 +103,7 @@ Section: net
 Maintainer: Marek Lindner <mareklindner@neomailbox.ch>
 Architecture: brcm63xx-tch
 Installed-Size: 23012
-Filename: routing/batctl_2014.4.0-1_brcm63xx-tch.ipk
+Filename: batctl_2014.4.0-1_brcm63xx-tch.ipk
 Size: 23658
 MD5Sum: 71eeb10d654c60bd285d4f35149adaca
 SHA256sum: 451eb86e3745671f9fff6a232806aefd0c734d50fdaf9bd22a1603508e76425e
@@ -121,7 +121,7 @@ Section: net
 Maintainer: Marek Lindner <lindner_marek@yahoo.de>
 Architecture: brcm63xx-tch
 Installed-Size: 37215
-Filename: routing/batmand_r1439-2_brcm63xx-tch.ipk
+Filename: batmand_r1439-2_brcm63xx-tch.ipk
 Size: 37850
 MD5Sum: 2614c75cf2a958ed11e7c0ef54d32905
 SHA256sum: df82de4f5e20d7542cf105cd1995e816c09584a717b6d1f3900187d70ff4fe15
@@ -135,7 +135,7 @@ License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
 Installed-Size: 166019
-Filename: routing/bird4_1.4.5-2_brcm63xx-tch.ipk
+Filename: bird4_1.4.5-2_brcm63xx-tch.ipk
 Size: 166843
 MD5Sum: 4c9c1b2e4c850d4713c896d39cf2835c
 SHA256sum: 164020589310138d6c8bd13ac8dfae3ce747802ac2b8248b8851a5ee459f1c52
@@ -163,7 +163,7 @@ Section: net
 Maintainer: Eloi Carbo <eloicaso@openmailbox.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4074
-Filename: routing/bird4-uci_0.2_brcm63xx-tch.ipk
+Filename: bird4-uci_0.2_brcm63xx-tch.ipk
 Size: 4961
 MD5Sum: 7468f4036b90729c5150a6c2730514bb
 SHA256sum: 3eae0161ab48100960400ef6697feb17e442879e66b2f7ac75e742df38a58d72
@@ -177,7 +177,7 @@ License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
 Installed-Size: 186599
-Filename: routing/bird6_1.4.5-2_brcm63xx-tch.ipk
+Filename: bird6_1.4.5-2_brcm63xx-tch.ipk
 Size: 187409
 MD5Sum: a43d343a1c976f2642ef4703ff353c80
 SHA256sum: ede7cc8728003c4bc3a4d5701bb55451b6c2c8283cd5b38616bee879be3c0210
@@ -205,7 +205,7 @@ Section: net
 Maintainer: Eloi Carbo <eloicaso@openmailbox.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4224
-Filename: routing/bird6-uci_0.2_brcm63xx-tch.ipk
+Filename: bird6-uci_0.2_brcm63xx-tch.ipk
 Size: 5115
 MD5Sum: e304134ef70a80e6b8e54856d38ab3bb
 SHA256sum: e853de24007770d3105b83c667e8874c255bf3cfd0e815faa93bc072dfeddd1e
@@ -219,7 +219,7 @@ License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
 Installed-Size: 10959
-Filename: routing/birdc4_1.4.5-2_brcm63xx-tch.ipk
+Filename: birdc4_1.4.5-2_brcm63xx-tch.ipk
 Size: 12012
 MD5Sum: 0459295017e4614372f4ee8d876e867f
 SHA256sum: f4a8775a62bccb99ae8e0b64441424ef74d6b1e0582725a016db00bde6c30e9c
@@ -245,7 +245,7 @@ License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
 Installed-Size: 12184
-Filename: routing/birdc6_1.4.5-2_brcm63xx-tch.ipk
+Filename: birdc6_1.4.5-2_brcm63xx-tch.ipk
 Size: 13244
 MD5Sum: 67ce3d8a6c425c2112c7995c2b1a467d
 SHA256sum: ba6a80346b38dc4d95fa7c5ff6f5856928b7c60f106381e9879015eb1bbf8d24
@@ -271,7 +271,7 @@ License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
 Installed-Size: 10278
-Filename: routing/birdcl4_1.4.5-2_brcm63xx-tch.ipk
+Filename: birdcl4_1.4.5-2_brcm63xx-tch.ipk
 Size: 11276
 MD5Sum: e6e2d830e3d7723abff393c1eb9f67cf
 SHA256sum: 6ed06622fc8b0e417d2d59a2c13d9306333e4d6bf8a5bef02c376a3e27530e88
@@ -294,7 +294,7 @@ License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
 Installed-Size: 11530
-Filename: routing/birdcl6_1.4.5-2_brcm63xx-tch.ipk
+Filename: birdcl6_1.4.5-2_brcm63xx-tch.ipk
 Size: 12520
 MD5Sum: 25c10a4b753093faa2f4dda8477ba824
 SHA256sum: fc3a2343d53f54b9cd1d4bc7eb07337d3a24cd6997afdc9bc4b4ce7e7a424fa8
@@ -318,7 +318,7 @@ Section: net
 Maintainer: Axel Neumann <neumann@cgws.de>
 Architecture: brcm63xx-tch
 Installed-Size: 6377
-Filename: routing/bmx6-json_r2015080701-4_brcm63xx-tch.ipk
+Filename: bmx6-json_r2015080701-4_brcm63xx-tch.ipk
 Size: 7106
 MD5Sum: e2cebf238d186b2d9f5b93c348eb2ff0
 SHA256sum: cb59f9290d1645f31abb3bc4229be652f80d291792c1bd35e1395c0c5fbe1169
@@ -333,7 +333,7 @@ Section: net
 Maintainer: Axel Neumann <neumann@cgws.de>
 Architecture: brcm63xx-tch
 Installed-Size: 133868
-Filename: routing/bmx6_r2015080701-4_brcm63xx-tch.ipk
+Filename: bmx6_r2015080701-4_brcm63xx-tch.ipk
 Size: 134567
 MD5Sum: 88f2128fcde128fa8d19b9d582e61ce3
 SHA256sum: 059bf06098ad449228cc35de6fa607be927310d4cb860bf0914a3283de4291df
@@ -348,7 +348,7 @@ Section: net
 Maintainer: Axel Neumann <neumann@cgws.de>
 Architecture: brcm63xx-tch
 Installed-Size: 5176
-Filename: routing/bmx6-sms_r2015080701-4_brcm63xx-tch.ipk
+Filename: bmx6-sms_r2015080701-4_brcm63xx-tch.ipk
 Size: 5867
 MD5Sum: 8afec9a2a3930db50c6429da4341a474
 SHA256sum: 2acddde9f8d06bde4d1e272dd112c483e2224939f3a2b73696a0925e8a1a8e52
@@ -363,7 +363,7 @@ Section: net
 Maintainer: Axel Neumann <neumann@cgws.de>
 Architecture: brcm63xx-tch
 Installed-Size: 8548
-Filename: routing/bmx6-table_r2015080701-4_brcm63xx-tch.ipk
+Filename: bmx6-table_r2015080701-4_brcm63xx-tch.ipk
 Size: 9320
 MD5Sum: 2c4f0013ec999e3219fa59c01c9b7690
 SHA256sum: 6ffdbc59377a91654941dfb91fb69ee8f57894da175f77f7e5cfd262e3fa01f0
@@ -378,7 +378,7 @@ Section: net
 Maintainer: Axel Neumann <neumann@cgws.de>
 Architecture: brcm63xx-tch
 Installed-Size: 8552
-Filename: routing/bmx6-uci-config_r2015080701-4_brcm63xx-tch.ipk
+Filename: bmx6-uci-config_r2015080701-4_brcm63xx-tch.ipk
 Size: 9334
 MD5Sum: 91a60c88d4125aa462d15836ff88d2f4
 SHA256sum: 4c5b66c2e577186ceb6eb9f64b4181dfcbbe1cb8a0af90aec3b6e871925abd44
@@ -393,7 +393,7 @@ Section: net
 Maintainer: Lars Gierth <larsg@systemli.org>
 Architecture: brcm63xx-tch
 Installed-Size: 281367
-Filename: routing/cjdns_0.16-14_brcm63xx-tch.ipk
+Filename: cjdns_0.16-14_brcm63xx-tch.ipk
 Size: 282169
 MD5Sum: d959af36853c92ab44d788ca2950d0a3
 SHA256sum: 317683fe08b2b68c8d5599c105ab311271fe7990617ee50805746028be4c6227
@@ -408,7 +408,7 @@ Section: net
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 83155
-Filename: routing/hnetd-nossl_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
+Filename: hnetd-nossl_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
 Size: 83888
 MD5Sum: 486ec170a962d81b9a637548dcf2dcdc
 SHA256sum: 7e0b47613d41caf194bb4fa668df2e871c5866161ae0754f80ab9091d0584019
@@ -426,7 +426,7 @@ Section: net
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 83153
-Filename: routing/hnetd-openssl_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
+Filename: hnetd-openssl_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
 Size: 83911
 MD5Sum: 0787c806419383c0364ac4dae05fd5b5
 SHA256sum: 9b5c7a8160a0c5e4163947d4b51fc1aedbe9f9ea66f8aada35368d91afe527a1
@@ -444,7 +444,7 @@ Section: net
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 105
-Filename: routing/hnet-full_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
+Filename: hnet-full_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
 Size: 922
 MD5Sum: 56900f68bd99fe4035fea91d0e1c4583
 SHA256sum: 637b05cbde6e771570c99b0852ae12126e930f6cbee4cb51e96bdc15cf05d119
@@ -459,7 +459,7 @@ Section: net
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 102
-Filename: routing/hnet-full-secure_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
+Filename: hnet-full-secure_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
 Size: 921
 MD5Sum: fa878603cfe593a519527956f816c04d
 SHA256sum: 8fac78c4d75335c9d5bb205294c18c3cba51316d96a4a0be008e3f6fb45eb3fe
@@ -474,7 +474,7 @@ Section: luci
 Maintainer: Eloi Carbo <eloicaso@openmailbox.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4262
-Filename: routing/luci-app-bird4_0.2_brcm63xx-tch.ipk
+Filename: luci-app-bird4_0.2_brcm63xx-tch.ipk
 Size: 5042
 MD5Sum: d959ab2e926a11a9efbc2d9859e1bb9a
 SHA256sum: 634b228138e0fcf560ef2fc1a30c70c9d1787e1bbc56d4003c7c5401c7b9c309
@@ -489,7 +489,7 @@ Section: luci
 Maintainer: Eloi Carbo <eloicaso@openmailbox.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4416
-Filename: routing/luci-app-bird6_0.2_brcm63xx-tch.ipk
+Filename: luci-app-bird6_0.2_brcm63xx-tch.ipk
 Size: 5184
 MD5Sum: b9f6e9b1fe13b228968490ad82abbd3f
 SHA256sum: e285decd46f38bf5def109a79e67e7481c87dbcaaa7d2b64b187efe16b74cf8f
@@ -504,7 +504,7 @@ Section: luci
 Maintainer: Pau Escrich <p4u@dabax.net>
 Architecture: brcm63xx-tch
 Installed-Size: 81367
-Filename: routing/luci-app-bmx6_3_brcm63xx-tch.ipk
+Filename: luci-app-bmx6_3_brcm63xx-tch.ipk
 Size: 82235
 MD5Sum: c026c40f7ab8c48ae714802a7a713a2b
 SHA256sum: 8ebf2cc0abd88d83dfc01c3aa8cd2a92239b5e50fedb30ed232f42ebc5fb3c1e
@@ -519,7 +519,7 @@ Section: luci
 Maintainer: Lars Gierth <larsg@systemli.org>
 Architecture: brcm63xx-tch
 Installed-Size: 5656
-Filename: routing/luci-app-cjdns_1.3-5_brcm63xx-tch.ipk
+Filename: luci-app-cjdns_1.3-5_brcm63xx-tch.ipk
 Size: 6556
 MD5Sum: 734e64cd62aeccab5ca3549b9093769f
 SHA256sum: 097843dd73123263b168c778a4df9a58736005635e9426d56bce0149af3ae271
@@ -539,7 +539,7 @@ Section: luci
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 56771
-Filename: routing/luci-app-hnet_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
+Filename: luci-app-hnet_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
 Size: 57630
 MD5Sum: 24b9bc805d6c15fb630310afcacbfea6
 SHA256sum: ee4c141db339dfb2a3f49f45976a7301139282b3b25abecf8415e44fc2bb8270
@@ -554,7 +554,7 @@ Section: net
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 105
-Filename: routing/map-t_6_brcm63xx-tch.ipk
+Filename: map-t_6_brcm63xx-tch.ipk
 Size: 834
 MD5Sum: dcfa51b0398254ab1f6eadfa97ac307e
 SHA256sum: 3c61c35c6a1a23c5f35d300b54887d576ced4c10f6664a82cdb32458f02bb8b1
@@ -569,7 +569,7 @@ Section: net
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 121726
-Filename: routing/mcproxy_2014-12-31-b7bd2d0809a0d1f177181c361b9a6c83e193b79a-2_brcm63xx-tch.ipk
+Filename: mcproxy_2014-12-31-b7bd2d0809a0d1f177181c361b9a6c83e193b79a-2_brcm63xx-tch.ipk
 Size: 122271
 MD5Sum: 0540fe609efd42717db921c2e199d2b7
 SHA256sum: 06460c802df18607e3e4ec54530ba0d5dcb2f7ca087184d52064afe9a4eed432
@@ -586,7 +586,7 @@ Section: net
 Maintainer: Markus Stenberg <fingon@iki.fi>
 Architecture: brcm63xx-tch
 Installed-Size: 6123
-Filename: routing/minimalist-pcproxy_2015-01-12-2d6d1b0b0a3b79a9b4a9b0a7606a84600a967bcb-1_brcm63xx-tch.ipk
+Filename: minimalist-pcproxy_2015-01-12-2d6d1b0b0a3b79a9b4a9b0a7606a84600a967bcb-1_brcm63xx-tch.ipk
 Size: 7271
 MD5Sum: 9e0a7898ea49dee3899a63b498249e42
 SHA256sum: b21115f714a7834dfa9db8f397af3e0ad46496ba823b1fdb2e59fb7ad55a1799
@@ -606,7 +606,7 @@ Section: net
 Maintainer: Markus Stenberg <fingon@iki.fi>
 Architecture: brcm63xx-tch
 Installed-Size: 53486
-Filename: routing/miniupnpd_1.9.20150609-1_brcm63xx-tch.ipk
+Filename: miniupnpd_1.9.20150609-1_brcm63xx-tch.ipk
 Size: 54213
 MD5Sum: ebef39051a58bc4d4155984291ad71d6
 SHA256sum: 92e891c6e2f78407e4fe3dee0ee849d35a75748237968332862121cdd3edc041
@@ -621,7 +621,7 @@ Section: net
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 269369
-Filename: routing/mrd6_2013-11-30-c805eb33255dbc0b6647d463c6c67d1c9d3105a0-1_brcm63xx-tch.ipk
+Filename: mrd6_2013-11-30-c805eb33255dbc0b6647d463c6c67d1c9d3105a0-1_brcm63xx-tch.ipk
 Size: 270129
 MD5Sum: 8231457bc051562bdb25e60dd4e0d1e5
 SHA256sum: 3110fb3e8d5c9e31dccb3e4613372c2bf0dda20c88938f61526ea4ef599c5d45
@@ -641,7 +641,7 @@ Section: net
 Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
 Architecture: brcm63xx-tch
 Installed-Size: 31932
-Filename: routing/ndppd_0.2.3-1_brcm63xx-tch.ipk
+Filename: ndppd_0.2.3-1_brcm63xx-tch.ipk
 Size: 32688
 MD5Sum: 92eb1643ba4af8815e1ea769e01daf41
 SHA256sum: d19d5c9a19abdd69629a7ba1cddbeac46e72e9a29085e91a8824318b80858524
@@ -662,7 +662,7 @@ License: GPL-2.0+
 Section: net
 Architecture: brcm63xx-tch
 Installed-Size: 46332
-Filename: routing/nodogsplash_0.9_beta9.9.9-5_brcm63xx-tch.ipk
+Filename: nodogsplash_0.9_beta9.9.9-5_brcm63xx-tch.ipk
 Size: 46938
 MD5Sum: b4085602abea8b955a6b65a1e94729fa
 SHA256sum: efdab5e7a62b54783d0f40bf356ebdb6dd2f88f908d5cf05b3e9e95d322e84aa
@@ -678,7 +678,7 @@ Section: net
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 10449
-Filename: routing/ohybridproxy_2015-01-12-f2ba152799c481471ddc0213b3f98b1c143d97a3-1_brcm63xx-tch.ipk
+Filename: ohybridproxy_2015-01-12-f2ba152799c481471ddc0213b3f98b1c143d97a3-1_brcm63xx-tch.ipk
 Size: 11318
 MD5Sum: 53e1a52d61f3316c151539793f9cee9b
 SHA256sum: 064d94e6196983716b30502ec92475611b44a9a3754130f502b5c8d4ab70f4e9
@@ -694,7 +694,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 124142
-Filename: routing/olsrd_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 124726
 MD5Sum: 2c858dc25bb8e5ada30f95224efa50e4
 SHA256sum: 4acc98cdee50849d5fcc3993bba53bd3b8256362a608e040e8b00a03ecf2f149
@@ -709,7 +709,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 1933
-Filename: routing/olsrd-mod-arprefresh_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-arprefresh_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 2693
 MD5Sum: d35b9741cc0b1061e3ab38255fdd3dde
 SHA256sum: 90abd4e4f886118fc39db751efd0880dcfc53f637b1545bcb2fcd7d14fd3fc51
@@ -724,7 +724,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 11633
-Filename: routing/olsrd-mod-bmf_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-bmf_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 12415
 MD5Sum: b746dfb48a9f02af8e68c566f5abd949
 SHA256sum: cca522e0f83ecec8288ba165983c8e28b4af97c95d2f1abb2ea0650bf620aa70
@@ -739,7 +739,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 3677
-Filename: routing/olsrd-mod-dot-draw_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-dot-draw_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 4402
 MD5Sum: 2e4d366d204647c616bf502668d8c9be
 SHA256sum: 4bed56bc28888bbdc95b05bdde396ec13f1f418d785233eb8ed31f79685e441f
@@ -754,7 +754,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 4015
-Filename: routing/olsrd-mod-dyn-gw_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-dyn-gw_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 4738
 MD5Sum: 7b464c873948228322294d34cbb42161
 SHA256sum: 09561fa74850a691968d44e0f15ecff0ba4138302c7ebda4a287149ef4287d06
@@ -769,7 +769,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 2277
-Filename: routing/olsrd-mod-dyn-gw-plain_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-dyn-gw-plain_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 3053
 MD5Sum: b6dda0eb6f427f2c9d008a7d5ba34513
 SHA256sum: 435ba8861d83b8b108e22b072d4af31d7408ecb6a7210fdf32a48f625085308c
@@ -784,7 +784,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 29146
-Filename: routing/olsrd-mod-httpinfo_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-httpinfo_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 29938
 MD5Sum: 1e29013766231ba2dbd608bde864f027
 SHA256sum: 33d904f889f6e344c1d87db810c2909d17cb62250d667acd6d00b45e4bea6e28
@@ -799,7 +799,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 12609
-Filename: routing/olsrd-mod-jsoninfo_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-jsoninfo_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 13391
 MD5Sum: adaa3164bebc5b2b4efc982bc82b0f03
 SHA256sum: 847f52b3fe0e236e0ab0332fe9370d6347750f38b31c8f6b2e14c541087c6507
@@ -814,7 +814,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 7839
-Filename: routing/olsrd-mod-mdns_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-mdns_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 8641
 MD5Sum: 19293971bad5b4b3cd244f26ded694a5
 SHA256sum: f5d464c4928bb8ac26ee59a1244bd91d04686386332bb7a34afb9cb868ef0a69
@@ -829,7 +829,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 10704
-Filename: routing/olsrd-mod-nameservice_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-nameservice_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 11479
 MD5Sum: 75ac6a35757f25cea1b8d7f65716db75
 SHA256sum: 8259f8bb2063c9107f9d38e1a912c2c63aef3c8f087373b6f19bd5786038f0d0
@@ -844,7 +844,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 7486
-Filename: routing/olsrd-mod-p2pd_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-p2pd_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 8283
 MD5Sum: 2cff6350d863374f563e16cb878aad36
 SHA256sum: edef1bbd764a8c4618446ddcaadff093a6e8f490a92fca6210b961c15d9ae2e1
@@ -859,7 +859,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 2744
-Filename: routing/olsrd-mod-pgraph_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-pgraph_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 3520
 MD5Sum: dbccf827b25ce2b74cc2032f3df654e5
 SHA256sum: 4816abde9fd385a05f921cc27b06439adc515055bcd0f127dfc61583fe7abc2f
@@ -874,7 +874,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 52406
-Filename: routing/olsrd-mod-pud_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-pud_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 53006
 MD5Sum: 89f777218d6953f3f1d7b273c3ac69f2
 SHA256sum: 7c6fd1f74aac4517d26b500eee300458b94d2717398fe9bbfb4e66cc596e8a0e
@@ -889,7 +889,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 5520
-Filename: routing/olsrd-mod-quagga_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-quagga_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 6242
 MD5Sum: 3ba15b6b6491dc90ba4faea24a76edda
 SHA256sum: 912a0a1026a3849d69dd8ee056da07d91fd088d62acb0bff8c1554ca74a86902
@@ -904,7 +904,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 9606
-Filename: routing/olsrd-mod-secure_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-secure_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 10370
 MD5Sum: e376e417a47491898c739ac839513aa6
 SHA256sum: 756f7e1df6fac0df9442f7d48b4a44fdf96a84269bd42a4cb0f5ede13153419e
@@ -919,7 +919,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 4429
-Filename: routing/olsrd-mod-sgwdynspeed_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-sgwdynspeed_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 5183
 MD5Sum: a0eca8e60676559073c7eedade822691
 SHA256sum: 4c549579e844696caa6dff4566342f75db7e329a464556386ed89c15699a1f28
@@ -934,7 +934,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 6753
-Filename: routing/olsrd-mod-txtinfo_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-txtinfo_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 7549
 MD5Sum: cd9a9e881390242806b808d4a70050b6
 SHA256sum: 24cf0d72248fc0ecf0b2ebe49d5d64214d99f4821c8abe0823f3a008081b0dad
@@ -949,7 +949,7 @@ Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 1729
-Filename: routing/olsrd-mod-watchdog_0.9.0.2-3_brcm63xx-tch.ipk
+Filename: olsrd-mod-watchdog_0.9.0.2-3_brcm63xx-tch.ipk
 Size: 2456
 MD5Sum: 1def0e9f293bac3cf4b2df5902777841
 SHA256sum: d081ab09c55541583ac257e25ae91d9a3ca101528d4da04dccacf69ff69c745d
@@ -963,7 +963,7 @@ Section: net
 Maintainer: Henning Rogge <hrogge@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 94380
-Filename: routing/oonf-dlep-proxy_0.9.1-r2_brcm63xx-tch.ipk
+Filename: oonf-dlep-proxy_0.9.1-r2_brcm63xx-tch.ipk
 Size: 94939
 MD5Sum: 9c5419995d5b3f6c6d3284f316b62604
 SHA256sum: ed6a93d94ac912e3bf0728b80f9824591ba88826283d627d954ec2c01e7e02b3
@@ -977,7 +977,7 @@ Section: net
 Maintainer: Henning Rogge <hrogge@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 91458
-Filename: routing/oonf-dlep-radio_0.9.1-r2_brcm63xx-tch.ipk
+Filename: oonf-dlep-radio_0.9.1-r2_brcm63xx-tch.ipk
 Size: 92091
 MD5Sum: 66c28caefd10d80172f341e919c7dbfb
 SHA256sum: 15caa5e8a8ed5bbf0dc762932060fd048d5c346f77042639cfaabf121255c951
@@ -991,7 +991,7 @@ Section: net
 Maintainer: Henning Rogge <hrogge@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 1396
-Filename: routing/oonf-init-scripts_0.9.1-r3_brcm63xx-tch.ipk
+Filename: oonf-init-scripts_0.9.1-r3_brcm63xx-tch.ipk
 Size: 2141
 MD5Sum: 4cf2e72b7d4f5ec5d95ad02135975b54
 SHA256sum: bf7f42f5afa50286dce128166be4991c71afcde27fe306d7322ebbad8977c631
@@ -1005,7 +1005,7 @@ Section: net
 Maintainer: Henning Rogge <hrogge@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 148905
-Filename: routing/oonf-olsrd2_0.9.1-r2_brcm63xx-tch.ipk
+Filename: oonf-olsrd2_0.9.1-r2_brcm63xx-tch.ipk
 Size: 149376
 MD5Sum: 438032cc9228e4723d6ca6f2c35d8a80
 SHA256sum: bc20bbc9038640fd63df2ca5ee5ed0bd8ecd4d6005a58f5fdf98b5c6b1ea43af
@@ -1020,7 +1020,7 @@ Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 2390
-Filename: routing/quagga_0.99.22.4-2_brcm63xx-tch.ipk
+Filename: quagga_0.99.22.4-2_brcm63xx-tch.ipk
 Size: 3209
 MD5Sum: 3c7235b923ee4762a400968f4277286e
 SHA256sum: b364b7be03599ad221dbc7d755b84b6817893816c9c46d6b05c4f5c18c7e4e6c
@@ -1037,7 +1037,7 @@ Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 34908
-Filename: routing/quagga-babeld_0.99.22.4-2_brcm63xx-tch.ipk
+Filename: quagga-babeld_0.99.22.4-2_brcm63xx-tch.ipk
 Size: 35272
 MD5Sum: 82335b7b0efd6b96783c60e25d262bbf
 SHA256sum: 52f68c01e2bdf169714c7245931400af9f5828eff013da7791532065a47fd579
@@ -1052,7 +1052,7 @@ Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 171704
-Filename: routing/quagga-bgpd_0.99.22.4-2_brcm63xx-tch.ipk
+Filename: quagga-bgpd_0.99.22.4-2_brcm63xx-tch.ipk
 Size: 170251
 MD5Sum: ff3694650854fb51303d1e29d1f19f65
 SHA256sum: 2d30a3a3eef0456047267f4f360fae32984733fa63813d77ef0a648724fcdf56
@@ -1067,7 +1067,7 @@ Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 70314
-Filename: routing/quagga-isisd_0.99.22.4-2_brcm63xx-tch.ipk
+Filename: quagga-isisd_0.99.22.4-2_brcm63xx-tch.ipk
 Size: 70550
 MD5Sum: f02aec83a93713a34ef2e4bb936a0d4a
 SHA256sum: 5b1e25391b5d37866622ac55b73c48108a41b630c4bfeb7b1d56a815d35c63a4
@@ -1082,7 +1082,7 @@ Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 163430
-Filename: routing/quagga-libospf_0.99.22.4-2_brcm63xx-tch.ipk
+Filename: quagga-libospf_0.99.22.4-2_brcm63xx-tch.ipk
 Size: 163604
 MD5Sum: 863be85d92ca4f925cca8c6559bf40e7
 SHA256sum: 63cb47f1072be21158da1c93da1e9c3ab00023ec8fb7a0a0cad5a587bca4569e
@@ -1097,7 +1097,7 @@ Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 106769
-Filename: routing/quagga-libzebra_0.99.22.4-2_brcm63xx-tch.ipk
+Filename: quagga-libzebra_0.99.22.4-2_brcm63xx-tch.ipk
 Size: 106570
 MD5Sum: 5360bf66cf552fadbaf08f270c4c51cf
 SHA256sum: ee58ccf24c16e533d9f9a809211ab40d82d325b8aa997ca04d9ad06f85df7f5f
@@ -1112,7 +1112,7 @@ Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 72722
-Filename: routing/quagga-ospf6d_0.99.22.4-2_brcm63xx-tch.ipk
+Filename: quagga-ospf6d_0.99.22.4-2_brcm63xx-tch.ipk
 Size: 72919
 MD5Sum: 61296385eb2402b4c8e01be9c0f65036
 SHA256sum: 98dd3154631b32385c3b0f93bdb97de511301e295af7910368b06067375daa30
@@ -1127,7 +1127,7 @@ Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 3895
-Filename: routing/quagga-ospfd_0.99.22.4-2_brcm63xx-tch.ipk
+Filename: quagga-ospfd_0.99.22.4-2_brcm63xx-tch.ipk
 Size: 4625
 MD5Sum: 6d30a0016da0832d621689e21a2b2eef
 SHA256sum: 254d321b820006ec2feedb8f42dcf46f9fd7f24d79caa55d63b56462b13dc114
@@ -1142,7 +1142,7 @@ Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 33071
-Filename: routing/quagga-ripd_0.99.22.4-2_brcm63xx-tch.ipk
+Filename: quagga-ripd_0.99.22.4-2_brcm63xx-tch.ipk
 Size: 33270
 MD5Sum: c048b8cf7c109d92b75f6971c7a604c4
 SHA256sum: d683a6592b78974523890f7ce628ae2750caa94db3c5fa76407fba366ce70624
@@ -1157,7 +1157,7 @@ Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 26948
-Filename: routing/quagga-ripngd_0.99.22.4-2_brcm63xx-tch.ipk
+Filename: quagga-ripngd_0.99.22.4-2_brcm63xx-tch.ipk
 Size: 27192
 MD5Sum: 6b4eeb76f45d5e1bc7d16fc046ae8241
 SHA256sum: 7fa22d45687df2aca41690929b0d9bc49f6fb4c37490312191c1eaff144ee867
@@ -1172,7 +1172,7 @@ Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 102477
-Filename: routing/quagga-vtysh_0.99.22.4-2_brcm63xx-tch.ipk
+Filename: quagga-vtysh_0.99.22.4-2_brcm63xx-tch.ipk
 Size: 102952
 MD5Sum: 1493dd762c00677fa8cf7f83ae4c026f
 SHA256sum: 4969023f155983a1c21adc91ea64cceab6132fdb01f935fb6d4a2604e4ae50d6
@@ -1187,7 +1187,7 @@ Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 11124
-Filename: routing/quagga-watchquagga_0.99.22.4-2_brcm63xx-tch.ipk
+Filename: quagga-watchquagga_0.99.22.4-2_brcm63xx-tch.ipk
 Size: 11895
 MD5Sum: ce8ff88513845d578de97a6b602a4e31
 SHA256sum: fd91cc1184258cda0a16a8ee28df55e98febe3e5228f65fdc7fa3e199fc5bcdb
@@ -1202,7 +1202,7 @@ Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 63879
-Filename: routing/quagga-zebra_0.99.22.4-2_brcm63xx-tch.ipk
+Filename: quagga-zebra_0.99.22.4-2_brcm63xx-tch.ipk
 Size: 63839
 MD5Sum: c1ed8a20c58c05aac8938159fe7429a2
 SHA256sum: 9f9f896a865d7f883f1daf61c9869d0368b8e417ddf16f3237d57f35b007f80f
@@ -1217,7 +1217,7 @@ Section: net
 Maintainer: Leonardo Brondani Schenkel <leonardo@schenkel.net>
 Architecture: brcm63xx-tch
 Installed-Size: 13428
-Filename: routing/smcroute_2.0.0-1_brcm63xx-tch.ipk
+Filename: smcroute_2.0.0-1_brcm63xx-tch.ipk
 Size: 14132
 MD5Sum: 14050fdbaee8ba21630f4d93b207dfc5
 SHA256sum: 571077baf4868ee7727d35fbc667cd006c20d3a64aeb984f0c6e5b0942128654
@@ -1232,7 +1232,7 @@ Section: net
 Maintainer: Marek Lindner <lindner_marek@yahoo.de>
 Architecture: brcm63xx-tch
 Installed-Size: 10014
-Filename: routing/vis_r1439-2_brcm63xx-tch.ipk
+Filename: vis_r1439-2_brcm63xx-tch.ipk
 Size: 10765
 MD5Sum: e6678fd98199b8361956f601543b3a10
 SHA256sum: 1c6f001d1f6f2013e531ce2db646feca476722fb208eb46dd75d2b32de63485b
