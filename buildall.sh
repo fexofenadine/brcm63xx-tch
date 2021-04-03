@@ -1,3 +1,4 @@
+rm -rf base luci management packages routing telephony
 pushd source > /dev/null
   for folder in */
   do
@@ -8,7 +9,7 @@ pushd source > /dev/null
       do
         pushd $packageName > /dev/null
         echo "building $folder$packageName"
-          ../../../../opkg-utils/opkg-build -o 0 -g 0 .
+          ../../../opkg-build -o 0 -g 0 .
           mv *.ipk ../../../$folder
         popd > /dev/null
       done

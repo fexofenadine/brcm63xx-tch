@@ -4,8 +4,8 @@ Depends: libc, kmod-nat46
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 8045a8aa3803c0beb058c8c5ba0c0fb5
-Size: 5486
+MD5Sum: b240ef96833f7c9fdc0d082af6a9d159
+Size: 4890
 Filename: 464xlat_6_brcm63xx-tch.ipk
 Source: feeds/routing/nat46
 Description: 464xlat CLAT support
@@ -17,11 +17,11 @@ Depends: libc, kmod-ipv6, ip, librt
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: be9bce79b7b0bf1b1398b1080e5d1d80
-Size: 22724
+MD5Sum: ea3d6d0073e03a05bed5e66799c6bef5
+Size: 22000
 Filename: ahcpd_0.53-2_brcm63xx-tch.ipk
 Source: feeds/routing/ahcpd
-Description: Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
+Description: Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc Configuration Protocol (AHCP). AHCP is designed for wireless mesh networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may also be used on wired networks.
 License: MIT
 
 Package: alfred
@@ -30,11 +30,11 @@ Depends: libc, kmod-ipv6, librt
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 2542544bff794ddc045cc373f71b59bb
-Size: 21408
+MD5Sum: c01c99331ae32568033d946ba08ad469
+Size: 20328
 Filename: alfred_2014.4.0-0_brcm63xx-tch.ipk
 Source: feeds/routing/alfred
-Description: alfred is a user space daemon for distributing arbitrary local information over
+Description: alfred is a user space daemon for distributing arbitrary local information over the mesh/network in a decentralized fashion. This data can be anything which appears to be useful - originally designed to replace the batman-adv visualization (vis), you may distribute hostnames, phone books, administration information, DNS information, the local weather forecast ... alfred runs as daemon in the background of the system. A user may insert information by using the alfred binary on the command line, or use special programs to communicate with alfred (done via unix sockets). alfred then takes care of distributing the local information to other alfred servers on other nodes. This is done via IPv6 link-local multicast, and does not require any configuration. A user can request data from alfred, and will receive the information available from all alfred servers in the network.
 License: GPL-2.0
 
 Package: babel-pinger
@@ -43,11 +43,11 @@ Depends: libc, librt
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: acdbfec63a0a609f0f6b9a06afd5340b
-Size: 5250
+MD5Sum: cbe7e9528ab6a0b5af0b6dd4b90b3ca8
+Size: 4506
 Filename: babel-pinger_0.1-1_brcm63xx-tch.ipk
 Source: feeds/routing/babel-pinger
-Description: Babel-pinger is a hack to export a default route into Babel for people
+Description: Babel-pinger is a hack to export a default route into Babel for people using DHCP to configure their routers rather than speaking to their upstream provider with a proper routing protocol.
 
 Package: babeld
 Version: 1.6.1-1
@@ -55,11 +55,11 @@ Depends: libc, kmod-ipv6
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 61268166e8837982fe3288ca30377e24
-Size: 54366
+MD5Sum: 44cacf5d7d5ccc7b803cd811c2849247
+Size: 53422
 Filename: babeld_1.6.1-1_brcm63xx-tch.ipk
 Source: feeds/routing/babeld
-Description: Babel is a loop-avoiding distance-vector routing protocol roughly based
+Description: Babel is a loop-avoiding distance-vector routing protocol roughly based on DSDV and AODV, but with provisions for link cost estimation and redistribution of routes from other routing protocols. While it is optimised for wireless mesh networks, Babel will also work efficiently on wired networks. It will generate between 1.2 and 2.4 times the amount of routing traffic that RIPng would generate, while never counting to infinity.
 License: MIT
 
 Package: batctl
@@ -68,11 +68,11 @@ Depends: libc, kmod-batman-adv, libnl-tiny
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: c8bef63469141339adc52a644b76a828
-Size: 24716
+MD5Sum: 35a0d17671230fbae70bca6b3d5f774e
+Size: 23822
 Filename: batctl_2014.4.0-1_brcm63xx-tch.ipk
 Source: feeds/routing/batctl
-Description: batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+Description: batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced. It is an easier method for configuring batman-adv and provides some additional tools for debugging as well. This package builds version 2014.4.0 of the user space utility.
 License: GPL-2.0
 
 Package: batmand
@@ -81,8 +81,8 @@ Depends: libc, libpthread, kmod-tun
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 41c34f7816e4a357943a616748796caa
-Size: 38628
+MD5Sum: fe1886ed03898ed33eff77c5758d2bf8
+Size: 37884
 Filename: batmand_r1439-2_brcm63xx-tch.ipk
 Source: feeds/routing/batmand
 Description: B.A.T.M.A.N. layer 3 routing daemon
@@ -94,8 +94,8 @@ Depends: libc, bird4, libuci, uci
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 78d66d8356e4e72b828c4c6b9e73c707
-Size: 5396
+MD5Sum: e47c9d7252112bfaeca31907b7ccd88b
+Size: 4802
 Filename: bird4-uci_0.2_brcm63xx-tch.ipk
 Source: feeds/routing/bird-openwrt/bird4-openwrt
 Description: bird4 UCI integration module
@@ -107,11 +107,11 @@ Depends: libc, libpthread
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 550dfd677b09fc32d2f57aedd9509e6a
-Size: 167988
+MD5Sum: e9fcafae500fea6789f533cf8ac2d64d
+Size: 166976
 Filename: bird4_1.4.5-2_brcm63xx-tch.ipk
 Source: feeds/routing/bird
-Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
+Description: BIRD is an internet routing daemon which manages TCP/IP routing tables with support of modern routing protocols, easy to use configuration interface and powerful route filtering language. It is lightweight and efficient and therefore appropriate for small embedded routers. This is IPv4 version of BIRD, it supports OSPFv2, RIPv2 and BGP protocols. In BGP, BIRD supports communities, multiprotocol extensions, MD5 authentication, 32bit AS numbers and could act as a route server or a route reflector. BIRD also supports multiple RIBs, multiple kernel routing tables and redistribution between the protocols with a powerful configuration syntax.
 License: GPL-2.0
 
 Package: bird6-uci
@@ -120,8 +120,8 @@ Depends: libc, bird6, libuci, uci
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: da9da8fe26c53a6c3468e3f26ce3ce7d
-Size: 5540
+MD5Sum: 81620f6b4b6466d44c34410678c7cf4d
+Size: 4950
 Filename: bird6-uci_0.2_brcm63xx-tch.ipk
 Source: feeds/routing/bird-openwrt/bird6-openwrt
 Description: bird6 UCI integration module
@@ -133,11 +133,11 @@ Depends: libc, libpthread
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 1f642bd868e7b61418e9c3e62a3f74ce
-Size: 188442
+MD5Sum: 0c65c7c9c3ff12cb65480586df0810ef
+Size: 187484
 Filename: bird6_1.4.5-2_brcm63xx-tch.ipk
 Source: feeds/routing/bird
-Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
+Description: BIRD is an internet routing daemon which manages TCP/IP routing tables with support of modern routing protocols, easy to use configuration interface and powerful route filtering language. It is lightweight and efficient and therefore appropriate for small embedded routers. This is IPv6 version of BIRD, it supports OSPFv3, RIPng and BGP protocols. In BGP, BIRD supports communities, multiprotocol extensions, MD5 authentication, 32bit AS numbers and could act as a route server or a route reflector. BIRD also supports multiple RIBs, multiple kernel routing tables and redistribution between the protocols with a powerful configuration syntax.
 License: GPL-2.0
 
 Package: birdc4
@@ -146,11 +146,11 @@ Depends: libc, libreadline, libncurses, bird4
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: eb9cf4f39f03bbb855f86ffce2d1e954
-Size: 12940
+MD5Sum: b328a3f28686a1e2f78bf06b435e5b00
+Size: 11928
 Filename: birdc4_1.4.5-2_brcm63xx-tch.ipk
 Source: feeds/routing/bird
-Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
+Description: BIRD is an internet routing daemon which manages TCP/IP routing tables with support of modern routing protocols, easy to use configuration interface and powerful route filtering language. It is lightweight and efficient and therefore appropriate for small embedded routers. This is a BIRD command-line client. It is used to send commands to BIRD, commands can perform simple actions such as enabling/disabling of protocols, telling BIRD to show various information, telling it to show a routing table filtered by a filter, or asking BIRD to reconfigure. Unless you can't afford dependency on ncurses and readline, you should install BIRD command-line client together with BIRD.
 License: GPL-2.0
 
 Package: birdc6
@@ -159,11 +159,11 @@ Depends: libc, libreadline, libncurses, bird6
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: db3062733fbd724785b4e8747938ec7b
-Size: 14170
+MD5Sum: 5e63e6f6ab5d56265bbf58b9672dc6f3
+Size: 13154
 Filename: birdc6_1.4.5-2_brcm63xx-tch.ipk
 Source: feeds/routing/bird
-Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
+Description: BIRD is an internet routing daemon which manages TCP/IP routing tables with support of modern routing protocols, easy to use configuration interface and powerful route filtering language. It is lightweight and efficient and therefore appropriate for small embedded routers. This is a BIRD command-line client. It is used to send commands to BIRD, commands can perform simple actions such as enabling/disabling of protocols, telling BIRD to show various information, telling it to show a routing table filtered by a filter, or asking BIRD to reconfigure. Unless you can't afford dependency on ncurses and readline, you should install BIRD command-line client together with BIRD.
 License: GPL-2.0
 
 Package: birdcl4
@@ -172,11 +172,11 @@ Depends: libc, bird4
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 1fe172885c2219129e87434a725ca832
-Size: 12126
+MD5Sum: 2da8260c27e0e17c3be4d4893addfdb3
+Size: 11186
 Filename: birdcl4_1.4.5-2_brcm63xx-tch.ipk
 Source: feeds/routing/bird
-Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
+Description: BIRD is an internet routing daemon which manages TCP/IP routing tables with support of modern routing protocols, easy to use configuration interface and powerful route filtering language. It is lightweight and efficient and therefore appropriate for small embedded routers. This is a BIRD lightweight command-line client. It is used to send commands to BIRD, commands can perform simple actions such as enabling/disabling of protocols, telling BIRD to show various information, telling it to show a routing table filtered by a filter, or asking BIRD to reconfigure.
 License: GPL-2.0
 
 Package: birdcl6
@@ -185,11 +185,11 @@ Depends: libc, bird6
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 631912b1e6959411e481c4d4f4617e85
-Size: 13402
+MD5Sum: 4f699193af44fcab3da1863123c58e91
+Size: 12436
 Filename: birdcl6_1.4.5-2_brcm63xx-tch.ipk
 Source: feeds/routing/bird
-Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
+Description: BIRD is an internet routing daemon which manages TCP/IP routing tables with support of modern routing protocols, easy to use configuration interface and powerful route filtering language. It is lightweight and efficient and therefore appropriate for small embedded routers. This is a BIRD lightweight command-line client. It is used to send commands to BIRD, commands can perform simple actions such as enabling/disabling of protocols, telling BIRD to show various information, telling it to show a routing table filtered by a filter, or asking BIRD to reconfigure.
 License: GPL-2.0
 
 Package: bmx6-json
@@ -198,8 +198,8 @@ Depends: libc, bmx6, libjson-c
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 3b0284f49eaadba8a8371a110a0c2bc8
-Size: 7760
+MD5Sum: df22ca1ad75ffc8cb02b171c35437de2
+Size: 7042
 Filename: bmx6-json_r2015080701-4_brcm63xx-tch.ipk
 Source: feeds/routing/bmx6
 Description: json plugin based on json-c
@@ -211,8 +211,8 @@ Depends: libc, bmx6
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 46b4d14abda037d727f4399037a789fc
-Size: 6464
+MD5Sum: 359297f3ae0a7df622bbb8647311710c
+Size: 5826
 Filename: bmx6-sms_r2015080701-4_brcm63xx-tch.ipk
 Source: feeds/routing/bmx6
 Description: sms plugin
@@ -224,8 +224,8 @@ Depends: libc, bmx6
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 7385d71d9055bd2a3f87d1c31e3383c9
-Size: 9892
+MD5Sum: ea11aedd3128801488d2477e8dc33738
+Size: 9220
 Filename: bmx6-table_r2015080701-4_brcm63xx-tch.ipk
 Source: feeds/routing/bmx6
 Description: bmx6 table plugin to automatic announce routing-table routes via ip6ip tunnels
@@ -237,8 +237,8 @@ Depends: libc, bmx6, libuci
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 932a707cd6db91c9c33eed5fbe7fc909
-Size: 9898
+MD5Sum: c1d7d1a180572918778240a7d801a2ed
+Size: 9228
 Filename: bmx6-uci-config_r2015080701-4_brcm63xx-tch.ipk
 Source: feeds/routing/bmx6
 Description: configuration plugin based on uci (recommended!)
@@ -250,8 +250,8 @@ Depends: libc, kmod-ip6-tunnel, kmod-iptunnel6, kmod-tun
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: ce7142dff54230d9d3dc13aa3bfcde1f
-Size: 135454
+MD5Sum: b85a4ec86bccf794813101604397f85d
+Size: 134570
 Filename: bmx6_r2015080701-4_brcm63xx-tch.ipk
 Source: feeds/routing/bmx6
 Description: BMX6 layer 3 routing daemon supporting IPv4, IPv6, and IPv4 over IPv6
@@ -263,8 +263,8 @@ Depends: libc, kmod-tun, kmod-ipv6, libnl-tiny, libpthread, librt, libuci-lua, l
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 90eafc68befdebabe2d5f2f8f75ca7f4
-Size: 283542
+MD5Sum: 54e575025f6ea2755a13cb683980246e
+Size: 282600
 Filename: cjdns_0.16-14_brcm63xx-tch.ipk
 Source: feeds/routing/cjdns
 Description: Cjdns implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing. This provides near-zero-configuration networking, and prevents many of the security and scalability issues that plague existing networks.
@@ -276,8 +276,8 @@ Depends: libc, hnetd-openssl, luci-app-hnet, babeld, ohybridproxy, miniupnpd, mi
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: f71bd210f1391ba5fc8e1b43f6786c5f
-Size: 1544
+MD5Sum: e1fa9fbde5abc20dd3bdd69d1024201d
+Size: 806
 Filename: hnet-full-secure_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
 Source: feeds/routing/hnetd
 Description: HNCP Homenet metapackage
@@ -289,8 +289,8 @@ Depends: libc, hnetd-nossl, luci-app-hnet, babeld, ohybridproxy, miniupnpd, mini
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 804c2fdfff1845c487fae7cb1a500a94
-Size: 1530
+MD5Sum: 138472c56d168e53b934da395eab07e7
+Size: 800
 Filename: hnet-full_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
 Source: feeds/routing/hnetd
 Description: HNCP Homenet metapackage
@@ -302,11 +302,11 @@ Depends: libc, odhcpd, odhcp6c, netifd, ip
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 127fddf77718ba0074799037470be353
-Size: 85106
+MD5Sum: 923319c1c4b50c534f64e41fbb486c80
+Size: 84258
 Filename: hnetd-nossl_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
 Source: feeds/routing/hnetd
-Description: This package provides a daemon which implementats distributed prefix assignment
+Description: This package provides a daemon which implementats distributed prefix assignment and service discovery for a home network consisting of multiple routers connected to multiple service providers. It provides a netifd protocol "hnet" for use in /etc/config/network.
 License: GPL-2.0
 
 Package: hnetd-openssl
@@ -315,11 +315,11 @@ Depends: libc, odhcpd, odhcp6c, netifd, ip, libopenssl
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 0b4a76944e771ce44d42d1695e5c0690
-Size: 85112
+MD5Sum: 9f2fd2785743c5fe52221e126163dbc8
+Size: 84262
 Filename: hnetd-openssl_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
 Source: feeds/routing/hnetd
-Description: This package provides a daemon which implementats distributed prefix assignment
+Description: This package provides a daemon which implementats distributed prefix assignment and service discovery for a home network consisting of multiple routers connected to multiple service providers. It provides a netifd protocol "hnet" for use in /etc/config/network.
 License: GPL-2.0
 
 Package: luci-app-bird4
@@ -328,8 +328,8 @@ Depends: libc, bird4-uci, luci-base
 Section: luci
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 044fe6315bde0be9cbb4a7f3d1bca06b
-Size: 5582
+MD5Sum: 61e6d529718f50357c202bda0d006f23
+Size: 4940
 Filename: luci-app-bird4_0.2_brcm63xx-tch.ipk
 Source: feeds/routing/bird-openwrt/bird4-openwrt
 Description: bird4 application for LuCI
@@ -341,8 +341,8 @@ Depends: libc, bird6-uci, luci-base
 Section: luci
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 3e7ee8d47407de843bdc91c15d028623
-Size: 5750
+MD5Sum: 8ef1355647e2ca90e1891001b3f5a206
+Size: 5094
 Filename: luci-app-bird6_0.2_brcm63xx-tch.ipk
 Source: feeds/routing/bird-openwrt/bird6-openwrt
 Description: bird6 application for LuCI
@@ -354,8 +354,8 @@ Depends: libc, luci-lib-json, luci-mod-admin-full, luci-lib-httpclient, bmx6
 Section: luci
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: f5c6429307c5e829286d17f32ab95e5a
-Size: 82648
+MD5Sum: 74f796991c8c81413271e64f268510f9
+Size: 81812
 Filename: luci-app-bmx6_3_brcm63xx-tch.ipk
 Source: feeds/routing/luci-app-bmx6
 Description: bmx6 web application (status and configuration) for LuCi web interface
@@ -367,11 +367,11 @@ Depends: libc, cjdns, luci-base
 Section: luci
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 02d0f91977c77cdc5c55513938c1a097
-Size: 7190
+MD5Sum: 9ceaba78212a747e2d2b2c1353f15c53
+Size: 6498
 Filename: luci-app-cjdns_1.3-5_brcm63xx-tch.ipk
 Source: feeds/routing/luci-app-cjdns
-Description: This package allows you to configure and inspect cjdns networking using LuCI.
+Description: This package allows you to configure and inspect cjdns networking using LuCI. Cjdns implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing. This provides near-zero-configuration networking, and prevents many of the security and scalability issues that plague existing networks.
 License: GPL-3.0
 
 Package: luci-app-hnet
@@ -380,8 +380,8 @@ Depends: libc
 Section: luci
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: a958e3e41795ffaecc712b4242f208f2
-Size: 58042
+MD5Sum: 0845e829918f6484602bf6db722a574e
+Size: 57286
 Filename: luci-app-hnet_2015-07-10-ea2bd2bc2d8e617efca4b27fbf1c5c3c8ad09ad9-1_brcm63xx-tch.ipk
 Source: feeds/routing/hnetd
 Description: HNCP Homenet configuration and visualization
@@ -393,8 +393,8 @@ Depends: libc, map, kmod-nat46
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 60a6882303c545977cf9e7fdfdda5a0b
-Size: 1378
+MD5Sum: e18c2e4e694aeb1adf35d65c44bbba43
+Size: 720
 Filename: map-t_6_brcm63xx-tch.ipk
 Source: feeds/routing/nat46
 Description: MAP-T configuration support
@@ -406,11 +406,11 @@ Depends: libc, libpthread, libstdcpp
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 597a4c3a09beaa32d60bf9a698a0d176
-Size: 123396
+MD5Sum: 5f658b67aa5b6f420c3a41212bd386bb
+Size: 122486
 Filename: mcproxy_2014-12-31-b7bd2d0809a0d1f177181c361b9a6c83e193b79a-2_brcm63xx-tch.ipk
 Source: feeds/routing/mcproxy
-Description: mcproxy is a free & open source implementation of the IGMP/MLD proxy function (see  RFC 4605) for Linux systems.
+Description: mcproxy is a free & open source implementation of the IGMP/MLD proxy function (see RFC 4605) for Linux systems. It operates on the kernel tables for multicast routing and allows for multiple instantiations, as well as dynamically changing downstream interfaces.
 License: GPL-2.0+
 
 Package: minimalist-pcproxy
@@ -419,11 +419,11 @@ Depends: libc, libubox
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: ae955862642e6fd01d84f6ee3d4edd45
-Size: 8006
+MD5Sum: 67f979a1ce66cb48be24337ff4e4aa4c
+Size: 7112
 Filename: minimalist-pcproxy_2015-01-12-2d6d1b0b0a3b79a9b4a9b0a7606a84600a967bcb-1_brcm63xx-tch.ipk
 Source: feeds/routing/minimalist-pcproxy
-Description: This package contains a daemon which can be used to forward
+Description: This package contains a daemon which can be used to forward PCP (Port Control Protocol - RFC6887) requests requests to PCP remote servers. In and of itself, it is not very useful, but combined with hnetd+miniupnpd it allows for control of NAT forwarding and firewall pinholes from multiple hops away.
 License: GPL-2.0
 
 Package: miniupnpd
@@ -432,8 +432,8 @@ Depends: libc, iptables, libip4tc, libip6tc, ip6tables
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 9e8def784a97d5ffe553eb6aa0d8d145
-Size: 55202
+MD5Sum: cb33b9067c01f33d4083c3ce2b719af8
+Size: 54490
 Filename: miniupnpd_1.9.20150609-1_brcm63xx-tch.ipk
 Source: feeds/routing/miniupnpd
 Description: Lightweight UPnP IGD, NAT-PMP & PCP daemon
@@ -445,11 +445,11 @@ Depends: libc, libstdcpp
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 40b3877dc0c602916727357cf6b9e088
-Size: 271692
+MD5Sum: 431f5c1a75034d0b98c7a1b0ecf7c9c5
+Size: 270608
 Filename: mrd6_2013-11-30-c805eb33255dbc0b6647d463c6c67d1c9d3105a0-1_brcm63xx-tch.ipk
 Source: feeds/routing/mrd6
-Description: Multicast is becoming a major component in next generation networks, used
+Description: Multicast is becoming a major component in next generation networks, used in several scenarios, from video broadcasting to multimedia conferencing. In order to be implemented, new technology needs supporting hardware and software across a set of devices and systems. MRD6 is an implementation of a modular IPv6 Multicast Routing Framework for the Linux operating system and provides MLDv2 (as well as MLDv1), PIM-SM and MBGP support.
 License: GPL-2.0+
 
 Package: ndppd
@@ -458,11 +458,11 @@ Depends: libc, kmod-ipv6, uclibcxx
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 542a71428872216dfb525af6e7925d04
-Size: 33814
+MD5Sum: 7395f84a876b45bd882b62c617a1e6a9
+Size: 32836
 Filename: ndppd_0.2.3-1_brcm63xx-tch.ipk
 Source: feeds/routing/ndppd
-Description: ndppd, or NDP Proxy Daemon, is a daemon that proxies NDP (Neighbor Discovery
+Description: ndppd, or NDP Proxy Daemon, is a daemon that proxies NDP (Neighbor Discovery Protocol) messages between interfaces. ndppd currently only supports Neighbor Solicitation Messages and Neighbor Advertisement Messages. The ndp_proxy provided by Linux doesn't support listing proxies, and only hosts are supported. No subnets. ndppd solves this by listening for Neighbor Solicitation messages on an interface, then query the internal interfaces for that target IP before finally sending a Neighbor Advertisement message.
 License: GPL-3.0+
 
 Package: nodogsplash
@@ -471,11 +471,11 @@ Depends: libc, libpthread, iptables-mod-ipopt
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 65f2eee7c47efd14aafb0f4a64150656
-Size: 47448
+MD5Sum: 055be6b62713864ecc25742150ca8c15
+Size: 46742
 Filename: nodogsplash_0.9_beta9.9.9-5_brcm63xx-tch.ipk
 Source: feeds/routing/nodogsplash
-Description: Nodogsplash offers a simple way to open a free hotspot providing
+Description: Nodogsplash offers a simple way to open a free hotspot providing restricted access to an internet connection.
 License: GPL-2.0+
 
 Package: ohybridproxy
@@ -484,11 +484,11 @@ Depends: libc, libubox, mdnsd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 6d93034b944be5a3fc6c40e5a15aa9fd
-Size: 11962
+MD5Sum: fae314ff5d2254333c9cf1e96b983b01
+Size: 11204
 Filename: ohybridproxy_2015-01-12-f2ba152799c481471ddc0213b3f98b1c143d97a3-1_brcm63xx-tch.ipk
 Source: feeds/routing/ohybridproxy
-Description: This package provides a statically configured daemon for translating DNS
+Description: This package provides a statically configured daemon for translating DNS requests to Multicast DNS and back again.
 License: GPL-2.0
 
 Package: olsrd-mod-arprefresh
@@ -497,8 +497,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 19b33220fc1b9750db9c6d59a882f997
-Size: 3272
+MD5Sum: 3c63053822abf17d6ad9a236529302d3
+Size: 2606
 Filename: olsrd-mod-arprefresh_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Kernel ARP cache refresh plugin
@@ -510,8 +510,8 @@ Depends: libc, olsrd, kmod-tun
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: edec9f87025394b98ed2e9f256b428c3
-Size: 13030
+MD5Sum: e9bd6f07ec8e378e9799e7009db2881a
+Size: 12312
 Filename: olsrd-mod-bmf_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Basic multicast forwarding plugin
@@ -523,8 +523,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: d9f71ba2bdba5b157e972171e15b160c
-Size: 4976
+MD5Sum: 82d7019cd1888b9af73c93b9731fb2c1
+Size: 4284
 Filename: olsrd-mod-dot-draw_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Dot topology information plugin
@@ -536,8 +536,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 91c2fb208f2f881cd3e4a4e429aff7a6
-Size: 3620
+MD5Sum: c4d841713e8a0550c9f50c643b0c6bf6
+Size: 2958
 Filename: olsrd-mod-dyn-gw-plain_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Dynamic internet gateway plain plugin
@@ -549,8 +549,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 385db115ac8a9857db6bc427c2dc533a
-Size: 5314
+MD5Sum: 9b7f6aa27d264d4ff769d0cb740764f0
+Size: 4690
 Filename: olsrd-mod-dyn-gw_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Dynamic internet gateway plugin
@@ -562,8 +562,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 1eab8c19c2929f1359bf371d4bdc873f
-Size: 30572
+MD5Sum: 6ee2a642f3f594b3a20cfd465461aa68
+Size: 29820
 Filename: olsrd-mod-httpinfo_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Small informative web server plugin
@@ -575,8 +575,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 6e4aea3668a8084af5844678df28cf79
-Size: 14008
+MD5Sum: b6cfcd6a9ab67d60c756b4e5f2494ac5
+Size: 13294
 Filename: olsrd-mod-jsoninfo_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Small informative plugin with JSON output
@@ -588,8 +588,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: b2b497c20f8636d6314d029afc5e0108
-Size: 9232
+MD5Sum: 5ac2100d87a4d8103cb65a0aef796757
+Size: 8518
 Filename: olsrd-mod-mdns_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: MDNS/Zeroconf/Bonjour packet distribution
@@ -601,8 +601,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 3cd3c9b44f71c47a9e82005485a9f718
-Size: 12082
+MD5Sum: 6087aeb133037f1210a6a5b055d922ef
+Size: 11386
 Filename: olsrd-mod-nameservice_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Lightweight hostname resolver plugin
@@ -614,8 +614,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 06ca21e9545de54ea51eb6e45f63fcbc
-Size: 8886
+MD5Sum: ab153509cc3654ad8128985a5aa1590f
+Size: 8158
 Filename: olsrd-mod-p2pd_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Peer to Peer Discovery plugin
@@ -627,8 +627,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 4ae7ef9bc248116384f0cf093a155379
-Size: 4104
+MD5Sum: 70e467f17c89dd6f6c4bd52ae633cda6
+Size: 3418
 Filename: olsrd-mod-pgraph_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: output network topology for pgraph
@@ -640,8 +640,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 6f1e5ee9c4a001132881ebf1df5761fa
-Size: 53368
+MD5Sum: 2ff741eaaf54d5f7d3617923ba7b7acf
+Size: 52642
 Filename: olsrd-mod-pud_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Position Update Distribution plugin
@@ -653,8 +653,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 1f29ab43a6997c2890ea70e5b72d4e97
-Size: 6856
+MD5Sum: 70f03416df1fc58e6f9b742134c2b01d
+Size: 6182
 Filename: olsrd-mod-quagga_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Quagga plugin
@@ -666,8 +666,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 8855be7cec1e565ca99a28bdca5c24e6
-Size: 10994
+MD5Sum: 372877876117206c62cffa73fac9cb27
+Size: 10282
 Filename: olsrd-mod-secure_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Message signing plugin to secure routing domain
@@ -679,8 +679,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: ff173a3c76f4b69fc327f7128a3b682c
-Size: 5772
+MD5Sum: 425e4ee544ec8b80867705f623597139
+Size: 5108
 Filename: olsrd-mod-sgwdynspeed_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Smart Gateway dynamic speed plugin
@@ -692,8 +692,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 220bcd15ecb5c5ea7ad63d6159368352
-Size: 8172
+MD5Sum: 24ed45bf47f1dd6edf7416a39bc1cb80
+Size: 7428
 Filename: olsrd-mod-txtinfo_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Small informative web server plugin
@@ -705,8 +705,8 @@ Depends: libc, olsrd
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 813742ec88f301503db891b6a6d5001e
-Size: 3004
+MD5Sum: 96d94c683095a0e9eb5373b519b0f637
+Size: 2352
 Filename: olsrd-mod-watchdog_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: Watchdog plugin
@@ -718,8 +718,8 @@ Depends: libc, libpthread
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: a8176c46dfe926bcbcef3a7db9217d19
-Size: 125274
+MD5Sum: 25fd9dd3aa6ac5b86a1c8d988f93ee9a
+Size: 124798
 Filename: olsrd_0.9.0.2-3_brcm63xx-tch.ipk
 Source: feeds/routing/olsrd
 Description: OLSR (Optimized Link State Routing) daemon
@@ -731,8 +731,8 @@ Depends: libc, librt, libnl-tiny, libuci, oonf-init-scripts
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: be839a3167d91726dca0a993716ec68a
-Size: 95796
+MD5Sum: 1364b3597e8c0be9db0a07519e396932
+Size: 95050
 Filename: oonf-dlep-proxy_0.9.1-r2_brcm63xx-tch.ipk
 Source: feeds/routing/oonf-dlep-proxy
 Description: Build DLEP Radio+Router Agent
@@ -743,8 +743,8 @@ Depends: libc, librt, libnl-tiny, libuci, oonf-init-scripts
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: c4ca05a7b68512066ca5318dfcc63e95
-Size: 92916
+MD5Sum: 00b254e46f23411f75d0f7726515f306
+Size: 92124
 Filename: oonf-dlep-radio_0.9.1-r2_brcm63xx-tch.ipk
 Source: feeds/routing/oonf-dlep-radio
 Description: Build DLEP Radio Agent
@@ -755,8 +755,8 @@ Depends: libc
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: c10fb7b912be56a8c748d75bdab8bbdb
-Size: 2626
+MD5Sum: 665296b52f3061ae42c657514983b8f9
+Size: 2036
 Filename: oonf-init-scripts_0.9.1-r3_brcm63xx-tch.ipk
 Source: feeds/routing/oonf-init-scripts
 Description: Common OONF startup scripts
@@ -767,8 +767,8 @@ Depends: libc, librt, libnl-tiny, libuci, oonf-init-scripts
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 11e53aceeb601df1b1f8407085dc53d4
-Size: 150372
+MD5Sum: 6b02fb877e3a33731fd258c9d9de8cf2
+Size: 149572
 Filename: oonf-olsrd2_0.9.1-r2_brcm63xx-tch.ipk
 Source: feeds/routing/oonf-olsrd2
 Description: Build Olsrd V2 Routing Agent
@@ -779,8 +779,8 @@ Depends: libc, quagga, quagga-libzebra
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 00ea2f80baa2fc800d0a6fee2e65f59c
-Size: 36236
+MD5Sum: e6db0a898b284688e570c8184b2cbe86
+Size: 35576
 Filename: quagga-babeld_0.99.22.4-2_brcm63xx-tch.ipk
 Source: feeds/routing/quagga
 Description: Babel routing engine
@@ -792,8 +792,8 @@ Depends: libc, quagga, quagga-libzebra
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: e11a96d1deef2c305f48d54059c10589
-Size: 173204
+MD5Sum: 291d9a4fae5a605b70b804432d9c0486
+Size: 172386
 Filename: quagga-bgpd_0.99.22.4-2_brcm63xx-tch.ipk
 Source: feeds/routing/quagga
 Description: BGPv4, BGPv4+, BGPv4- routing engine
@@ -805,8 +805,8 @@ Depends: libc, quagga, quagga-libzebra
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: c7320f43965194fc11079ed20ff04f4f
-Size: 71776
+MD5Sum: db32bb2d28da50161e299afb0912fdb7
+Size: 70978
 Filename: quagga-isisd_0.99.22.4-2_brcm63xx-tch.ipk
 Source: feeds/routing/quagga
 Description: IS-IS routing engine
@@ -818,8 +818,8 @@ Depends: libc, quagga
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: b4464b3de0712201fd032ef8b7e871b3
-Size: 164726
+MD5Sum: e012641847211dccfa77e3e923f70d2c
+Size: 164046
 Filename: quagga-libospf_0.99.22.4-2_brcm63xx-tch.ipk
 Source: feeds/routing/quagga
 Description: OSPF library
@@ -831,8 +831,8 @@ Depends: libc, quagga
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: d7588d12a683cb6478d08453959cf8c5
-Size: 108322
+MD5Sum: d7c8555ba0bd0096320c08265472a6de
+Size: 107430
 Filename: quagga-libzebra_0.99.22.4-2_brcm63xx-tch.ipk
 Source: feeds/routing/quagga
 Description: zebra library
@@ -844,8 +844,8 @@ Depends: libc, quagga, quagga-libospf, quagga-libzebra
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: c706c9227b6860718361193a3e7c40e5
-Size: 74106
+MD5Sum: fa6768f1fff4ec2e06746d075fe6c113
+Size: 73390
 Filename: quagga-ospf6d_0.99.22.4-2_brcm63xx-tch.ipk
 Source: feeds/routing/quagga
 Description: OSPFv3 routing engine
@@ -857,8 +857,8 @@ Depends: libc, quagga, quagga-libospf, quagga-libzebra
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 0c805581a324d98bbc7e54c214df4fae
-Size: 5176
+MD5Sum: 9e07bee2b44994d324855d65f613f86b
+Size: 4566
 Filename: quagga-ospfd_0.99.22.4-2_brcm63xx-tch.ipk
 Source: feeds/routing/quagga
 Description: OSPFv2 routing engine
@@ -870,8 +870,8 @@ Depends: libc, quagga, quagga-libzebra
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 30144b7ff8f6b5e503b187c0cb5daec4
-Size: 34462
+MD5Sum: f0a2b9049fbd4fb77959f1826908371f
+Size: 33744
 Filename: quagga-ripd_0.99.22.4-2_brcm63xx-tch.ipk
 Source: feeds/routing/quagga
 Description: RIP routing engine
@@ -883,8 +883,8 @@ Depends: libc, quagga, quagga-libzebra
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 7eb3565f2b90d5b7fbe39d9429519955
-Size: 28480
+MD5Sum: 67672cd04f9ea2b0c82d8069a4a2012f
+Size: 27616
 Filename: quagga-ripngd_0.99.22.4-2_brcm63xx-tch.ipk
 Source: feeds/routing/quagga
 Description: RIPNG routing engine
@@ -896,8 +896,8 @@ Depends: libc, quagga, quagga-libzebra, libreadline, libncurses
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 4942846f81841e53f075b5ffce69e657
-Size: 104978
+MD5Sum: 6085bc182a2fb9363fa5455479ac9dfc
+Size: 103184
 Filename: quagga-vtysh_0.99.22.4-2_brcm63xx-tch.ipk
 Source: feeds/routing/quagga
 Description: integrated shell for Quagga routing software
@@ -909,8 +909,8 @@ Depends: libc, quagga, quagga-libzebra
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: e41e6e3d810acb14b5d044d6e27139fe
-Size: 12426
+MD5Sum: 7c4ccf24c4b399992447901d43751954
+Size: 11834
 Filename: quagga-watchquagga_0.99.22.4-2_brcm63xx-tch.ipk
 Source: feeds/routing/quagga
 Description: Quagga watchdog
@@ -922,8 +922,8 @@ Depends: libc, quagga, quagga-libzebra
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: d8965006950d60a930bab52e6e552931
-Size: 65272
+MD5Sum: fed2b678dba071b36d2885269b62db0b
+Size: 64596
 Filename: quagga-zebra_0.99.22.4-2_brcm63xx-tch.ipk
 Source: feeds/routing/quagga
 Description: Zebra daemon
@@ -935,11 +935,11 @@ Depends: libc, librt
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 7acc79e7cd47d0179afe46195c0c99e6
-Size: 3786
+MD5Sum: 900d362a153c097644f430afaf17bf20
+Size: 3138
 Filename: quagga_0.99.22.4-2_brcm63xx-tch.ipk
 Source: feeds/routing/quagga
-Description: A routing software package that provides TCP/IP based routing services
+Description: A routing software package that provides TCP/IP based routing services with routing protocols support such as RIPv1, RIPv2, RIPng, OSPFv2, OSPFv3, BGP-4, and BGP-4+
 License: GPL-2.0
 
 Package: smcroute
@@ -948,8 +948,8 @@ Depends: libc
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 3fb0c25a14fbab645deca6a89831eda1
-Size: 14838
+MD5Sum: d15e8b841e7339b961fa2e16b9901945
+Size: 14118
 Filename: smcroute_2.0.0-1_brcm63xx-tch.ipk
 Source: feeds/routing/smcroute
 Description: SMCRoute is a command line tool to manipulate the multicast routes of the Linux kernel.
@@ -961,8 +961,8 @@ Depends: libc, libpthread
 Section: net
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 1ca95a9f41da2c868d27d476b53a84a6
-Size: 11366
+MD5Sum: e11b969bb7c3869e66386bce65c02380
+Size: 10690
 Filename: vis_r1439-2_brcm63xx-tch.ipk
 Source: feeds/routing/batmand
 Description: visualization server for B.A.T.M.A.N. layer 3

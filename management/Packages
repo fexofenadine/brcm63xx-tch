@@ -4,8 +4,8 @@ Depends: libc, libcurl, libfreecwmp, libuci, libubox, libubus, libmicroxml, shfl
 Section: utils
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 8c870f93413896e413e8ee2fea4ef5b4
-Size: 29720
+MD5Sum: f7419abaf86f00c962136cedeeb03d40
+Size: 29026
 Filename: freecwmp_2014-06-12-8f3c163fc85337e63bfa64da3c02f10d1fe3b169_brcm63xx-tch.ipk
 Source: feeds/management/freecwmp
 Description: A free client implementation of CWMP (TR-069) protocol
@@ -17,8 +17,8 @@ Depends: libc, libuci, libubox, libubus, libroxml
 Section: utils
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 41d988b611f04413c65d597f618845af
-Size: 15952
+MD5Sum: 08daec0fb3296aadc1f19d3278cd75f7
+Size: 15214
 Filename: freenetconfd_2015-04-27-021a87e1ba32832462aec1c540b5d518e1cfbf0a_brcm63xx-tch.ipk
 Source: feeds/management/freenetconfd
 Description: netconf server
@@ -30,8 +30,8 @@ Depends: libc, libubox
 Section: utils
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: d86c6a25792b817e11353cdd409957f2
-Size: 4138
+MD5Sum: f724f359b05ec32b7e16f89829620ed0
+Size: 3450
 Filename: freesub_2014-12-03-a1a38e80c6642af723d6aa65f64910dcf27cb3da_brcm63xx-tch.ipk
 Source: feeds/management/freesub
 Description: SSH subsystem helper
@@ -43,8 +43,8 @@ Depends: libc
 Section: libs
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 7e49d06475cb34f7c4bb0fc5d43148a4
-Size: 3656
+MD5Sum: 1a413e750e64e623814e4d751d460997
+Size: 2974
 Filename: libfreecwmp_2014-06-12-d2fdd97d66fde14859c06228a922066d9e8b669b_brcm63xx-tch.ipk
 Source: feeds/management/libfreecwmp
 Description: CWMP library
@@ -56,8 +56,8 @@ Depends: libc
 Section: libs
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 8336408c4989b26e4166e374d9545524
-Size: 19180
+MD5Sum: c3e4416d633e683ffdf6860f13a10463
+Size: 18454
 Filename: libmicroxml_2012-06-11-72965423184f24cc0b963d91c2d1863cdb01b6aa_brcm63xx-tch.ipk
 Source: feeds/management/libmicroxml
 Description: A micro sized XML library
@@ -68,11 +68,11 @@ Depends: libc, libxml2, zlib, libxslt, libcurl, libssh2
 Section: libs
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 6ea85b9576e39114db1ff671fcb42717
-Size: 169376
+MD5Sum: b1e376a64588094630aace5bced96050
+Size: 168452
 Filename: libnetconf_0.9.1-1_brcm63xx-tch.ipk
 Source: feeds/management/libnetconf
-Description: libnetconf is the NETCONF library in C intended for building NETCONF clients and servers.
+Description: libnetconf is the NETCONF library in C intended for building NETCONF clients and servers. libnetconf provides basic functions to connect NETCONF client and server to each other via SSH, to send and receive NETCONF messages and to store and work with the configuration data in a datastore.
 License: BSD-3-Clause
 
 Package: libssh
@@ -81,11 +81,11 @@ Depends: libc, libpthread, librt, zlib, libopenssl
 Section: lib
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: e9b991ecceeb10dc7aa6dee69d1a63ae
-Size: 100832
+MD5Sum: 39af7a4982cc86e4fcf6219f55df83ee
+Size: 100220
 Filename: libssh_2014-07-10-59a179950150d0305d6189ce9c126a9a0c5f6ab4_brcm63xx-tch.ipk
 Source: feeds/management/libssh
-Description: libssh is a mulitplatform C library implementing the SSHv2 and SSHv1 protocol
+Description: libssh is a mulitplatform C library implementing the SSHv2 and SSHv1 protocol for client and server implementations.
 License: LGPL-2.1+ BSD-2-Clause
 
 Package: shflags
@@ -94,8 +94,8 @@ Depends: libc, getopt
 Section: libs
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 5bf1312c2dadaad7d85c6c091b473916
-Size: 5556
+MD5Sum: 237be7841e137b251706bf39badb15f8
+Size: 4980
 Filename: shflags_2012-06-11_r133-1.0.x_brcm63xx-tch.ipk
 Source: feeds/management/shflags
 Description: command-line flags module for Unix shell scripts
@@ -107,10 +107,10 @@ Depends: libc
 Section: utils
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 43ab5c7e70eaf154883c5e2d48ef1d52
-Size: 34850
+MD5Sum: b2abbe91667cad8f7edf6794f5e0e154
+Size: 34234
 Filename: shtool_2.0.8-1_brcm63xx-tch.ipk
 Source: feeds/management/shtool
-Description: GNU shtool is a compilation of small but very stable and portable shell
+Description: GNU shtool is a compilation of small but very stable and portable shell scripts into a single shell tool.
 License: GPL-2.0+
 
