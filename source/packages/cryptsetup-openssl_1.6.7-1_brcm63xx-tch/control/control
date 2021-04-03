@@ -1,0 +1,13 @@
+Package: cryptsetup-openssl
+Version: 1.6.7-1
+Depends: libc, libblkid, libuuid, libpopt, lvm2, libdevmapper, libopenssl
+Source: feeds/packages/utils/cryptsetup
+License: GPL-2.0+ LGPL-2.1+
+LicenseFiles: COPYING COPYING.LGPL
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: brcm63xx-tch
+Installed-Size: 83007
+Description:  Cryptsetup-luks
+ linked against openssl

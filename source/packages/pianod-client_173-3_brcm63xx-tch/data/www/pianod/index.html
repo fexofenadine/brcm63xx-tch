@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="generator" content=
+"HTML Tidy for HTML5 (experimental) for Mac OS X https://github.com/w3c/tidy-html5/tree/c63cc39">
+<meta charset="UTF-8">
+<title>pianod web remote</title>
+<meta name="viewport" content="width=device-width">
+<meta name="application-name" content="pianod">
+<link href="client.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="pianod-icon.gif">
+<link rel="apple-touch-icon-precomposed" href="pianod-button.gif">
+<script src=
+"//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js">
+</script>
+<script type="text/JavaScript" src="client-engine.min.js">
+</script>
+</head>
+<body>
+<noscript>
+<h1>pianod web remote control</h1>
+Sorry, the pianod web remote requires JavaScript
+support.</noscript>
+<div id="views">
+<div>
+<div id="loginview" style="display:none;">
+<h1>pianod web remote control</h1>
+<div id="serverinput"><label for="server">Server</label> <input id=
+"server" type="url" maxlength="80" required="required" value=
+"house.perette.barella.org:4446"> <input id="secureserver" type=
+"checkbox" onchange="loginview.toggle_security()"> <label for=
+"secureserver">Secure connection*</label></div>
+<label for="username">Username</label> <input id="username" type=
+"text" maxlength="20"> <label for="password">Password</label>
+<input id="password" type="password" maxlength="20"> <input id=
+"storepassword" type="checkbox"> <label for="storepassword">Store
+password</label>
+<p><a class="button" onclick="loginview.connect(false);">Login</a>
+<a class="button" onclick="loginview.connect(true);">Guest</a></p>
+<p class="note">Secure connections require pianod r160 and the TLS
+certificates and keys be set up.</p>
+</div>
+<div id="trackview" style="display:none;">
+<div id="trackviewtitle"><span id="trackcontrols"><a id="playpause"
+class="button privuser" onclick="trackview.play_pause();" title=
+"Pause or resume playback.">▶</a> <a class="button privuser"
+onclick="execute_command('skip');" title=
+"Skip the current song">&nbsp;»&nbsp;</a></span> <a id="nowplaying"
+onclick="trackview.go_to_current_track();" class="button" title=
+"Show song currently playing">Now Playing</a> <span id=
+"stationname">&nbsp;</span></div>
+<div id="addstationfromtrack" class="popup">
+<div><span class="close" onclick=
+"$('#addstationfromtrack').hide();">╳</span>
+<p>Add seed from song</p>
+<label for="addfromtracktarget">Station name:</label> <select id=
+"addfromtracktarget" onchange="trackview.select_add_target();">
+<option>Create new station</option>
+</select> <input id="addstationfromtrackname" type="text"
+placeholder="New station name">
+<ul class="actions">
+<li><a id="doaddseedfromsong" class="button" onclick=
+"trackview.add_from_track('song');">Add station from song</a></li>
+<li><a id="doaddseedfromartist" class="button" onclick=
+"trackview.add_from_track('artist');">Add station from
+artist</a></li>
+</ul>
+</div>
+</div>
+<div id="trackinfo">
+<div id="albumcover"><img src="no-art.jpeg" id="albumart" alt=''
+ondblclick="trackview.showart ();"> <a id="why" class=
+"button privowner" onclick="trackview.explain_song ();" title=
+"Explain why this song was played.">?</a>
+<div class="pager"><a id="previoustrack" onclick=
+"trackview.go_to_previous_track();" class="button previous" title=
+"Show previous track">&nbsp;←&nbsp;</a> <a id="nexttrack" onclick=
+"trackview.go_to_next_track();" class="button next" title=
+"Show next track">&nbsp;→&nbsp;</a></div>
+<div id="networkstatus" class="statusoverlay" style=
+"visibility:hidden;"><span>〈•••〉</span><br>
+Playback Stalled<br>
+Check network connection</div>
+<div id="pausestatus" class="statusoverlay" style=
+"visibility:hidden;" onclick="execute_command('play');"><span>||
+Paused</span></div>
+<div id="stoppedstatus" class="statusoverlay" style=
+"visibility:hidden;" onclick="trackview.play_pause();"><span>█
+Stopped</span></div>
+<div id="controller">
+<div><span id="timepoint" class="time">&nbsp;</span> <span id=
+"ratings"><a class="button privowner" onclick=
+"trackview.rate_track ('overplayed');" title=
+"Don't play this song for a month.">♻</a> <a class=
+"bad button privowner" onclick="trackview.rate_track ('bad');"
+title="Hate this song.">☠</a> <a class="neutral button privowner"
+onclick="trackview.rate_track ('neutral');" title=
+"Neither hate nor love this song.">☯</a> <a class=
+"good button privowner" onclick="trackview.rate_track ('good');"
+title="Love this song.">♥</a></span> <span id="duration" class=
+"time">&nbsp;</span></div>
+<div id="statusbar">
+<div id="progressbar" style="width:50%;"><span style=
+"display:none;">&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div id="trackdetails">
+<div id="trackname"><a id="additionalinfo" target=
+"_blank"><span class="value">&nbsp;</span></a> <a class=
+"button seed privowner" onclick="trackview.toggle_seed ('song');"
+title="Toggle song seed.">種</a></div>
+<div id="artistname"><span class="value">&nbsp;</span> <a class=
+"button seed privowner" onclick="trackview.toggle_seed ('artist');"
+title="Toggle artist seed.">種</a></div>
+<div id="albumname"><span class="value">&nbsp;</span></div>
+<div id="songstation"><a class="privowner" onclick=
+"trackview.show_seeds ();"><span class="value">&nbsp;</span></a>
+<a class="button seed privowner" onclick=
+"$('#addstationfromtrack').show();" title=
+"Create station from song or artist.">+</a></div>
+</div>
+</div>
+<input id="volume" class="privuser" type="range" min="-40" max="0"
+step="1" title="Volume" onchange="trackview.set_volume ();"></div>
+<div id="adminview" style="display:none;">
+<h2>Administration</h2>
+<div class="accordion">
+<h3 class="privuser">Stop/Shutdown</h3>
+<div>
+<ul class="actions">
+<li><a class="button" onclick=
+"execute_command ('stop', 'Stop scheduled.');">Stop after
+song</a></li>
+<li><a class="button" onclick=
+"execute_command (['stop', 'now']);">Stop immediately</a></li>
+<li><a class="button privadmin" onclick=
+"execute_command ('shutdown', 'Shutdown scheduled for end of song.');">
+Shutdown</a></li>
+</ul>
+<p class="note">Shutdown takes place when playback ends. If
+relaunch is configured in launchd/systemd/init, pianod restarts
+after a shutdown.</p>
+</div>
+<h3 id="use_existing_pandora" class="privservice">Use existing
+Pandora account</h3>
+<div><label for="ownerselector">Use stations belonging to:</label>
+<select id="ownerselector">
+<option>Loading...</option>
+</select>
+<ul class="actions">
+<li><a class="button" onclick="adminview.select_owner ();">Use
+Pandora account</a></li>
+</ul>
+</div>
+<h3 class="privservice">Set Pandora account</h3>
+<div><label for="pandorauser">Pandora user/e-mail</label>
+<input id="pandorauser" type="email"> <label for=
+"pandorapassword">Pandora Password</label> <input id=
+"pandorapassword" type="password"> <label for=
+"pandoraownertype">Station Owner</label> <select id=
+"pandoraownertype">
+<option value="mine">Owned by me</option>
+<option value="admin">All administrators</option>
+<option value="unowned">No owner</option>
+</select> <input id="storepandorapassword" type="checkbox">
+<label for="storepandorapassword">Remember credentials</label>
+<p><a class="button privservice" onclick=
+"adminview.pandora_user ();">Use Now</a></p>
+<p class="note">Owners are allowed to rate songs, alter seeds, add
+and remove stations, etc.</p>
+</div>
+</div>
+</div>
+<div id="userview" style="display:none;">
+<h2>User Maintenance</h2>
+<div class="accordion">
+<h3>Change your password</h3>
+<div><label for="oldpassword">Old password</label> <input id=
+"oldpassword" type="password"> <label for="newpassword">New
+password</label> <input id="newpassword" type="password">
+<label for="confirmpassword">Confirm new password</label>
+<input id="confirmpassword" type="password"> <a class="button"
+onclick="userview.change_password()">Change it</a>
+<p class="note">Passwords are sent to the server in unencrypted
+form. Don't use an important password, like the one for your bank
+account.</p>
+</div>
+<h3 class="privadmin">Create a user</h3>
+<div><label for="createusername">User name</label> <input id=
+"createusername"> <label for="createusertype">Priviledge
+level</label> <select id="createusertype">
+<option value="guest">Listener</option>
+<option value="user">User</option>
+<option value="admin">Administrator</option>
+</select> <label for="createpassword">Password</label> <input id=
+"createpassword" type="password"> <label for=
+"createconfirmpassword">Confirm new password</label> <input id=
+"createconfirmpassword" type="password"> <a class="button" onclick=
+"userview.create_user()">Create User</a>
+<p class="note">Passwords are sent to the server in unencrypted
+form. Don't use an important password, like the one for your bank
+account.</p>
+</div>
+<h3 id="alter_user" class="privadmin">Alter user</h3>
+<div><label for="alterusername">User name</label> <select id=
+"alterusername" onchange="userview.select_alter_user();">
+<option>Select user</option>
+</select> <label for="alterusertype">Rank &amp; Priviledges</label>
+<select id="alterusertype" onchange="userview.change_type();">
+<option value="disabled">Disabled</option>
+<option value="guest">Listener</option>
+<option value="user">User</option>
+<option value="admin">Administrator</option>
+</select>
+<ul class="privilegelist">
+<li><input id="privilegeservice" type="checkbox" onchange=
+"userview.change_privilege ('service')"> <label for=
+"privilegeservice">Change Pandora account</label></li>
+<li><input id="privilegeinfluence" type="checkbox" onchange=
+"userview.change_privilege ('influence')"> <label for=
+"privilegeinfluence">Influence stations</label></li>
+</ul>
+<a class="button" onclick="userview.reset_password()">Reset
+password</a> <a class="button" onclick=
+"userview.delete_user()">Delete User</a>
+<p class="note">Take care not to remove administrator rank from all
+users, which will leave you without an administrator.</p>
+</div>
+<h3 id="kick_user" class="privadmin">Kick users</h3>
+<div>
+<ul id="onlineusers" class="actions">
+<li>user list goes here</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="activityview" style="display:none;"><span class=
+"pagenumber">Page <span id="activitypage">&nbsp;</span> of
+<span id="activitypages">&nbsp;</span></span>
+<h2>Recent Activity</h2>
+<span class="pager"><a class="button" onclick=
+"activityview.show_now()">Live</a> <a class="button" onclick=
+"activityview.previous()">↑</a> <a class="button" onclick=
+"activityview.next()">↓</a></span>
+<ul id="recentactivity">
+<li>No activity.</li>
+</ul>
+<textarea id="yellmessage" rows="4" placeholder="Enter message">
+</textarea>
+<br>
+<a class="button" onclick="activityview.yell()">Yell it</a></div>
+<div id="stationview" style="display:none;"><span class=
+"pagenumber">Page <span id="stationpage">&nbsp;</span> of <span id=
+"stationpages">&nbsp;</span></span>
+<h2>Stations</h2>
+<span class="pager"><a class="button" onclick=
+"stationview.previous()">↑</a> <a class="button" onclick=
+"stationview.next()">↓</a> <select id="showmode" onchange=
+"stationview.change_shown_mode()">
+<option value="station">Select station</option>
+<option value="mix">Manual mix</option>
+<option value="auto">Autotuned mix</option>
+</select> <a id="selectmode" class="button" onclick=
+"stationview.select_mode()" title=
+"Select this mode and resume playback (if required).">▶</a></span>
+<ul id="stationlist" class="columnar privinfluence">
+<li>No stations.</li>
+</ul>
+</div>
+<div id="seedview" style="display:none;">
+<h2>Revise Stations</h2>
+<label for="revisestation">Station</label> <select id=
+"revisestation" onchange="seedview.select_station();">
+<option>Create new station</option>
+</select>
+<div class="accordion">
+<h3 id="add_seeds" class="privowner">Add seeds</h3>
+<div><label for="suggestiontype">Find</label> <select id=
+"suggestiontype" onchange="seedview.reperform_search();">
+<option>Any</option>
+<option>Song</option>
+<option>Artist</option>
+<option>Genre</option>
+</select> <label for="suggestionsearch">Matching</label> <input id=
+"suggestionsearch" type="text" onchange=
+"seedview.perform_search();">
+<table id="seedsuggestions">
+<thead>
+<tr>
+<th>Artist</th>
+<th>Title</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="revise_seeds" class="privowner">Remove seeds</h3>
+<div>
+<table id="seedsexisting">
+<thead>
+<tr>
+<th>Artist</th>
+<th>Title</th>
+<th>Type</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<a class="button" onclick="seedview.remove_station();">Remove
+station entirely</a></div>
+</div>
+</div>
+</div>
+</div>
+<div id="status"><span class="value">&nbsp;</span></div>
+<div id="switcher" style="display:none;"><a class="button" onclick=
+"viewmanager.show ('track')">Track</a> <a class="button" onclick=
+"viewmanager.show ('station')">Station</a> <a class=
+"button privowner" onclick="viewmanager.show ('seed')">Seeds</a>
+<a class="button" onclick=
+"viewmanager.show ('activity')">Activity</a> <a class="button"
+onclick="viewmanager.show ('user')">Users</a> <a class="button"
+onclick="viewmanager.show ('admin')">Administer</a> <a class=
+"button" onclick="viewmanager.logout ()">Logout</a></div>
+<script type="text/javascript">
+    /* Create/start the view manager. */
+    viewmanager = new ViewManager();
+    viewmanager.init();
+</script>
+</body>
+</html>

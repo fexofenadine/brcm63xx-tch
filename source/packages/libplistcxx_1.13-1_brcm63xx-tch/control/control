@@ -1,0 +1,13 @@
+Package: libplistcxx
+Version: 1.13-1
+Depends: libc, libplist, libstdcpp
+Source: feeds/packages/libs/libplist
+License: LGPL-2.1+
+LicenseFiles: COPYING.LESSER
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Lukasz Baj <l.baj@radytek.com>
+Architecture: brcm63xx-tch
+Installed-Size: 16504
+Description:  A library to handle Apple Property List format whereas it's binary or XML
+ This package contains the libplist C++ shared library.

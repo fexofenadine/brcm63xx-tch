@@ -1,0 +1,9 @@
+Package: luci-proto-openconnect
+Version: git-15.248.30277-3836b45-1
+Depends: libc, openconnect
+Source: feeds/luci/protocols/luci-proto-openconnect
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 1446
+Description:  Support for OpenConnect VPN

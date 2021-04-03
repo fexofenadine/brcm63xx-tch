@@ -1,0 +1,20 @@
+Package: opentracker6
+Version: 20141007-1
+Depends: libc, zlib, libpthread
+Source: feeds/packages/net/opentracker
+License: Beerware
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: brcm63xx-tch
+Installed-Size: 45959
+Description:  opentracker - An open and free bittorrent tracker
+ 
+ opentracker is an open and free bittorrent tracker project.
+ It aims for minimal resource usage and is intended to run at your wlan router.
+ Currently it is deployed as an open and free tracker instance.
+ Read our free and open tracker blog and announce your torrents there
+ (but do not hesitate to setup your own free trackers!).
+ 
+ This package contains the IPv6-build of opentracker.
+ 

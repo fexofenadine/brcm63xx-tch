@@ -1,0 +1,10 @@
+Package: vips
+Version: 7.42.1-1
+Depends: libc, glib2, libexif, libjpeg, libpng, libxml2
+Source: feeds/packages/libs/vips
+Section: multimedia
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 480893
+Description:  An image manipulation library

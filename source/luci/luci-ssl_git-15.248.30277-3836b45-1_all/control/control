@@ -1,0 +1,9 @@
+Package: luci-ssl
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci, libustream-polarssl, px5g
+Source: feeds/luci/collections/luci-ssl
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 104
+Description:  Standard OpenWrt set with HTTPS support

@@ -1,0 +1,12 @@
+Package: sctp-tools
+Version: 1.0.16-1
+Depends: libc, libsctp
+Source: feeds/packages/net/lksctp-tools
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 30119
+Description:  SCTP user-land tools

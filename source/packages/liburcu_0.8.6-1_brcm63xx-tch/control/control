@@ -1,0 +1,10 @@
+Package: liburcu
+Version: 0.8.6-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/liburcu
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: daniel.salzman@nic.cz
+Architecture: brcm63xx-tch
+Installed-Size: 42404
+Description:  Userspace Read-Copy-Update library.

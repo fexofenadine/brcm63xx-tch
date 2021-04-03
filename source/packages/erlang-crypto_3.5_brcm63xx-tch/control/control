@@ -1,0 +1,17 @@
+Package: erlang-crypto
+Version: 3.5
+Depends: libc, erlang, libopenssl
+Source: feeds/packages/lang/erlang
+License: ErlPL-1.1
+LicenseFiles: EPLICENCE
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 104400
+Description:  Erlang/OTP is a general-purpose programming language and runtime
+ environment. Erlang has built-in support for concurrency, distribution
+ and fault tolerance.
+ .
+ This Erlang/OTP package provides functions for computation of message
+ digests, and encryption and decryption functions.

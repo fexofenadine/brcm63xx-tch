@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-diag-core-sk) && rm -f /etc/uci-defaults/luci-i18n-diag-core-sk
+		exit 0
+	}

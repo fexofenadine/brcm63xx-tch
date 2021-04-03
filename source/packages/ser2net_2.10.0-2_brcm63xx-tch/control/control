@@ -1,0 +1,13 @@
+Package: ser2net
+Version: 2.10.0-2
+Depends: libc
+Source: feeds/packages/net/ser2net
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 28926
+Description:  This project provides a proxy that allows telnet/tcp connections to be made to
+ serial ports on a machine.

@@ -1,0 +1,11 @@
+Package: quagga-ospf6d
+Version: 0.99.22.4-2
+Depends: libc, quagga, quagga-libospf, quagga-libzebra
+Source: feeds/routing/quagga
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: brcm63xx-tch
+Installed-Size: 72722
+Description:  OSPFv3 routing engine

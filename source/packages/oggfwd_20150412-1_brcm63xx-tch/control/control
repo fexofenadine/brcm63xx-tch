@@ -1,0 +1,13 @@
+Package: oggfwd
+Version: 20150412-1
+Depends: libc, libpthread, libshout
+Source: feeds/packages/multimedia/oggfwd
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: multimedia
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 3911
+Description:  A basic icecast client that is very simple but also very useful for video
+ streaming.

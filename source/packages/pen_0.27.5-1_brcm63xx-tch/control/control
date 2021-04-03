@@ -1,0 +1,16 @@
+Package: pen
+Version: 0.27.5-1
+Depends: libc, libopenssl
+Source: feeds/packages/net/pen
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 43922
+Description:  This is pen, a load balancer for "simple" TCP based protocols
+ such as HTTP or SMTP. It allows several servers to appear as
+ one to the outside and automatically detects servers that are
+ down and distributes clients among the available servers.
+ This gives high availability and scalable performance.

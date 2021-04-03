@@ -1,0 +1,11 @@
+Package: kernel
+Version: 3.18.20-1-59171a343e7e1509524b75b213a2ef9b
+Depends: libc
+Source: package/kernel/linux
+License: GPLv2
+Section: sys
+Maintainer: fexofenadine (github.com/fexofenadine)
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 105
+Description:  Virtual kernel package

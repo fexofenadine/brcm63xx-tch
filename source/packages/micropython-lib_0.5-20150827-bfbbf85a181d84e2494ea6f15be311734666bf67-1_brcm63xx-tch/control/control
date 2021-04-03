@@ -1,0 +1,14 @@
+Package: micropython-lib
+Version: 0.5-20150827-bfbbf85a181d84e2494ea6f15be311734666bf67-1
+Depends: libc, micropython
+Source: feeds/packages/lang/micropython-lib
+License: MIT, PSFL
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 206688
+Description:  This package contains micropython-lib, a project to develop a non-monolothic
+ standard library for Micro Python. Note that this is a work in progress and
+ several libraries may be missing, incomplete or buggy.

@@ -1,0 +1,11 @@
+Package: freenetconfd
+Version: 2015-04-27-021a87e1ba32832462aec1c540b5d518e1cfbf0a
+Depends: libc, libuci, libubox, libubus, libroxml
+Source: feeds/management/freenetconfd
+License: GPL-2.0+
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 14588
+Description:  netconf server

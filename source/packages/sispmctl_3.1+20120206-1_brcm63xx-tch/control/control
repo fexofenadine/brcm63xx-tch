@@ -1,0 +1,18 @@
+Package: sispmctl
+Version: 3.1+20120206-1
+Depends: libc, libusb-compat
+Source: feeds/packages/utils/sispmctl
+License: GPL-2.0+
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Richard Kunze <richard.kunze@web.de>
+Architecture: brcm63xx-tch
+Installed-Size: 8213
+Description:  The sispmctl tool can control Gembird SIS-PM Silver Shield
+ programmable power outlet strips (also known under the name
+ Revolt Intelli-Plug) from the command line.
+ .
+ It can be used to switch on or off any of the programmable
+ power sockets of the SIS-PM via USB. It can also show the
+ current status of each power socket, and it can handle
+ multiple SIS-PM devices, too.

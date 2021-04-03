@@ -1,0 +1,3 @@
+#!/bin/sh
+[ -n "${IPKG_INSTROOT}" ] || (. /etc/uci-defaults/vnstat) && rm -f /etc/uci-defaults/vnstat
+exit 0

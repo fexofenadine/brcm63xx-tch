@@ -1,0 +1,11 @@
+Package: zoneinfo-europe
+Version: 2015d-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+License: Public Domain
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: brcm63xx-tch
+Installed-Size: 22223
+Description:  Zone Information (Europe)

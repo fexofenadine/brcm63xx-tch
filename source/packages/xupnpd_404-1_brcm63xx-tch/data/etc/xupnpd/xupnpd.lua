@@ -1,0 +1,1 @@
+../../usr/share/xupnpd/xupnpd.lua

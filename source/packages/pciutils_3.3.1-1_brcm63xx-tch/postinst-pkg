@@ -1,0 +1,3 @@
+#!/bin/sh
+[ -z "${IPKG_INSTROOT}" ] || (cd ${PKG_ROOT}/usr/share; ${PKG_ROOT}/usr/sbin/update-pciids; rm pci.ids.gz.old)
+exit 0

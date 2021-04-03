@@ -1,0 +1,12 @@
+Package: libdnet
+Version: 1.12-1
+Depends: libc
+Source: feeds/packages/libs/libdnet
+License: BSD
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 27071
+Description:  libdnet is a library of simplified, portable interface to several low-level
+ networking routines.

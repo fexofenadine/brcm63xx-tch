@@ -1,0 +1,13 @@
+Package: ruby-webrick
+Version: 2.2.4-1
+Depends: libc, ruby, ruby-erb, ruby-net, ruby-patterns, ruby-rbconfig
+Source: /home/jow/relman-cc/.cache/feeds/packages/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 50898
+Description:  Provides webrick* files
+ 

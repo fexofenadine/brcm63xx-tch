@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-watchcat-de) && rm -f /etc/uci-defaults/luci-i18n-watchcat-de
+		exit 0
+	}

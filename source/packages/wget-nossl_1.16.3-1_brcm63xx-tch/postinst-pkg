@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ -e ${IPKG_INSTROOT}/usr/bin/wget ]; then
+  rm -rf ${IPKG_INSTROOT}/usr/bin/wget;
+fi
+ln -s ./wget-nossl ${IPKG_INSTROOT}/usr/bin/wget

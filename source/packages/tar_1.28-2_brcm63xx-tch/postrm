@@ -1,0 +1,5 @@
+#!/bin/sh
+rm ${IPKG_INSTROOT}/bin/tar
+ln -s busybox ${IPKG_INSTROOT}/bin/tar
+${IPKG_INSTROOT}/bin/tar 2>&1 | grep 'applet not found' > /dev/null 2>&1 && rm ${IPKG_INSTROOT}/bin/tar
+exit 0

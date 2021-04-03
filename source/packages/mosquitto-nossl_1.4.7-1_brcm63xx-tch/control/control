@@ -1,0 +1,18 @@
+Package: mosquitto-nossl
+Version: 1.4.7-1
+Depends: libc, librt, libuuid
+Source: /home/jow/relman-cc/.cache/feeds/packages/net/mosquitto
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Require-User: mosquitto=200:mosquitto=200
+Old_Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: brcm63xx-tch
+Installed-Size: 57103
+Description:  Mosquitto is an open source (BSD licensed) message broker that implements
+ the MQTT protocol version 3.1 and 3.1.1. MQTT provides a lightweight
+ method of carrying out messaging using a publish/subscribe model.
+ 
+ This package also includes some basic support for configuring via UCI
+ This package is built WITHOUT SSL support.

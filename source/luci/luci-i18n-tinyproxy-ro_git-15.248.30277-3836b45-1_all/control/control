@@ -1,0 +1,9 @@
+Package: luci-i18n-tinyproxy-ro
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-tinyproxy
+Source: feeds/luci/applications/luci-app-tinyproxy
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 326
+Description:  Translation for luci-app-tinyproxy - Română (Romanian)

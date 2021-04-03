@@ -1,0 +1,18 @@
+Package: mpd-avahi-service
+Version: 0.18.23-1
+Depends: libc, glib2, libcurl, libpthread, libmpdclient, libstdcpp, libflac, libmad, libvorbisidec, alsa-lib, avahi-daemon
+Source: feeds/packages/sound/mpd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: sound
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 368
+Description:  Music Player Daemon (MPD) is a flexible, powerful, server-side
+ application for playing music. It is typically controlled over a
+ network using one of it's many clients including mpc (console),
+ gmpc (gnome), phpmp (php), etc...
+ .
+ This package contains the service definition for announcing the
+ Music Player Daemon service via mDNS/DNS-SD.

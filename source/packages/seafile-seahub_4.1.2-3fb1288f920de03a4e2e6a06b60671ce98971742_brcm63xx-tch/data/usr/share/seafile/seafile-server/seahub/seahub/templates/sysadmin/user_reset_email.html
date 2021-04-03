@@ -1,0 +1,17 @@
+{% extends 'email_base.html' %}
+
+{% load i18n %}
+
+{% block email_con %}
+
+{% autoescape off %}
+
+<p style="color:#121214;font-size:14px;">{% trans "Hi," %}</p>
+
+<p style="font-size:14px;color:#434144;">
+{% blocktrans %}Your password on {{ site_name }} has been reset. Now it is {{ password }}. Please change it as soon as possible. {% endblocktrans %}
+</p>
+
+{% endautoescape %}
+
+{% endblock %}

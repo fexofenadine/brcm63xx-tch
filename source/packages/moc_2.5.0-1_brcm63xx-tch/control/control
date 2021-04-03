@@ -1,0 +1,12 @@
+Package: moc
+Version: 2.5.0-1
+Depends: libc, libcurl, libmad, libvorbis, alsa-lib, libid3tag, libflac, libsamplerate, libncursesw, libffmpeg, libltdl, libmagic, faad2, libdb47
+Source: feeds/packages/sound/mocp
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: sound
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 140988
+Description:  MOC (music on console) is a console audio player for LINUX/UNIX designed to be powerful and easy to use.

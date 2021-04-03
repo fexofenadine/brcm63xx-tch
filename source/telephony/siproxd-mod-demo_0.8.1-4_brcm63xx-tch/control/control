@@ -1,0 +1,11 @@
+Package: siproxd-mod-demo
+Version: 0.8.1-4
+Depends: libc, siproxd
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 1667
+Description:  siproxd demo plugin

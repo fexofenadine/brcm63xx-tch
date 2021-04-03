@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-meshwizard-he) && rm -f /etc/uci-defaults/luci-i18n-meshwizard-he
+		exit 0
+	}

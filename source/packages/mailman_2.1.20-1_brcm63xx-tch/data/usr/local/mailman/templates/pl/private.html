@@ -1,0 +1,52 @@
+<html>
+ <head>
+  <title>Prywatne archiwum listy %(realname)s - uwierzytelnianie</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-2">
+  <meta name="robots" content="noindex,nofollow">
+  <script>function sf(){document.f.username.focus();}</script>
+ </head>
+ <body bgcolor="#ffffff" onLoad="sf()">
+  <form method=POST action="%(action)s" name="f">
+%(message)s
+   <table width="100%%" border="0" cellspacing="4" cellpadding="5">
+    <tr>
+     <td colspan="2" width="100%%" bgcolor="#99CCFF" align="center">
+      <b><font color="#000000" size="+1">Prywatne archiwum listy %(realname)s - uwierzytelnianie</font></b>
+     </td>
+    </tr>
+    <tr>
+     <td><div align="Right">Adres e-mail:</div></td>
+     <td><input type="text" name="username" size="30"></td>
+    </tr>
+    <tr>
+     <td><div align="Right">Hasło:</div></td>
+     <td><input type="password" name="password" size="30"></td>
+    </tr>
+    <tr>
+     <td colspan=2 align="middle"><INPUT type="submit" name="submit" value="Zaloguj"></td>
+    </tr>
+   </table>
+   <p><strong><em>Ważne</em></strong>:
+    Od tego momentu, ciasteczka w przeglądarce muszą być włączone.
+    W przeciwnym wypadku żadne zmiany administracyjne nie zostaną zastosowane.
+
+   <p>Ciasteczka sesji są używane przez interfejs administracyjny Mailmana,
+    aby nie było potrzeby osobnego uwierzytelniania każdej operacji administracyjnej.
+    Ciasteczko automatycznie wygaśnie po zamknięciu (sesji) przeglądarki.
+    Można je również usunąć korzystając z odnośnika <em>Wyloguj</em> w sekcji <em>Inne czynności administracyjne</em>
+    (która zostanie wyświetlona po udanym zalogowaniu).
+   <p>
+   <table width="100%%" border="0" cellspacing="4" cellpadding="5">
+    <tr>
+     <td colspan="2" width="100%%" bgcolor="#99CCFF" align="center"><b><font color="#000000" size="+1">Przypomnienie hasła</font></b></td>
+    </tr>
+    <tr>
+     <td>Jeśli nie pamiętasz hasła, wprowadź powyżej adres e-mail i kliknij przycisk <em>Przypomnij</em> a hasło zostanie wysłane.</td>
+    </tr>
+    <tr>
+     <td><center><INPUT name="login-remind" type="submit" value="Przypomnij" ></center></td>
+    </tr>
+   </table>
+  </form>
+ </body>
+</html>

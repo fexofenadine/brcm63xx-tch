@@ -1,0 +1,12 @@
+Package: luafilesystem
+Version: 1.6.2-1
+Depends: libc, liblua
+Source: feeds/packages/lang/luafilesystem
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 5219
+Description:  This package contains the LuaFileSystem library, a set of portable
+ functions for directory creation, listing and deletion and for file
+ locking.

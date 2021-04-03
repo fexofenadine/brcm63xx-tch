@@ -1,0 +1,9 @@
+Package: luci-i18n-multiwan-cs
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-multiwan
+Source: feeds/luci/applications/luci-app-multiwan
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 1292
+Description:  Translation for luci-app-multiwan - Čeština (Czech)

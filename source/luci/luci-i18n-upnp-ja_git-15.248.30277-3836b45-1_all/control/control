@@ -1,0 +1,9 @@
+Package: luci-i18n-upnp-ja
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-upnp
+Source: feeds/luci/applications/luci-app-upnp
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 1593
+Description:  Translation for luci-app-upnp - 日本語 (Japanese)

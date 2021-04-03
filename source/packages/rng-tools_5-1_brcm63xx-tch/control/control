@@ -1,0 +1,11 @@
+Package: rng-tools
+Version: 5-1
+Depends: libc
+Source: feeds/packages/utils/rng-tools
+License: GPLv2
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: brcm63xx-tch
+Installed-Size: 36984
+Description:  Daemon for adding entropy to kernel entropy pool

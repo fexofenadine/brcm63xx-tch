@@ -1,0 +1,606 @@
+{% extends base_template %}
+{% load seahub_tags i18n %}
+{% load url from future %}
+{% block sub_title %}{{u_filename}} - {% endblock %}
+
+{% block extra_style %}
+{% if filetype == 'Sf' %}
+<link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}css/sf_editor_toolbar.css" />
+{% endif %}
+{% if filetype == 'Text' %}
+<link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}codemirror/codemirror.css" />
+<style type="text/css">
+.CodeMirror-focused pre.CodeMirror-cursor { visibility: visible; }
+.CodeMirror-scroll { height:auto; min-height:700px; }
+</style>
+<link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}codemirror/monokai.css" />
+{% endif %}
+{% if filetype == 'Markdown' %}
+<link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}css/pagedown.css" />
+<style type="text/css">
+#top-bar, #header, #edit-hd { display:none; }
+#main { min-height:0; }
+.withpd { padding:40px 96px; }
+</style>
+{% endif %}
+<style type="text/css">
+#main {
+    width:100%; 
+}
+#footer {
+    display:none;
+}
+#edit-hd, #path-op {
+    width:950px;
+    margin:0 auto;
+}
+#path-op {
+    padding-bottom:6px;
+}
+#path-op .path {
+    margin-top:1.2em
+}
+#file-edit {
+    min-height:700px;
+    padding:30px 0 60px;
+    background:#f4f4f4;
+    border-top:1px solid #ededed;
+}
+#sf, #md-edit, #edit-tip {
+    box-shadow:0 0 6px #ccc;
+    border:1px solid #ccc;
+    margin:0 auto;
+}
+#sf {
+    min-height:620px;
+    outline:none;
+}
+#edit-tip {
+    min-height:200px;
+    padding:10px;
+    width:928px;
+    background:#fff;
+    margin:0 auto;
+}
+.fixed-path-op {
+    position:fixed;
+    background:#fff;
+    border-bottom:1px solid #ededed;/*for ie*/
+    box-shadow:0 1px 3px #777;
+    z-index:1010;/*make seaf image show below path-op*/
+}
+.CodeMirror {
+    width:950px;
+    margin:0 auto;
+    box-shadow:0 0 6px #272822;
+}
+</style>
+{% endblock %}
+
+{% block main_panel %}
+    <h2 id="edit-hd">{% trans "Edit" %} <span class="op-target">{{ u_filename }}</span></h2>
+    <div id="path-op" class="ovhd">
+         <p class="path fleft">
+         {% trans "Current path: " %}
+         {% for name, link in zipped %}
+            {% if not forloop.last %}
+                <a href="{{ SITE_ROOT }}repo/{{ repo.id }}/?p={{ link|urlencode }}">{{ name }}</a> /               
+            {% else %}
+                <a href="{{ SITE_ROOT }}repo/{{ repo.id }}/files/?p={{ path }}">{{ name }}</a>
+            {% endif %}
+         {% endfor %}
+         </p>
+         <div id="op-after-edit" class="fright vh">
+             <span id="saved-tip" class="tip hide">{% trans "Draft saved." %}</span>
+             {% if filetype == 'Markdown' %}
+             <button id="source-code-btn" class="hide">{% trans "Continue editing" %}</button>
+             <button id="preview-btn">{% trans "Preview" %}</button>
+             {% endif %}
+             <button id="file-edit-submit">{% trans "Submit" %}</button>
+             <a href="{{cancel_url}}" id="file-edit-cancel">{% trans "Cancel" %}</a>
+         </div>
+    </div>
+    <div id="file-edit"{% if filetype == 'Markdown' %} class="hide"{% endif %}>
+        {% include 'snippets/file_encoding.html' %}
+        {% if err %}
+            <div id="edit-tip" class="article">
+                <p class="error">{{ err }}</p>
+            </div>
+        {% else %}
+            {% if file_content != None %}
+                {% if filetype == 'Text' %}
+                <textarea id="docu-view" class="hide">{{ file_content|escape }}</textarea>
+                {% endif %}
+
+                {% if filetype == 'Markdown' %}
+                <div id="md-edit">
+                    <div id="wmd-button-bar"></div>
+                    <textarea class="wmd-input hide" id="wmd-input">{{ file_content|escape }}</textarea>
+                    <div id="wmd-preview" class="article hide"></div>
+                </div>
+
+                <div id="md-edit-help" class="hide">
+                  <h3>{% trans "Standard Syntax"%}</h3>
+                  <table>
+                    <tbody>
+                        <tr>
+                            <th>{% trans "Enter this" %}</th>
+                            <th>{% trans "To see this" %}</th>
+                        </tr>
+                        <tr>
+                            <td><pre>**{% trans "bold" %}** {% trans "text" %}</pre></td>
+                            <td><strong class="bold">{% trans "bold" %}</strong> {% trans "text" %}</td>
+                        </tr>
+                        <tr>
+                            <td><pre>*{% trans "italics" %}* {% trans "text" %}</pre></td>
+                            <td><span class="italic">{% trans "italics" %}</span> {% trans "text" %}</td>
+                        </tr>
+                        <tr>
+                            <td><pre>{% trans "Header" %}
+====== </pre></td>
+                            <td>
+                                <h3>{% trans "Header" %}</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><pre>{% trans "Smaller header" %}
+--------- </pre></td>
+                            <td><h4>{% trans "Smaller header" %}</h4></td>
+                        </tr>
+                        <tr>
+                            <td><pre>[{% trans "Link something" %}](https://cloud.seafile.com/)</pre></td>
+                            <td><a href="https://cloud.seafile.com/">{% trans "Link something" %}</a></td>
+                        </tr>
+                        <tr>
+                            <td><pre>![{% trans "alt text" %}](https://cloud.seafile.com/media/img/seafile_logo.png)</pre></td>
+                            <td><img src="https://cloud.seafile.com/media/img/seafile_logo.png" alt="" /></td>
+                        </tr>
+                  </tbody></table>
+                  <h3>{% trans "Extended Syntax for Wiki"%}</h3>
+                  <ul>
+                    <li><p>[[page name]] {% trans "or" %} [[display name|page name]] : {% trans "internal link to another wiki page." %}</p></li>
+                    <li><p>[[images/pic.jpg]]: {% trans "internal link to a picture at this-library/images/pic.jpg." %}</p></li>
+                    <li><p>[[folder/file.doc]]: {% trans "internal link to a file at this-library/folder/file.doc." %}</p></li>
+                  </ul>
+                </div>
+                {% endif %}
+
+                {% if filetype == 'Sf' %}
+                <div class="btn-toolbar" data-role="editor-toolbar" data-target="#sf">
+                    <div class="btn-group">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" title="{% trans "Font" %}"><i class="icon-font"></i><span class="caret"></span></a>
+                        <ul class="dropdown-menu" id="font-list"></ul>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" title="{% trans "Font Size" %}"><i class="icon-text-height"></i><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a data-edit="fontSize 5"><font size="5">{% trans "Huge" %}</font></a></li>
+                            <li><a data-edit="fontSize 3"><font size="3">{% trans "Normal" %}</font></a></li>
+                            <li><a data-edit="fontSize 1"><font size="1">{% trans "Small" %}</font></a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" title="{% trans "Font Color" %}"><i class="icon-tint" style="color:#e83;"></i><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a data-edit="forecolor #333" title="{% trans "defaut color" %}"><span class="color-block" style="background:#333;"></span></a></li>
+                            <li><a data-edit="forecolor #FF0000"><span class="color-block" style="background:#FF0000;"></span></a></li>
+                            <li><a data-edit="forecolor #FF704F"><span class="color-block" style="background:#FF704F;"></span></a></li>
+                            <li><a data-edit="forecolor #007000"><span class="color-block" style="background:#007000;"></span></a></li>
+                            <li><a data-edit="forecolor #4D90FE"><span class="color-block" style="background:#4D90FE;"></span></a></li>
+                            <li><a data-edit="forecolor #999999"><span class="color-block" style="background:#999999;"></span></a></li>
+                            <li><a data-edit="forecolor #811201"><span class="color-block" style="background:#811201;"></span></a></li>
+                            <li><a data-edit="forecolor #1E4152"><span class="color-block" style="background:#1E4152;"></span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group">
+                        <a class="btn" data-edit="bold" title="{% trans "Bold (Ctrl/Cmd+B)" %}"><i class="icon-bold"></i></a>
+                        <a class="btn" data-edit="italic" title="{% trans "Italic (Ctrl/Cmd+I)" %}"><i class="icon-italic"></i></a>
+                        <a class="btn" data-edit="strikethrough" title="{% trans "Strikethrough" %}"><i class="icon-strikethrough"></i></a>
+                        <a class="btn" data-edit="underline" title="{% trans "Underline (Ctrl/Cmd+U)" %}"><i class="icon-underline"></i></a>
+                        <a class="btn" data-edit="removeFormat" title="{% trans "Remove format" %}"><i class="sf-icon-removeformat"></i></a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn" data-edit="insertunorderedlist" title="{% trans "Bullet list" %}"><i class="icon-list-ul"></i></a>
+                        <a class="btn" data-edit="insertorderedlist" title="{% trans "Number list" %}"><i class="icon-list-ol"></i></a>
+                        <a class="btn" data-edit="outdent" title="{% trans "Reduce indent (Shift+Tab)" %}"><i class="icon-indent-left"></i></a>
+                        <a class="btn" data-edit="indent" title="{% trans "Indent (Tab)" %}"><i class="icon-indent-right"></i></a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn" data-edit="justifyleft" title="{% trans "Align Left (Ctrl/Cmd+L)" %}"><i class="icon-align-left"></i></a>
+                        <a class="btn" data-edit="justifycenter" title="{% trans "Center (Ctrl/Cmd+E)" %}"><i class="icon-align-center"></i></a>
+                        <a class="btn" data-edit="justifyright" title="{% trans "Align Right (Ctrl/Cmd+R)" %}"><i class="icon-align-right"></i></a>
+                        <a class="btn" data-edit="justifyfull" title="{% trans "Justify (Ctrl/Cmd+J)" %}"><i class="icon-align-justify"></i></a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" title="{% trans "Hyperlink" %}"><i class="icon-link"></i></a>
+                        <div class="dropdown-menu input-append">
+                            <input placeholder="URL" type="text" data-edit="createLink" />
+                            <button class="btn" type="button">{% trans "Add" %}</button>
+                        </div>
+                        <a class="btn" data-edit="unlink" title="{% trans "Remove Hyperlink" %}"><i class="icon-cut"></i></a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn" id="pictureBtn"><i class="icon-picture"></i></a>
+                        <input type="file" title="{% trans "Insert picture (or just drag & drop)" %}" data-role="magic-overlay" data-target="#pictureBtn" data-edit="insertImage" />
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn" data-edit="undo" title="{% trans "Undo (Ctrl/Cmd+Z)" %}"><i class="icon-undo"></i></a>
+                        <a class="btn" data-edit="redo" title="{% trans "Redo (Ctrl/Cmd+Y)" %}"><i class="icon-repeat"></i></a>
+                    </div>
+                </div>
+
+                <div id="sf" class="article"></div>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+    </div>
+
+    {% if not err and repo.encrypted %}
+    <form id="repo-decrypt-form" class="hide">
+        <h3>{% trans 'Library' %} <span class="op-target">{{repo.name}}</span> {% trans 'is encrypted' %}</h3>
+        <label>{% trans 'Password：' %}</label><br />
+        <input type="password" name="password" class="input" />
+        <p class="tip">{% trans "The password will be kept in the server for only 1 hour." %}</p>
+        <p class="error"></p>
+        <input type="submit" class="submit" value="{% trans 'Submit' %}" />
+        <button class="simplemodal-close">{% trans 'Cancel' %}</button>
+    </form>
+    {% endif %}
+
+    <div id="load-draft" class="hide">
+        <h3>{% trans "Draft Available" %}</h3>
+        <p>{% trans "There's a saved draft for this file, would you like to load it?" %}</p>
+        <button id="load-draft-btn">{% trans "Load" %}</button>
+        <button class="simplemodal-close" id="discard-draft-btn">{% trans "Discard" %}</button>
+    </div>
+{% endblock %}
+
+{% block extra_script %}
+{% if not err and file_content != None %}
+<script type="text/javascript">
+if ('localStorage' in window && window['localStorage'] !== null) {
+    var browserStorage = {
+        set : function(key, value) {
+            try {
+                localStorage.setItem(key, value + "");
+            } catch (e) {
+                feedback("{% trans "Failed to save draft, exceeded max quota" %}", 'error');
+            }
+        },
+        get : function(key) {
+            return localStorage.getItem(key);
+        },
+        remove : function(key) {
+            localStorage.removeItem(key);
+        }
+    };
+
+    var key = '{{repo.id}}_{{path}}_draft';
+
+    var saved_draft = browserStorage.get(key);
+    if (saved_draft) {
+        $('#load-draft').modal();
+    }
+}
+</script>
+{% if filetype == 'Sf' %}
+<script type="text/javascript" src="{{MEDIA_URL}}js/jquery.hotkeys.js"></script>
+<script type="text/javascript" src="{{MEDIA_URL}}js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{MEDIA_URL}}js/bootstrap-wysiwyg.js"></script>
+{% endif %}
+
+{% if filetype == 'Text' %}
+<script type="text/javascript" src="{{MEDIA_URL}}codemirror/codemirror-2.36.js"></script>
+{% endif %}
+
+{% if filetype == 'Markdown' %}
+<script type="text/javascript" src="{{MEDIA_URL}}js/Markdown.Converter.js"></script>
+<script type="text/javascript" src="{{MEDIA_URL}}js/Markdown.Editor.js"></script>
+<script type="text/javascript" src="{{MEDIA_URL}}js/Markdown.Extra.js"></script>
+{% endif %}
+
+{% endif %}
+<script type="text/javascript">
+{% if not err and file_content != None %}
+$(window).scroll(function() {
+    var offset = $('#edit-hd').offset();
+    // VS coordinate of an element that's not 'fixed'
+    if ($(window).scrollTop() > offset.top + $('#edit-hd').height()) {
+        $('#edit-hd').css('margin-bottom', $('#path-op').outerHeight(true));
+        $('#path-op').addClass('fixed-path-op').css({'left':0, 'top':0, 'padding-left':offset.left, 'padding-right':offset.left});
+    } else {
+        $('#path-op').removeClass('fixed-path-op').removeAttr('style');
+        $('#edit-hd').css('margin-bottom', 0);
+    }
+    {% if filetype == 'Sf' %}
+        var toolbar = $('.btn-toolbar');
+        var sf_editor = $('#sf');
+        if ($(window).scrollTop() > sf_editor.offset().top - toolbar.outerHeight(true) - $('.fixed-path-op').outerHeight(true)) {
+            $('#sf').css('margin-top', toolbar.outerHeight(true));
+            toolbar.css({'position':'fixed'}); //'fixed' before get the right 'left' value
+            toolbar.css({'left':($(window).width() - toolbar.width())/2, 'top':$('#path-op').outerHeight(true)});
+        } else {
+            toolbar.removeAttr('style');
+            $('#sf').css('margin-top', 0);
+        }
+    {% endif %}
+});
+
+if ('localStorage' in window && window['localStorage'] !== null) {
+
+    var saved_tip = $('#saved-tip');
+    function saveDraft() {
+        var draft;
+        {% if filetype == 'Sf' %}
+        draft = $('#sf').html();
+        {% endif %}
+        {% if filetype == 'Text' %}
+        draft = editor.getValue();
+        {% endif %}
+        {% if filetype == 'Markdown' %}
+        draft = $('#wmd-input').val();
+        {% endif %}
+        browserStorage.set(key, draft);
+        saved_tip.removeClass('hide');
+    }
+
+
+    {% if filetype == 'Sf' %}
+    $('#sf').on('keyup', saveDraft);
+    {% endif %}
+    {% if filetype == 'Markdown' %}
+    $('#wmd-input').on('keyup', saveDraft);
+    {% endif %}
+
+    $('#load-draft-btn').click(function() {
+        $.modal.close();
+        {% if filetype == 'Sf' %}
+        $('#sf').html(saved_draft);
+        {% endif %}
+        {% if filetype == 'Text' %}
+        editor.setValue(saved_draft);
+        {% endif %}
+        {% if filetype == 'Markdown' %}
+        $('#wmd-input').val(saved_draft);
+        {% endif %}
+        feedback("{% trans "Draft successfully loaded" %}", 'success', 1000);
+    });
+
+    $('#discard-draft-btn, #file-edit-cancel').click(function() {
+        browserStorage.remove(key);
+    });
+}
+
+{% if filetype == 'Text' %}
+var editor = CodeMirror.fromTextArea($('#docu-view')[0], {
+    {% include "snippets/editor_set_mode.html" %}
+    theme: 'monokai',
+    indentUnit: 4,
+    lineNumbers: true,
+    lineWrapping: true,
+    onCursorActivity: function() {
+        var cursor = editor.cursorCoords(true, 'page');
+        if (cursor.yBot >= $(window).height() + $(window).scrollTop() - 60) {
+           $(window).scrollTop($(window).scrollTop() + parseInt($('#file-edit').css('padding-bottom')));
+        }
+        // keep the cursor visible when path-op fixed and moving the cursor upward
+        if (cursor.y - $(window).scrollTop() < $('#path-op').outerHeight() && !editor.somethingSelected()) {
+            $(window).scrollTop(cursor.y - $('#path-op').outerHeight());
+        }
+    },
+    autofocus: true,
+    onKeyEvent: function(instance, event) {
+        if (event.type == 'keyup') {
+            if ('localStorage' in window && window['localStorage'] !== null) {
+                saveDraft();
+            }
+        }
+    }
+});
+{% endif %}
+
+{% if filetype == 'Markdown' %}
+var converter = new Markdown.Converter();
+converter.hooks.chain("preBlockGamut", function (text, rbg) {
+    return text.replace(/^ {0,3}""" *\n((?:.*?\n)+?) {0,3}""" *$/gm, function (whole, inner) {
+        return "<blockquote>" + rbg(inner) + "</blockquote>\n";
+    });
+});
+{% include 'snippets/md_xss.html' %}
+
+Markdown.Extra.init(converter, {extensions: ["fenced_code_gfm", "tables", "def_list"]});
+
+var local_toolbar_strs = {
+    bold: "{% trans "Strong <strong> Ctrl+B" %}",
+    boldexample: "{% trans "strong text" %}",
+
+    italic: "{% trans "Emphasis <em> Ctrl+I" %}",
+    italicexample: "{% trans "emphasized text" %}",
+
+    link: "{% trans "Hyperlink <a> Ctrl+L" %}",
+    linkdescription: "{% trans "enter link description here" %}",
+    linkdialog: "<h3>{% trans "Insert Hyperlink" %}</h3><p>http://example.com/ \"{% trans "optional title" %}\"</p>",
+
+    quote: "{% trans "Blockquote <blockquote> Ctrl+Q" %}",
+    quoteexample: "{% trans "Blockquote" %}",
+
+    code: "{% trans "Code Sample <pre><code> Ctrl+K" %}",
+    codeexample: "{% trans "enter code here" %}",
+
+    image: "{% trans "Image <img> Ctrl+G" %}",
+    imagedescription: "{% trans "enter image description here" %}",
+    imagedialog: "<h3>{% trans "Insert Image" %}</h3><p>http://example.com/images/diagram.jpg \"{% trans "optional title" %}\"</p>",
+
+    olist: "{% trans "Numbered List <ol> Ctrl+O" %}",
+    ulist: "{% trans "Bulleted List <ul> Ctrl+U" %}",
+    litem: "{% trans "List item" %}",
+
+    heading: "{% trans "Heading <h1>/<h2> Ctrl+H" %}",
+    headingexample: "{% trans "Heading" %}",
+
+    hr: "{% trans "Horizontal Rule <hr> Ctrl+R" %}",
+    undo: "{% trans "Undo - Ctrl+Z" %}",
+    redo: "{% trans "Redo - Ctrl+Y" %}",
+    redomac: "{% trans "Redo - Ctrl+Shift+Z" %}",
+
+    help: "{% trans "Editing Help" %}"
+};
+
+var editor = new Markdown.Editor(converter, null, { helpButton: { handler: mdEditHelp }, strings: local_toolbar_strs });
+editor.run();
+
+var file_edit = $('#file-edit'); 
+var file_edit_styles = {'min-height':0, 'padding-bottom':50, 'height':$(window).height() - $('#path-op').outerHeight() - parseInt(file_edit.css('padding-top')) - 51};
+file_edit.css(file_edit_styles).removeClass('hide');
+$('#wmd-input').css({'height':file_edit.height() - $('#file-enc-conf').outerHeight(true) - $('#wmd-button-bar').outerHeight() - parseInt($('#wmd-input').css('padding-top'))*2}).removeClass('hide');
+
+$('#preview-btn, #source-code-btn').click(function() {
+    $('#wmd-button-bar, #wmd-input, #wmd-preview, #source-code-btn, #preview-btn').toggleClass('hide');
+    $('#md-edit').toggleClass('withpd');
+    if (!$('#wmd-input').hasClass('hide')) {
+        file_edit.css(file_edit_styles);
+    } else {
+        file_edit.removeAttr('style');
+    }
+});
+$('#wmd-preview').children(':first').css('margin-top', '0');
+
+function mdEditHelp() {
+    $('#md-edit-help').modal();
+}
+{% endif %}
+
+{% if filetype == 'Sf' %}
+{% include 'snippets/xss.html' %}
+$('#sf').html(cleanHtmlForXss('{{file_content|escapejs}}'));
+$(function() {
+    function initToolbarBootstrapBindings() {
+      var fonts = ['Serif', 'Sans', 'Arial', 'Arial Black', 'Courier', 
+            'Courier New', 'Comic Sans MS', 'Helvetica', 'Impact', 'Lucida Grande', 'Lucida Sans', 'Tahoma', 'Times',
+            'Times New Roman', 'Verdana'],
+            fontTarget = $('#font-list');
+      $.each(fonts, function (idx, fontName) {
+          fontTarget.append($('<li><a data-edit="fontName ' + fontName +'" style="font-family:\''+ fontName +'\'">'+fontName + '</a></li>'));
+      });
+      $('a[title]').tooltip({container:'body'});
+        $('.dropdown-menu input').click(function() {return false;})
+            .change(function () {$(this).parent('.dropdown-menu').siblings('.dropdown-toggle').dropdown('toggle');})
+        .keydown('esc', function () {this.value='';$(this).change();});
+
+      $('[data-role=magic-overlay]').each(function () { 
+        var overlay = $(this), target = $(overlay.data('target')); 
+        overlay.css('opacity', 0).css('position', 'absolute').offset(target.offset()).width(target.outerWidth()).height(target.outerHeight());
+      });
+    };
+    initToolbarBootstrapBindings();  
+    $('#sf').wysiwyg();
+    try {
+        document.execCommand('styleWithCss',0, true);
+    } catch(e) {
+        try {
+            document.execCommand('useCss',0, false);
+        } catch(e) {
+        }
+    }
+});
+{% endif %}
+
+$('#op-after-edit').removeClass('vh');
+
+$('#file-edit-submit').click(function () {
+    disable($(this));
+    editSubmit();
+});
+function editSubmit() {
+    {% if filetype == 'Sf' %}
+    var content = $('#sf').html();
+    {% endif %}
+    {% if filetype == 'Text' %}
+    var content = editor.getValue();
+    {% endif %}
+    {% if filetype == 'Markdown' %}
+    var content = $('#wmd-input').val();
+    {% endif %}
+
+    $.ajax({
+        type: "POST",
+        url: '{{ SITE_ROOT }}repo/{{repo.id}}/file/edit/?p={{path|urlencode}}&head={{head_id}}&from={{from}}&gid={{gid}}',
+        dataType: 'json',
+        cache: false,
+        beforeSend: prepareCSRFToken,
+        data: {content: content, encoding: $('#file-enc').val()},
+        success: function(data) {
+            if ('localStorage' in window && window['localStorage'] !== null) {
+                browserStorage.remove(key);
+            }
+            location.href = data['href'];
+        },
+        error: function(xhr, textStatus, errorThrown) {
+            if (xhr.responseText) {
+                var resp = jQuery.parseJSON(xhr.responseText);
+                feedback(resp['error'], 'error');
+                if (resp['op'] == 'decrypt') {
+                    $('#repo-decrypt-form').modal();
+                    $('#simplemodal-container').css({'height':'auto'});
+                }
+            } else {
+                feedback("{% trans "Submit failed. Please check the network." %}", 'error');
+            }
+            enable($('#file-edit-submit'));
+        }
+    });
+}
+{% endif %}
+
+{% if op == 'decrypt' %}
+$('#repo-decrypt-form').modal();
+$('#simplemodal-container').css({'height':'auto'});
+{% endif %}
+
+$('#repo-decrypt-form').submit(function() {
+    var pwd_input = $(this).find('input[name="password"]');
+    var pwd = $.trim(pwd_input.val());
+    var err = $(this).find('.error');
+    if (!pwd) {
+        err.html("{% trans "Password is required." %}");
+    } else {
+        $.ajax({
+            url: '{% url 'repo_set_password' %}',
+            type: 'POST',
+            dataType: 'json',
+            cache: 'false',
+            beforeSend: prepareCSRFToken,
+            data: {
+                repo_id: '{{repo.id}}',
+                password: pwd,
+                username: '{{request.user.username}}'
+            },  
+            success: function(data) {
+                if (data['success']) {
+                    $.modal.close();
+                    {% if file_content != None %}
+                    editSubmit();
+                    {% endif %}
+                    {% if op == 'decrypt' %}
+                    location.reload(true);
+                    {% endif %}
+                }   
+            },  
+            error: function(jqXHR, textStatus, errorThrown) {
+                var err_str = ''; 
+                if (jqXHR.responseText) {
+                    err_str = $.parseJSON(jqXHR.responseText).error;
+                } else {
+                    err_str = "{% trans "Failed. Please check the network." %}";
+                }   
+                err.html(err_str); 
+                pwd_input.val('');
+            }   
+        }); 
+    }
+    return false;
+});
+
+</script>
+{% endblock %}

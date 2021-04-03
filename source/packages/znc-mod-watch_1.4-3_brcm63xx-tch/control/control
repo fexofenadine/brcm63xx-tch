@@ -1,0 +1,12 @@
+Package: znc-mod-watch
+Version: 1.4-3
+Depends: libc, znc
+Source: feeds/packages/net/znc
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 29190
+Description:  Monitor activity for specific text patterns from specific users and have the text sent to a special query window.

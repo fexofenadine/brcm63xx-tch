@@ -1,0 +1,11 @@
+Package: nodogsplash
+Version: 0.9_beta9.9.9-5
+Depends: libc, libpthread, iptables-mod-ipopt
+Source: feeds/routing/nodogsplash
+License: GPL-2.0+
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 46332
+Description:  Nodogsplash offers a simple way to open a free hotspot providing
+ restricted access to an internet connection.

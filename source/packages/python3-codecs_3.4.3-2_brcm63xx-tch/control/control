@@ -1,0 +1,12 @@
+Package: python3-codecs
+Version: 3.4.3-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python3
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 719555
+Description:  Python 3.4 codecs + unicode support

@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-asterisk-ms) && rm -f /etc/uci-defaults/luci-i18n-asterisk-ms
+		exit 0
+	}

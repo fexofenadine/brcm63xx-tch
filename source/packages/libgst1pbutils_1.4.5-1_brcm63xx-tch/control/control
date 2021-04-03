@@ -1,0 +1,14 @@
+Package: libgst1pbutils
+Version: 1.4.5-1
+Depends: libc, libgstreamer1, libgst1audio, libgst1tag, libgst1video
+Source: feeds/packages/multimedia/gst1-plugins-base
+License: LGPLv2 GPLv2
+LicenseFiles: COPYING.LIB COPYING
+Section: multimedia
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 47386
+Description:  GStreamer open source multimedia framework
+ .
+ This package contains the GStreamer utils library.

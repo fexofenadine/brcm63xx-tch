@@ -1,0 +1,12 @@
+Package: open-plc-utils-coqos_add
+Version: 2015-07-06
+Depends: libc, open-plc-utils
+Source: feeds/packages/utils/open-plc-utils
+License: ISC
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Florian Fainelli <florian@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 12710
+Description:  Utility  from the Open PLC utilities package.

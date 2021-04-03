@@ -1,0 +1,19 @@
+Package: ftdi_eeprom
+Version: 1.2-3
+Depends: libc, confuse, libftdi1
+Source: feeds/packages/libs/libftdi1
+License: LGPL-2.0
+LicenseFiles: COPYING.LIB
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 5116
+Description:  ftdi_eeprom is a small tool for reading/erasing/flashing FTDI USB chip
+ eeproms. It uses libftdi to access the chip, so you will need to have
+ the required permissions on the device.
+ 
+ The ftdi_sio module should not be loaded.
+ 
+ You have to unplug and replug your device to get the new values to be
+ read. Otherwise, you will still get the old values.

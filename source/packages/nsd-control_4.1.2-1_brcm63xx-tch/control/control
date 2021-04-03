@@ -1,0 +1,13 @@
+Package: nsd-control
+Version: 4.1.2-1
+Depends: libc, libopenssl
+Source: feeds/packages/net/nsd
+License: BSD-3c
+LicenseFiles: LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
+Architecture: brcm63xx-tch
+Installed-Size: 75200
+Description:  NSD is an authoritative only, high performance, simple and open source name
+ server.

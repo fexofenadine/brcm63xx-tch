@@ -1,0 +1,11 @@
+Package: soloscli
+Version: 1.04-1
+Depends: libc, kmod-solos-pci
+Source: package/network/config/soloscli
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 3450
+Description:  This package contains the soloscli utility
+ for interrogating Traverse Technologies' Solos ADSL2+ modems.

@@ -1,0 +1,10 @@
+Package: luai2c
+Version: 1.0.0-2
+Depends: libc, liblua, kmod-i2c-core
+Source: feeds/packages/lang/luai2c
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Frank Edelhaeuser <fedel@users.sourceforge.net>
+Architecture: brcm63xx-tch
+Installed-Size: 4520
+Description:  This is the Lua binding for I2C. It provides access to I2C slaves supported by the kernel.

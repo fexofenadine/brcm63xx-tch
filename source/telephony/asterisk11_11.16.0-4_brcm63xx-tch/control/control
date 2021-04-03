@@ -1,0 +1,15 @@
+Package: asterisk11
+Version: 11.16.0-4
+Depends: libc, libopenssl, libncurses, libpopt, libpthread, libsqlite3, librt, libuuid, zlib
+Source: feeds/telephony/net/asterisk-11.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 1246812
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.

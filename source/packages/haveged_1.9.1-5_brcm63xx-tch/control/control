@@ -1,0 +1,11 @@
+Package: haveged
+Version: 1.9.1-5
+Depends: libc, libhavege
+Source: feeds/packages/utils/haveged
+License: GPLv3
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: brcm63xx-tch
+Installed-Size: 6984
+Description:  Feeds the kernel entropy pool by timing CPU loops.

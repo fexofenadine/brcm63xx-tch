@@ -1,0 +1,11 @@
+Package: ip-full
+Version: 4.0.0-1
+Depends: libc, libnl-tiny
+Source: package/network/utils/iproute2
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: brcm63xx-tch
+Installed-Size: 112154
+Description:  Routing control utility (Full)

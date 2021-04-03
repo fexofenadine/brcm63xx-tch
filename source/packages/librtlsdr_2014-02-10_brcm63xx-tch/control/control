@@ -1,0 +1,15 @@
+Package: librtlsdr
+Version: 2014-02-10
+Depends: libc, libusb-1.0
+Source: feeds/packages/utils/rtl-sdr
+License: GPLv2
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: brcm63xx-tch
+Installed-Size: 20228
+Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be used as
+ an inexpensive SDR.
+ 
+ This package contains the librtlsdr shared library.

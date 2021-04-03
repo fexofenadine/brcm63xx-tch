@@ -1,0 +1,15 @@
+Package: libnfc
+Version: 1.7.1-1
+Depends: libc, libusb-compat, pcscd, ccid
+Source: feeds/packages/libs/libnfc
+License: LGPL-2.1
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Sebastian Wendel <packages@sourceindex.de>
+Architecture: brcm63xx-tch
+Installed-Size: 48152
+Description:  libnfc is the first libre, platform-independent, low level NFC SDK and Programmers API
+ 
+ * manipulate Jewel Topaz tags using libnfc
+ * manipulate MIFARE Classic and Ultralight tags using libnfc
+ 

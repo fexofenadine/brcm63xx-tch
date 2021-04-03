@@ -1,0 +1,13 @@
+Package: aria2
+Version: 1.18.7-1
+Depends: libc, zlib, libstdcpp, libopenssl
+Source: feeds/packages/net/aria2
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 598205
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility

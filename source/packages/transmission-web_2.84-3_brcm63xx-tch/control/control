@@ -1,0 +1,10 @@
+Package: transmission-web
+Version: 2.84-3
+Depends: libc, transmission-daemon
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: brcm63xx-tch
+Installed-Size: 206253
+Description:  Webinterface resources for transmission.

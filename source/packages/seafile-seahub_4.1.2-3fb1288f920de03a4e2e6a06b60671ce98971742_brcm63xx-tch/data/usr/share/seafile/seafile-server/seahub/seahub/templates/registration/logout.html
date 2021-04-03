@@ -1,0 +1,10 @@
+{% extends "myhome_base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Log Out" %}{% endblock %}
+
+{% block main_panel %}
+<div class="text-panel">
+	<p>{% trans "Thanks for your participation! " %}<a href="{{ SITE_ROOT }}accounts/login/">{% trans "Log in again" %}</a></p>
+</div>
+{% endblock %}

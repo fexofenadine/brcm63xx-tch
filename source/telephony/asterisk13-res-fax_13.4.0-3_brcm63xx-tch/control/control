@@ -1,0 +1,12 @@
+Package: asterisk13-res-fax
+Version: 13.4.0-3
+Depends: libc, asterisk13, asterisk13-res-timing-pthread
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 33460
+Description:  This package provides support for 'Generic FAX resource for FAX technology resource modules' in Asterisk.

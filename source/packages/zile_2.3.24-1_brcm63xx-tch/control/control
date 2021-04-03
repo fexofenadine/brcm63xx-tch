@@ -1,0 +1,14 @@
+Package: zile
+Version: 2.3.24-1
+Depends: libc, libncursesw
+Source: feeds/packages/utils/zile
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 94635
+Description:  Zile is a small Emacs clone. Zile is a customizable, self-documenting
+ real-time display editor. Zile was written to be as similar as possible
+ to Emacs; every Emacs user should feel at home with Zile.

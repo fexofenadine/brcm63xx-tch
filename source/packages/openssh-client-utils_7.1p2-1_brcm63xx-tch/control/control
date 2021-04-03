@@ -1,0 +1,12 @@
+Package: openssh-client-utils
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib, openssh-client, openssh-keygen
+Source: /home/jow/relman-cc/.cache/feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 666254
+Description:  OpenSSH client utilities.

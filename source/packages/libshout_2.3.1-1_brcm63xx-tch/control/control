@@ -1,0 +1,16 @@
+Package: libshout
+Version: 2.3.1-1
+Depends: libc, libspeex, libtheora, libvorbis, libvorbisidec, libpthread
+Source: feeds/packages/libs/libshout
+License: LGPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 24270
+Description:  libshout allows applications to easily communicate and broadcast
+ to an Icecast streaming media server. It handles the socket connections,
+ metadata communication, and data streaming for the calling application,
+ and lets developers focus on feature sets instead of implementation
+ details.

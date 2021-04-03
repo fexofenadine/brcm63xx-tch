@@ -1,0 +1,12 @@
+Package: libxerces-c-samples
+Version: 3.1.2-1
+Depends: libc, libxerces-c
+Source: feeds/packages/libs/libxerces-c
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 165356
+Description:  Validating XML parser library for C++ (samples)

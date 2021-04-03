@@ -1,0 +1,12 @@
+Package: mailsend-nossl
+Version: 1.17b15-2
+Depends: libc
+Source: feeds/packages/mail/mailsend
+License: BSD-3-Clause
+LicenseFiles: COPYRIGHT
+Section: mail
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 34636
+Description:  Mailsend is a simple command line program to send mail via SMTP protocol.

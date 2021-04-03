@@ -1,0 +1,14 @@
+Package: iptables-mod-hashlimit
+Version: 1.4.21-1
+Depends: libc, iptables, kmod-ipt-hashlimit
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 5230
+Description:  iptables extensions for hashlimit matching
+ 
+ Matches:
+ - hashlimit
+ 

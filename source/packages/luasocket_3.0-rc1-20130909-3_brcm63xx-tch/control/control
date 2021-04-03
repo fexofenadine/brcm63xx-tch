@@ -1,0 +1,12 @@
+Package: luasocket
+Version: 3.0-rc1-20130909-3
+Depends: libc, lua
+Source: feeds/packages/lang/luasocket
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 46902
+Description:  LuaSocket is the most comprehensive networking support
+ library for the Lua language. It provides easy access to
+ TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.

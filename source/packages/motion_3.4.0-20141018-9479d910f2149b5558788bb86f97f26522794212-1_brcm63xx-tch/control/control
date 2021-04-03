@@ -1,0 +1,12 @@
+Package: motion
+Version: 3.4.0-20141018-9479d910f2149b5558788bb86f97f26522794212-1
+Depends: libc, libjpeg, libpthread
+Source: feeds/packages/multimedia/motion
+License: GPLv2
+LicenseFiles: COPYING
+Section: multimedia
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 92738
+Description:  webcam motion sensing and logging

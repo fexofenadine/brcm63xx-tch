@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ -L ${IPKG_INSTROOT}/usr/bin/ssh ] && [ -L ${IPKG_INSTROOT}/usr/bin/scp ]; then
+	rm -f ${IPKG_INSTROOT}/usr/bin/ssh ${IPKG_INSTROOT}/usr/bin/scp;
+fi
+exit 0

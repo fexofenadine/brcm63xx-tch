@@ -1,0 +1,12 @@
+Package: yate-mod-ysipchan
+Version: 5.4.2-1-4
+Depends: libc, yate
+Source: feeds/telephony/net/yate
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 135935
+Description:  SIP Channel module for yate

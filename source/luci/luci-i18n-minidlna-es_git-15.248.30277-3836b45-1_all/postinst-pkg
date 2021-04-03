@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-minidlna-es) && rm -f /etc/uci-defaults/luci-i18n-minidlna-es
+		exit 0
+	}

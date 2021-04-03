@@ -1,0 +1,11 @@
+Package: zoneinfo-asia
+Version: 2015d-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+License: Public Domain
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: brcm63xx-tch
+Installed-Size: 29136
+Description:  Zone Information (Asia)

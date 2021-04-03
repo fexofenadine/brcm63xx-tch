@@ -1,0 +1,12 @@
+Package: openobex
+Version: 1.7.1-1
+Depends: libc, openobex-apps, libopenobex
+Source: feeds/packages/utils/openobex
+License: GPL-2.0+ LGPL-2.1+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 105
+Description:  Open Source impl of the OBject EXchange protocol (meta)

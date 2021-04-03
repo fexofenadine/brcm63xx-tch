@@ -1,0 +1,11 @@
+Package: taskwarrior
+Version: 2.4.1-1
+Depends: libc, libstdcpp, libuuid, libgnutls
+Source: feeds/packages/utils/taskwarrior
+License: MIT
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 400919
+Description:  taskwarrior is a command-line todo list manager

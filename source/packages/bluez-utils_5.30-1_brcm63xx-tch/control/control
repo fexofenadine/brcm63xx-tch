@@ -1,0 +1,12 @@
+Package: bluez-utils
+Version: 5.30-1
+Depends: libc, bluez-libs, libpthread, librt, dbus, glib2, libical, libncurses, libreadline
+Source: feeds/packages/utils/bluez
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 1206084
+Description:  Bluetooth utilities

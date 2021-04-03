@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-radicale) && rm -f /etc/uci-defaults/luci-radicale
+	exit 0
+}

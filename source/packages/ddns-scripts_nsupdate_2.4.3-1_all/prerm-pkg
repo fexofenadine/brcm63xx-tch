@@ -1,0 +1,3 @@
+	#!/bin/sh
+	/bin/sed -i '/update_nsupdate\.sh/ d' ${IPKG_INSTROOT}/usr/lib/ddns/services
+	/bin/sed -i '/update_nsupdate\.sh/ d' ${IPKG_INSTROOT}/usr/lib/ddns/services_ipv6

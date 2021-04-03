@@ -1,0 +1,12 @@
+Package: krb5-client
+Version: 1.13.1-1
+Depends: libc, krb5-libs
+Source: feeds/packages/net/krb5
+License: MIT
+LicenseFiles: NOTICE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 36361
+Description:  Kerberos 5 Client

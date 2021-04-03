@@ -1,0 +1,22 @@
+Package: uanytun
+Version: 0.3.5-1
+Depends: libc, kmod-tun, libgcrypt
+Source: feeds/packages/net/uanytun
+License: GPL-3.0+
+LicenseFiles: LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Christian Pointner <equinox@spreadspace.org>
+Architecture: brcm63xx-tch
+Installed-Size: 21454
+Description:  uAnytun is a tiny implementation of SATP the secure anycast tunneling protocol.
+ SATP defines a protocol used for communication between any combination of
+ unicast and anycast tunnel endpoints.  It has less protocol overhead than
+ IPSec in Tunnel mode and allows tunneling of every ETHER TYPE protocol (e.g.
+ ethernet, ip, arp ...). SATP directly includes cryptography and message
+ authentication based on the methods used by SRTP.  It is intended to deliver
+ a generic, scaleable and secure solution for tunneling and relaying of packets
+ of any protocol.
+ Unlike Anytun which is a full featured implementation uAnytun has no support
+ for multiple connections or synchronisation. It is a small single threaded
+ implementation intended to act as a client on small platforms.

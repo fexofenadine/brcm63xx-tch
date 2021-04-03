@@ -1,0 +1,11 @@
+Package: perl-uri
+Version: 1.67-1
+Depends: libc, perl
+Source: feeds/packages/lang/perl-uri
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm63xx-tch
+Installed-Size: 22934
+Description:  Manipulates and accesses URI strings

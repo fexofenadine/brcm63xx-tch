@@ -1,0 +1,11 @@
+Package: str2str
+Version: 2.4.2_p9
+Depends: libc, libpthread, librt
+Source: feeds/packages/utils/rtklib
+License: BSD-2-Clause
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 454219
+Description:  Communication Server

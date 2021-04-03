@@ -1,0 +1,7 @@
+#!/bin/sh
+if [ -z "${IPKG_INSTROOT}" ]; then
+	echo "Creating cron job template for user _fdm..."
+	(crontab -l -u _fdm 2>/dev/null; echo "# */13 * * * * fdm -q fetch") | crontab -u _fdm -
+	echo "Please, edit file /etc/fdm.conf and enable cron job!"
+fi
+exit 0

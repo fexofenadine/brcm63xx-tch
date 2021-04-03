@@ -1,0 +1,12 @@
+Package: znc-webskin-forest
+Version: 1.4-3
+Depends: libc, znc-mod-webadmin
+Source: feeds/packages/net/znc
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 221159
+Description:  forest webskin for webadmin

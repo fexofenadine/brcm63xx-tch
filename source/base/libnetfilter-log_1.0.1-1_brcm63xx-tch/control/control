@@ -1,0 +1,14 @@
+Package: libnetfilter-log
+Version: 1.0.1-1
+Depends: libc, libnfnetlink, kmod-nfnetlink-log, libmnl
+Source: package/libs/libnetfilter-log
+License: GPL-2.0+
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 3595
+Description:  libnetfilter_log is a userspace library providing interface to packets that
+ have been logged by the kernel packet filter. It is is part of a system that
+ deprecates the old syslog/dmesg based packet logging. This library has been
+ previously known as libnfnetlink_log.

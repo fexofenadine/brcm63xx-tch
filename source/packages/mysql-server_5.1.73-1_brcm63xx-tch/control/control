@@ -1,0 +1,11 @@
+Package: mysql-server
+Version: 5.1.73-1
+Depends: libc, libmysqlclient, libpthread, libncursesw, libreadline
+Source: feeds/packages/utils/mysql
+License: GPL-2.0
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 2277595
+Description:  MySQL Server

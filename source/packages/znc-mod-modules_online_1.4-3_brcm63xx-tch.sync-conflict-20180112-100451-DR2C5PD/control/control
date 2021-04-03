@@ -1,0 +1,12 @@
+Package: znc-mod-modules_online
+Version: 1.4-3
+Depends: libc, znc
+Source: feeds/packages/net/znc
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 11388
+Description:  This module fakes the online status of ZNC-*users.

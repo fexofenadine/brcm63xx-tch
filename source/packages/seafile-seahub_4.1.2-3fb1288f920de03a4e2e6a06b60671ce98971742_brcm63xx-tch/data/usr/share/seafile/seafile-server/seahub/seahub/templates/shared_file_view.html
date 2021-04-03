@@ -1,0 +1,110 @@
+{% extends "myhome_base.html" %}
+{% load seahub_tags i18n %}
+
+{% block extra_style %}
+{% include 'snippets/file_view_style.html' %}
+<style type="text/css">
+.CodeMirror { margin-bottom:0; }
+</style>
+{% endblock %}
+
+{% block main_panel %}
+    <h2 id="view-hd">{{ file_name }}</h2>
+    <div id="file">
+        <div id="file-op">
+            <p class="fleft">
+            {% if zipped %}
+              {% trans "Current path: "%} 
+              {% for name, link in zipped %}
+                {% if not forloop.last %}
+                <a href="{{ SITE_ROOT }}d/{{ token }}/?p={{ link|urlencode }}">{{ name }}</a> /               
+                {% else %}
+                {{ name }}
+                {% endif %}
+              {% endfor %}
+            {% else %}
+            {% trans "Shared by: " %}{{ shared_by|email2nickname }}
+            {% endif %}
+            </p>
+
+            {% if request.user.is_authenticated and request.user.username != shared_by %}
+              {% if save_to_link %}
+              <button data="{{save_to_link}}" id="save">{% trans "Save to..."%}</button>
+              {% endif %}
+            {% endif %}
+            {% if not traffic_over_limit %}
+            <a href="{% url 'download_file' repo.id obj_id%}?file_name={{ file_name|urlencode }}&t={{ shared_token }}&p={{path|urlencode}}" class="obv-btn">{% trans "Download" %} ({{file_size|filesizeformat}})</a>
+            {% endif %}
+        </div>
+        {% include 'snippets/file_content_html.html' %}
+    </div>
+
+
+    <form id="file-save-form" action="{{save_to_link}}" method="post" class="file-choose-form hide">{% csrf_token %}
+        <h3>{% trans "Save To:" %}</h3>
+        <div class="dir-tree-cont">
+            <div id="repos-dirs">
+                <img src="{{MEDIA_URL}}img/loading-icon.gif" alt="" class="loading-tip" />
+            </div>
+        </div>
+        <input type="hidden" name="s_token" value="{{shared_token}}" />
+        <input type="hidden" name="dst_repo" value="" />
+        <input type="hidden" name="dst_path" value="" />
+        <p class="error hide">{% trans "Please click and choose a directory." %}</p>
+        <button type="submit" class="submit">{% trans "Submit" %}</button>
+        <button class="simplemodal-close">{% trans "Cancel" %}</button>
+    </form>
+    
+{% endblock %}
+
+{% block extra_script %}
+{% include "snippets/file_view_js.html" %}
+<script type="text/javascript">
+$(function() {
+    var dld_btn = $('.obv-btn').clone();
+    dld_btn.html("{% trans "Download" %}").attr('class', 'big-obv-btn');
+    $('#file-view-tip').append(dld_btn);
+
+    {% if traffic_over_limit %}
+    var tip = "{% trans "File download is disabled: the share link traffic of owner is used up." %}";
+    $('#title-panel').html('<p class="alc" style="background:#fddaa4;color:#1f0600;padding:3px 0;margin:0 0 15px;">' + tip + '</p>').removeClass('hide');
+    {% endif %}
+});
+
+{% if request.user.is_authenticated and request.user.username != shared_by %}
+$('#save').click(function() {
+    var form = $('#file-save-form'),
+        file_tree = new FileTree();
+    form.modal({appendTo:'#main', autoResize:true, focus:false});
+    $.ajax({
+        url: '{% url 'unenc_rw_repos' %}',
+        cache: false,
+        dataType: 'json',
+        success: function(data) {
+            var all_repos = [], repo;
+            for (var i = 0, len = data.length; i < len; i++) {
+                repo = data[i];
+                all_repos.push({
+                    'data': repo.name,
+                    'attr': {'repo_id': repo.id, 'root_node': true},
+                    'state': 'closed'
+                });
+            }
+            file_tree.renderDirTree($('#repos-dirs').data('site_root', '{{SITE_ROOT}}'), form, all_repos);
+        }
+    });
+});
+$('#file-save-form').submit(function() {
+    var form = $(this),
+        dst_repo = $('[name="dst_repo"]', form).val(),
+        dst_path = $('[name="dst_path"]', form).val();
+
+    if (!$.trim(dst_repo) || !$.trim(dst_path)) {
+        $('.error', form).removeClass('hide');
+        return false;
+    }
+});
+{% endif %}
+{% include "snippets/file_content_js.html" %}
+</script>
+{% endblock %}

@@ -1,0 +1,12 @@
+Package: ibrdtn-tools
+Version: 1.0.1-1
+Depends: libc, ibrdtn, libarchive
+Source: feeds/packages/net/ibrdtn-tools
+License: Apache-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Johannes Morgenroth <jm@m-network.de>
+Architecture: brcm63xx-tch
+Installed-Size: 87531
+Description:  The IBR-DTN Tools include functionality for sending and receiving files (dtnsend/dtnrecv)
+ and a tools to ping a DTN node (dtnping).

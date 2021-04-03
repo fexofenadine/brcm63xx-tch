@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-freifunk-diagnostics) && rm -f /etc/uci-defaults/luci-freifunk-diagnostics
+	exit 0
+}

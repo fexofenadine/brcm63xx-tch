@@ -1,0 +1,10 @@
+Package: alsa-utils
+Version: 1.0.28-2
+Depends: libc, alsa-lib, libncurses, libpthread
+Source: feeds/packages/utils/alsa-utils
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 125265
+Description:  ALSA (Advanced Linux Sound Architecture) utilities

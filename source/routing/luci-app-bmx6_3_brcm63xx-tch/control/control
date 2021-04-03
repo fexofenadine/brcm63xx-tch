@@ -1,0 +1,11 @@
+Package: luci-app-bmx6
+Version: 3
+Depends: libc, luci-lib-json, luci-mod-admin-full, luci-lib-httpclient, bmx6
+Source: feeds/routing/luci-app-bmx6
+License: GPL-2.0+
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Pau Escrich <p4u@dabax.net>
+Architecture: brcm63xx-tch
+Installed-Size: 81367
+Description:  bmx6 web application (status and configuration) for LuCi web interface

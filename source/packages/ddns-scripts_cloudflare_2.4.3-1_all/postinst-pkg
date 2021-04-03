@@ -1,0 +1,3 @@
+	#!/bin/sh
+	echo -e '"CloudFlare"\t"update_CloudFlare.sh"' >> ${IPKG_INSTROOT}/usr/lib/ddns/services
+	echo -e '"CloudFlare"\t"update_CloudFlare.sh"' >> ${IPKG_INSTROOT}/usr/lib/ddns/services_ipv6

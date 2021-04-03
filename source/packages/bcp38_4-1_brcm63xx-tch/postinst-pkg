@@ -1,0 +1,2 @@
+#!/bin/sh
+[ -x /etc/uci-defaults/bcp38 ] && /etc/uci-defaults/bcp38 || exit 0

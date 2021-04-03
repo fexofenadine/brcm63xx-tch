@@ -1,0 +1,11 @@
+Package: lua-md5
+Version: 1.2-1
+Depends: libc, lua
+Source: feeds/packages/lang/lua-md5
+License: MIT
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Dirk Chang <dirk@kooiot.com>
+Architecture: brcm63xx-tch
+Installed-Size: 4842
+Description:  MD5 offers basic cryptographic facilities for Lua

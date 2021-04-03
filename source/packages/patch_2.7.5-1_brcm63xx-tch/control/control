@@ -1,0 +1,13 @@
+Package: patch
+Version: 2.7.5-1
+Depends: libc
+Source: feeds/packages/devel/patch
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: devel
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: brcm63xx-tch
+Installed-Size: 76425
+Description:  The Patch package contains a program for modifying or creating files
+ by applying a "patch" file typically created by the diff program.

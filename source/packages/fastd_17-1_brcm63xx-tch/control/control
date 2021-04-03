@@ -1,0 +1,12 @@
+Package: fastd
+Version: 17-1
+Depends: libc, kmod-tun, librt, libpthread, libjson-c
+Source: feeds/packages/net/fastd
+License: BSD-2-Clause
+LicenseFiles: COPYRIGHT
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Matthias Schiffer <mschiffer@universe-factory.net>
+Architecture: brcm63xx-tch
+Installed-Size: 57153
+Description:  Fast and secure tunneling daemon, which is optimized on small code size and few dependencies

@@ -1,0 +1,16 @@
+Package: zsh
+Version: 5.0.6-1
+Depends: libc, libncurses, libncursesw, libpcre, librt
+Source: feeds/packages/utils/zsh
+License: ZSH
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Vadim A. Misbakh-Soloviov <mva@mva.name>
+Architecture: brcm63xx-tch
+Installed-Size: 1275646
+Description:  Zsh is a UNIX command interpreter (shell) usable as an interactive
+ login  shell  and  as a shell script command processor. Of the standard
+ shells, zsh most closely resembles ksh but includes many enhancements.
+ Zsh has command line editing, builtin spelling correction, programmable
+ command completion, shell functions (with autoloading), a history
+ mechanism, and a host of other features.

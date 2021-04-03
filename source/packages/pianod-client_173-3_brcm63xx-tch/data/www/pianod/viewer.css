@@ -1,0 +1,73 @@
+/* pianod web client - communication class
+   Copr. 2013 Perette Barella/Devious Fish
+   All rights reserved.
+*/
+
+/* Default/general setup */
+html, body {
+	background: black;
+	color: white;
+	font-family: sans-serif;
+	line-height: 1.3;
+	font-size: 150%;
+}
+
+.pianodviewer {
+	display: none;
+	position: relative;
+}
+.pianodviewer .value {
+	font-size: 150%;
+}
+
+.pianodviewer .albumart {
+	float: left;
+	max-width: 66%;
+	background: black;
+	padding: 1ex 1em 1ex;
+	height: auto;
+}
+
+.pianodviewer .playbackstatus {
+	display: none;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	padding: 1ex;
+	border-radius: 1ex;
+	text-align: center;
+	color: black;
+	background: rgba(255,255,255,.9);
+}
+.pianodviewer .playbackstatus span {
+	font-size: 300%;
+}
+
+.pianodviewer .trackname {
+	font-style: italic;
+}
+
+.pianodviewer .controller {
+	clear: both;
+}
+.pianodviewer .timepoint,
+.pianodviewer .duration { /* Time display at bottom of album art */
+	color:#fff;
+}
+.pianodviewer .duration {
+	display: block;
+	float: right;
+}
+.pianodviewer .statusbar { /* The background of the progress bar */
+	position: absolute;
+	margin-top: 1ex;
+	left: 10%;
+	width: 80%;
+	height: 5px;
+	background: #ccc;
+}
+.pianodviewer .progressbar { /* The progress of the status bar */
+	height: 5px;
+	background: #A4F;
+}
+

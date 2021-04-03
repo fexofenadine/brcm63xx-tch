@@ -1,0 +1,14 @@
+Package: iptables-mod-tee
+Version: 1.4.21-1
+Depends: libc, iptables, kmod-ipt-tee
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 1767
+Description:  TEE iptables extensions.
+ 
+ Targets:
+ - TEE
+ 

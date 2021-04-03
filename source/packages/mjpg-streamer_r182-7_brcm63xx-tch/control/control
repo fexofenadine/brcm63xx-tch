@@ -1,0 +1,12 @@
+Package: mjpg-streamer
+Version: r182-7
+Depends: libc, libpthread, libjpeg
+Source: feeds/packages/multimedia/mjpg-streamer
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: multimedia
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 33755
+Description:  Streaming application for Linux-UVC compatible webcams

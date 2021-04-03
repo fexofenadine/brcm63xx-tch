@@ -1,0 +1,13 @@
+Package: pciutils
+Version: 3.3.1-1
+Depends: libc, libkmod, zlib
+Source: feeds/packages/utils/pciutils
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 288517
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices

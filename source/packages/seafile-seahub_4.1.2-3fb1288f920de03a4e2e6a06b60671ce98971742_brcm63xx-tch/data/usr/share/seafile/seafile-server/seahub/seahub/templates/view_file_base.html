@@ -1,0 +1,375 @@
+{% extends base_template %}
+{% load seahub_tags avatar_tags i18n %}
+{% load url from future %}
+
+{% block sub_title %}{{filename}} - {% endblock %}
+
+{% block extra_style %}
+<link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}css/select2.css?t=1393578720" />
+<link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}css/file_view_extra.css" />
+<style type="text/css">                                                
+#header, #footer { display:none; }
+#view-hd { margin-top: 4px; }
+#star {
+    vertical-align:middle;
+    margin-left:3px;
+    color:#a4a4a4;
+}
+.path { margin: 0 0 -3px;}
+#file-op .avatar {
+    border-radius:1000px;
+}
+</style>
+{% endblock %}
+
+{% block main_panel %}
+    <div id="view-hd">
+        <h2>{{ filename }}
+            <span id="star" class="{% if is_starred %}icon-star{% else %}icon-star-empty{% endif %} cspt"></span>
+        </h2>
+    </div>
+
+    <div id="view-path-op">
+        <p class="path">
+        {% trans "Current Path: "%}
+        {% for name, link in zipped %}
+            {% if not forloop.last %}
+                <a href="{{ SITE_ROOT }}repo/{{ repo.id }}/?p={{ link|urlencode }}">{{ name }}</a> /               
+            {% else %}
+                {{ name }}
+            {% endif %}
+        {% endfor %}
+        </p>
+    </div>
+
+    <div id="file">
+        <div id="file-op">
+            <div class="commit fleft">
+                {% avatar latest_contributor 24 %} <a href="{% url 'user_profile' latest_contributor|id_or_email %}" class="name">{{ latest_contributor|email2nickname }}</a>
+                <span class="time">{{ last_modified|translate_seahub_time}}</span>
+                {% block update_detail %}
+                {% if last_commit_id %}
+                  <span>{% trans "updated this file"%}.</span>
+                {% endif %}
+                {% endblock %}
+
+            </div>
+
+            {% if request.user.is_authenticated %}
+                {% block edit_file %}
+                {% endblock %}
+            {% endif %}
+
+            <button data-url="{% url 'download_file' repo.id obj_id%}?p={{path|urlencode}}" id="download">{% trans "Download"%}</button>
+        </div>
+
+        <div id="file-view">
+          {% if err %}
+          <div id="file-view-tip">
+            <p class="error">{{ err }}</p>
+          </div>
+          {% else %}
+          {% block file_view %}{% endblock %}
+          {% endif %}
+        </div>
+    </div>
+
+    {% include "snippets/file_share_popup.html" %} 
+
+    <div id="side-toolbar">
+        <ul class="side-toolbar">
+            {% if groups %}
+            <li class="item" id="file-discuss-icon" title="{% trans "Discussion" %}"><img src="{{MEDIA_URL}}img/discuss.png" alt="{% trans "discuss" %}" /></li>
+            <li id="file-group-icon" class="item" title="{% trans "Go to a group" %}"><img src="{{MEDIA_URL}}img/groups.png" alt="{% trans "group" %}" /></li>
+            {% endif %}
+            {% if not repo.encrypted %}
+            <li id="share" class="item" title="{% trans "Share" %}" data-link="{{ file_shared_link }}" data-token="{{ fileshare.token }}"><img src="{{MEDIA_URL}}img/share.png" alt="{% trans "share"%}" /></li>
+            {% endif %}
+            {% if user_perm == 'rw' %}
+            <li id="history" class="item" title="{% trans "History" %}" data-url="{% url 'file_revisions' repo.id %}?p={{ path|urlencode }}"><img src="{{MEDIA_URL}}img/history.png" alt="{% trans "history"%}" />
+            {% endif %}
+        </ul>
+    <div>
+
+    {% if groups %}
+    <div id="discuss-to-group" class="hide">
+        <form action="{% url 'group_recommend' %}" method="post" id="discuss-to-group-form">{% csrf_token %}
+            <h3>{% trans "Post a discussion to group" %}</h3>
+            <div class="groups">
+                {% for group in groups %}
+                <label for="{{ group.id }}" class="checkbox-label">
+                    <span class="checkbox{% if forloop.first and forloop.last %} checkbox-checked{% endif %}"><input type="checkbox" name="groups" value="{{ group.id }}" id="{{ group.id }}" {% if forloop.first and forloop.last %}checked="checked"{% endif %} class="checkbox-orig"></span>
+                    <span class="checkbox-option">{{ group.group_name }}</span>
+                </label>
+                {% endfor %}
+            </div>
+            <textarea name="message" placeholder="{% trans 'discussion' %}" class="input"></textarea>
+            <input type="hidden" name="repo_id" value="{{ repo.id }}" />
+            <input type="hidden" name="path" value="{{ path }}" />
+            <input type="hidden" name="attach_type" value="file" />
+            <p class="error hide"></p>
+            <input type="submit" id="discuss-submit" class="submit" value="{% trans "Submit"%}" />
+            <span class="attachment">
+                {% for name,link in zipped %}
+                {% if forloop.last %}
+                <img src="{{ MEDIA_URL }}img/file/{{ name|file_icon_filter }}" alt="{% trans 'File' %}" height="18" class="vam" />
+                <span class="att-name vam">{{ name }}</span>
+                {% endif %}
+                {% endfor %}
+            </span>
+        </form>
+        <ul id="discussions-to-grp" class="hide"></ul>
+        <img src="{{MEDIA_URL}}img/del.png" alt="{% trans "close" %}" class="close" />
+    </div>
+
+    {% if groups|length > 1 %}
+    <div id="to-group" class="hide">
+        <h3>{% trans "Groups" %}</h3>
+        {{ repo_group_str }}
+        <div class="outer-caret"><div class="inner-caret"></div></div>
+    </div>
+    {% endif %}
+
+    {% endif %}
+
+{% endblock %}
+
+{% block extra_script %}
+<script type="text/javascript" src="{{ MEDIA_URL }}js/select2.min.js?t=1393578720"></script>
+{% if highlight_keyword %}
+<script type="text/javascript" src="{{ MEDIA_URL }}js/findAndReplaceDOMText.js"></script>
+{% endif %}
+<script type="text/javascript">
+// rm 'header', so request for unread notices' num won't be sent
+$('#header').remove();
+
+// download
+$(function() {
+    var dld_url = $('#download').data('url');
+    $('#file-view-tip').append('<a href="' + dld_url + '" class="big-obv-btn">' + "{% trans "Download" %}" + '</a>');
+});
+$('#download').click(function() {
+    location.href = $(this).data('url');
+});
+
+// share link
+{% include "snippets/shared_link_js.html" %}
+$('#share').click(function() {
+    var op = $(this),
+        name = "{{filename|escapejs}}",
+        path = "{{path|escapejs}}";
+        aj_urls = { 'link': '{% url 'get_shared_link' %}?repo_id={{ repo.id }}&p=' + e(path) },
+        type = 'f',
+        cur_path = path.substr(0, path.length - name.length);
+    showSharePopup(op, name, aj_urls, type, cur_path);
+    return false;
+});
+
+$('#edit').click(function() {
+    location.href = $(this).attr('data');
+});
+
+// star file
+$('#star').click(function() {
+    var op_icon = $(this), url_base;
+
+    if (op_icon.hasClass('icon-star-empty')) {
+        url_base = '{% url 'repo_star_file' repo.id %}';
+    } else {
+        url_base = '{% url 'repo_unstar_file' repo.id %}';
+    }
+    
+    $.ajax({
+        url: url_base + '?file=' + e("{{path}}"),
+        cache: false,
+        dataType: 'json',
+        success:function(data) {
+            op_icon.toggleClass('icon-star-empty icon-star');
+        },
+        error: ajaxErrorHandler
+   });
+});
+
+// set 'side toolbar' & 'groups' popup position
+function setToolbarPos() {
+    var toolbar = $('#side-toolbar');
+
+    // set toolbar pos
+    toolbar.css({'top': ($(window).height() - toolbar.outerHeight())/2});
+
+    // set 'groups' popup position
+    $('#to-group').css({'top': parseInt(toolbar.css('top')) + 59});
+}
+$(window).load(function() {
+    var to_top = $('<ul class="side-toolbar hide" style="margin-top:3px;"><li class="item" title="{% trans "Back to top" %}"><img src="{{MEDIA_URL}}img/top.png" alt="{% trans "top" %}" /></li></ul>');
+    to_top.click(function() {
+        $(window).scrollTop(0);
+    }).appendTo($('#side-toolbar'));
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 0) {
+            to_top.show();
+        } else {
+            to_top.hide();
+        }
+    });
+    setToolbarPos();
+}).resize(setToolbarPos);
+
+// handle discussions after fetch them
+function handleDiscussions(html) {
+    $('#discussions-to-grp').html(html)
+    .css({'max-height': parseInt($(window).height() * 0.8 - $('#discuss-to-group-form').outerHeight())})
+    .removeClass('hide');
+    var popup = $('#discuss-to-group');
+    popup.css({'top':($(window).height() - popup.outerHeight())/2});
+    {% include 'group/msg_js.html' %}
+}
+// show discuss popup
+$('#file-discuss-icon').click(function() {
+    var popup = $('#discuss-to-group');
+
+    // get discussions
+    if (popup.hasClass('hide')) {
+        $.ajax({
+            url: $('#discuss-to-group-form').attr('action'),
+            dataType: 'json',
+            data: {
+                'repo_id': '{{ repo.id }}',
+                'path': '{{ path }}'
+            },
+            success: function(data) {
+                handleDiscussions(data['html']);
+                popup.removeClass('hide');
+            },
+            error: ajaxErrorHandler
+        });
+    } else {
+        popup.addClass('hide');
+    }
+});
+// click 'close' to close discuss popup
+$('#discuss-to-group .close').click(function () {
+    $('#discuss-to-group').addClass('hide');
+});
+// submit discussion
+$('#discuss-submit').click(function() {
+    var form = $('#discuss-to-group-form'),
+        form_id = form.attr('id');
+
+    if (form.find('.checkbox-checked').length == 0) {
+        apply_form_error(form_id, "{% trans "Please select at least 1 group." %}");
+        return false;
+    }
+    if (!$.trim($('.input', form).val())) {
+        apply_form_error(form_id, "{% trans "Please input a discussion." %}");
+        return false;
+    }
+
+    $('.error', form).addClass('hide');
+    var groups = [];
+    $('.checkbox-checked .checkbox-orig', form).each(function() {
+        groups.push($(this).val());
+    });
+
+    $.ajax({
+        url: form.attr('action'),
+        type: 'POST',
+        dataType: 'json',
+        beforeSend: prepareCSRFToken,
+        traditional: true,
+        data: {
+            'groups': groups,
+            'message': $('[name="message"]', form).val(),
+            'repo_id': '{{ repo.id }}',
+            'path': $('[name="path"]', form).val(),
+            'attach_type': $('[name="attach_type"]', form).val()
+        },
+        success: function(data) {
+            if (data['success']) {
+                feedback(data['success'], 'success');
+                handleDiscussions(data['html']);
+                $('.input', form).val('');
+            }
+            if (data['error']) {
+                feedback(data['error'], 'error');
+            }
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            var err_str = '';
+            if (jqXHR.responseText) {
+                err_str = $.parseJSON(jqXHR.responseText).error;
+            } else {
+                err_str = "{% trans "Failed. Please check the network." %}";
+            }
+            apply_form_error(form_id, err_str);
+        }
+    });
+    return false;
+});
+
+// click group icon
+$('#file-group-icon').click(function() {
+    {% if groups|length == 1 %}
+    {% for group in groups %}
+    location.href= "{% url 'group_info' group.id %}";
+    {% endfor %}
+
+    {% else %}
+    $('#to-group').toggleClass('hide');
+    {% endif %}
+});
+
+// click other place to close popup
+$(document).click(function(e) {
+    var target = e.target || event.srcElement;
+    if (!$('#file-discuss-icon, #discuss-to-group').is(target) && !($('#file-discuss-icon, #discuss-to-group').find('*').is(target))) {
+        $('#discuss-to-group').addClass('hide');
+    }
+    if (!$('#file-group-icon, #to-group').is(target) && !($('#file-group-icon, #to-group').find('*').is(target))) {
+        $('#to-group').addClass('hide');
+    }
+});
+
+$('#history').click(function () {
+    window.open($(this).data('url'));
+});
+
+{% if highlight_keyword %}
+var ref_list = document.referrer.split('?');
+// referrer is 'search result' page, i.e, '{{SITE_ROOT}}search/?q=xx..'
+if (ref_list.length > 1 && ref_list[0].indexOf('search') > 0) {
+    var search_params = ref_list[1].split('&');
+    var search_keyword = search_params[0].substr(2); // get 'xx' from 'q=xx'
+
+    var highlight_kw = function(hl_area) { // 'hl_area': a node
+        findAndReplaceDOMText(hl_area, {
+            find: new RegExp(search_keyword, 'gim'),
+            replace: function(portion, match) { // portion is a part of a match
+                var node = document.createElement('span');
+                node.style.background = '#ffe761';
+                node.innerHTML = portion.text; // portion is an object
+                return node;
+            }
+        });
+    };
+}
+
+$(window).load(function() {
+    if (highlight_kw) {
+        // hl kw in file title
+        highlight_kw($('#view-hd')[0]);
+
+        // hl kw in file content
+        if ('{{filetype}}' == 'Markdown') {
+            highlight_kw($('#file-view')[0]);
+        }
+        if ('{{fileext}}' == 'text' || '{{fileext}}' == 'txt') {
+            setTimeout(function(){ highlight_kw($('.CodeMirror')[0]); }, 500);
+        }
+    }
+});
+{% endif %}
+
+$('#main-panel').css('margin-bottom',0);
+</script>
+{% endblock %}

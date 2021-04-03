@@ -1,0 +1,25 @@
+Package: libow
+Version: 2.9p5-1
+Depends: libc, libusb-compat, libpthread
+Source: feeds/packages/utils/owfs
+License: GPL-2.0
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 288957
+Description:  OWFS is a suite of programs that designed to make the 1-wire bus and its
+ devices easily accessible. The underlying priciple is to create a virtual
+ filesystem, with the unique ID being the directory, and the individual
+ properties of the device are represented as simple files that can be read
+ and written.
+ 
+ Details of the individual slave or master design are hidden behind a
+ consistent interface. The goal is to provide an easy set of tools for a
+ software designer to create monitoring or control applications. There are
+ some performance enhancements in the implementation, including data caching,
+ parallel access to bus masters, and aggregation of device communication.
+ Still the fundemental goal has been ease of use, flexibility and correctness
+ rather than speed.
+ 
+ This package contains the OWFS library.

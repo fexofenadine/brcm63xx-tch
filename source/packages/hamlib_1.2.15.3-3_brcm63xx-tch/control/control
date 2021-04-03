@@ -1,0 +1,16 @@
+Package: hamlib
+Version: 1.2.15.3-3
+Depends: libc, libpthread, libhamlib
+Source: feeds/packages/utils/hamlib
+License: GPLv2
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
+Architecture: brcm63xx-tch
+Installed-Size: 83022
+Description:  Ham Radio Control Libraries is a development effort to provide a consistent
+ interface for programmers wanting to incorporate radio control in their
+ programs.
+ 
+ This package contains the utilities and daemons.

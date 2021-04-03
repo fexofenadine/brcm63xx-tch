@@ -1,0 +1,16 @@
+Package: rtorrent
+Version: 0.9.4-git-0-7343e33a6a0d279179b304a380bf011f1c8be64a
+Depends: libc, libcurl, libtorrent, libncursesw, libsigcxx, libpthread
+Source: feeds/packages/net/rtorrent
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 272587
+Description:  rTorrent is a BitTorrent client for ncurses, using the libtorrent library.
+ The client and library is written in C++ with emphasis on speed and
+ efficiency, while delivering equivalent features to those found in GUI based
+ clients in an ncurses client.
+ This package is built without xmlrpc support

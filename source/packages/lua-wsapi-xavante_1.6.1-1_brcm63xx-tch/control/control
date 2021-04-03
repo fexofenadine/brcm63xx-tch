@@ -1,0 +1,13 @@
+Package: lua-wsapi-xavante
+Version: 1.6.1-1
+Depends: libc, lua, lua-wsapi-base, lua-xavante
+Source: feeds/packages/lang/lua-wsapi
+License: MIT
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Dirk Chang <dirk@kooiot.com>
+Architecture: brcm63xx-tch
+Installed-Size: 3283
+Description:  WSAPI is an API that abstracts the web server from Lua web applications
+ .
+ This package contains the Xavante stuff.

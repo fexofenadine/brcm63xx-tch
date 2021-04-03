@@ -1,0 +1,13 @@
+Package: tcpproxy
+Version: 1.1-1
+Depends: libc
+Source: feeds/packages/net/tcpproxy
+License: GPL-3.0+
+LicenseFiles: LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Christian Pointner <equinox@spreadspace.org>
+Architecture: brcm63xx-tch
+Installed-Size: 17567
+Description:  tcpproxy is a simple tcp connection proxy which combines the features of rinetd and 6tunnel.
+ tcpproxy supports IPv4 and IPv6 and also supports connections from IPv6 to IPv4 endpoints and vice versa.

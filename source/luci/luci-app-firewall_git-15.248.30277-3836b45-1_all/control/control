@@ -1,0 +1,9 @@
+Package: luci-app-firewall
+Version: git-15.248.30277-3836b45-1
+Depends: libc, firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 10457
+Description:  Firewall and Portforwarding application

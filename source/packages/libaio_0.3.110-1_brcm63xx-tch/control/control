@@ -1,0 +1,11 @@
+Package: libaio
+Version: 0.3.110-1
+Depends: libc
+Source: feeds/packages/libs/libaio
+License: LGPL-2.1
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 1132
+Description:  Linux kernel AIO interface access library

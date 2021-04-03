@@ -1,0 +1,15 @@
+Package: smartmontools
+Version: 6.3-1
+Depends: libc, uclibcxx
+Source: feeds/packages/utils/smartmontools
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 165755
+Description:  smartmontools contains utility programs (smartctl) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.

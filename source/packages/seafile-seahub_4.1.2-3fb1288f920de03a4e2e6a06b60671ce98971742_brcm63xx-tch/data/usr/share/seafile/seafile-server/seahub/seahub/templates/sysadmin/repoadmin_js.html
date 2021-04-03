@@ -1,0 +1,27 @@
+{% load i18n%}
+$('.repo-transfer-btn').click(function(){
+    var btn_ct = $(this).parents('td'),
+        repo_id = btn_ct.data('id'),
+        repo_name = btn_ct.attr('data-name'),
+        form = $('#repo-transfer-form');
+    
+    form.modal({appendTo:'#main'});
+    $('input[name="repo_id"]', form).val(repo_id);
+    var detail = $('.detail', form);
+    detail.html(detail.html().replace('%(lib_name)s', repo_name));
+    return false;
+});
+
+$('#repo-transfer-form').submit(function() {
+    var form = $(this),
+        form_id = form.attr('id'),
+        email = $.trim(form.children('[name="email"]').val());
+
+    if (!email) {
+        apply_form_error(form_id, "{% trans "Email cannot be blank" %}");
+        return false;
+    }
+});
+
+$('#main-panel').removeClass('ovhd');
+{% include 'snippets/repo_del_js.html' %}

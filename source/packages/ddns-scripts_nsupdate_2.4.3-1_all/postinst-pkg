@@ -1,0 +1,3 @@
+	#!/bin/sh
+	echo -e '"Bind-nsupdate"\t"update_nsupdate.sh"' >> ${IPKG_INSTROOT}/usr/lib/ddns/services
+	echo -e '"Bind-nsupdate"\t"update_nsupdate.sh"' >> ${IPKG_INSTROOT}/usr/lib/ddns/services_ipv6

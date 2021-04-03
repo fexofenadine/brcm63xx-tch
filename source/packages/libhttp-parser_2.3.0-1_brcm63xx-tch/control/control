@@ -1,0 +1,17 @@
+Package: libhttp-parser
+Version: 2.3.0-1
+Depends: libc
+Source: feeds/packages/libs/libhttp-parser
+License: MIT
+LicenseFiles: LICENSE-MIT
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ramanathan Sivagurunathan <ramzthecoder@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 9806
+Description:  A parser for HTTP messages written in C. It parses both requests and responses. 
+ The parser is designed to be used in performance HTTP applications. 
+ It does not make any syscalls nor allocations, it does not buffer data, 
+ it can be interrupted at anytime. Depending on your architecture, 
+ it only requires about 40 bytes of data per message stream 
+ (in a web server that is per connection).

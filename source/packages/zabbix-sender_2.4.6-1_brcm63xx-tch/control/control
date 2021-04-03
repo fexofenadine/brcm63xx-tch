@@ -1,0 +1,13 @@
+Package: zabbix-sender
+Version: 2.4.6-1
+Depends: libc
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: fexofenadine (github.com/fexofenadine)
+Require-User: zabbix=53:zabbix=53
+Old_Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 40886
+Description:  Zabbix sender

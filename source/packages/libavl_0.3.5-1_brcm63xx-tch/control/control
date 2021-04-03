@@ -1,0 +1,12 @@
+Package: libavl
+Version: 0.3.5-1
+Depends: libc
+Source: feeds/packages/libs/libavl
+License: LGPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Espen Jürgensen <espenjurgensen+openwrt@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 3245
+Description:  AVLTree is a small implementation of AVL trees for the C programming language.

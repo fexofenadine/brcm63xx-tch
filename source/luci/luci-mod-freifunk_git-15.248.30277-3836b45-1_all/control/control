@@ -1,0 +1,9 @@
+Package: luci-mod-freifunk
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-mod-admin-full, luci-lib-json, freifunk-firewall, freifunk-common
+Source: feeds/luci/modules/luci-mod-freifunk
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 19628
+Description:  LuCI Freifunk module

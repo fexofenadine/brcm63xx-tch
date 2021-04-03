@@ -1,0 +1,9 @@
+Package: luci-base
+Version: git-15.248.30277-3836b45-1
+Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd
+Source: feeds/luci/modules/luci-base
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 123025
+Description:  LuCI core libraries

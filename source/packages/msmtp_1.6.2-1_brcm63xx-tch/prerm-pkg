@@ -1,0 +1,3 @@
+	[ "../bin/msmtp" = "" ] && {
+		rm -f ${IPKG_INSTROOT}/usr/sbin/sendmail
+	}

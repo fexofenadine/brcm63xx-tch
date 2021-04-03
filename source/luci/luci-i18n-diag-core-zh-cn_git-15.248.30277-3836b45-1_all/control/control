@@ -1,0 +1,9 @@
+Package: luci-i18n-diag-core-zh-cn
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-diag-core
+Source: feeds/luci/applications/luci-app-diag-core
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 670
+Description:  Translation for luci-app-diag-core - 普通话 (Chinese)

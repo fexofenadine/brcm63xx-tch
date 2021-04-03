@@ -1,0 +1,14 @@
+Package: flashrom
+Version: 0.9.8-2
+Depends: libc, libftdi, libusb-compat
+Source: feeds/packages/utils/flashrom
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 66400
+Description:  flashrom is an utility for identifying, reading, writing, verifying
+ and erasing flash chips. It's often used to flash BIOS/EFI/coreboot
+ /firmware images.

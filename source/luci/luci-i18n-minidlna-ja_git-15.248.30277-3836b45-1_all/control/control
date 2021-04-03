@@ -1,0 +1,9 @@
+Package: luci-i18n-minidlna-ja
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-minidlna
+Source: feeds/luci/applications/luci-app-minidlna
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 2238
+Description:  Translation for luci-app-minidlna - 日本語 (Japanese)

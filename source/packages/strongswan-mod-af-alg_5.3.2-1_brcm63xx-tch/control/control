@@ -1,0 +1,11 @@
+Package: strongswan-mod-af-alg
+Version: 5.3.2-1
+Depends: libc, strongswan, kmod-crypto-user
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 5487
+Description:  StrongSwan AF_ALG crypto interface to Linux Crypto API plugin

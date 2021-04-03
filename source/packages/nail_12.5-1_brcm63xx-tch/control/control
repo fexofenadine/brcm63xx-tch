@@ -1,0 +1,14 @@
+Package: nail
+Version: 12.5-1
+Depends: libc, libopenssl
+Source: feeds/packages/mail/nail
+License: BSD-2-Clause
+Section: mail
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Dmitry V. Zimin <pfzim@mail.ru>
+Architecture: brcm63xx-tch
+Installed-Size: 142756
+Description:  Heirloom mailx (formerly known as "nail") is intended provide
+ the functionality of the POSIX mailx command with additional
+ support for MIME messages, IMAP (including caching), POP3,
+ SMTP, S/MIME, message threading/sorting, scoring, and filtering

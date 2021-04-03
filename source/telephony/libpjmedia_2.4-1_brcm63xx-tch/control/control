@@ -1,0 +1,12 @@
+Package: libpjmedia
+Version: 2.4-1
+Depends: libc, libuuid, libstdcpp, libpthread, libpj, libpjlib-util, libpjnath, libresample, librt, libspeex, libsrtp
+Source: feeds/telephony/libs/pjproject
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: lib
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 242114
+Description:  libpjmedia library

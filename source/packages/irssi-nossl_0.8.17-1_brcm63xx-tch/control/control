@@ -1,0 +1,11 @@
+Package: irssi-nossl
+Version: 0.8.17-1
+Depends: libc, glib2, libncurses, libpthread
+Source: feeds/packages/net/irssi
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 285063
+Description:  Irssi is a terminal based IRC client for UNIX systems.
+ This package is built without OpenSSL support.

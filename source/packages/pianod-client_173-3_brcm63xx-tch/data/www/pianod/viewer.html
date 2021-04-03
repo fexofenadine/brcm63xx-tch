@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="generator" content=
+"HTML Tidy for HTML5 (experimental) for Mac OS X https://github.com/w3c/tidy-html5/tree/c63cc39">
+<meta charset="UTF-8">
+<title>pianod music viewer</title>
+<meta name="viewport" content="width=device-width">
+<meta name="application-name" content="pianod-viewer">
+<link href="viewer.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="/Pianod/pianod-icon.gif">
+<link rel="apple-touch-icon-precomposed" href=
+"/Pianod/pianod-button.gif">
+<script src=
+"http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js">
+</script>
+<script type="text/JavaScript" src="viewer-engine.min.js">
+</script>
+</head>
+<body>
+<noscript>
+<h1>pianod viewer</h1>
+Sorry, the pianod viewer requires JavaScript support.</noscript>
+<div id="pianod" class="pianodviewer">
+<div class="offline">Not connected to pianod instance.</div>
+<div class="idle">Nothing playing.</div>
+<div class="playing">
+<div class="albumcover"><img src="no-art.jpeg" class="albumart"
+alt='' ondblclick="trackview.showart ();"></div>
+<div class="playbackstatus stalled"><span>〈•••〉</span><br>
+Playback Stalled<br>
+Check network connection</div>
+<div class="playbackstatus paused"><span>||</span><br>
+Playback Paused</div>
+<div class="trackname"><span class="value">&nbsp;</span></div>
+<div class="artistname">by <span class="value">&nbsp;</span></div>
+<div class="albumname">on <span class="value">&nbsp;</span></div>
+<div class="songstation">from <span class=
+"value">&nbsp;</span></div>
+<div class="controller">
+<div class="statusbar">
+<div class="progressbar" style="width:50%;"><span style=
+"display:none;">&nbsp;</span></div>
+</div>
+<span class="timepoint time">&nbsp;</span> <span class=
+"duration time">&nbsp;</span></div>
+</div>
+</div>
+<script type="text/javascript">
+        var query_string = { };
+        var server = 'house.perette.barella.org:4446';
+        function parse_query_strings () {
+            var url = window.location.toString().split ('?');
+            if (url.length > 1) {
+                var pairs = url [1].split ('&');
+                for (var i = 0; i < pairs.length; i++) {
+                    var param = pairs [i].split ('=');
+                    query_string [param [0]] = param [1];
+                }
+            }
+        }
+        parse_query_strings ();
+        if ('server' in query_string) {
+            server = query_string ['server'];
+        }
+        var viewer = new PianodViewer (
+                'ws://' + server + '/pianod?encoding=text', 'pianod');
+</script>
+</body>
+</html>

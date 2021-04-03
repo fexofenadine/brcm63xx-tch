@@ -1,0 +1,12 @@
+Package: freeradius2-mod-eap-peap
+Version: 2.2.8-2
+Depends: libc, freeradius2-mod-eap
+Source: /home/jow/relman-cc/.cache/feeds/packages/net/freeradius2
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: brcm63xx-tch
+Installed-Size: 9332
+Description:  EAP/PEAP module

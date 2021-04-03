@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-voice-diag-cs) && rm -f /etc/uci-defaults/luci-i18n-voice-diag-cs
+		exit 0
+	}

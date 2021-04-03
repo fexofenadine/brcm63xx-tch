@@ -1,0 +1,14 @@
+Package: python3-light
+Version: 3.4.3-2
+Depends: libc, python3-base, libffi, libbz2
+Source: feeds/packages/lang/python3
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 1330921
+Description:  This package is essentially the python3-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.

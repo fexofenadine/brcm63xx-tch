@@ -1,0 +1,41 @@
+{% extends 'group/group_base.html' %}
+
+{% load seahub_tags avatar_tags i18n %}
+{% block cur_members %}tab-cur{%endblock%}
+
+{% block right_panel %}
+<div class="hd">
+<h3 class="fleft">{% trans "Members" %}</h3>
+{% if group.view_perm != 'pub' and not is_staff %}
+<button id="quit-group" data-url="{% url 'group_quit' group.id %}" class="fright">{% trans "Quit" %}</button>
+{% endif %}
+</div>
+<ul class="user-list">
+    {% for m in members %}
+    {% with e=m.user_name id=m.user_name|id_or_email %}
+    <li class="user ovhd">
+    <a href="{% url 'user_profile' id %}" class="pic fleft">{% avatar e 48 %}</a>
+    <div class="txt fright">
+        <a class="name" href="{% url 'user_profile' id %}">{{ e|email2nickname }}</a>
+        <p>{{ e }}</p>
+        {% if m.can_be_contact %}
+        <button class="add-to-contacts" data-email="{{ e }}">{% trans "Add to Contacts" %}</button>
+        {% endif %}
+    </div>
+    </li>
+    {% endwith %}
+    {% endfor %}
+</ul>
+{% include 'snippets/add_to_contacts_form.html' %}
+{% endblock %}
+
+{% block extra_script %}{{block.super}}
+<script type="text/javascript">
+addConfirmTo($('#quit-group'), {
+    'title': "{% trans "Quit Group" %}",
+    'con': "{% trans "Are you sure you want to quit this group?" %}"
+});
+</script>
+
+{% include 'snippets/add_to_contacts_js.html' %}
+{% endblock %}

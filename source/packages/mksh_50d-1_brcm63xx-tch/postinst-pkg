@@ -1,0 +1,2 @@
+#!/bin/sh
+grep mksh ${IPKG_INSTROOT}/etc/shells || echo "/bin/mksh" >> ${IPKG_INSTROOT}/etc/shells

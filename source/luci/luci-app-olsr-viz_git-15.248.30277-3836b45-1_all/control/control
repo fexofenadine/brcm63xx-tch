@@ -1,0 +1,9 @@
+Package: luci-app-olsr-viz
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-olsr, olsrd, olsrd-mod-txtinfo
+Source: feeds/luci/applications/luci-app-olsr-viz
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 11468
+Description:  OLSR Visualisation

@@ -1,0 +1,142 @@
+{% extends "myhome_base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Log In" %}{% endblock %}
+
+{% block extra_style %}
+<style type="text/css">
+#lang {
+    font-weight:normal;
+    font-size:13px;
+    margin-top:12px;
+}
+#lang-context:hover {
+    text-decoration:none;
+}
+</style>
+{% endblock %} 
+
+{% block nav %}
+<div class="fright" id="lang">
+    <a href="#" id="lang-context" data-lang="{{ LANGUAGE_CODE }}">{{ LANGUAGE_CODE|language_name_local }} <span class="icon-caret-down"></span></a>
+    <ul id="lang-context-selector" class="hide">
+        {% for LANG in LANGUAGES %}
+        <li><a href="{% url 'i18n' %}?lang={{ LANG.0 }}">{{ LANG.1 }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
+
+{% block main_panel %}
+<div class="new-narrow-panel">
+<h2 class="hd">{% trans "Log In" %}</h2>
+<form action="" method="post" class="con">{% csrf_token %}
+    <label for="username">{% trans "Email" %}</label>
+	<input type="text" name="username" value="" class="input" />
+	<label for="password">{% trans "Password" %}</label>
+	<a href="{{ SITE_ROOT }}accounts/password/reset/">{% trans "(forgot password)" %}</a>
+	<input type="password" name="password" value="" class="input" autocomplete="off" />
+    {% if form.captcha %}
+    <label>{% trans "CAPTCHA" %}</label><br />
+    {{ form.captcha }}
+    <p class="clear"><a href="#" id="refresh-captcha">{% trans "Not clear? Refresh it." %}</a></p>
+    {% endif %}
+    <input type="hidden" name="next" value="{% if next %}{{ next|escape }}{% else %}{{ SITE_ROOT }}{% endif %}" />
+    {% if form.errors %}
+      {% if form.captcha.errors %}
+	<p class="error">{{ form.captcha.errors}}</p>
+      {% else %}
+	<p class="error">{% trans "Incorrect email or password" %}</p>
+      {% endif %}
+    {% else %}
+	<p class="error hide"></p>
+    {% endif %}
+
+    <label class="checkbox-label">
+        <span class="checkbox"><input type="checkbox" name="remember_me" class="checkbox-orig"/></span>
+        <span class="checkbox-option">{% blocktrans %}Remember me for {{remember_days}} days {% endblocktrans %}</span>
+    </label>
+
+    <input type="submit" value="{% trans "Log In" %}" class="submit" />
+    {% if enable_signup %}
+    <a href="{{ signup_url }}">{% trans "Signup" %}</a>
+    {% endif %}
+
+    {% if enable_shib_login %}
+    <button id="shib-login" class="submit fright">{% trans "Shibboleth" %}</button>
+    {% endif %}
+</form>
+</div>
+{% endblock %}
+
+{% block extra_script %}
+<script type="text/javascript">
+function setCaptchaInputWidth() {
+    $('#id_captcha_1').css({'width': $('.input').outerWidth() - $('.captcha').width() - 10});
+}
+$(window).load(setCaptchaInputWidth);
+$('.captcha').load(setCaptchaInputWidth);
+
+$('#refresh-captcha').parent().css({'text-align':'right', 'margin':0});
+$('#refresh-captcha').click(function() {
+    $.ajax({
+        url: '{% url 'captcha-refresh' %}',
+        dataType:'json',
+        cache:false,
+        success: function(data) {
+            $('.captcha').attr('src', data['image_url']); 
+            $('#id_captcha_0').val(data['key']);
+        },
+        error: function() {
+            $('.error').removeClass('hide').html("{% trans "Failed to refresh the CAPTCHA, please try again later." %}");
+        }
+    });
+    return false;
+});
+$('input[type="submit"]').click(function(){
+    if (!$.trim($('input[name="username"]').val())) {
+        $('.error').removeClass('hide').html("{% trans "Email cannot be blank" %}");
+        return false;
+    }
+    if (!$.trim($('input[name="password"]').val())) {
+        $('.error').removeClass('hide').html("{% trans "Password cannot be blank" %}");
+        return false;
+    }
+});
+// set tabindex
+$(function() {
+    $('input:not([type="hidden"])').each(function(index) {
+        $(this).attr('tabindex', index + 1);
+    });
+});
+
+(function() {
+    var lang_context = $('#lang-context'),
+        lang_selector = $('#lang-context-selector');
+
+    lang_context.parent().css({'position':'relative'});
+    lang_selector.css({'top': lang_context.position().top + lang_context.height() + 3});
+
+    lang_context.click(function() {
+        lang_selector.toggleClass('hide');
+        return false;
+    }).focus(function() { $(this).blur(); });
+
+    $(document).click(function(e) {
+        var element = e.target || e.srcElement;
+        if (element.id != 'lang-context-selector' && element.id != 'lang-context') {
+            lang_selector.addClass('hide');
+        }
+    });
+})();
+
+{% if enable_shib_login %}
+$(function() {
+    $('#shib-login').click(function() {
+        window.location = "{% url 'shib_login' %}";
+        return false;
+    });
+});
+{% endif %}
+</script>
+{% endblock %}

@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: Djblets
+Version: 0.6.14.dev-r0
+Summary: A collection of useful classes and functions for Django
+Home-page: http://www.reviewboard.org/wiki/Djblets
+Author: Christian Hammond
+Author-email: chipx86@chipx86.com
+License: MIT
+Download-URL: http://downloads.reviewboard.org/releases/Djblets/0.6/
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

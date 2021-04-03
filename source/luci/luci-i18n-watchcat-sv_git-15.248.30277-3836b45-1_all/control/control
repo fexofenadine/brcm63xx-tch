@@ -1,0 +1,9 @@
+Package: luci-i18n-watchcat-sv
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-watchcat
+Source: feeds/luci/applications/luci-app-watchcat
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 316
+Description:  Translation for luci-app-watchcat - Svenska (Swedish)

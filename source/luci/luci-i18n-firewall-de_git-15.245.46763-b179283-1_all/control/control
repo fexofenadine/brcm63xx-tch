@@ -1,0 +1,9 @@
+Package: luci-i18n-firewall-de
+Version: git-15.245.46763-b179283-1
+Depends: libc, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 4142
+Description:  Translation for luci-app-firewall - Deutsch (German)

@@ -1,0 +1,18 @@
+Package: erlang
+Version: 17.5-1
+Depends: libc, libncurses, librt, zlib
+Provides: erlang-erts=6.4 erlang-kernel=3.2 erlang-sasl=2.4.1 erlang-stdlib=2.4
+Source: feeds/packages/lang/erlang
+License: ErlPL-1.1
+LicenseFiles: EPLICENCE
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 4895508
+Description:  Erlang/OTP is a general-purpose programming language and runtime
+ environment. Erlang has built-in support for concurrency, distribution
+ and fault tolerance.
+ .
+ This package contains the runtime implementation and a minimal set of
+ modules (erts, kernel, sasl & stdlib).

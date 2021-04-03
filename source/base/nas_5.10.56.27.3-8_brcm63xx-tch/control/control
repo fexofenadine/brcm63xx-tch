@@ -1,0 +1,10 @@
+Package: nas
+Version: 5.10.56.27.3-8
+Depends: libc
+Source: package/kernel/broadcom-wl
+Section: kernel
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 65515
+Description:  This package contains the proprietary WPA/WPA2 authenticator (nas) for the 
+ proprietary Broadcom wl driver.

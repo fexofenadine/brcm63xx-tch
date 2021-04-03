@@ -1,0 +1,12 @@
+Package: libpolarssl
+Version: 1.3.14-1
+Depends: libc
+Source: /home/jow/relman-cc/.cache/feeds/base/package/libs/polarssl
+License: GPL-2.0+
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 137385
+Description:  The aim of the PolarSSL project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the PolarSSL library.

@@ -1,0 +1,12 @@
+Package: libvpx
+Version: 1.4.0-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/libvpx
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 523585
+Description:  libvpx is a VP8/VP9 Codec SDK.

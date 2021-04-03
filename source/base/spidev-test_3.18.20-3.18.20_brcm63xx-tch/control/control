@@ -1,0 +1,10 @@
+Package: spidev-test
+Version: 3.18.20-3.18.20
+Depends: libc, kmod-spi-dev
+Source: package/utils/spidev_test
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Florian Fainelli <florian@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 2880
+Description:  SPI testing utility.

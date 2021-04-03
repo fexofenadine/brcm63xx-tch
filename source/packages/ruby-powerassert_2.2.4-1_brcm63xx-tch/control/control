@@ -1,0 +1,15 @@
+Package: ruby-powerassert
+Version: 2.2.4-1
+Depends: libc, ruby, ruby-ripper
+Source: /home/jow/relman-cc/.cache/feeds/packages/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 6936
+Description:  Power Assert gem for Ruby. Power Assert shows each value of variables
+ and method calls in the expression. It is useful for testing, providing
+ which value wasn't correct when the condition is not satisfied
+ 

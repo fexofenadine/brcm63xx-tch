@@ -1,0 +1,12 @@
+Package: asterisk18-app-exec
+Version: 1.8.32.3-2
+Depends: libc, asterisk18
+Source: feeds/telephony/net/asterisk-1.8.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 3247
+Description:  This package provides support for 'support for application execution' in Asterisk.

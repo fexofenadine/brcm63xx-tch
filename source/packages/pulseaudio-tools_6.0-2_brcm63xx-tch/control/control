@@ -1,0 +1,11 @@
+Package: pulseaudio-tools
+Version: 6.0-2
+Depends: libc, libsndfile, pulseaudio
+Source: feeds/packages/sound/pulseaudio
+License: LGPL-2.1+
+LicenseFiles: GPL LICENSE
+Section: sound
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 80774
+Description:  Tools for Pulseaudio

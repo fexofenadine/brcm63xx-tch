@@ -1,0 +1,12 @@
+Package: gst1-plugins-ugly
+Version: 1.4.5-1
+Depends: libc, libgstreamer1, gst1-mod-asf, gst1-mod-lame, gst1-mod-mad, gst1-mod-mpeg2dec
+Source: feeds/packages/multimedia/gst1-plugins-ugly
+License: LGPLv2
+LicenseFiles: COPYING
+Section: multimedia
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 105
+Description:  GStreamer plugins collection (ugly)

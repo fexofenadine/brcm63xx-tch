@@ -1,0 +1,10 @@
+Package: radsecproxy
+Version: 1.6.6-1
+Depends: libc, libopenssl, libpthread
+Source: feeds/packages/net/radsecproxy
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: brcm63xx-tch
+Installed-Size: 47191
+Description:  A generic radius proxy for UDP/TLS (RadSec)

@@ -1,0 +1,11 @@
+Package: nftables
+Version: 0.4+2015-04-09-1
+Depends: libc, kmod-nft-core, kmod-nft-nat, libnftnl
+Source: package/network/utils/nftables
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Steven Barth <steven@midlink.org>
+Architecture: brcm63xx-tch
+Installed-Size: 102289
+Description:  nftables packet filtering userspace utility

@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-theme-openwrt) && rm -f /etc/uci-defaults/luci-theme-openwrt
+	exit 0
+}

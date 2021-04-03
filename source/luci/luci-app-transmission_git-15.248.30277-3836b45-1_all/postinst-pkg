@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-transmission) && rm -f /etc/uci-defaults/luci-transmission
+	exit 0
+}

@@ -1,0 +1,11 @@
+Package: fakeidentd
+Version: 2.6-1
+Depends: libc
+Source: feeds/packages/net/fakeidentd
+License: GPL-2.0+
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Daniel Gimpelevich <daniel@gimpelevich.san-francisco.ca.us>
+Architecture: brcm63xx-tch
+Installed-Size: 4641
+Description:  A static secure identd, only one source file.

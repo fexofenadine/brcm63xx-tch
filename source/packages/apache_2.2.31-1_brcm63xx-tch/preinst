@@ -1,0 +1,2 @@
+	rm /usr/sbin/httpd
+	echo -e "You should take a look in the initscripts, busybox's httpd \n uses some parameters which are maybe unsupported by apache."

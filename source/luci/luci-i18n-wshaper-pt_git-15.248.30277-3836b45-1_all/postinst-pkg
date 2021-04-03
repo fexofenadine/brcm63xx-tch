@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-wshaper-pt) && rm -f /etc/uci-defaults/luci-i18n-wshaper-pt
+		exit 0
+	}

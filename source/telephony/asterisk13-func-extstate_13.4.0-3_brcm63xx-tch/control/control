@@ -1,0 +1,12 @@
+Package: asterisk13-func-extstate
+Version: 13.4.0-3
+Depends: libc, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 2290
+Description:  This package provides support for 'retrieving the state of a hinted extension for dialplan control' in Asterisk.

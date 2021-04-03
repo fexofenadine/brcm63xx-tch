@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ -e ${IPKG_INSTROOT}/bin/tar ]; then
+  rm -r ${IPKG_INSTROOT}/bin/tar;
+fi
+ln -sf /usr/bin/tar ${IPKG_INSTROOT}/bin/tar

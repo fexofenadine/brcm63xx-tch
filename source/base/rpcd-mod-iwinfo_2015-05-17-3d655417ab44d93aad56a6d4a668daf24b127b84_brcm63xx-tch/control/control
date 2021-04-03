@@ -1,0 +1,11 @@
+Package: rpcd-mod-iwinfo
+Version: 2015-05-17-3d655417ab44d93aad56a6d4a668daf24b127b84
+Depends: libc, libubus, libubox, rpcd, libiwinfo
+Source: package/system/rpcd
+License: ISC
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 5626
+Description:  Provides ubus calls for accessing iwinfo data.

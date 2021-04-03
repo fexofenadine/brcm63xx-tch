@@ -1,0 +1,9 @@
+Package: luci-mod-freifunk-community
+Version: git-15.248.30277-3836b45-1
+Depends: libc, iptables-mod-nat-extra, iptables-mod-ipopt, luci-app-splash, olsrd, olsrd-mod-dyn-gw-plain, olsrd-mod-jsoninfo, olsrd-mod-nameservice, olsrd-mod-watchdog, kmod-tun, ip, freifunk-watchdog, luci-app-olsr, luci-app-olsr-services, freifunk-gwcheck, freifunk-mapupdate
+Source: feeds/luci/modules/luci-mod-freifunk-community
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 104
+Description:  Freifunk Community Meta-Package

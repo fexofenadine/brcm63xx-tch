@@ -1,0 +1,13 @@
+Package: bc
+Version: 1.06.95-1
+Depends: libc, libreadline, libncurses
+Source: feeds/packages/utils/bc
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Bruno Randolf <br1@einfach.org>
+Architecture: brcm63xx-tch
+Installed-Size: 30782
+Description:  bc is a language that supports arbitrary precision numbers with
+ interactive execution of statements.

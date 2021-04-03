@@ -1,0 +1,11 @@
+Package: serialconsole
+Version: 0.95-1
+Depends: libc
+Source: feeds/packages/utils/serialconsole
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Stefan Bethke <stb@lassitu.de>
+Architecture: brcm63xx-tch
+Installed-Size: 5104
+Description:  serialconsole (sc) is a minimal terminal program allowing to use one machine
+ to access the serial console of another machine.

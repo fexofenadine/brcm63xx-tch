@@ -1,0 +1,18 @@
+Package: mtr
+Version: 0.86-1
+Depends: libc, libncurses
+Source: feeds/packages/net/mtr
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 31025
+Description:  mtr combines the functionality of the 'traceroute' and 'ping' programs
+ in a single network diagnostic tool.
+ As mtr starts, it investigates the network connection between the host
+ mtr runs on and a user-specified destination host. After it
+ determines the address of each network hop between the machines,
+ it sends a sequence ICMP ECHO requests to each one to determine the
+ quality of the link to each machine. As it does this, it prints
+ running statistics about each machine.

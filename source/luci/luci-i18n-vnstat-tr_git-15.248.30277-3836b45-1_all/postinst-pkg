@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-vnstat-tr) && rm -f /etc/uci-defaults/luci-i18n-vnstat-tr
+		exit 0
+	}

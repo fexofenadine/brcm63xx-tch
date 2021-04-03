@@ -1,0 +1,11 @@
+Package: sshfs
+Version: 2.5-1
+Depends: libc, libfuse, fuse-utils, glib2, libpthread
+Source: feeds/packages/net/sshfs
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Zoltan HERPAI <wigyori@uid0.hu>
+Architecture: brcm63xx-tch
+Installed-Size: 22880
+Description:  Mount remote system over sftp.

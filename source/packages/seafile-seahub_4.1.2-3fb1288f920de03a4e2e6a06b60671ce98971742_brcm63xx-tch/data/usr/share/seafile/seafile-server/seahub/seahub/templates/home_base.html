@@ -1,0 +1,72 @@
+{% extends "myhome_base.html" %}
+{% load i18n %}
+{% block cur_myhome %}cur{% endblock %}
+
+{% block left_panel %}
+<div class="side-tabnav">
+    <div class="hd w100 ovhd">
+        <h3 class="fleft">{% trans "Personal" %}</h3>
+        {% if user.permissions.can_add_repo %}
+        <img id="enable-mods" class="fright" title="{% trans "Enable Modules" %}" src="{{MEDIA_URL}}img/setting.png" alt="" />
+        {% endif %}
+    </div>
+    <ul class="side-tabnav-tabs">
+        <li class="tab {% block cur_my_lib %}{% endblock %}"><a href="{% url 'myhome' %}" class="lib">{% trans "Libraries" %}</a></li>
+        <li class="tab {% block cur_stars %}{% endblock %}"><a href="{% url 'starred' %}" class="star">{% trans "Starred" %}</a></li>
+        {% if events_enabled %}
+        <li class="tab {% block cur_activities %}{% endblock %}"><a href="{% url 'activities' %}" class="activity">{% trans "Activities" %}</a></li>
+        {% endif %}
+        {% for mod in request.user.mods_enabled %}
+        {% if mod == 'personal wiki' %}
+        <li class="tab {% block cur_personal_wiki %}{% endblock %}"><a href="{% url 'personal_wiki' %}" class="wiki">{% trans "Personal Wiki" %}</a></li>
+        {% endif %}
+        {% endfor %}
+        <li class="tab {% block cur_messages %}{% endblock %}"><a href="{% url 'message_list' %}" class="msgs">{% trans "Messages" %}</a></li>
+        <li class="tab {% block cur_devices %}{% endblock %}"><a href="{% url 'devices' %}" class="clients">{% trans "Devices" %}</a></li>
+        <li class="tab {% block cur_contacts %}{% endblock %}"><a href="{% url 'contacts' %}" class="contacts">{% trans "Contacts" %}</a></li>
+    </ul>
+
+    <h3 class="hd">{% trans "Share Admin" %}</h3>
+    <ul class="side-tabnav-tabs">
+        {% if user.permissions.can_add_repo %}
+        <li class="tab {% block cur_share_libs %}{% endblock %}"><a href="{% url 'share_admin' %}" class="lib">{% trans "Libraries" %}</a></li>
+        <li class="tab {% block cur_share_folders %}{% endblock %}"><a href="{% url 'list_priv_shared_folders' %}" class="folders">{% trans "Folders" %}</a></li>
+        {% endif %}
+        <li class="tab {% block cur_share_files %}{% endblock %}"><a href="{% url 'list_priv_shared_files' %}" class="files">{% trans "Files" %}</a></li>        
+        <li class="tab {% block cur_share_links %}{% endblock %}"><a href="{% url 'list_shared_links' %}" class="links">{% trans "Links" %}</a></li>
+    </ul>
+</div>
+{% endblock %}
+
+{% block main_panel %}
+{% if user.permissions.can_add_repo %}
+<form id="mods-enable-form" method="post" action="{% url 'toggle_modules' %}" class="hide">{% csrf_token%}
+    <h3>{% trans "Enable Modules"%}</h3>
+    <ul>
+    {% for mod in request.user.mods_available %}
+      {% if mod == 'personal wiki' %}
+      <li>
+      <label class="checkbox-label">
+          <span class="checkbox {% if mod in request.user.mods_enabled %}checkbox-checked{% endif %}"><input type="checkbox" name="personal_wiki" class="checkbox-orig" {%if mod in request.user.mods_enabled%}checked{% endif%} /></span>
+          <span class="checkbox-option">{% trans "Personal Wiki" %}</span>
+      </label>
+      </li>
+      {% endif %}
+    {% endfor %}    
+    </ul>
+    <input type="submit" id="mods-enable-submit" value="{% trans "Submit"%}" class="submit"/>
+</form>
+{% endif %}
+{% endblock %}
+
+{% block extra_script %}
+<script type="text/javascript">
+{% if user.permissions.can_add_repo %}
+$('#enable-mods').click(function() {
+    $('#mods-enable-form').modal({appendTo: "#main"});
+    $('#simplemodal-container').css('height', 'auto');
+    return false;
+});
+{% endif %}
+</script>
+{% endblock %}

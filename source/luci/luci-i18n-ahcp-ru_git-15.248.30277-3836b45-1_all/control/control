@@ -1,0 +1,9 @@
+Package: luci-i18n-ahcp-ru
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-ahcp
+Source: feeds/luci/applications/luci-app-ahcp
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 1518
+Description:  Translation for luci-app-ahcp - Русский (Russian)

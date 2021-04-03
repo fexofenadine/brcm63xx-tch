@@ -1,0 +1,12 @@
+Package: baresip-mod-g722
+Version: 0.4.12-2
+Depends: libc, baresip, libspandsp
+Source: feeds/telephony/net/baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 1698
+Description:  baresip G.722 audio codec module

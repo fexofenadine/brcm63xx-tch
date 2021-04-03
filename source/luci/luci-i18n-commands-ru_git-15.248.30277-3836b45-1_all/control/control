@@ -1,0 +1,9 @@
+Package: luci-i18n-commands-ru
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-commands
+Source: feeds/luci/applications/luci-app-commands
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 1342
+Description:  Translation for luci-app-commands - Русский (Russian)

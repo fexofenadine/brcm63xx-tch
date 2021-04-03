@@ -1,0 +1,14 @@
+Package: ncdu
+Version: 1.10-1
+Depends: libc, libncursesw
+Source: feeds/packages/utils/ncdu
+License: MIT
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Charles Lehner <celehner1@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 24656
+Description:  Ncdu is a ncurses-based du viewer. It provides a fast and easy-to-use
+ interface through famous du utility. It allows one to browse through the
+ directories and show percentages of disk usage with ncurses library.

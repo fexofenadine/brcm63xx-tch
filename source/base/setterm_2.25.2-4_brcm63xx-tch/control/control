@@ -1,0 +1,12 @@
+Package: setterm
+Version: 2.25.2-4
+Depends: libc, libncurses
+Source: package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 11570
+Description:  setterm writes to standard output a character string that will invoke the
+ specified terminal capabilities

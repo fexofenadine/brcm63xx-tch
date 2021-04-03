@@ -1,0 +1,11 @@
+Package: nginx-naxsi
+Version: 1.4.7-2
+Depends: libc, nginx
+Source: feeds/packages/net/nginx
+License: 2-clause BSD-like license
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm63xx-tch
+Installed-Size: 1472
+Description:  NGINX WAF NAXSI

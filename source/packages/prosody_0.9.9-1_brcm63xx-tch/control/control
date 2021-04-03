@@ -1,0 +1,14 @@
+Package: prosody
+Version: 0.9.9-1
+Depends: libc, luafilesystem, libidn, luaexpat, luasec, libopenssl, libidn, liblua
+Source: /home/jow/relman-cc/.cache/feeds/packages/net/prosody
+License: MIT/X11
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Require-User: prosody=54:prosody=54
+Old_Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm63xx-tch
+Installed-Size: 225723
+Description:  Prosody is an exciting new server for Jabber/XMPP
+ written in Lua. It aims to be easy to use, and light
+ on resources

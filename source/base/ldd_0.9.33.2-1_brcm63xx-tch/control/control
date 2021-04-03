@@ -1,0 +1,12 @@
+Package: ldd
+Version: 0.9.33.2-1
+Source: package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Status: unknown hold not-installed
+Essential: yes
+Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 4817
+Description:  LDD trace utility

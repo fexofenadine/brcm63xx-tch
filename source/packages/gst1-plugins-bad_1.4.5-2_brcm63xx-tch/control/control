@@ -1,0 +1,12 @@
+Package: gst1-plugins-bad
+Version: 1.4.5-2
+Depends: libc, libgstreamer1, libgst1photography, libgst1basecamerabinsrc, gst1-mod-adpcmdec, gst1-mod-adpcmenc, gst1-mod-aiff, gst1-mod-asfmux, gst1-mod-autoconvert, gst1-mod-bayer, gst1-mod-camerabin2, gst1-mod-dataurisrc, gst1-mod-debugutilsbad, gst1-mod-dvdspu, gst1-mod-festival, gst1-mod-frei0r, gst1-mod-id3tag, gst1-mod-jpegformat, gst1-mod-liveadder, gst1-mod-mpegpsdemux, gst1-mod-mpegpsmux, gst1-mod-mxf, gst1-mod-opus, gst1-mod-pcapparse, gst1-mod-pnm, gst1-mod-rawparse, gst1-mod-rfbsrc, gst1-mod-sdpelem, gst1-mod-segmentclip, gst1-mod-shm, gst1-mod-siren, gst1-mod-speed, gst1-mod-subenc
+Source: feeds/packages/multimedia/gst1-plugins-bad
+License: LGPLv2 GPLv2
+LicenseFiles: COPYING.LIB COPYING
+Section: multimedia
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 105
+Description:  GStreamer plugins collection (bad)

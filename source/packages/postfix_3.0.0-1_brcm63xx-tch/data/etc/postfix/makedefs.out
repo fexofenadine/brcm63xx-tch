@@ -1,0 +1,45 @@
+# Do not edit -- this file documents how Postfix was built for your machine.
+#----------------------------------------------------------------
+# Start of summary of user-configurable 'make makefiles' options.
+# CCARGS=-DNO_EPOLL -DNO_SIGSETJMP -DNO_NIS -DNO_EAI -DUSE_TLS -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/home/buildbot/slave-local/brcm63xx_generic/build/staging_dir/target-mips_mips32_uClibc-0.9.33.2/usr/include/sasl -DHAS_LDAP -DHAS_CDB -DNO_DB -DDEF_DB_TYPE=\"cdb\"
+# AUXLIBS=-L/home/buildbot/slave-local/brcm63xx_generic/build/staging_dir/target-mips_mips32_uClibc-0.9.33.2/usr/lib -lssl -lcrypto -lsasl2 -lldap -llber -lcdb
+# shared=
+# dynamicmaps=
+# pie=
+# End of summary of user-configurable 'make makefiles' options.
+#--------------------------------------------------------------
+# System-dependent settings and compiler/linker overrides.
+SYSTYPE	= LINUX3
+_AR	= ar
+ARFL	= rv
+_RANLIB	= ranlib
+SYSLIBS	= -L/home/buildbot/slave-local/brcm63xx_generic/build/staging_dir/target-mips_mips32_uClibc-0.9.33.2/usr/lib -lssl -lcrypto -lsasl2 -lldap -llber -lcdb -lpcre -lnsl -lresolv -ldl 
+CC	= ccache_cc -I. -I../../include -DNO_EPOLL -DNO_SIGSETJMP -DNO_NIS -DNO_EAI -DUSE_TLS -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/home/buildbot/slave-local/brcm63xx_generic/build/staging_dir/target-mips_mips32_uClibc-0.9.33.2/usr/include/sasl -DHAS_LDAP -DHAS_CDB -DNO_DB -DDEF_DB_TYPE=\"cdb\" -DHAS_PCRE -UUSE_DYNAMIC_LIBS -DDEF_SHLIB_DIR=\"no\" -UUSE_DYNAMIC_MAPS $(WARN)
+OPT	= -O
+DEBUG	= -g
+AWK	= awk
+STRCASE = 
+EXPORT	= CCARGS='-I. -I../../include -DNO_EPOLL -DNO_SIGSETJMP -DNO_NIS -DNO_EAI -DUSE_TLS -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/home/buildbot/slave-local/brcm63xx_generic/build/staging_dir/target-mips_mips32_uClibc-0.9.33.2/usr/include/sasl -DHAS_LDAP -DHAS_CDB -DNO_DB -DDEF_DB_TYPE=\"cdb\" -DHAS_PCRE -UUSE_DYNAMIC_LIBS -DDEF_SHLIB_DIR=\"no\" -UUSE_DYNAMIC_MAPS' OPT='-O' DEBUG='-g'
+WARN	= -Wall -Wno-comment -Wformat -Wimplicit -Wmissing-prototypes \
+	-Wparentheses -Wstrict-prototypes -Wswitch -Wuninitialized \
+	-Wunused -Wno-missing-braces
+DEFINED_MAP_TYPES = ldap cdb pcre
+MAKE_FIX = 
+# Switch between Postfix static and dynamically-linked libraries.
+AR	= ar
+RANLIB	= ranlib
+LIB_PREFIX = 
+LIB_SUFFIX = .a
+SHLIB_CFLAGS = 
+SHLIB_DIR = no
+SHLIB_LD = :
+SHLIB_SYSLIBS = 
+SHLIB_RPATH = 
+# Switch between dynamicmaps.cf plugins and hard-linked databases.
+NON_PLUGIN_MAP_OBJ = $(MAP_OBJ)
+PLUGIN_MAP_OBJ = 
+PLUGIN_MAP_OBJ_UPDATE = 
+PLUGIN_MAP_SO_MAKE = 
+PLUGIN_MAP_SO_UPDATE = 
+PLUGIN_LD = 
+# Application-specific rules.

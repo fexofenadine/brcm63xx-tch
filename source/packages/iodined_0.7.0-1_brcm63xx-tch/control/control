@@ -1,0 +1,12 @@
+Package: iodined
+Version: 0.7.0-1
+Depends: libc, kmod-tun, zlib
+Source: feeds/packages/net/iodine
+License: ISC
+LicenseFiles: README
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Uwe Kleine-König <uwe+openwrt@kleine-koenig.org>
+Architecture: brcm63xx-tch
+Installed-Size: 27274
+Description:  iodine server version

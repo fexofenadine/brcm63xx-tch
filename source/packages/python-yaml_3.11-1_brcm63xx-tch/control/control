@@ -1,0 +1,12 @@
+Package: python-yaml
+Version: 3.11-1
+Depends: libc, python, libyaml
+Source: feeds/packages/lang/python-yaml
+License: MIT
+LicenseFiles: COPYING
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 80266
+Description:  YAML parser and emitter for Python

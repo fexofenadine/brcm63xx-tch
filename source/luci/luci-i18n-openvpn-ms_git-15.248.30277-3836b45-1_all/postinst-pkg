@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-openvpn-ms) && rm -f /etc/uci-defaults/luci-i18n-openvpn-ms
+		exit 0
+	}

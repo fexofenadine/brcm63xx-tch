@@ -1,0 +1,12 @@
+Package: nut-driver-riello_usb
+Version: 2.7.3-1
+Depends: libc, nut
+Source: feeds/packages/net/nut
+License: GPL-2.0
+LicenseFiles: LICENSE-GPL2
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 28391
+Description:  Driver for Riello UPS Protocol UPS equipment via USB

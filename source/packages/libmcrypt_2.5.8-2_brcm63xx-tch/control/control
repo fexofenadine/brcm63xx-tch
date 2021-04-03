@@ -1,0 +1,13 @@
+Package: libmcrypt
+Version: 2.5.8-2
+Depends: libc
+Source: feeds/packages/libs/libmcrypt
+License: LGPLv2.1
+LicenseFiles: COPYING.LIB
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 62974
+Description:  libmcrypt is a cryptographic library that conveniently brings
+ together a variety of ciphers for convenient use.

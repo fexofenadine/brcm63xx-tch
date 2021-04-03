@@ -1,0 +1,4 @@
+#!/bin/sh
+if [ -z ${IPKG_INSTROOT} ]; then
+    ( . /etc/bird4/init.d/bird4-uci-install-init.d ) && rm -f /etc/bird4/init.d/bird4-uci-install-init.d
+fi

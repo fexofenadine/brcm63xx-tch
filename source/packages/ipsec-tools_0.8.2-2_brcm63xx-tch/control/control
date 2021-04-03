@@ -1,0 +1,11 @@
+Package: ipsec-tools
+Version: 0.8.2-2
+Depends: libc, libopenssl, kmod-ipsec
+Source: feeds/packages/net/ipsec-tools
+License: BSD-3-Clause
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Noah Meyerhans <frodo@morgul.net>
+Architecture: brcm63xx-tch
+Installed-Size: 260871
+Description:  IPsec management tools

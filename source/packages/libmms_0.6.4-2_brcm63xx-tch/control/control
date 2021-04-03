@@ -1,0 +1,15 @@
+Package: libmms
+Version: 0.6.4-2
+Depends: libc
+Source: feeds/packages/libs/libmms
+License: LGPLv2.1
+LicenseFiles: COPYING.LIB
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 22226
+Description:  LibMMS is a common library for parsing mms:// and mmsh:// type network streams.
+ These are commonly used to stream Windows Media Video content over the web.
+ LibMMS itself is only for receiving MMS stream,
+ it doesn't handle sending at all.

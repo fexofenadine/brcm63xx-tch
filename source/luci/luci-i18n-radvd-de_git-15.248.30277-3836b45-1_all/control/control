@@ -1,0 +1,9 @@
+Package: luci-i18n-radvd-de
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-radvd
+Source: feeds/luci/applications/luci-app-radvd
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 3424
+Description:  Translation for luci-app-radvd - Deutsch (German)

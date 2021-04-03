@@ -1,0 +1,9 @@
+Package: ca-certificates
+Version: 20150426
+Depends: libc
+Source: package/system/ca-certificates
+Section: base
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 185279
+Description:  System CA certificates

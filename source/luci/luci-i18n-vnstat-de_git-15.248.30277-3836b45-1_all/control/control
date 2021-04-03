@@ -1,0 +1,9 @@
+Package: luci-i18n-vnstat-de
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-vnstat
+Source: feeds/luci/applications/luci-app-vnstat
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 883
+Description:  Translation for luci-app-vnstat - Deutsch (German)

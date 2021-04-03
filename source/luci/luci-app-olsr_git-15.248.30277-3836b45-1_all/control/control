@@ -1,0 +1,9 @@
+Package: luci-app-olsr
+Version: git-15.248.30277-3836b45-1
+Depends: libc, olsrd, olsrd-mod-jsoninfo, luci-lib-luaneightbl
+Source: feeds/luci/applications/luci-app-olsr
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 18717
+Description:  OLSR configuration and status module

@@ -1,0 +1,3 @@
+#!/bin/sh
+[ -L "${IPKG_INSTROOT}/usr/sbin/ntpd" ] && rm -f "${IPKG_INSTROOT}/usr/sbin/ntpd"
+exit 0

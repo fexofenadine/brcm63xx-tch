@@ -1,0 +1,13 @@
+Package: tar
+Version: 1.28-2
+Depends: libc, bzip2, libacl, libattr
+Source: feeds/packages/utils/tar
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 177467
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.

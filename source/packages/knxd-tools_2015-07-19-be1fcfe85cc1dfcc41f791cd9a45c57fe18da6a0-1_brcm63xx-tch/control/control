@@ -1,0 +1,12 @@
+Package: knxd-tools
+Version: 2015-07-19-be1fcfe85cc1dfcc41f791cd9a45c57fe18da6a0-1
+Depends: libc
+Source: feeds/packages/net/knxd
+License: GPL-2.0+
+LicenseFiles: LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Othmar Truniger <github@truniger.ch>
+Architecture: brcm63xx-tch
+Installed-Size: 23409
+Description:  EIB KNX Tools

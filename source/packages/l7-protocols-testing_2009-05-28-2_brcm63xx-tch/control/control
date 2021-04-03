@@ -1,0 +1,11 @@
+Package: l7-protocols-testing
+Version: 2009-05-28-2
+Depends: libc, iptables-mod-filter, l7-protocols, uclibcxx
+Source: feeds/packages/net/l7-protocols
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Lim Guo Wei <limguowei@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 68543
+Description:  testing utilities for layer 7 patterns

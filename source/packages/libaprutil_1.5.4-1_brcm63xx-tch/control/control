@@ -1,0 +1,11 @@
+Package: libaprutil
+Version: 1.5.4-1
+Depends: libc, libapr, libexpat, libsqlite3, libuuid
+Source: feeds/packages/libs/apr-util
+License: Apache License
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm63xx-tch
+Installed-Size: 63188
+Description:  Apache Portable Runtime Utility Library

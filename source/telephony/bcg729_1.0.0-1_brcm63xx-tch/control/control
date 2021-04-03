@@ -1,0 +1,15 @@
+Package: bcg729
+Version: 1.0.0-1
+Depends: libc
+Source: feeds/telephony/libs/bcg729
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Alex Samorukov <samm@os2.kiev.ua>
+Architecture: brcm63xx-tch
+Installed-Size: 22142
+Description:  Bcg729 is a software G729A encoder and decoder library written in C, developed
+ by Belledonne Communications, the company supporting the Linphone project.
+ It was written from scratch and is NOT a derivative work of ITU reference
+ source code in any kind.

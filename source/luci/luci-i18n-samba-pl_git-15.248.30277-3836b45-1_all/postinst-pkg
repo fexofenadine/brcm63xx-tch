@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-samba-pl) && rm -f /etc/uci-defaults/luci-i18n-samba-pl
+		exit 0
+	}

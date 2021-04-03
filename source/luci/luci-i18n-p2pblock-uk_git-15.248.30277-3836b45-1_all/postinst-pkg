@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-p2pblock-uk) && rm -f /etc/uci-defaults/luci-i18n-p2pblock-uk
+		exit 0
+	}

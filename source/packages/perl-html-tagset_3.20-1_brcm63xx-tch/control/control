@@ -1,0 +1,11 @@
+Package: perl-html-tagset
+Version: 3.20-1
+Depends: libc, perl
+Source: feeds/packages/lang/perl-html-tagset
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm63xx-tch
+Installed-Size: 1855
+Description:  Data tables pertaining to HTML

@@ -1,0 +1,9 @@
+Package: luci-lib-ip
+Version: git-15.245.46763-b179283-1
+Depends: libc, liblua, libnl-tiny
+Source: feeds/luci/libs/luci-lib-ip
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 9374
+Description:  Lua library for IP calculation and routing information

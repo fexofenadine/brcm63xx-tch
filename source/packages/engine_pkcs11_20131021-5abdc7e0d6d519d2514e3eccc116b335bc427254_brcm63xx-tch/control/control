@@ -1,0 +1,11 @@
+Package: engine_pkcs11
+Version: 20131021-5abdc7e0d6d519d2514e3eccc116b335bc427254
+Depends: libc, libopenssl, libp11
+Source: feeds/packages/libs/engine_pkcs11
+License: LGPL-2.1+
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: brcm63xx-tch
+Installed-Size: 6842
+Description:  engine_pkcs11 is an implementation of OpenSSL engine interface.

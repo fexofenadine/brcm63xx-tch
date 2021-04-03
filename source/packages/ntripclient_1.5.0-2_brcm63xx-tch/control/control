@@ -1,0 +1,11 @@
+Package: ntripclient
+Version: 1.5.0-2
+Depends: libc
+Source: feeds/packages/net/ntripclient
+License: GPL-2.0+
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 12816
+Description:  Ntrip Version 2.0 Command Line Client, reading from Ntrip Version 1.0 or 2.0 Caster

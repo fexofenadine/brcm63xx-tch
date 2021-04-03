@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-polipo-sv) && rm -f /etc/uci-defaults/luci-i18n-polipo-sv
+		exit 0
+	}

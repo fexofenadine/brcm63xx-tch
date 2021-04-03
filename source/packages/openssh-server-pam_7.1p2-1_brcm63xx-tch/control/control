@@ -1,0 +1,13 @@
+Package: openssh-server-pam
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib, libpthread, openssh-keygen, libpam
+Source: /home/jow/relman-cc/.cache/feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Require-User: sshd=22:sshd=22
+Old_Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 323980
+Description:  OpenSSH server (with PAM support).

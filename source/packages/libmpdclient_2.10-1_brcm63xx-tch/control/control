@@ -1,0 +1,12 @@
+Package: libmpdclient
+Version: 2.10-1
+Depends: libc
+Source: feeds/packages/libs/libmpdclient
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 26189
+Description:  A stable, documented, asynchronous API library for interfacing MPD in the C, C++ & Objective C languages.

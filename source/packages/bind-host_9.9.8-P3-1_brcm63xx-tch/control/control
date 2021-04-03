@@ -1,0 +1,11 @@
+Package: bind-host
+Version: 9.9.8-P3-1
+Depends: libc, bind-libs
+Source: /home/jow/relman-cc/.cache/feeds/packages/net/bind
+License: BSD-3-Clause
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Noah Meyerhans <frodo@morgul.net>
+Architecture: brcm63xx-tch
+Installed-Size: 31031
+Description:  bind simple DNS client

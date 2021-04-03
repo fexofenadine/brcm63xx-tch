@@ -1,0 +1,12 @@
+Package: perlbase-extutils
+Version: 5.20.2-1
+Depends: libc, perl, perlbase-autosplit, perlbase-config, perlbase-cwd, perlbase-dirhandle, perlbase-essential, perlbase-file, perlbase-io, perlbase-ipc, perlbase-ostype, perlbase-symbol, perlbase-text
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm63xx-tch
+Installed-Size: 170369
+Description:  ExtUtils perl module

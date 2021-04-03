@@ -1,0 +1,12 @@
+Package: libtiff
+Version: 4.0.3-4
+Depends: libc, zlib, libjpeg
+Source: feeds/packages/libs/tiff
+License: BSD
+LicenseFiles: COPYRIGHT
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 124097
+Description:  TIFF library

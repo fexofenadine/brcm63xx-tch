@@ -1,0 +1,12 @@
+Package: lame-lib
+Version: 3.99.5-1
+Depends: libc
+Source: feeds/packages/sound/lame
+License: LGPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: sound
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 129411
+Description:  lame mp3 encoder libs

@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-splash-sk) && rm -f /etc/uci-defaults/luci-i18n-splash-sk
+		exit 0
+	}

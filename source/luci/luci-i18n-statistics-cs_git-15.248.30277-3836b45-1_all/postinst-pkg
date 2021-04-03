@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-statistics-cs) && rm -f /etc/uci-defaults/luci-i18n-statistics-cs
+		exit 0
+	}

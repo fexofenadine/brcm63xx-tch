@@ -1,0 +1,11 @@
+Package: thc-ipv6-fake-mld6
+Version: 2.7-1
+Depends: libc, libpcap
+Source: package/network/ipv6/thc-ipv6
+License: GPL-3.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 24424
+Description:  This package contains the fake_mld6 utility of the THC-IPv6 toolkit.

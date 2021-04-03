@@ -1,0 +1,11 @@
+Package: softflowd
+Version: 0.9.9-1
+Depends: libc, libpcap
+Source: feeds/packages/net/softflowd
+License: BSD-3-Clause
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ross Vandegrift <ross@kallisti.us>
+Architecture: brcm63xx-tch
+Installed-Size: 20297
+Description:  Software netflow exporter

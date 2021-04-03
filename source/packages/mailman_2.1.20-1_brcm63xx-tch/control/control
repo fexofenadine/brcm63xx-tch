@@ -1,0 +1,12 @@
+Package: mailman
+Version: 2.1.20-1
+Depends: libc, postfix, python, uhttpd, python-dns
+Source: feeds/packages/mail/mailman
+License: GPL-2.0+
+LicenseFiles: gnu-COPYING-GPL
+Section: mail
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Denis Shulyaka <Shulyaka@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 9309702
+Description:  Mailman is free software for managing electronic mail discussion and e-newsletter lists.

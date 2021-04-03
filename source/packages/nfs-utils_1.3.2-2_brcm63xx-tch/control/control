@@ -1,0 +1,10 @@
+Package: nfs-utils
+Version: 1.3.2-2
+Depends: libc, libwrap, libblkid, libuuid, librpc, libevent, librpc
+Source: feeds/packages/net/nfs-kernel-server
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 41176
+Description:  Updated mount.nfs command - allows mounting nfs4 volumes

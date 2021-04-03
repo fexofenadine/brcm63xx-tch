@@ -1,0 +1,15 @@
+Package: libopensc
+Version: 20141126-8aadbbd678730dbafb819382da553439887499fd
+Depends: libc, libopenssl, libpthread
+Source: feeds/packages/utils/opensc
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: brcm63xx-tch
+Installed-Size: 589151
+Description:  OpenSC provides a set of libraries and utilities to work with smart cards.
+ Its main focus is on cards that support cryptographic operations, and
+ facilitate their use in security applications such as authentication,
+ mail encryption and digital signatures.

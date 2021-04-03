@@ -1,0 +1,13 @@
+Package: polipo
+Version: 1.1.1-1
+Depends: libc
+Source: feeds/packages/net/polipo
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
+Architecture: brcm63xx-tch
+Installed-Size: 98849
+Description:  Polipo is a small and fast caching web proxy (a web cache, an HTTP proxy,
+ a proxy server). While Polipo was designed to be used by one person or a
+ small group of people, there is nothing that prevents it from being used
+ by a larger group.

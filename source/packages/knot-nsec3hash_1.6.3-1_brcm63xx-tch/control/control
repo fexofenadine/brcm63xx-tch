@@ -1,0 +1,11 @@
+Package: knot-nsec3hash
+Version: 1.6.3-1
+Depends: libc, libopenssl, liburcu, knot-libknot
+Source: feeds/packages/net/knot
+License: GPL-2.0+
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Daniel Salzman <daniel.salzman@nic.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 18850
+Description:  Knot DNS simple utility to compute NSEC3 hash.

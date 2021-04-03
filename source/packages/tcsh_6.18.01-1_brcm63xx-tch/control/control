@@ -1,0 +1,19 @@
+Package: tcsh
+Version: 6.18.01-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/tcsh
+License: BSD-4-Clause-UC
+LicenseFiles: Copyright
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 152661
+Description:  Tcsh is an enhanced, but completely compatible
+ version of the Berkeley UNIX C shell (csh). It
+ is a command language interpreter usable both
+ as an interactive login shell and a shell
+ script command processor. It includes a
+ command-line editor, programmable word
+ completion, spelling correction, a history
+ mechanism, job control and a C-like syntax.

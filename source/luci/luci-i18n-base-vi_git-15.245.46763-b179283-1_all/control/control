@@ -1,0 +1,9 @@
+Package: luci-i18n-base-vi
+Version: git-15.245.46763-b179283-1
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 6508
+Description:  Translation for luci-base - Tiếng Việt (Vietnamese)

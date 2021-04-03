@@ -1,0 +1,96 @@
+{% load i18n%}
+addConfirmTo($('.remove-user-btn'), {
+        'title':"{% trans "Delete User" %}",
+        'con':"{% trans "Are you sure you want to delete %s ?" %}"
+});
+addConfirmTo($('.reset-user-btn'), {
+        'title':"{% trans "Password Reset" %}",
+        'con':"{% trans "Are you sure you want to reset the password of %s ?" %}"
+});
+addConfirmTo($('.revoke-admin-btn'), {
+        'title':"{% trans "Revoke Admin" %}",
+        'con':"{% trans "Are you sure you want to revoke the admin permission of %s ?" %}"
+});
+addConfirmTo($('.set-admin-btn'), {
+        'title':"{% trans "Set Admin" %}",
+        'con':"{% trans "Are you sure you want to set %s as admin?" %}"
+});
+addConfirmTo($('.unset-trial'), {
+        'title':"{% trans "Remove Trial" %}",
+        'con':"{% trans "Are you sure you want to remove trial for %s ?" %}"
+});
+
+$('#add-user-btn').click(function() {
+        $('#add-user-form').modal();
+        $('#simplemodal-container').css({'width':'auto'});
+});
+$('tr:gt(0)').hover(
+    function() {
+        $(this).find('.user-status-edit-icon, .user-role-edit-icon').removeClass('vh');
+    },
+    function() {
+        $(this).find('.user-status-edit-icon, .user-role-edit-icon').addClass('vh');
+    }
+);
+$('.user-status-edit-icon, .user-role-edit-icon').click(function() {
+    $(this).parent().addClass('hide');
+    $(this).parent().next().removeClass('hide'); // show 'select'
+});
+$('.user-status-select, .user-role-select').change(function() {
+    var select = $(this),
+        select_val = select.val(),
+        uid = select.parents('tr').attr('data-userid'),
+        url;
+
+    if (select.hasClass('user-status-select')) {
+        url = "{{ SITE_ROOT }}useradmin/toggle_status/" + uid + "/?s=" + select_val;
+    } else {
+        url = "{{ SITE_ROOT }}useradmin/toggle_role/" + uid + "/?r=" + select_val;
+    }
+
+    $.ajax({
+        url: url,
+        type: 'GET',
+        dataType: 'json',
+        cache: false,
+        beforeSend: function() {
+            if (select_val == 1) {
+                // show activating popup
+                $('#activate-msg').modal();
+                $('#simplemodal-container').css({'height':'auto'});
+            }
+        },
+        success: function(data) {
+            if (data['email_sent']) {
+                feedback("{% trans "Edit succeeded, an email has been sent." %}", 'success');
+            } else if (data['email_sent'] === false) {
+                feedback("{% trans "Edit succeeded, but failed to send email, please check your email configuration." %}", 'success');
+            } else {
+                feedback("{% trans "Edit succeeded" %}", 'success');
+            }
+            select.prev().children('span').html(select.children('option[value="' +select.val() + '"]').text());
+            select.addClass('hide');
+            select.prev().removeClass('hide');
+            $.modal.close();
+        },
+        error: function() {
+            feedback("{% trans "Edit failed." %}", 'error');
+            select.addClass('hide');
+            select.prev().removeClass('hide');
+            $.modal.close();
+        }
+    });
+});
+// select shows, but the user doesn't select a value, or doesn't change the permission, click other place to hide the select
+$(document).click(function(e) {
+    var target = e.target || event.srcElement;
+    // target can't be edit-icon
+    if (!$('.user-status-edit-icon, .user-status-select').is(target)) {
+        $('.user-status').removeClass('hide');
+        $('.user-status-select').addClass('hide');
+    }
+    if (!$('.user-role-edit-icon, .user-role-select').is(target)) {
+        $('.user-role').removeClass('hide');
+        $('.user-role-select').addClass('hide');
+    }
+});
