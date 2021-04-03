@@ -1,0 +1,10 @@
+Package: atm-lecs
+Version: 2.5.2-5
+Depends: libc, linux-atm
+Source: package/network/utils/linux-atm
+License: GPL-2.0+
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 10303
+Description: Linux ATM tool lecs.

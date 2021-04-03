@@ -1,0 +1,12 @@
+Package: restund
+Version: 0.4.11-1
+Depends: libc, libre, libpthread
+Source: feeds/telephony/net/restund
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 27357
+Description: Modular STUN/TURN server

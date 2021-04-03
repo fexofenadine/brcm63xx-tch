@@ -1,0 +1,11 @@
+Package: iputils-arping
+Version: 20101006-1
+Depends: libc, libsysfs
+Source: package/network/utils/iputils
+License: GPL-2.0+
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 5613
+Description: Program arping from iputils. Sends ARP REQUEST to a neighbour host.

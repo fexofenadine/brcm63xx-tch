@@ -1,0 +1,11 @@
+Package: remserial
+Version: 1.4-1
+Depends: libc
+Source: feeds/packages/net/remserial
+License: GPL-2.0+
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 5747
+Description: Bridge TCP/IP port with a device

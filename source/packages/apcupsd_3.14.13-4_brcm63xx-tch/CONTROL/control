@@ -1,0 +1,12 @@
+Package: apcupsd
+Version: 3.14.13-4
+Depends: libc, libpthread, libusb-compat
+Source: feeds/packages/net/apcupsd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Othmar Truniger <github@truniger.ch>
+Architecture: brcm63xx-tch
+Installed-Size: 218435
+Description: UPS control software

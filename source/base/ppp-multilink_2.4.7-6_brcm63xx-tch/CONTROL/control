@@ -1,0 +1,11 @@
+Package: ppp-multilink
+Version: 2.4.7-6
+Depends: libc, kmod-ppp
+Source: package/network/services/ppp
+License: BSD-4-Clause
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 121564
+Description: PPP daemon (with multilink support)

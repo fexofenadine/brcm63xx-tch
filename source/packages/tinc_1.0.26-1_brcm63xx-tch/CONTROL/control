@@ -1,0 +1,10 @@
+Package: tinc
+Version: 1.0.26-1
+Depends: libc, liblzo, libopenssl, kmod-tun
+Source: feeds/packages/net/tinc
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 62652
+Description: tinc is a Virtual Private Network (VPN) daemon that uses tunnelling and encryption to create a secure private network between hosts on the Internet.

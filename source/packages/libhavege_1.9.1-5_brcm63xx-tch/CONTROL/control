@@ -1,0 +1,11 @@
+Package: libhavege
+Version: 1.9.1-5
+Depends: libc
+Source: feeds/packages/utils/haveged
+License: GPLv3
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: brcm63xx-tch
+Installed-Size: 9959
+Description: Library for haveged

@@ -1,0 +1,12 @@
+Package: shadowsocks-client
+Version: 0.5-d8ef02715f40de0fb7ba0f7267d3f8260f38ba80
+Depends: libc, libopenssl
+Source: feeds/packages/net/shadowsocks-client
+License: MIT
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Zhao, Gang <gang.zhao.42@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 12142
+Description: shadowsocks client for router

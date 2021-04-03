@@ -1,0 +1,10 @@
+Package: iptables-mod-clusterip
+Version: 1.4.21-1
+Depends: libc, iptables, kmod-ipt-clusterip
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 2316
+Description: iptables extensions for CLUSTERIP. The CLUSTERIP target allows you to build load-balancing clusters of network servers without having a dedicated load-balancing router/server/switch. If you select it, it enables kmod-ipt-clusterip. see `iptables -j CLUSTERIP --help` for more information.

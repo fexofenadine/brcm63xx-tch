@@ -1,0 +1,12 @@
+Package: libsctp
+Version: 1.0.16-1
+Depends: libc, kmod-sctp
+Source: feeds/packages/net/lksctp-tools
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 3040
+Description: SCTP user-land library

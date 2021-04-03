@@ -1,0 +1,11 @@
+Package: vsftpd
+Version: 3.0.2-4.1
+Depends: libc
+Source: feeds/packages/net/vsftpd
+License: GPLv2
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: brcm63xx-tch
+Installed-Size: 42091
+Description: A fast and secure FTP server (no TLS)

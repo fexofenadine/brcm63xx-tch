@@ -1,0 +1,12 @@
+Package: libsoup
+Version: 2.44.2-1
+Depends: libc, glib2, libxml2, libgnutls, libsqlite3
+Source: feeds/packages/libs/libsoup
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 213079
+Description: libsoup

@@ -1,0 +1,11 @@
+Package: tc
+Version: 4.0.0-1
+Depends: libc, kmod-sched-core
+Source: package/network/utils/iproute2
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: brcm63xx-tch
+Installed-Size: 95615
+Description: Traffic control utility

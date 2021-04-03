@@ -1,0 +1,10 @@
+Package: vim
+Version: 7.4-2
+Depends: libc, libncurses
+Source: feeds/packages/utils/vim
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: brcm63xx-tch
+Installed-Size: 263921
+Description: Vim is an almost compatible version of the UNIX editor Vi. (Tiny build)

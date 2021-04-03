@@ -1,0 +1,11 @@
+Package: hub-ctrl
+Version: 1.0-1
+Depends: libc, libusb-compat
+Source: feeds/packages/utils/hub-ctrl
+License: GPL-2.0+
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Simon Peter <probono@puredarwin.org>
+Architecture: brcm63xx-tch
+Installed-Size: 3628
+Description: Control USB power on a port by port basis on some USB hubs. This only works on USB hubs that have the hardware necessary to allow software controlled power switching. Most hubs DO NOT include the hardware.

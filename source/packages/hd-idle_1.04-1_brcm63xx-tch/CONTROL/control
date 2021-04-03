@@ -1,0 +1,11 @@
+Package: hd-idle
+Version: 1.04-1
+Depends: libc
+Source: feeds/packages/utils/hd-idle
+License: GPL-2.0
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Lim Guo Wei <limguowei@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 4863
+Description: hd-idle is a utility program for spinning-down external disks after a period of idle time.

@@ -1,0 +1,12 @@
+Package: pianod-client
+Version: 173-3
+Depends: libc, pianod
+Source: feeds/packages/sound/pianod
+License: MIT VARIOUS
+LicenseFiles: COPYING
+Section: sound
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 51916
+Description: Web client UI and remote player viewer for pianod Examples --- (Note: The viewer.* files need not be on the pianod host) Main interface: http://pianod-host:4446/pianod Remote viewer: file:///<path>/viewer.html?server=pianod-host:4446 --or-- http://pianod-host:4446/pianod/viewer.html?server=pianod-host:4446

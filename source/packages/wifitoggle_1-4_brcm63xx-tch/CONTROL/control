@@ -1,0 +1,11 @@
+Package: wifitoggle
+Version: 1-4
+Depends: libc
+Source: feeds/packages/utils/wifitoggle
+License: GPL-2.0+
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 1543
+Description: Very versatile script to toggle Wi-Fi with a button. Allows to set timeouts, persist changes after boot, and set LEDs according to the state.

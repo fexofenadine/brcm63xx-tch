@@ -1,0 +1,11 @@
+Package: libpng
+Version: 1.2.56-1
+Depends: libc, zlib
+Source: /home/jow/relman-cc/.cache/feeds/packages/libs/libpng
+License: Libpng GPL-2.0+ BSD-3-Clause
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 117828
+Description: A PNG format files handling library

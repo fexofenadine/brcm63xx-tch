@@ -1,0 +1,11 @@
+Package: bird4-uci
+Version: 0.2
+Depends: libc, bird4, libuci, uci
+Source: feeds/routing/bird-openwrt/bird4-openwrt
+License: GPL-3.0+
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Eloi Carbo <eloicaso@openmailbox.org>
+Architecture: brcm63xx-tch
+Installed-Size: 4074
+Description: bird4 UCI integration module

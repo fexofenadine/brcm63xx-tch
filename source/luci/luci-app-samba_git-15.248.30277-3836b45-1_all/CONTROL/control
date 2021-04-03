@@ -1,0 +1,9 @@
+Package: luci-app-samba
+Version: git-15.248.30277-3836b45-1
+Depends: libc, samba36-server
+Source: feeds/luci/applications/luci-app-samba
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 1359
+Description: Network Shares - Samba SMB/CIFS module

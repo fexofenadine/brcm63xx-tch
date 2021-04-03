@@ -1,0 +1,13 @@
+Package: zabbix-proxy
+Version: 2.4.6-1
+Depends: libc, libsqlite3
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: fexofenadine (github.com/fexofenadine)
+Require-User: zabbix=53:zabbix=53
+Old_Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 281817
+Description: Zabbix proxy

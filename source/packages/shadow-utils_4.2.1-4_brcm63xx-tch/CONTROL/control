@@ -1,0 +1,11 @@
+Package: shadow-utils
+Version: 4.2.1-4
+Depends: libc
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 103
+Description: Full versions of standard shadow utilities. Normally, you would not use this package, since the functionality in BusyBox is more than sufficient and much smaller.

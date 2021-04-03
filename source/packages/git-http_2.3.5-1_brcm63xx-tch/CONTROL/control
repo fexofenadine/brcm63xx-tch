@@ -1,0 +1,10 @@
+Package: git-http
+Version: 2.3.5-1
+Depends: libc, git, libcurl, ca-certificates
+Source: feeds/packages/net/git
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 992275
+Description: Git is a free & open source, distributed version control system designed to handle everything from small to very large projects with speed and efficiency. This package allows git push/fetch over http(s) and ftp(s)

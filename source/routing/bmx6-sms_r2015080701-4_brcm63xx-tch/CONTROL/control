@@ -1,0 +1,11 @@
+Package: bmx6-sms
+Version: r2015080701-4
+Depends: libc, bmx6
+Source: feeds/routing/bmx6
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Axel Neumann <neumann@cgws.de>
+Architecture: brcm63xx-tch
+Installed-Size: 5176
+Description: sms plugin

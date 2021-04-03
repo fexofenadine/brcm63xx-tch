@@ -1,0 +1,9 @@
+Package: luci-app-asterisk
+Version: git-15.248.30277-3836b45-1
+Depends: libc, ahcpd
+Source: feeds/luci/applications/luci-app-asterisk
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 27889
+Description: LuCI Support for Asterisk

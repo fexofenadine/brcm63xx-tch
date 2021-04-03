@@ -1,0 +1,12 @@
+Package: libopensc-profile-jcop
+Version: 20141126-8aadbbd678730dbafb819382da553439887499fd
+Depends: libc, libopensc
+Source: feeds/packages/utils/opensc
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: lib
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: brcm63xx-tch
+Installed-Size: 619
+Description: jcop card profile for opensc

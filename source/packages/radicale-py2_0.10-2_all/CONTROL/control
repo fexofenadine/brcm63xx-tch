@@ -1,0 +1,13 @@
+Package: radicale-py2
+Version: 0.10-2
+Depends: python-logging, python-openssl, python-xml, python-codecs
+Source: feeds/packages/net/radicale
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Require-User: radicale=5232:radicale=5232
+Old_Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
+Architecture: all
+Installed-Size: 31137
+Description: Radicale CalDAV/CardDAV server (Python 2) - Homepage: http://radicale.org/

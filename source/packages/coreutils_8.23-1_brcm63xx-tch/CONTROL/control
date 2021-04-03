@@ -1,0 +1,10 @@
+Package: coreutils
+Version: 8.23-1
+Depends: libc
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 106
+Description: Full versions of standard GNU utilities. Normally, you would not use this package, since the functionality in BusyBox is more than sufficient and smaller.

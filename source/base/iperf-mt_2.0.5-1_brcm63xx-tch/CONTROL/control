@@ -1,0 +1,11 @@
+Package: iperf-mt
+Version: 2.0.5-1
+Depends: libc, uclibcxx, libpthread
+Source: package/network/utils/iperf
+License: BSD-3-Clause
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 25508
+Description: Iperf is a modern alternative for measuring TCP and UDP bandwidth performance, allowing the tuning of various parameters and characteristics. This package is built with multithread support.

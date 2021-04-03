@@ -1,0 +1,13 @@
+Package: dovecot
+Version: 2.2.15-1
+Depends: libc, libopenssl, librt, zlib, libbz2, libcap
+Source: feeds/packages/mail/dovecot
+License: LGPL-2.1 MIT BSD-3-Clause Unique
+LicenseFiles: COPYING COPYING.LGPL COPYING.MIT
+Section: mail
+Maintainer: fexofenadine (github.com/fexofenadine)
+Require-User: dovecot=59:dovecot=59
+Old_Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 1963812
+Description: Dovecot is a program which provides POP3 and IMAP services.

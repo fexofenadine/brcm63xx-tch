@@ -1,0 +1,12 @@
+Package: libdbi
+Version: 0.9.0-4
+Depends: libc
+Source: feeds/packages/libs/libdbi
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 16911
+Description: This package provides a database-independent abstraction layer library in C.

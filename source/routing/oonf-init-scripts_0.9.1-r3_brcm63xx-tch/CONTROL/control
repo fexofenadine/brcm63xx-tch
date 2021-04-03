@@ -1,0 +1,10 @@
+Package: oonf-init-scripts
+Version: 0.9.1-r3
+Depends: libc
+Source: feeds/routing/oonf-init-scripts
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Henning Rogge <hrogge@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 1396
+Description: Common OONF startup scripts

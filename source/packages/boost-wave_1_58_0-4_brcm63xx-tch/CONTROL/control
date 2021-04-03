@@ -1,0 +1,11 @@
+Package: boost-wave
+Version: 1_58_0-4
+Depends: libc, libstdcpp, libpthread, librt, boost-date_time, boost-thread, boost-filesystem
+Source: feeds/packages/libs/boost
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 192289
+Description: Boost provides free peer-reviewed portable C++ source libraries . This package contains the Boost wave library.

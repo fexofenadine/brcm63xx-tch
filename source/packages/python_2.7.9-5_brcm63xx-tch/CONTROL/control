@@ -1,0 +1,12 @@
+Package: python
+Version: 2.7.9-5
+Depends: libc, python-light, python-codecs, python-compiler, python-ctypes, python-db, python-decimal, python-distutils, python-email, python-gdbm, python-logging, python-multiprocessing, python-ncurses, python-openssl, python-pydoc, python-sqlite3, python-unittest, python-xml
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 106
+Description: This package contains the (almost) full Python install. It's python-light + all other packages.

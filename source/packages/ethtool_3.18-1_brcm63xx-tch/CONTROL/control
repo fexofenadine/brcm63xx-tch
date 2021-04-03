@@ -1,0 +1,12 @@
+Package: ethtool
+Version: 3.18-1
+Depends: libc
+Source: feeds/packages/net/ethtool
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Matthias Schiffer <mschiffer@universe-factory.net>
+Architecture: brcm63xx-tch
+Installed-Size: 78746
+Description: ethtool is a small utility for examining and tuning your ethernet-based network interface

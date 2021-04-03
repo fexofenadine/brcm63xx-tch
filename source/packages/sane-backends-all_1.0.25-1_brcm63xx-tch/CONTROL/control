@@ -1,0 +1,12 @@
+Package: sane-backends-all
+Version: 1.0.25-1
+Depends: libc, sane-abaton, sane-agfafocus, sane-apple, sane-artec, sane-artec_eplus48u, sane-as6e, sane-avision, sane-bh, sane-canon, sane-canon630u, sane-canon_dr, sane-cardscan, sane-coolscan, sane-coolscan2, sane-coolscan3, sane-dc210, sane-dc240, sane-dc25, sane-dell1600n_net, sane-dmc, sane-epjitsu, sane-epson, sane-epsonds, sane-epson2, sane-fujitsu, sane-genesys, sane-gt68xx, sane-hp, sane-hp3500, sane-hp3900, sane-hp4200, sane-hp5400, sane-hp5590, sane-hpljm1005, sane-hs2p, sane-ibm, sane-kodak, sane-kodakaio, sane-kvs20xx, sane-kvs40xx, sane-kvs1025, sane-leo, sane-lexmark, sane-ma1509, sane-magicolor, sane-matsushita, sane-microtek, sane-microtek2, sane-mustek, sane-mustek_usb, sane-mustek_usb2, sane-nec, sane-net, sane-niash, sane-p5, sane-pie, sane-pieusb, sane-pixma, sane-plustek, sane-plustek_pp, sane-ricoh, sane-rts8891, sane-s9036, sane-sceptre, sane-sharp, sane-sm3600, sane-sm3840, sane-snapscan, sane-sp15c, sane-st400, sane-stv680, sane-tamarack, sane-teco1, sane-teco2, sane-teco3, sane-test, sane-u12, sane-umax, sane-umax1220u, sane-umax_pp, sane-v4l, sane-xerox_mfp
+Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
+License: GPL-2.0 GPL-2.0+
+LicenseFiles: COPYING LICENSE
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 105
+Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . Metapackage for selecting all SANE Backends

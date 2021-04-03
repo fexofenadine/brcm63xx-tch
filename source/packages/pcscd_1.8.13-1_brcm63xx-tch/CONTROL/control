@@ -1,0 +1,12 @@
+Package: pcscd
+Version: 1.8.13-1
+Depends: libc, libpcsclite
+Source: feeds/packages/utils/pcsc-lite
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: brcm63xx-tch
+Installed-Size: 46726
+Description: The purpose of PC/SC Lite is to provide a Windows(R) SCard interface in a very small form factor for communicating to smart cards and smart cards readers. . This package contains the PC/SC daemon.

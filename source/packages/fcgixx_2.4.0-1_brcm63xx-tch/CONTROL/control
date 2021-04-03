@@ -1,0 +1,10 @@
+Package: fcgixx
+Version: 2.4.0-1
+Depends: libc, fcgi, uclibcxx
+Source: feeds/packages/libs/fcgi
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jacob Siverskog <jacob@teenageengineering.com>
+Architecture: brcm63xx-tch
+Installed-Size: 5825
+Description: Shared library of FastCGI++

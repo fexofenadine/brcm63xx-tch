@@ -1,0 +1,12 @@
+Package: libtheora
+Version: 1.1.1-1
+Depends: libc, libogg
+Source: feeds/packages/libs/libtheora
+License: BSD-3-Clause
+LicenseFiles: COPYING LICENSE
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 243876
+Description: Theora is Xiph.Org's first publicly released video codec, intended for use within the Foundation's Ogg multimedia streaming system. Theora is derived directly from On2's VP3 codec; Currently the encoders are nearly identical, but Theora will make use of new features supported by the decoder to improve over what is is possible with VP3.

@@ -1,0 +1,9 @@
+Package: luci-mod-admin-full
+Version: git-15.245.46763-b179283-1
+Depends: libc, luci-base, libubus-lua
+Source: feeds/luci/modules/luci-mod-admin-full
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 68422
+Description: LuCI Administration - full-featured for full control

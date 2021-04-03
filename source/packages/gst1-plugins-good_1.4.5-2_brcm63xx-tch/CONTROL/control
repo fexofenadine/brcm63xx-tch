@@ -1,0 +1,12 @@
+Package: gst1-plugins-good
+Version: 1.4.5-2
+Depends: libc, libgstreamer1, gst1-mod-alaw, gst1-mod-alpha, gst1-mod-alphacolor, gst1-mod-apetag, gst1-mod-audiofx, gst1-mod-audioparsers, gst1-mod-auparse, gst1-mod-autodetect, gst1-mod-avi, gst1-mod-cutter, gst1-mod-debug, gst1-mod-deinterlace, gst1-mod-dtmf, gst1-mod-effectv, gst1-mod-equalizer, gst1-mod-flac, gst1-mod-flv, gst1-mod-flxdec, gst1-mod-goom2k1, gst1-mod-goom, gst1-mod-icydemux, gst1-mod-id3demux, gst1-mod-imagefreeze, gst1-mod-interleave, gst1-mod-isomp4, gst1-mod-jpeg, gst1-mod-level, gst1-mod-matroska, gst1-mod-mulaw, gst1-mod-multifile, gst1-mod-multipart, gst1-mod-navigationtest, gst1-mod-oss4audio, gst1-mod-ossaudio, gst1-mod-png, gst1-mod-replaygain, gst1-mod-rtpmanager, gst1-mod-rtp, gst1-mod-rtsp, gst1-mod-shapewipe, gst1-mod-smpte, gst1-mod-souphttpsrc, gst1-mod-spectrum, gst1-mod-udp, gst1-mod-video4linux2, gst1-mod-videobox, gst1-mod-videocrop, gst1-mod-videofilter, gst1-mod-videomixer, gst1-mod-vpx, gst1-mod-wavenc, gst1-mod-wavparse
+Source: feeds/packages/multimedia/gst1-plugins-good
+License: LGPLv2
+LicenseFiles: COPYING
+Section: multimedia
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 105
+Description: GStreamer open source multimedia framework . This meta package contains only dependencies to the other plugins from the good plugins collection.

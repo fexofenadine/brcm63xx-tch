@@ -1,0 +1,11 @@
+Package: tgt
+Version: 1.0.53-3
+Depends: libc, libpthread, libaio
+Source: feeds/packages/net/tgt
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 132409
+Description: Linux SCSI target framework (tgt) aims to simplify various SCSI target driver (iSCSI, Fibre Channel, SRP, etc) creation and maintenance. Key goals of the project are the clean integration into the scsi-mid layer and implementing a great portion of tgt in user space. Tgt consists of kernel-space and user-space code. The kernel-space component is included in upstream as of 2.6.20. Note that if you are interested in only iSCSI (probably you are), you need only the user-space code (any kernel version is fine).

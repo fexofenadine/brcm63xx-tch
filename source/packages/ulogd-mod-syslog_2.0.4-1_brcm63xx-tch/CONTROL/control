@@ -1,0 +1,12 @@
+Package: ulogd-mod-syslog
+Version: 2.0.4-1
+Depends: libc, ulogd
+Source: feeds/packages/net/ulogd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 2043
+Description: Syslog output plugin

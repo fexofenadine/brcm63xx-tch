@@ -1,0 +1,12 @@
+Package: wpad-mesh
+Version: 2015-03-25-1
+Depends: libc, libnl-tiny, libubus, libopenssl
+Conflicts: @WPA_SUPPLICANT_INTERNAL
+Source: package/network/services/hostapd
+License: BSD-3-Clause
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 368831
+Description: This package contains a minimal IEEE 802.1x/WPA Authenticator and Supplicant (with 802.11s mesh and SAE support).

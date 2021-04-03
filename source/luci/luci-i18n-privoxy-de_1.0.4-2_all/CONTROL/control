@@ -1,0 +1,11 @@
+Package: luci-i18n-privoxy-de
+Version: 1.0.4-2
+Depends: libc, luci-app-privoxy
+Source: feeds/luci/applications/luci-app-privoxy
+License: Apache-2.0
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
+Architecture: all
+Installed-Size: 5004
+Description: Translation for luci-app-privoxy - Deutsch (German)

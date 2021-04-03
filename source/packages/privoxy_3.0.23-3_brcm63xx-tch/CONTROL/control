@@ -1,0 +1,13 @@
+Package: privoxy
+Version: 3.0.23-3
+Depends: libc, libpcre, libpthread, zlib
+Source: feeds/packages/net/privoxy
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Require-User: privoxy=8118:privoxy=8118
+Old_Maintainer: christian.schoenebeck@gmail.com
+Architecture: brcm63xx-tch
+Installed-Size: 177041
+Description: Privoxy WEB Proxy - Homepage: www.privoxy.org

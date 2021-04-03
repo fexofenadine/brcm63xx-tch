@@ -1,0 +1,12 @@
+Package: pthsem
+Version: 2.0.8-3
+Depends: libc
+Source: feeds/packages/libs/pthsem
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Othmar Truniger <github@truniger.ch>
+Architecture: brcm63xx-tch
+Installed-Size: 25862
+Description: GNU pth is a user mode multi threading library. pthsem is an extend version, with support for semaphores added. It can be installed parallel to a normal pth.

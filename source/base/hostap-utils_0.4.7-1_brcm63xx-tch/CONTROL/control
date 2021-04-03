@@ -1,0 +1,9 @@
+Package: hostap-utils
+Version: 0.4.7-1
+Depends: libc, kmod-hostap
+Source: package/utils/hostap-utils
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 37325
+Description: Host AP driver utility programs

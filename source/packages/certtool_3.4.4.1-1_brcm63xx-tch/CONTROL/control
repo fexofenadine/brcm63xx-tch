@@ -1,0 +1,11 @@
+Package: certtool
+Version: 3.4.4.1-1
+Depends: libc, libgnutls
+Source: feeds/packages/libs/gnutls
+License: LGPLv2.1+
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: brcm63xx-tch
+Installed-Size: 91758
+Description: GnuTLS is a secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them. It provides a simple C language application programming interface (API) to access the secure communications protocols as well as APIs to parse and write X.509, PKCS12, OpenPGP and other required structures. It is aimed to be portable and efficient with focus on security and interoperability. This package contains the GnuTLS certtool utility.

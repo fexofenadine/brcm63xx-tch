@@ -1,0 +1,12 @@
+Package: avrdude
+Version: 6.1-1
+Depends: libc, libncurses, libreadline, libusb-compat, libftdi1, libelf1
+Source: feeds/packages/utils/avrdude
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 180572
+Description: AVRDUDE is a full featured program for programming Atmel's AVR CPU's.

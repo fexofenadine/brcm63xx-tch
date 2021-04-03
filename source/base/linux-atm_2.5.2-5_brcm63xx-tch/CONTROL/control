@@ -1,0 +1,10 @@
+Package: linux-atm
+Version: 2.5.2-5
+Depends: libc
+Source: package/network/utils/linux-atm
+License: GPL-2.0+
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 16541
+Description: This package contains a library for accessing the Linux ATM subsystem.

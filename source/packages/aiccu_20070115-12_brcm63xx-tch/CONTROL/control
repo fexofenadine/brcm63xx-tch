@@ -1,0 +1,12 @@
+Package: aiccu
+Version: 20070115-12
+Depends: libc, libpthread, ip, kmod-sit, kmod-tun
+Source: feeds/packages/ipv6/aiccu
+License: BSD-3-Clause
+LicenseFiles: doc/LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ondrej Caletka <ondrej@caletka.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 26575
+Description: SixXS Automatic IPv6 Connectivity Client Utility

@@ -1,0 +1,12 @@
+Package: postfix
+Version: 3.0.0-1
+Depends: libc, libopenssl, libsasl2, libopenldap, libpcre
+Source: feeds/packages/mail/postfix
+License: IPL-1.0
+LicenseFiles: LICENSE
+Section: mail
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Denis Shulyaka <Shulyaka@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 3819226
+Description: Postfix is Wietse Venema's mailer that started life as an alternative to the widely-used Sendmail program. Postfix attempts to be fast, easy to administer, and secure, while at the same time being sendmail compatible enough to not upset existing users. Thus, the outside has a sendmail-ish flavor, but the inside is completely different.

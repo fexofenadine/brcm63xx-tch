@@ -1,0 +1,12 @@
+Package: ruby-rake
+Version: 2.2.4-1
+Depends: libc, ruby, ruby-datetime, ruby-filelib, ruby-optparse, ruby-patterns, ruby-rbconfig
+Source: /home/jow/relman-cc/.cache/feeds/packages/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 43243
+Description: Provides rake* files 

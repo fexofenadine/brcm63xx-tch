@@ -1,0 +1,11 @@
+Package: file
+Version: 5.20-1
+Depends: libc, libmagic
+Source: feeds/packages/libs/file
+License: BSD-2c
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 122985
+Description: utility

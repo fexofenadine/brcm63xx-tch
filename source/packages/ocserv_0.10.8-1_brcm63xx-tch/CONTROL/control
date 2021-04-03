@@ -1,0 +1,13 @@
+Package: ocserv
+Version: 0.10.8-1
+Depends: libc, libhttp-parser, libgnutls, certtool, libncurses, libreadline, libprotobuf-c, kmod-tun
+Source: feeds/packages/net/ocserv
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Require-User: ocserv=72:ocserv=72
+Old_Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 198382
+Description: OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be a secure, small, fast and configurable VPN server. It implements the OpenConnect SSL VPN protocol, and has also (currently experimental) compatibility with clients using the AnyConnect SSL VPN protocol. The OpenConnect VPN protocol uses the standard IETF security protocols such as TLS 1.2, and Datagram TLS to provide the secure VPN service. 

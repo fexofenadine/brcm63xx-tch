@@ -1,0 +1,11 @@
+Package: strongswan-mod-uci
+Version: 5.3.2-1
+Depends: libc, strongswan, libuci
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 6320
+Description: StrongSwan UCI config interface plugin

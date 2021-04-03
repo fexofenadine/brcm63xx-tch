@@ -1,0 +1,12 @@
+Package: ruby-enc
+Version: 2.2.4-1
+Depends: libc, ruby
+Source: /home/jow/relman-cc/.cache/feeds/packages/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 9903
+Description: Provides ruby encoding library for encodings used directly by libraries in Ruby Standard Library: - enc/encdb.so - enc/euc_jp.so - enc/iso_8859_1.so - enc/utf_16be.so - enc/utf_16le.so - enc/utf_32be.so - enc/utf_32le.so FYI: ASCII-8BIT, UTF-7, UTF-8 and US-ASCII are already in Core. 

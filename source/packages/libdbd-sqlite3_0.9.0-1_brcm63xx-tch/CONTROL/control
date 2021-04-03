@@ -1,0 +1,12 @@
+Package: libdbd-sqlite3
+Version: 0.9.0-1
+Depends: libc, libdbi, libsqlite3
+Source: feeds/packages/libs/libdbi-drivers
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 13021
+Description: SQLite3 database driver for libdbi

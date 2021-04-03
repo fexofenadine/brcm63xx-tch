@@ -1,0 +1,12 @@
+Package: monit
+Version: 5.14-1
+Depends: libc, libpthread, libopenssl
+Source: feeds/packages/admin/monit
+License: AGPL-3.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 201212
+Description: An utility for monitoring services on a Unix system This package is built with SSL support.

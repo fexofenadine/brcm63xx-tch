@@ -1,0 +1,11 @@
+Package: f2fs-tools
+Version: 1.4.0-1
+Depends: libc, libuuid, libf2fs
+Source: feeds/packages/utils/f2fs-tools
+License: GPLv2
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 34595
+Description: Tools for Flash-Friendly File System (F2FS)

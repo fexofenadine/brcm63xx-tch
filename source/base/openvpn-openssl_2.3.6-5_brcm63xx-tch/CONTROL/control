@@ -1,0 +1,11 @@
+Package: openvpn-openssl
+Version: 2.3.6-5
+Depends: libc, kmod-tun, liblzo, libopenssl
+Source: package/network/services/openvpn
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Mirko Vogt <mirko@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 155403
+Description: Open source VPN solution using OpenSSL

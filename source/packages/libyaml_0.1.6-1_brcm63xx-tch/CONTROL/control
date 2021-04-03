@@ -1,0 +1,12 @@
+Package: libyaml
+Version: 0.1.6-1
+Depends: libc
+Source: feeds/packages/libs/yaml
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 40413
+Description: Fast YAML 1.1 parser and emitter library

@@ -1,0 +1,9 @@
+Package: luci-mod-failsafe
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-mod-failsafe
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 3928
+Description: LuCI Fail-Safe - Fail-Safe sysupgrade module

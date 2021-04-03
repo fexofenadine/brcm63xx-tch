@@ -1,0 +1,12 @@
+Package: ntp-keygen
+Version: 4.2.8p2-2
+Depends: libc, libopenssl, libpthread
+Source: feeds/packages/net/ntpd
+License: Unique
+LicenseFiles: COPYRIGHT html/copyright.html
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 73866
+Description: The ISC ntp suite is a collection of tools used to synchronize the system clock with remote NTP time servers and run/monitor local NTP servers. . This package contains the ntp-keygen.

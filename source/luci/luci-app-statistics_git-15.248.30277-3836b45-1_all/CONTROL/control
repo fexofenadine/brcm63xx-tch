@@ -1,0 +1,9 @@
+Package: luci-app-statistics
+Version: git-15.248.30277-3836b45-1
+Depends: libc, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-interface, collectd-mod-load, collectd-mod-network
+Source: feeds/luci/applications/luci-app-statistics
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 25428
+Description: LuCI Statistics Application

@@ -1,0 +1,11 @@
+Package: procd
+Version: 2015-08-16-0da5bf2ff222d1a499172a6e09507388676b5a08
+Depends: libc, ubusd, ubus, libjson-script, ubox, libubox, libubus
+Source: package/system/procd
+License: GPL-2.0
+Section: base
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 36937
+Description: OpenWrt system process manager

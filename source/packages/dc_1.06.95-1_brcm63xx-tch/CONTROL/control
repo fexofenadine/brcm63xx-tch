@@ -1,0 +1,12 @@
+Package: dc
+Version: 1.06.95-1
+Depends: libc, bc
+Source: feeds/packages/utils/bc
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Bruno Randolf <br1@einfach.org>
+Architecture: brcm63xx-tch
+Installed-Size: 15839
+Description: dc is a reverse-polish desk calculator which supports unlimited precision arithmetic.

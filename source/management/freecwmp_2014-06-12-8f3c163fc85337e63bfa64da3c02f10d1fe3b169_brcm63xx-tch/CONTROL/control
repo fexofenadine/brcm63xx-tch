@@ -1,0 +1,11 @@
+Package: freecwmp
+Version: 2014-06-12-8f3c163fc85337e63bfa64da3c02f10d1fe3b169
+Depends: libc, libcurl, libfreecwmp, libuci, libubox, libubus, libmicroxml, shflags
+Source: feeds/management/freecwmp
+License: GPL-2.0+
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 28262
+Description: A free client implementation of CWMP (TR-069) protocol

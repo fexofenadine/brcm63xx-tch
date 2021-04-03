@@ -1,0 +1,12 @@
+Package: portaudio
+Version: 19_20140130-1
+Depends: libc, alsa-lib, libpthread, librt
+Source: feeds/packages/sound/portaudio
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: sound
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 48395
+Description: PortAudio is a free, cross-platform, open-source, audio I/O library. It lets you write simple audio programs in 'C' or C++ that will compile and run on many platforms including Windows, Macintosh OS X, and Unix (OSS/ALSA). It is intended to promote the exchange of audio software between developers on different platforms. Many applications use PortAudio for Audio I/O.

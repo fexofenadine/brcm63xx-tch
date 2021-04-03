@@ -1,0 +1,12 @@
+Package: ruby-filelib
+Version: 2.2.4-1
+Depends: libc, ruby, ruby-enc, ruby-misc
+Source: /home/jow/relman-cc/.cache/feeds/packages/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 29415
+Description: Provides filesystem interaction files, including path and temp: - fileutils.rb - find.rb - pathname.rb - pathname.so - tempfile.rb - tmpdir.rb 

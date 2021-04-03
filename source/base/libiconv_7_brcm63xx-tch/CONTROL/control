@@ -1,0 +1,12 @@
+Package: libiconv
+Version: 7
+Depends: libc
+Source: package/libs/libiconv
+License: LGPL-2.1
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 168
+Description: Tiny drop-in replacement for the GNU Character set conversion library

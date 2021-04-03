@@ -1,0 +1,11 @@
+Package: libosip2
+Version: 4.1.0-1
+Depends: libc, librt
+Source: feeds/telephony/libs/libosip2
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 59803
+Description: GNU oSIP library, a Session Initiation Protocol (SIP) implementation.

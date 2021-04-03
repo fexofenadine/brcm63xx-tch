@@ -1,0 +1,11 @@
+Package: libuvc
+Version: 0.0.5-20140812-2c6403405872aa865999b95ba15944295adf6c38-1
+Depends: libc, libusb-1.0, libjpeg
+Source: feeds/packages/libs/libuvc
+License: BSD
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 18117
+Description: This package contains libuvc is a cross-platform library for USB video devices, built atop libusb.

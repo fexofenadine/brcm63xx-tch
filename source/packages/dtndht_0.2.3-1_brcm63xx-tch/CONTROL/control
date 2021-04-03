@@ -1,0 +1,11 @@
+Package: dtndht
+Version: 0.2.3-1
+Depends: libc, libopenssl
+Source: feeds/packages/libs/dtndht
+License: Apache-2.0
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Johannes Morgenroth <morgenroth@ibr.cs.tu-bs.de>
+Architecture: brcm63xx-tch
+Installed-Size: 27175
+Description: A library with DHT functions for DTN name lookups.

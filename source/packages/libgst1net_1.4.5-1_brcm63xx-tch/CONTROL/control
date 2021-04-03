@@ -1,0 +1,12 @@
+Package: libgst1net
+Version: 1.4.5-1
+Depends: libc, libgstreamer1
+Source: feeds/packages/multimedia/gstreamer1
+License: LGPLv2
+LicenseFiles: COPYING
+Section: multimedia
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 11342
+Description: GStreamer open source multimedia framework . This package contains the GStreamer network classes library.

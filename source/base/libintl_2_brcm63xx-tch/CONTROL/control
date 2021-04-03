@@ -1,0 +1,12 @@
+Package: libintl
+Version: 2
+Depends: libc
+Source: package/libs/gettext
+License: FSFULLR
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 167
+Description: Stub header for the GNU Internationalization library

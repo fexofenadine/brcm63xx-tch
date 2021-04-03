@@ -1,0 +1,11 @@
+Package: haproxy-nossl
+Version: 1.5.14-04
+Depends: libc, libpcre, libltdl, zlib, libpthread
+Source: feeds/packages/net/haproxy
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm63xx-tch
+Installed-Size: 242958
+Description: Open source Reliable, High Performance TCP/HTTP Load Balancer. This package is built without SSL support.

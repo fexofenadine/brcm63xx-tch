@@ -1,0 +1,12 @@
+Package: ruby-stdlib
+Version: 2.2.4-1
+Depends: libc, ruby, ruby-misc, ruby-bigdecimal, ruby-cgi, ruby-csv, ruby-datetime, ruby-dbm, ruby-debuglib, ruby-digest, ruby-drb, ruby-enc, ruby-enc-extra, ruby-erb, ruby-gdbm, ruby-gems, ruby-json, ruby-io-console, ruby-irb, ruby-fiddle, ruby-filelib, ruby-logger, ruby-math, ruby-minitest, ruby-mkmf, ruby-multithread, ruby-nkf, ruby-net, ruby-openssl, ruby-optparse, ruby-patterns, ruby-powerassert, ruby-prettyprint, ruby-pstore, ruby-psych, ruby-racc, ruby-rake, ruby-rbconfig, ruby-rdoc, ruby-readline, ruby-rexml, ruby-rinda, ruby-ripper, ruby-rss, ruby-sdbm, ruby-shell, ruby-socket, ruby-testunit, ruby-unicodenormalize, ruby-uri, ruby-webrick, ruby-xmlrpc, ruby-yaml, ruby-zlib
+Source: /home/jow/relman-cc/.cache/feeds/packages/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 105
+Description: This metapackage currently install all ruby-* packages, providing a complete Ruby Standard Library. 

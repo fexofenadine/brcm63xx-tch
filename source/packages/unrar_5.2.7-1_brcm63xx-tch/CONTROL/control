@@ -1,0 +1,12 @@
+Package: unrar
+Version: 5.2.7-1
+Depends: libc, uclibcxx, libpthread
+Source: feeds/packages/utils/unrar
+License: UnRAR
+LicenseFiles: license.txt
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 121804
+Description: UnRAR is an application that can decompress files and archives created using the RAR compression scheme

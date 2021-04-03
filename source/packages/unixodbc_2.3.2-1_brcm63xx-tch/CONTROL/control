@@ -1,0 +1,11 @@
+Package: unixodbc
+Version: 2.3.2-1
+Depends: libc, libltdl, libpthread
+Source: feeds/packages/libs/unixodbc
+License: prog GPL libs LGPL
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm63xx-tch
+Installed-Size: 182768
+Description: unixODBC is an Open Source ODBC sub-system and an ODBC SDK for Linux, Mac OSX, and UNIX.

@@ -1,0 +1,11 @@
+Package: ntripserver
+Version: 1.5.1-2
+Depends: libc
+Source: feeds/packages/net/ntripserver
+License: GPL-2.0+
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 14904
+Description: Ntrip Version 2.0 Command Line Server, reading from SISNeT Server, TCP/UDP IP Port, Serial port, or NtripCaster to support an Ntrip Version 1.0 or 2.0 Caster

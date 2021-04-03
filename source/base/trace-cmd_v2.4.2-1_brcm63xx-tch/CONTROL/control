@@ -1,0 +1,10 @@
+Package: trace-cmd
+Version: v2.4.2-1
+Depends: libc
+Source: package/devel/trace-cmd
+License: GPL-2.0
+Section: devel
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 103117
+Description: Linux trace command line utility

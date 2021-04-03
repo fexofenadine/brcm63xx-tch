@@ -1,0 +1,11 @@
+Package: uuidd
+Version: 2.25.2-4
+Depends: libc, libuuid
+Source: package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 10144
+Description: The uuidd daemon is used by the UUID library to generate universally unique identifiers (UUIDs), especially time-based UUIDs, in a secure and guaranteed-unique fashion, even in the face of large numbers of threads running on different CPUs trying to grab UUIDs.

@@ -1,0 +1,12 @@
+Package: ruby-enc-extra
+Version: 2.2.4-1
+Depends: libc, ruby, ruby-enc
+Source: /home/jow/relman-cc/.cache/feeds/packages/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 1232221
+Description: Provides extra encodings not provided by ruby-enc: - enc/big5.so - enc/cp949.so - enc/emacs_mule.so - enc/euc_kr.so - enc/euc_tw.so - enc/gb18030.so - enc/gb2312.so - enc/gbk.so - enc/iso_8859_10.so - enc/iso_8859_11.so - enc/iso_8859_13.so - enc/iso_8859_14.so - enc/iso_8859_15.so - enc/iso_8859_16.so - enc/iso_8859_2.so - enc/iso_8859_3.so - enc/iso_8859_4.so - enc/iso_8859_5.so - enc/iso_8859_6.so - enc/iso_8859_7.so - enc/iso_8859_8.so - enc/iso_8859_9.so - enc/koi8_r.so - enc/koi8_u.so - enc/shift_jis.so - enc/trans/big5.so - enc/trans/chinese.so - enc/trans/emoji.so - enc/trans/emoji_iso2022_kddi.so - enc/trans/emoji_sjis_docomo.so - enc/trans/emoji_sjis_kddi.so - enc/trans/emoji_sjis_softbank.so - enc/trans/escape.so - enc/trans/gb18030.so - enc/trans/gbk.so - enc/trans/iso2022.so - enc/trans/japanese.so - enc/trans/japanese_euc.so - enc/trans/japanese_sjis.so - enc/trans/korean.so - enc/trans/single_byte.so - enc/trans/transdb.so - enc/trans/utf8_mac.so - enc/trans/utf_16_32.so - enc/windows_1251.so - enc/windows_31j.so 

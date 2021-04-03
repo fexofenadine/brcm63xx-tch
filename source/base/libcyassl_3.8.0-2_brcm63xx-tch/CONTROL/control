@@ -1,0 +1,10 @@
+Package: libcyassl
+Version: 3.8.0-2
+Depends: libc
+Source: /home/jow/relman-cc/.cache/feeds/base/package/libs/cyassl
+License: GPL-2.0+
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 133385
+Description: CyaSSL is an SSL library optimized for small footprint, both on disk and for memory use.

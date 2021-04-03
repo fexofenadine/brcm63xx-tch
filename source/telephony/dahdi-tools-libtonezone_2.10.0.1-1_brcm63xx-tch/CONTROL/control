@@ -1,0 +1,12 @@
+Package: dahdi-tools-libtonezone
+Version: 2.10.0.1-1
+Depends: libc, kmod-dahdi
+Source: feeds/telephony/libs/dahdi-tools
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
+Architecture: brcm63xx-tch
+Installed-Size: 9670
+Description: DAHDI tonezone library

@@ -1,0 +1,9 @@
+Package: luci-lib-jsonc
+Version: git-15.248.30277-3836b45-1
+Depends: libc, liblua, libjson-c
+Source: feeds/luci/libs/luci-lib-jsonc
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 3819
+Description: Lua binding for JSON-C

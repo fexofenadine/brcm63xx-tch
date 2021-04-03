@@ -1,0 +1,11 @@
+Package: mdns
+Version: 2014-11-03-a5560f88bb2cddeef0ef11a12e7822b9c19a75a5
+Depends: libc, libubox, libubus, libblobmsg-json
+Source: package/network/services/mdns
+License: LGPL-2.1
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 14735
+Description: OpenWrt Multicast DNS Daemon

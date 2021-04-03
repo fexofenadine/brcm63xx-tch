@@ -1,0 +1,12 @@
+Package: lttng-tools
+Version: 2.6.0-1
+Depends: libc, lttng-ust, libpopt, libxml2
+Source: feeds/packages/devel/lttng-tools
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: COPYING
+Section: devel
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 427659
+Description: Linux Trace Toolkit: next generation (tools)

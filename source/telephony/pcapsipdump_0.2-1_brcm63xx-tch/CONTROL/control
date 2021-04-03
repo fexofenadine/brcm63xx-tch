@@ -1,0 +1,11 @@
+Package: pcapsipdump
+Version: 0.2-1
+Depends: libc, libpcap, uclibcxx
+Source: feeds/telephony/net/pcapsipdump
+License: GPL-2.0+
+LicenseFiles: LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 6718
+Description: pcapsipdump is a tool for dumping SIP sessions (+RTP traffic, if available) to disk in a fashion similar to "tcpdump -w" (format is exactly the same), but one file per sip session (even if there is thousands of concurrect SIP sessions).

@@ -1,0 +1,12 @@
+Package: liblo
+Version: 0.28-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/liblo
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 24248
+Description: Lightweight Open Sound Control (OSC) library

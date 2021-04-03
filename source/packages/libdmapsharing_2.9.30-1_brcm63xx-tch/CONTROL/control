@@ -1,0 +1,12 @@
+Package: libdmapsharing
+Version: 2.9.30-1
+Depends: libc, libsoup, mdnsresponder, gstreamer1, gst1-plugins-base, libgst1app
+Source: feeds/packages/libs/libdmapsharing
+License: LGPLv2.1
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 61104
+Description: libdmapsharing

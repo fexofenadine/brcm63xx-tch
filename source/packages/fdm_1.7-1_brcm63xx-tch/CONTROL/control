@@ -1,0 +1,12 @@
+Package: fdm
+Version: 1.7-1
+Depends: libc, tdb, zlib, libopenssl, libpcre
+Source: feeds/packages/mail/fdm
+License: BSD-2-Clause
+Section: mail
+Maintainer: fexofenadine (github.com/fexofenadine)
+Require-User: _fdm=99:_fdm=99
+Old_Maintainer: Dmitry V. Zimin <pfzim@mail.ru>
+Architecture: brcm63xx-tch
+Installed-Size: 90012
+Description: fdm is a simple, lightweight replacement for mail fetch, filter and delivery programs such as fetchmail and procmail. It can fetch using POP3 or IMAP (with SSL) or from stdin, and deliver to a pipe, file, maildir, mbox or SMTP server, based on PCRE
