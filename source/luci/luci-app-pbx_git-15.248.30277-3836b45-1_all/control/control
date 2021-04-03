@@ -1,9 +1,0 @@
-Package: luci-app-pbx
-Version: git-15.248.30277-3836b45-1
-Depends: libc, asterisk18, asterisk18-app-authenticate, asterisk18-app-disa, asterisk18-app-setcallerid, asterisk18-app-system, asterisk18-chan-gtalk, asterisk18-codec-a-mu, asterisk18-codec-alaw, asterisk18-func-cut, asterisk18-res-clioriginate, asterisk18-func-channel, asterisk18-chan-local, asterisk18-app-record, asterisk18-app-senddtmf, asterisk18-res-crypto
-Source: feeds/luci/applications/luci-app-pbx
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 63325
-Description: LuCI PBX Administration

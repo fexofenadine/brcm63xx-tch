@@ -9,8 +9,9 @@ pushd source > /dev/null
           echo "rebasing "$folder$packageName
           #git mv CONTROL temp
           #git mv temp CONTROL
-          mv CONTROL temp
-          mv temp CONTROL
+          #mv CONTROL temp
+          #mv temp CONTROL
+          rm -rf control
           #mv data/* .
           #rm -rf data
         popd > /dev/null
@@ -19,6 +20,6 @@ pushd source > /dev/null
   done
 popd > /dev/null
 git add -u ./source
-#git add ./source
-git commit -m "fixed CONTROL folder case"
+git add ./source
+git commit -m "deleted incorrect case control folders"
 git push

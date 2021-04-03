@@ -1,9 +1,0 @@
-Package: debugfs
-Version: 1.42.12-1
-Depends: libc, e2fsprogs
-Source: package/utils/e2fsprogs
-Section: utils
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: brcm63xx-tch
-Installed-Size: 76564
-Description: Ext2 Filesystem debugger

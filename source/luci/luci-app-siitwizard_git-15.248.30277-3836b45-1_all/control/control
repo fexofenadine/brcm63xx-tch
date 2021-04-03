@@ -1,9 +1,0 @@
-Package: luci-app-siitwizard
-Version: git-15.248.30277-3836b45-1
-Depends: libc, kmod-siit
-Source: feeds/luci/applications/luci-app-siitwizard
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 3766
-Description: SIIT IPv4-over-IPv6 configuration wizard

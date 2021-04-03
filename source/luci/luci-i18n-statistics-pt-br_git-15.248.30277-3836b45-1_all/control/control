@@ -1,9 +1,0 @@
-Package: luci-i18n-statistics-pt-br
-Version: git-15.248.30277-3836b45-1
-Depends: libc, luci-app-statistics
-Source: feeds/luci/applications/luci-app-statistics
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 6958
-Description: Translation for luci-app-statistics - Português do Brasil (Brazialian Portuguese)

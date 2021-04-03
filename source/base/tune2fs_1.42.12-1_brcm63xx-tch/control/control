@@ -1,9 +1,0 @@
-Package: tune2fs
-Version: 1.42.12-1
-Depends: libc, e2fsprogs
-Source: package/utils/e2fsprogs
-Section: utils
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: brcm63xx-tch
-Installed-Size: 43218
-Description: Ext2 Filesystem tune utility

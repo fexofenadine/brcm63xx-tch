@@ -1,9 +1,0 @@
-Package: luci-app-p910nd
-Version: git-15.248.30277-3836b45-1
-Depends: libc, p910nd
-Source: feeds/luci/applications/luci-app-p910nd
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 1272
-Description: p910nd - Printer server module

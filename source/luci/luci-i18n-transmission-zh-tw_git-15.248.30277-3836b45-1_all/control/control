@@ -1,9 +1,0 @@
-Package: luci-i18n-transmission-zh-tw
-Version: git-15.248.30277-3836b45-1
-Depends: libc, luci-app-transmission
-Source: feeds/luci/applications/luci-app-transmission
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 2622
-Description: Translation for luci-app-transmission - 臺灣華語 (Taiwanese)

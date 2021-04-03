@@ -1,9 +1,0 @@
-Package: python-pip
-Version: 1.5.6-1
-Depends: libc, python, python-setuptools
-Source: feeds/packages/lang/python-pip
-Section: lang
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: brcm63xx-tch
-Installed-Size: 741361
-Description: A tool for installing and managing Python packages.

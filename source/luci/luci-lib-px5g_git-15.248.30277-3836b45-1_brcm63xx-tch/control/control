@@ -1,9 +1,0 @@
-Package: luci-lib-px5g
-Version: git-15.248.30277-3836b45-1
-Depends: libc, liblua
-Source: feeds/luci/libs/luci-lib-px5g
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: brcm63xx-tch
-Installed-Size: 29083
-Description: RSA/X.509 Key Generator (required for LuCId SSL support)

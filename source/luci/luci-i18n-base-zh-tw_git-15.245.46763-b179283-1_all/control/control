@@ -1,9 +1,0 @@
-Package: luci-i18n-base-zh-tw
-Version: git-15.245.46763-b179283-1
-Depends: libc, luci-base
-Source: feeds/luci/modules/luci-base
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 21191
-Description: Translation for luci-base - 臺灣華語 (Taiwanese)

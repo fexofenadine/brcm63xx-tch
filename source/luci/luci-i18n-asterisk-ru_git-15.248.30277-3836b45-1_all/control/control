@@ -1,9 +1,0 @@
-Package: luci-i18n-asterisk-ru
-Version: git-15.248.30277-3836b45-1
-Depends: libc, luci-app-asterisk
-Source: feeds/luci/applications/luci-app-asterisk
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 332
-Description: Translation for luci-app-asterisk - Русский (Russian)

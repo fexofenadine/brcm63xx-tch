@@ -1,9 +1,0 @@
-Package: xfs-fsck
-Version: 3.1.7-1
-Depends: libc, libuuid, libpthread, librt
-Source: package/utils/xfsprogs
-Section: utils
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: brcm63xx-tch
-Installed-Size: 424481
-Description: Utilities for checking and repairing XFS filesystems

@@ -1,9 +1,0 @@
-Package: luci-proto-3g
-Version: git-15.248.30277-3836b45-1
-Depends: libc, comgt
-Source: feeds/luci/protocols/luci-proto-3g
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 1688
-Description: Support for 3G

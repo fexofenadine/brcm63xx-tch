@@ -1,9 +1,0 @@
-Package: luci-lib-luaneightbl
-Version: git-15.248.30277-3836b45-1
-Depends: libc, liblua
-Source: feeds/luci/libs/luci-lib-luaneightbl
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: brcm63xx-tch
-Installed-Size: 2364
-Description: neightbl - Lua lib for IPv6 neighbors

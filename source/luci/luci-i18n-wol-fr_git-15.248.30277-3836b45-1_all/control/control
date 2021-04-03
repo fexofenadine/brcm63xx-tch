@@ -1,9 +1,0 @@
-Package: luci-i18n-wol-fr
-Version: git-15.248.30277-3836b45-1
-Depends: libc, luci-app-wol
-Source: feeds/luci/applications/luci-app-wol
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 834
-Description: Translation for luci-app-wol - Français (French)

@@ -1,9 +1,0 @@
-Package: zram-swap
-Version: 1-2
-Depends: libc, kmod-zram, swap-utils, block-mount
-Source: package/system/zram-swap
-Section: utils
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 1121
-Description: A script to activate swaping on a compressed zram partition. This could be used to increase the available memory, by using compressed memory.

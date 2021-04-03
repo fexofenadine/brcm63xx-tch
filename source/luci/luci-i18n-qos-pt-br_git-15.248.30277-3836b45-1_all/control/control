@@ -1,9 +1,0 @@
-Package: luci-i18n-qos-pt-br
-Version: git-15.248.30277-3836b45-1
-Depends: libc, luci-app-qos
-Source: feeds/luci/applications/luci-app-qos
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 1002
-Description: Translation for luci-app-qos - Português do Brasil (Brazialian Portuguese)

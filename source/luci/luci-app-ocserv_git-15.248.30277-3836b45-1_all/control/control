@@ -1,9 +1,0 @@
-Package: luci-app-ocserv
-Version: git-15.248.30277-3836b45-1
-Depends: libc, ocserv, certtool
-Source: feeds/luci/applications/luci-app-ocserv
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 4465
-Description: LuCI Support for OpenConnect VPN

@@ -1,9 +1,0 @@
-Package: luci-lib-nixio
-Version: git-15.245.46763-b179283-1
-Depends: libc, liblua
-Source: feeds/luci/libs/luci-lib-nixio
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: brcm63xx-tch
-Installed-Size: 29611
-Description: NIXIO POSIX library

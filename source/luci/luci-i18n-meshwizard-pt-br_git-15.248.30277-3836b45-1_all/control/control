@@ -1,9 +1,0 @@
-Package: luci-i18n-meshwizard-pt-br
-Version: git-15.248.30277-3836b45-1
-Depends: libc, luci-app-meshwizard
-Source: feeds/luci/applications/luci-app-meshwizard
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 1815
-Description: Translation for luci-app-meshwizard - Português do Brasil (Brazialian Portuguese)

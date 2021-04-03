@@ -1,9 +1,0 @@
-Package: luci-i18n-p2pblock-cs
-Version: git-15.248.30277-3836b45-1
-Depends: libc, luci-app-p2pblock
-Source: feeds/luci/applications/luci-app-p2pblock
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 550
-Description: Translation for luci-app-p2pblock - Čeština (Czech)

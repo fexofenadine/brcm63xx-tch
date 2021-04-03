@@ -1,9 +1,0 @@
-Package: luci-i18n-polipo-zh-tw
-Version: git-15.248.30277-3836b45-1
-Depends: libc, luci-app-polipo
-Source: feeds/luci/applications/luci-app-polipo
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 2133
-Description: Translation for luci-app-polipo - 臺灣華語 (Taiwanese)

@@ -1,9 +1,0 @@
-Package: luci-i18n-splash-el
-Version: git-15.248.30277-3836b45-1
-Depends: libc, luci-app-splash
-Source: feeds/luci/applications/luci-app-splash
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 522
-Description: Translation for luci-app-splash - Ελληνικά (Greek)

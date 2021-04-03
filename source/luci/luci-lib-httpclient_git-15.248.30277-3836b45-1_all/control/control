@@ -1,9 +1,0 @@
-Package: luci-lib-httpclient
-Version: git-15.248.30277-3836b45-1
-Depends: libc, luci-base, luci-lib-nixio
-Source: feeds/luci/libs/luci-lib-httpclient
-Section: luci
-Maintainer: fexofenadine (github.com/fexofenadine)
-Architecture: all
-Installed-Size: 4825
-Description: HTTP(S) client library
