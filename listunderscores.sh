@@ -1,4 +1,4 @@
-rm ../../../underscoredpackages.txt
+rm underscoredpackages.txt
 pushd source > /dev/null
   for folder in */
   do
