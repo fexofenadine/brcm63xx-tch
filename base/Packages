@@ -56,8 +56,8 @@ Depends: libc, zlib, libbfd
 Section: devel
 Architecture: brcm63xx-tch
 Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 4394a45dd6e37ab90c19b56a6c075a50
-Size: 26100
+MD5Sum: 2711da7c73065dcf4205ce926ea13fe6
+Size: 25446
 Filename: ar_2.24-3_brcm63xx-tch.ipk
 Source: package/devel/binutils
 Description: ar
