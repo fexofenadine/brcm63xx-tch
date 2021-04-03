@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: brcm63xx-tch
 Installed-Size: 9959
-Description:  Library for haveged
+Description: Library for haveged

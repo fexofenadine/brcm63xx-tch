@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 43243
-Description:  Provides rake* files
- 
+Description: Provides rake* files 

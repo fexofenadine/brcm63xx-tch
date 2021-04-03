@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Noah Meyerhans <frodo@morgul.net>
 Architecture: brcm63xx-tch
 Installed-Size: 14638
-Description:  bind administration tools (rndc and rndc-confgen only)
+Description: bind administration tools (rndc and rndc-confgen only)

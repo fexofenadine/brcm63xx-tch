@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: brcm63xx-tch
 Installed-Size: 140988
-Description:  MOC (music on console) is a console audio player for LINUX/UNIX designed to be powerful and easy to use.
+Description: MOC (music on console) is a console audio player for LINUX/UNIX designed to be powerful and easy to use.

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Johannes Morgenroth <morgenroth@ibr.cs.tu-bs.de>
 Architecture: brcm63xx-tch
 Installed-Size: 238101
-Description:  Multi-format archive and compression library
+Description: Multi-format archive and compression library

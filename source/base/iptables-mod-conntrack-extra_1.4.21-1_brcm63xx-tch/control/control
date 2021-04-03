@@ -7,15 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 9413
-Description:  Extra iptables extensions for connection tracking.
- 
- Matches:
- - connbytes
- - connlimit
- - connmark
- - recent
- - helper
- 
- Targets:
- - CONNMARK
- 
+Description: Extra iptables extensions for connection tracking. Matches: - connbytes - connlimit - connmark - recent - helper Targets: - CONNMARK 

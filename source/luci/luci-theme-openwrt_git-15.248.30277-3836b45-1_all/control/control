@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 6923
-Description:  LuCI OpenWrt.org theme
+Description: LuCI OpenWrt.org theme

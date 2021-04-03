@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 1189714
-Description:  debugging and profiling tools for Linux (heap profiling)
+Description: debugging and profiling tools for Linux (heap profiling)

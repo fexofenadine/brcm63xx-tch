@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 1056
-Description:  Hard Disk Idle Spin-Down module
+Description: Hard Disk Idle Spin-Down module

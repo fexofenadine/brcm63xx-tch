@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Markus Stenberg <fingon@iki.fi>
 Architecture: brcm63xx-tch
 Installed-Size: 53486
-Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+Description: Lightweight UPnP IGD, NAT-PMP & PCP daemon

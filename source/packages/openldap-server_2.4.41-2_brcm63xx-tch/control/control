@@ -7,6 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: brcm63xx-tch
 Installed-Size: 514245
-Description:  OpenLDAP Software is an open source implementation of the
- Lightweight Directory Access Protocol (LDAP).
- This package contains server programs required to provide LDAP services.
+Description: OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol (LDAP). This package contains server programs required to provide LDAP services.

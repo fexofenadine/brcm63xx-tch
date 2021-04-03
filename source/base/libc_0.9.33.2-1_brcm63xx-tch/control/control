@@ -10,4 +10,4 @@ Essential: yes
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 214128
-Description:  C library
+Description: C library

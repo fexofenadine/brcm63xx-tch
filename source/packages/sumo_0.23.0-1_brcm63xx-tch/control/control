@@ -9,9 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 3996289
-Description:  SUMO is a free and open traffic simulation suite which is available since 2001.
- SUMO allows modelling of intermodal traffic systems including road vehicles,
- public transport and pedestrians. Included with SUMO is a wealth of supporting
- tools which handle tasks such as route finding, visualization, network import
- and emission calculation. SUMO can be enhanced with custom models and provides
- various APIs to remotely control the simulation.
+Description: SUMO is a free and open traffic simulation suite which is available since 2001. SUMO allows modelling of intermodal traffic systems including road vehicles, public transport and pedestrians. Included with SUMO is a wealth of supporting tools which handle tasks such as route finding, visualization, network import and emission calculation. SUMO can be enhanced with custom models and provides various APIs to remotely control the simulation.

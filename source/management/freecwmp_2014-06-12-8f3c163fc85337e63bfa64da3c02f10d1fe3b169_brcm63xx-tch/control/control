@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 28262
-Description:  A free client implementation of CWMP (TR-069) protocol
+Description: A free client implementation of CWMP (TR-069) protocol

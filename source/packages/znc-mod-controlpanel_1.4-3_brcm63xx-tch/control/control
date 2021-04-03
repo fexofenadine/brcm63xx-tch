@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 45743
-Description:  Allows you to add/remove/edit users and settings on the fly via IRC messages.
+Description: Allows you to add/remove/edit users and settings on the fly via IRC messages.

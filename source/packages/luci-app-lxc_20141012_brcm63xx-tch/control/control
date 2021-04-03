@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Petar Koretic <petar.koretic@sartura.hr>
 Architecture: brcm63xx-tch
 Installed-Size: 6031
-Description:  This package will install LXC management Web UI.
+Description: This package will install LXC management Web UI.

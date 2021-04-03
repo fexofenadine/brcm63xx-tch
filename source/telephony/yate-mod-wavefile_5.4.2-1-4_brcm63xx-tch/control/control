@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 18620
-Description:  Wav file Record and Playback module for yate
+Description: Wav file Record and Playback module for yate

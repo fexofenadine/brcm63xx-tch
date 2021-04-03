@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Christian Pointner <equinox@spreadspace.org>
 Architecture: brcm63xx-tch
 Installed-Size: 15480
-Description:  This tool can be used to burn firmware images to STM32 ARM processors
- using the built-in serial bootloader.
+Description: This tool can be used to burn firmware images to STM32 ARM processors using the built-in serial bootloader.

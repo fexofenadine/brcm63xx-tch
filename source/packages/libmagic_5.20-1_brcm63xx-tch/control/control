@@ -8,4 +8,4 @@ Section: libs
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 100889
-Description:  library
+Description: library

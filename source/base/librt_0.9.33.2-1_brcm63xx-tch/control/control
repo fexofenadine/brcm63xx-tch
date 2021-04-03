@@ -10,4 +10,4 @@ Essential: yes
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4914
-Description:  POSIX.1b RealTime extension library
+Description: POSIX.1b RealTime extension library

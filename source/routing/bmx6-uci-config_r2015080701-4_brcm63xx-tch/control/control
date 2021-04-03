@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Axel Neumann <neumann@cgws.de>
 Architecture: brcm63xx-tch
 Installed-Size: 8552
-Description:  configuration plugin based on uci (recommended!)
+Description: configuration plugin based on uci (recommended!)

@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 56671
-Description:  LiSt Open Files - a diagnostic tool
+Description: LiSt Open Files - a diagnostic tool

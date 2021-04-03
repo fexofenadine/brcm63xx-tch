@@ -7,4 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 2593
-Description:  Linux ATM tool sonetdiag.
+Description: Linux ATM tool sonetdiag.

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 14979
-Description:  debugging and profiling tools for Linux (GDB interface)
+Description: debugging and profiling tools for Linux (GDB interface)

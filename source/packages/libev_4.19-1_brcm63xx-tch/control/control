@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Karl Palsson <karlp@tweak.net.au>
 Architecture: brcm63xx-tch
 Installed-Size: 20033
-Description:  A full-featured and high-performance event loop that is loosely modelled after
- libevent, but without its limitations and bugs.
+Description: A full-featured and high-performance event loop that is loosely modelled after libevent, but without its limitations and bugs.

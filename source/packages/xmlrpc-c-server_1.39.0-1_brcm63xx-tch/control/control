@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: brcm63xx-tch
 Installed-Size: 7979
-Description:  XML-RPC library - server
+Description: XML-RPC library - server

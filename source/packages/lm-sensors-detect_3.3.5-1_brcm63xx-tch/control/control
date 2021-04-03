@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 44363
-Description:  script to autodetect sensor hardware
+Description: script to autodetect sensor hardware

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: brcm63xx-tch
 Installed-Size: 84762
-Description:  Postgresql driver for ODBC.
+Description: Postgresql driver for ODBC.

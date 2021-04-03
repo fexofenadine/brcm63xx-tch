@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 12840
-Description:  kamailio4 Legacy functions module
+Description: kamailio4 Legacy functions module

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 24043
-Description:  OpenWrt system helper toolbox
+Description: OpenWrt system helper toolbox

@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: brcm63xx-tch
 Installed-Size: 746
-Description:  Scalar perl module
+Description: Scalar perl module

@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 3143
-Description:  LuCI Support for the OpenWrt MultiWAN agent
+Description: LuCI Support for the OpenWrt MultiWAN agent

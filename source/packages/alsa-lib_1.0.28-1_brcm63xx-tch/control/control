@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: brcm63xx-tch
 Installed-Size: 292307
-Description:  This is the library package for alsa, needed by some userspace programs.
- You must have enabled the ALSA support in the kernel.
+Description: This is the library package for alsa, needed by some userspace programs. You must have enabled the ALSA support in the kernel.

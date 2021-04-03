@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
 Installed-Size: 6842
-Description:  engine_pkcs11 is an implementation of OpenSSL engine interface.
+Description: engine_pkcs11 is an implementation of OpenSSL engine interface.

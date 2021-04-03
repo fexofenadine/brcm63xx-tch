@@ -8,7 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 10144
-Description:  The uuidd daemon is used by the UUID library to generate universally unique
- identifiers (UUIDs), especially time-based UUIDs, in a secure and
- guaranteed-unique fashion, even in the face of large numbers of threads
- running on different CPUs trying to grab UUIDs.
+Description: The uuidd daemon is used by the UUID library to generate universally unique identifiers (UUIDs), especially time-based UUIDs, in a secure and guaranteed-unique fashion, even in the face of large numbers of threads running on different CPUs trying to grab UUIDs.

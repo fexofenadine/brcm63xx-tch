@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 6745
-Description:  Sends a notice to all admins when a user logs in or out.
+Description: Sends a notice to all admins when a user logs in or out.

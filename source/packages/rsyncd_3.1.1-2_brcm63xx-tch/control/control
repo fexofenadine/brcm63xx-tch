@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 573
-Description:  rsyncd is a configuration file and initscript to utilize rsync as a daemon. It
- uses the same binary as rsync.
+Description: rsyncd is a configuration file and initscript to utilize rsync as a daemon. It uses the same binary as rsync.

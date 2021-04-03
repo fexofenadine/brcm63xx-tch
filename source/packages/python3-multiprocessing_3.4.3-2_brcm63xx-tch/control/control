@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 54779
-Description:  Python 3.4 multiprocessing
+Description: Python 3.4 multiprocessing

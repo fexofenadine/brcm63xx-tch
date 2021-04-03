@@ -7,39 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 22573
-Description:  IP firewall administration tool.
- 
- Matches:
- - icmp
- - tcp
- - udp
- - comment
- - conntrack
- - limit
- - mac
- - mark
- - multiport
- - set
- - state
- - time
- 
- Targets:
- - ACCEPT
- - CT
- - DNAT
- - DROP
- - REJECT
- - LOG
- - MARK
- - MASQUERADE
- - REDIRECT
- - SET
- - SNAT
- - TCPMSS
- 
- Tables:
- - filter
- - mangle
- - nat
- - raw
- 
+Description: IP firewall administration tool. Matches: - icmp - tcp - udp - comment - conntrack - limit - mac - mark - multiport - set - state - time Targets: - ACCEPT - CT - DNAT - DROP - REJECT - LOG - MARK - MASQUERADE - REDIRECT - SET - SNAT - TCPMSS Tables: - filter - mangle - nat - raw 

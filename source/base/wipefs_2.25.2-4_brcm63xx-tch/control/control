@@ -8,6 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 10057
-Description:  wipefs can erase filesystem, raid or partition table signatures (magic
- strings) from the specified device to make the signature invisible for
- libblkid.
+Description: wipefs can erase filesystem, raid or partition table signatures (magic strings) from the specified device to make the signature invisible for libblkid.

@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 69018
-Description:  Asterisk channel driver for Huawei UMTS 3G dongle.
+Description: Asterisk channel driver for Huawei UMTS 3G dongle.

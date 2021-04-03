@@ -8,6 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jeroen Louwes <jeroen.louwes@gmail.com>
 Architecture: all
 Installed-Size: 5197
-Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
- and manageable. With loadbalancing/failover support for up to 250 wan
- interfaces, connection tracking and an easy to manage traffic ruleset.
+Description: Hotplug script which makes configuration of multiple WAN interfaces simple and manageable. With loadbalancing/failover support for up to 250 wan interfaces, connection tracking and an easy to manage traffic ruleset.

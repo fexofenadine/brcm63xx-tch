@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: brcm63xx-tch
 Installed-Size: 50126
-Description:  OpenSSH SFTP client.
+Description: OpenSSH SFTP client.

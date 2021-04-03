@@ -8,7 +8,4 @@ Section: libs
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 5644
-Description:  The UUID library is used to generate unique identifiers for objects
- that may be accessible beyond the local system. This library
- generates UUIDs compatible with those created by the Open Software
- Foundation (OSF) Distributed Computing Environment (DCE) utility.
+Description: The UUID library is used to generate unique identifiers for objects that may be accessible beyond the local system. This library generates UUIDs compatible with those created by the Open Software Foundation (OSF) Distributed Computing Environment (DCE) utility.

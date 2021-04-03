@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 3358
-Description:  StrongSwan fake arp respsonses plugin
+Description: StrongSwan fake arp respsonses plugin

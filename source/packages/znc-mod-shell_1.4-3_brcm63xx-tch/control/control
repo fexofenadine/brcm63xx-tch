@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 12456
-Description:  Have your unix shell in a query window right inside of your IRC client.
+Description: Have your unix shell in a query window right inside of your IRC client.

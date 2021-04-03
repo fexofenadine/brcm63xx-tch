@@ -8,8 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 105
-Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
- This meta-package contains dependencies for all of the strongswan plugins
- except kernel-libipsec,
- socket-dynamic and which are ommitted in favor of the kernel-netlink and
- socket-default plugins.
+Description: StrongSwan is an OpenSource IPsec implementation for the Linux operating system. This meta-package contains dependencies for all of the strongswan plugins except kernel-libipsec, socket-dynamic and which are ommitted in favor of the kernel-netlink and socket-default plugins.

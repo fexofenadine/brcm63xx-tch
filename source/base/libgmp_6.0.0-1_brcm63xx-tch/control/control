@@ -7,5 +7,4 @@ Section: libs
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 204741
-Description:  GMP is a free library for arbitrary precision arithmetic, operating on
- signed integers, rational numbers, and floating point numbers.
+Description: GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating point numbers.

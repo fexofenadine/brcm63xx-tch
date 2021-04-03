@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 105
-Description:  The TLS plugin adds HTTPS support to uHTTPd.
+Description: The TLS plugin adds HTTPS support to uHTTPd.

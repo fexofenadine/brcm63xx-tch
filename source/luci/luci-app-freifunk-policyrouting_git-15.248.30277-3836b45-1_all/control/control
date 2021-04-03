@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 1197
-Description:  Policy routing for mesh traffic
+Description: Policy routing for mesh traffic

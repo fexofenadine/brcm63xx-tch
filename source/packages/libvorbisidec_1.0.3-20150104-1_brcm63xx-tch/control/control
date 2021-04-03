@@ -9,7 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: brcm63xx-tch
 Installed-Size: 73837
-Description:  libvorbisidec is "tremor", a fixed-point implementation of libvorbis.
- It also has libogg built-in. It is suitable as a replacement for
- libvorbis and libogg in tremor-aware applications.
- Tremor is a decoder only.
+Description: libvorbisidec is "tremor", a fixed-point implementation of libvorbis. It also has libogg built-in. It is suitable as a replacement for libvorbis and libogg in tremor-aware applications. Tremor is a decoder only.

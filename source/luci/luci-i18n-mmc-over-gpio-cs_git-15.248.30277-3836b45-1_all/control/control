@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 599
-Description:  Translation for luci-app-mmc-over-gpio - Čeština (Czech)
+Description: Translation for luci-app-mmc-over-gpio - Čeština (Czech)

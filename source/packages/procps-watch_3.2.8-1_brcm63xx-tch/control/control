@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Gergely Kiss <mail.gery@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 4493
-Description:  Installs the applet watch.
+Description: Installs the applet watch.

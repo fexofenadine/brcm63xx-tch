@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Henning Rogge <hrogge@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 1396
-Description:  Common OONF startup scripts
+Description: Common OONF startup scripts

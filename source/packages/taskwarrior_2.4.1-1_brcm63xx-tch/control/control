@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 400919
-Description:  taskwarrior is a command-line todo list manager
+Description: taskwarrior is a command-line todo list manager

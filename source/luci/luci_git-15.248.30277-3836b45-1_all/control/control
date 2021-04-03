@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 104
-Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+Description: Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme

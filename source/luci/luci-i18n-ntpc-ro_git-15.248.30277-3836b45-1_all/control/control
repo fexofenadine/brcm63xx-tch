@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 692
-Description:  Translation for luci-app-ntpc - Română (Romanian)
+Description: Translation for luci-app-ntpc - Română (Romanian)

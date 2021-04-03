@@ -9,10 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 1753209
-Description:  Erlang/OTP is a general-purpose programming language and runtime
- environment. Erlang has built-in support for concurrency, distribution
- and fault tolerance.
- .
- This Erlang/OTP package provides Simple Network Management Protocol
- (SNMP) support including a MIB compiler and tools for creating SNMP
- agents.
+Description: Erlang/OTP is a general-purpose programming language and runtime environment. Erlang has built-in support for concurrency, distribution and fault tolerance. . This Erlang/OTP package provides Simple Network Management Protocol (SNMP) support including a MIB compiler and tools for creating SNMP agents.

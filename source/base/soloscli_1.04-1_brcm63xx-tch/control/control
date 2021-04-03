@@ -7,5 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 3450
-Description:  This package contains the soloscli utility
- for interrogating Traverse Technologies' Solos ADSL2+ modems.
+Description: This package contains the soloscli utility for interrogating Traverse Technologies' Solos ADSL2+ modems.

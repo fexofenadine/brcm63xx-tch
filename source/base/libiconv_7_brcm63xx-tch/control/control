@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 168
-Description:  Tiny drop-in replacement for the GNU Character set conversion library
+Description: Tiny drop-in replacement for the GNU Character set conversion library

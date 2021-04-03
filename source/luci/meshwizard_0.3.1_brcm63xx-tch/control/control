@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 13550
-Description:  A shellscript based wizard to simplify the setup of a typical mesh node (e.g. for Freifunk.net)
+Description: A shellscript based wizard to simplify the setup of a typical mesh node (e.g. for Freifunk.net)

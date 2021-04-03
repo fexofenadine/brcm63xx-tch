@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 480
-Description:  Translation for luci-app-pbx - Português (Portuguese)
+Description: Translation for luci-app-pbx - Português (Portuguese)

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 22631
-Description:  This package contains the sendpees6 utility of the THC-IPv6 toolkit.
+Description: This package contains the sendpees6 utility of the THC-IPv6 toolkit.

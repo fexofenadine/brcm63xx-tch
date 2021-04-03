@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Dirk Chang <dirk@kooiot.com>
 Architecture: brcm63xx-tch
 Installed-Size: 13081
-Description:  Copas is a dispatcher based on coroutines that can be used by TCP/IP servers.
+Description: Copas is a dispatcher based on coroutines that can be used by TCP/IP servers.

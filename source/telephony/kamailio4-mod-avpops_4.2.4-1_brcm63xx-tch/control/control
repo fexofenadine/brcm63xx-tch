@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 43590
-Description:  kamailio4 AVP operation module
+Description: kamailio4 AVP operation module

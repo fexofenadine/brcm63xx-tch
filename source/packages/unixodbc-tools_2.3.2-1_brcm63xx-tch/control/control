@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: brcm63xx-tch
 Installed-Size: 25750
-Description:  Command Line Tools to help install a driver and work with SQL.
+Description: Command Line Tools to help install a driver and work with SQL.

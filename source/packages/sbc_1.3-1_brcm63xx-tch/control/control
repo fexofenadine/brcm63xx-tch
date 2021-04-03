@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Dirk Neukirchen <dirkneukirchen@web.de>
 Architecture: brcm63xx-tch
 Installed-Size: 42018
-Description:  Low Complexity Subband Coding for bluetooth audio profiles encoding and decoding.
- Needed for A2DP support.
+Description: Low Complexity Subband Coding for bluetooth audio profiles encoding and decoding. Needed for A2DP support.

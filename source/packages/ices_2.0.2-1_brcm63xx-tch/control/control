@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 34083
-Description:  ices is a command line source client for Icecast media streaming servers.
- It began as the successor of the old "shout" utility, and has since gained a
- lot of useful features.
+Description: ices is a command line source client for Icecast media streaming servers. It began as the successor of the old "shout" utility, and has since gained a lot of useful features.

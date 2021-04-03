@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 2537
-Description:  interrupt usage input plugin
+Description: interrupt usage input plugin

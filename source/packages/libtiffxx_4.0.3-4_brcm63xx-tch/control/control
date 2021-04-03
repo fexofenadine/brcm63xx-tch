@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 3631
-Description:  TIFF library(c++ bindings)
+Description: TIFF library(c++ bindings)

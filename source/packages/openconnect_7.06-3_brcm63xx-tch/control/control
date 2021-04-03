@@ -7,9 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 77290
-Description:  A VPN client compatible with Cisco's AnyConnect SSL VPN and ocserv.
- 
- OpenConnect is a client that follows the Cisco's AnyConnect SSL VPN protocol,
- which is supported by IOS 12.4(9)T or later on Cisco SR500, 870, 880, 1800, 
- 2800, 3800, 7200 Series and Cisco 7301 Routers, as well as the OpenConnect
- VPN server.
+Description: A VPN client compatible with Cisco's AnyConnect SSL VPN and ocserv. OpenConnect is a client that follows the Cisco's AnyConnect SSL VPN protocol, which is supported by IOS 12.4(9)T or later on Cisco SR500, 870, 880, 1800, 2800, 3800, 7200 Series and Cisco 7301 Routers, as well as the OpenConnect VPN server.

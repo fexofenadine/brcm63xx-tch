@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: brcm63xx-tch
 Installed-Size: 141665
-Description:  lame mp3 encoder
+Description: lame mp3 encoder

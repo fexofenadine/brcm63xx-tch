@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 24248
-Description:  Lightweight Open Sound Control (OSC) library
+Description: Lightweight Open Sound Control (OSC) library

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Johannes Morgenroth <jm@m-network.de>
 Architecture: brcm63xx-tch
 Installed-Size: 151926
-Description:  Base library for IBR-DTN daemon and tools.
+Description: Base library for IBR-DTN daemon and tools.

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 23855
-Description:  Web based proxy manager and reporting tool
+Description: Web based proxy manager and reporting tool

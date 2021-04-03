@@ -10,4 +10,4 @@ Essential: yes
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4877
-Description:  Atomic support library
+Description: Atomic support library

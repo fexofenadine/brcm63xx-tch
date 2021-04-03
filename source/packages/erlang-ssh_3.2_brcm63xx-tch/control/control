@@ -9,9 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 423549
-Description:  Erlang/OTP is a general-purpose programming language and runtime
- environment. Erlang has built-in support for concurrency, distribution
- and fault tolerance.
- .
- This Erlang/OTP package provides an implementation of the Secure Shell
- protocol, with SSH & SFTP support.
+Description: Erlang/OTP is a general-purpose programming language and runtime environment. Erlang has built-in support for concurrency, distribution and fault tolerance. . This Erlang/OTP package provides an implementation of the Secure Shell protocol, with SSH & SFTP support.

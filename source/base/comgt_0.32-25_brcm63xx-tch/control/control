@@ -8,6 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 20046
-Description:  comgt is a scripting language interpreter useful for establishing 
- communications on serial lines and through PCMCIA modems as well as GPRS 
- and 3G datacards.
+Description: comgt is a scripting language interpreter useful for establishing communications on serial lines and through PCMCIA modems as well as GPRS and 3G datacards.

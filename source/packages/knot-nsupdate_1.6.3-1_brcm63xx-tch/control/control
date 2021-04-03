@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Salzman <daniel.salzman@nic.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 30346
-Description:  Knot DNS dynamic DNS update utility.
+Description: Knot DNS dynamic DNS update utility.

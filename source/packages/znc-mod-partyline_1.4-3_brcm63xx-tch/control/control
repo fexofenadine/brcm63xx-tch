@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 32119
-Description:  Allows ZNC users to join internal channels and query other ZNC users on the same ZNC.
+Description: Allows ZNC users to join internal channels and query other ZNC users on the same ZNC.

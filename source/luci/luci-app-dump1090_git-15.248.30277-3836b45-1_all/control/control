@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 2111
-Description:  LuCI Support for dump1090
+Description: LuCI Support for dump1090

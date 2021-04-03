@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 149350
-Description:  Network monitoring and data acquisition tool (minimal version)
+Description: Network monitoring and data acquisition tool (minimal version)

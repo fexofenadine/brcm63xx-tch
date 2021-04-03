@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 6604
-Description:  Output plugin for logging to a database using libdbi
+Description: Output plugin for logging to a database using libdbi

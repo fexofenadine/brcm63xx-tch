@@ -7,20 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 13624
-Description:  iptables extensions for matching/changing IP packet options.
- 
- Matches:
- - dscp
- - ecn
- - length
- - statistic
- - tcpmss
- - unclean
- - hl
- 
- Targets:
- - DSCP
- - CLASSIFY
- - ECN
- - HL
- 
+Description: iptables extensions for matching/changing IP packet options. Matches: - dscp - ecn - length - statistic - tcpmss - unclean - hl Targets: - DSCP - CLASSIFY - ECN - HL 

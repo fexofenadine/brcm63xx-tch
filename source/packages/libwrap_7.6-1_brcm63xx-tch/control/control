@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: brcm63xx-tch
 Installed-Size: 10834
-Description:  Security wrapper library for TCP services
+Description: Security wrapper library for TCP services

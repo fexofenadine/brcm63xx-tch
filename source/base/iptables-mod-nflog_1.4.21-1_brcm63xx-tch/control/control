@@ -7,8 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 1860
-Description:  iptables extension for user-space logging via NFNETLINK.
- 
- Includes:
- - libxt_NFLOG
- 
+Description: iptables extension for user-space logging via NFNETLINK. Includes: - libxt_NFLOG 

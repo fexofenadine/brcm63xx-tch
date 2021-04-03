@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 145865
-Description:  Linux Trace Toolkit: next generation (library)
+Description: Linux Trace Toolkit: next generation (library)

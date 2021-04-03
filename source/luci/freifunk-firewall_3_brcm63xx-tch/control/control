@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 1152
-Description:  Various firewall extensions for Freifunk. Includes NAT fixes and advanced settings.
+Description: Various firewall extensions for Freifunk. Includes NAT fixes and advanced settings.

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4999
-Description:  hostapd/wpa_supplicant common support files
+Description: hostapd/wpa_supplicant common support files

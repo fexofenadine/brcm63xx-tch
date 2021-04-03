@@ -9,7 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 187992
-Description:  This is InfoZIP's zip program. It produces files that are fully
- compatible with the popular PKZIP program; however, the command line
- options are not identical. In other words, the end result is the same,
- but the methods differ.
+Description: This is InfoZIP's zip program. It produces files that are fully compatible with the popular PKZIP program; however, the command line options are not identical. In other words, the end result is the same, but the methods differ.

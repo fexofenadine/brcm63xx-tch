@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
 Installed-Size: 6499
-Description:  Rlm passwd module
+Description: Rlm passwd module

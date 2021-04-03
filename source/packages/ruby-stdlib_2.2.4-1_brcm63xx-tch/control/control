@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 105
-Description:  This metapackage currently install all ruby-* packages,
- providing a complete Ruby Standard Library.
- 
+Description: This metapackage currently install all ruby-* packages, providing a complete Ruby Standard Library. 

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Gergely Kiss <mail.gery@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 18149
-Description:  Jansson is a C library for encoding, decoding and manipulating JSON data
+Description: Jansson is a C library for encoding, decoding and manipulating JSON data

@@ -10,4 +10,4 @@ Require-User: zabbix=53:zabbix=53
 Old_Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 34039
-Description:  Zabbix get
+Description: Zabbix get

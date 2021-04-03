@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 2811
-Description:  StrongSwan RFC 3779 address block constraint support plugin
+Description: StrongSwan RFC 3779 address block constraint support plugin

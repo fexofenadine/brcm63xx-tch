@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Zoltan HERPAI <wigyori@uid0.hu>
 Architecture: brcm63xx-tch
 Installed-Size: 22880
-Description:  Mount remote system over sftp.
+Description: Mount remote system over sftp.

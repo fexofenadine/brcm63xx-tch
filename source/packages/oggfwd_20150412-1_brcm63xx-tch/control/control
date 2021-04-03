@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 3911
-Description:  A basic icecast client that is very simple but also very useful for video
- streaming.
+Description: A basic icecast client that is very simple but also very useful for video streaming.

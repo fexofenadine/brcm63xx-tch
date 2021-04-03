@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
 Installed-Size: 44263
-Description:  l2tpd is the open source implementation of the L2TP tunneling protocol (RFC2661).
- It does implement both LAC and LNS role in a L2TP networking architecture. The
- main goal of this protocol is to tunnel PPP frame trough an IP network.
+Description: l2tpd is the open source implementation of the L2TP tunneling protocol (RFC2661). It does implement both LAC and LNS role in a L2TP networking architecture. The main goal of this protocol is to tunnel PPP frame trough an IP network.

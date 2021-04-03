@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 56572
-Description:  This package provides support for 'Software bridge for multi-party audio conferencing' in Asterisk11.
+Description: This package provides support for 'Software bridge for multi-party audio conferencing' in Asterisk11.

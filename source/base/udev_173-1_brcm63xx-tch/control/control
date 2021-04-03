@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Geoff Levand <geoff@infradead.org>
 Architecture: brcm63xx-tch
 Installed-Size: 208837
-Description:  udev allows Linux users to have a dynamic /dev directory and it
- provides the ability to have persistent device names.
+Description: udev allows Linux users to have a dynamic /dev directory and it provides the ability to have persistent device names.

@@ -8,4 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 7554
-Description:  manages flock locks from within shell scripts or the command line
+Description: manages flock locks from within shell scripts or the command line

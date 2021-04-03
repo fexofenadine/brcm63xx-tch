@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 5874
-Description:  Program traceroute6 from iputils.
- Traces path to a network host (IPv6).
+Description: Program traceroute6 from iputils. Traces path to a network host (IPv6).

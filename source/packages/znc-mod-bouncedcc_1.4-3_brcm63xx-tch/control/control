@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 29618
-Description:  Bounces dcc transfers through the znc server instead of sending them directly to the user.
+Description: Bounces dcc transfers through the znc server instead of sending them directly to the user.

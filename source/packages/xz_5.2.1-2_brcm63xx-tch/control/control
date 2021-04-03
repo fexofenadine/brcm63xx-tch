@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 28794
-Description:  Contains: xz  lzcat lzma unlzma unxz xzcat
+Description: Contains: xz lzcat lzma unlzma unxz xzcat

@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 6495
-Description:  This module keeps the buffer until the next message from the client.
+Description: This module keeps the buffer until the next message from the client.

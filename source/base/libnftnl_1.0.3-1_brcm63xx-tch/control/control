@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <steven@midlink.org>
 Architecture: brcm63xx-tch
 Installed-Size: 31740
-Description:  libnftnl is a userspace library providing a low-level netlink
- programming interface (API) to the in-kernel nf_tables subsystem.
+Description: libnftnl is a userspace library providing a low-level netlink programming interface (API) to the in-kernel nf_tables subsystem.

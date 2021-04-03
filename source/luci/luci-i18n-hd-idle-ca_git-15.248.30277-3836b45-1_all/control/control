@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 578
-Description:  Translation for luci-app-hd-idle - Català (Catalan)
+Description: Translation for luci-app-hd-idle - Català (Catalan)

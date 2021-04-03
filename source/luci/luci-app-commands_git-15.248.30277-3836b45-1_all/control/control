@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 4205
-Description:  LuCI Shell Command Module
+Description: LuCI Shell Command Module

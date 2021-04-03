@@ -7,5 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Vitaly Protsko <villy@sft.ru>
 Architecture: brcm63xx-tch
 Installed-Size: 176524
-Description:  Joe is world-famous Wordstar like text editor, that also features
- Emacs and Pico emulation
+Description: Joe is world-famous Wordstar like text editor, that also features Emacs and Pico emulation

@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 21865
-Description:  This package provides support for 'An implementation of agents proxy channel' in Asterisk.
+Description: This package provides support for 'An implementation of agents proxy channel' in Asterisk.

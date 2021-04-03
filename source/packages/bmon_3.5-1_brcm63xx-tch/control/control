@@ -8,7 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Baptiste Jonglez <openwrt-pkg@bitsofnetworks.org>
 Architecture: brcm63xx-tch
 Installed-Size: 33130
-Description:  bmon is a portable bandwidth monitor
- and rate estimator running on various
- operating systems. It supports various
- input methods for different architectures.
+Description: bmon is a portable bandwidth monitor and rate estimator running on various operating systems. It supports various input methods for different architectures.

@@ -9,11 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 28762
-Description:  Provides files for debugging:
- - benchmark.rb
- - debug.rb
- - objspace.so
- - profile.rb
- - profiler.rb
- - tracer.rb
- 
+Description: Provides files for debugging: - benchmark.rb - debug.rb - objspace.so - profile.rb - profiler.rb - tracer.rb 

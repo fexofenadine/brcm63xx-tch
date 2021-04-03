@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Michael Heimpold <mhei@heimpold.de>
 Architecture: brcm63xx-tch
 Installed-Size: 477380
-Description:  A library for manipulating XML and HTML resources.
+Description: A library for manipulating XML and HTML resources.

@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 Architecture: brcm63xx-tch
 Installed-Size: 8456
-Description:  XMLReader shared module
+Description: XMLReader shared module

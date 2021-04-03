@@ -7,4 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 2645
-Description:  Linux ATM tool atmswitch.
+Description: Linux ATM tool atmswitch.

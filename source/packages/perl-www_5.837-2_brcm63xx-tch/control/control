@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: brcm63xx-tch
 Installed-Size: 91103
-Description:  WWW client/server library for Perl (aka LWP)
+Description: WWW client/server library for Perl (aka LWP)

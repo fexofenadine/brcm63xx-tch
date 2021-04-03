@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Julen Landa Alustiza <julen@zokormazo.info>
 Architecture: brcm63xx-tch
 Installed-Size: 57896
-Description:  Full version of GNU less utility
- This package contains the Unicode enabled version of less.
+Description: Full version of GNU less utility This package contains the Unicode enabled version of less.

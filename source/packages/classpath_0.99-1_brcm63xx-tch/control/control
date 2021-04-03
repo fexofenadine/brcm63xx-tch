@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Dana H. Myers <k6jq@comcast.net>
 Architecture: brcm63xx-tch
 Installed-Size: 9002990
-Description:  GNU Classpath
+Description: GNU Classpath

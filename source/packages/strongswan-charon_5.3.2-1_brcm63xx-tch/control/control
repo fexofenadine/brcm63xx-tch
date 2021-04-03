@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 182141
-Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
- This package contains charon, an IKEv2 keying daemon.
+Description: StrongSwan is an OpenSource IPsec implementation for the Linux operating system. This package contains charon, an IKEv2 keying daemon.

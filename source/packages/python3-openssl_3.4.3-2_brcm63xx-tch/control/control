@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 35063
-Description:  Python 3.4 SSL module
+Description: Python 3.4 SSL module

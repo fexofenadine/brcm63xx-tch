@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
 Architecture: all
 Installed-Size: 2466
-Description:  Fwknopd config - web config for the firewall knock daemon
+Description: Fwknopd config - web config for the firewall knock daemon

@@ -8,4 +8,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 2298
-Description:  siproxd defaulttarget plugin
+Description: siproxd defaulttarget plugin

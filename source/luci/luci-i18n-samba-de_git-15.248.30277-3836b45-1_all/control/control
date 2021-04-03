@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 1081
-Description:  Translation for luci-app-samba - Deutsch (German)
+Description: Translation for luci-app-samba - Deutsch (German)

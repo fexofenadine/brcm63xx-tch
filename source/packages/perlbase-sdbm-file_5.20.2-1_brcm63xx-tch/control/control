@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: brcm63xx-tch
 Installed-Size: 9910
-Description:  SDBM_File perl module
+Description: SDBM_File perl module

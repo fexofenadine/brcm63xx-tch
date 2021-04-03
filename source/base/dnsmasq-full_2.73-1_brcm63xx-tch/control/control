@@ -8,7 +8,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 138705
-Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
- 
- This is a fully configurable variant with DHCPv6, DNSSEC, Authroitative DNS and
- IPset support enabled by default.
+Description: It is intended to provide coupled DNS and DHCP service to a LAN. This is a fully configurable variant with DHCPv6, DNSSEC, Authroitative DNS and IPset support enabled by default.

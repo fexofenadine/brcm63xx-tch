@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Michael Hanselmann <public@hansmi.ch>
 Architecture: brcm63xx-tch
 Installed-Size: 2352
-Description:  This package contains the Unbound control setup utility.
+Description: This package contains the Unbound control setup utility.

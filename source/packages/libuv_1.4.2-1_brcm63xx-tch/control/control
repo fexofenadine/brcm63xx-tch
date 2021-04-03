@@ -8,6 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 47379
-Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
- was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
- pyuv, and others.
+Description: libuv is a multi-platform support library with a focus on asynchronous I/O. It was primarily developed for use by Node.js, but it's also used by Luvit, Julia, pyuv, and others.

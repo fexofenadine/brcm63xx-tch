@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
 Architecture: brcm63xx-tch
 Installed-Size: 10425
-Description:  DAHDI tools dahdi_monitor, dahdi_speed and dahdi_test
+Description: DAHDI tools dahdi_monitor, dahdi_speed and dahdi_test

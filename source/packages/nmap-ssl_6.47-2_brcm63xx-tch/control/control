@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 1773261
-Description:  Nmap (with OpenSSL support)
+Description: Nmap (with OpenSSL support)

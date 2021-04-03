@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 11116
-Description:  Utility lxc-user-nic from the LXC userspace tools
+Description: Utility lxc-user-nic from the LXC userspace tools

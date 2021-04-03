@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 22023
-Description:  This package provides support for 'translate between signed linear and LPC10' in Asterisk.
+Description: This package provides support for 'translate between signed linear and LPC10' in Asterisk.

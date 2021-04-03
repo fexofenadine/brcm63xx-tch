@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 56725
-Description:  kamailio4 BINRPC transport interface module
+Description: kamailio4 BINRPC transport interface module

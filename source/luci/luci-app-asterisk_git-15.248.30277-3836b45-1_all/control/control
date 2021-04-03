@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 27889
-Description:  LuCI Support for Asterisk
+Description: LuCI Support for Asterisk

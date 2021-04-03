@@ -9,4 +9,4 @@ Essential: yes
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4817
-Description:  LDD trace utility
+Description: LDD trace utility

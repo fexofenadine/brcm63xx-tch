@@ -8,5 +8,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 8972
-Description:  Manage ethernet bridging: a way to connect networks together to
- form a larger network.
+Description: Manage ethernet bridging: a way to connect networks together to form a larger network.

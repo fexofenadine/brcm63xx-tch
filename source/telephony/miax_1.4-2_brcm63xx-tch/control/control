@@ -8,6 +8,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 33366
-Description:  miax is a console iax (asterisk) client, it can work with 
- a soundcard as a normal voip phone, taking input/output from 
- keyboard or analog/gsm/isdn modem.
+Description: miax is a console iax (asterisk) client, it can work with a soundcard as a normal voip phone, taking input/output from keyboard or analog/gsm/isdn modem.

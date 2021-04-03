@@ -8,7 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Gergely Kiss <mail.gery@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 11459337
-Description:  The web end of seafile server.
- 
- NOTE: in order to have better performance, language support is turned off by default.
- Please set 'USE_I18N = True' in seahub_settings.py to support multiple languages.
+Description: The web end of seafile server. NOTE: in order to have better performance, language support is turned off by default. Please set 'USE_I18N = True' in seahub_settings.py to support multiple languages.

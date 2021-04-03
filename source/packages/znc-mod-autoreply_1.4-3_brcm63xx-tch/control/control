@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 11540
-Description:  Gives a automatic reply if someone messages you if you are away.
+Description: Gives a automatic reply if someone messages you if you are away.

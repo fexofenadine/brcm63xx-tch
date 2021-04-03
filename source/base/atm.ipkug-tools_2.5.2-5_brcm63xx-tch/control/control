@@ -7,4 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 227092
-Description:  This package contains the Linux ATM debugging tools.
+Description: This package contains the Linux ATM debugging tools.

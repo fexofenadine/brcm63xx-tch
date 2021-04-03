@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 823359
-Description:  Provides the main userspace components required for Open vSwitch to function.
+Description: Provides the main userspace components required for Open vSwitch to function.

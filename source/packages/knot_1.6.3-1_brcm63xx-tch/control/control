@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Salzman <daniel.salzman@nic.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 272744
-Description:  High-performance authoritative-only DNS server.
+Description: High-performance authoritative-only DNS server.

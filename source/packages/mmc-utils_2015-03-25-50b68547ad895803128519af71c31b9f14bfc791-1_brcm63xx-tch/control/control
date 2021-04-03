@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Michael Heimpold <mhei@heimpold.de>
 Architecture: brcm63xx-tch
 Installed-Size: 16726
-Description:  This package contains the userspace mmc utils, the userspace
- counterpart to the Linux MMC/SD subsystem.
+Description: This package contains the userspace mmc utils, the userspace counterpart to the Linux MMC/SD subsystem.

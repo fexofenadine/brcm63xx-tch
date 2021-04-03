@@ -8,5 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 13804
-Description:  agetty opens a tty port, prompts for a login name and invokes the
- /bin/login command
+Description: agetty opens a tty port, prompts for a login name and invokes the /bin/login command

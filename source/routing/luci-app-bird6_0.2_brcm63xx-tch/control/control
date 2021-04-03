@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Eloi Carbo <eloicaso@openmailbox.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4416
-Description:  bird6 application for LuCI
+Description: bird6 application for LuCI

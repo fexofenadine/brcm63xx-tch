@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
 Architecture: brcm63xx-tch
 Installed-Size: 17292
-Description:  A library for radius clients
+Description: A library for radius clients

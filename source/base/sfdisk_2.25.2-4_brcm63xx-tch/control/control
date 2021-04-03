@@ -8,5 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 35705
-Description:  list the size of a partition, list the partitions on a device, check the
- partitions on a device and repartition a device
+Description: list the size of a partition, list the partitions on a device, check the partitions on a device and repartition a device

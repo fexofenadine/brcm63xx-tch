@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 72853
-Description:  SNMP Protocol Agent module for yate
+Description: SNMP Protocol Agent module for yate

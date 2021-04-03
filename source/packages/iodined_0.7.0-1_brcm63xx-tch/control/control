@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Uwe Kleine-König <uwe+openwrt@kleine-koenig.org>
 Architecture: brcm63xx-tch
 Installed-Size: 27274
-Description:  iodine server version
+Description: iodine server version

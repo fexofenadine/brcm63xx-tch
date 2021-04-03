@@ -8,11 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Alex Samorukov <samm@os2.kiev.ua>
 Architecture: brcm63xx-tch
 Installed-Size: 27442
-Description:  Alarm Pinger (apinger) is a little tool which monitors various IP devices by
- simple ICMP echo requests. There are various other tools, that can do this,
- but most of them are shell or perl scripts, spawning many processes, thus much
- CPU-expensive, especially when one wants continuous monitoring and fast
- response on target failure.  Alarm Pinger is a single program written in C, so
- it doesn't need much CPU power even when monitoring many targets with frequent
- probes.  Alarm Pinger supports both IPv4 and IPv6. The code have been tested
- on Linux and FreeBSD.
+Description: Alarm Pinger (apinger) is a little tool which monitors various IP devices by simple ICMP echo requests. There are various other tools, that can do this, but most of them are shell or perl scripts, spawning many processes, thus much CPU-expensive, especially when one wants continuous monitoring and fast response on target failure. Alarm Pinger is a single program written in C, so it doesn't need much CPU power even when monitoring many targets with frequent probes. Alarm Pinger supports both IPv4 and IPv6. The code have been tested on Linux and FreeBSD.

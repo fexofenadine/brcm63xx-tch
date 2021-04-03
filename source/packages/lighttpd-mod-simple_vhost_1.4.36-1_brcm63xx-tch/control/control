@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: brcm63xx-tch
 Installed-Size: 3481
-Description:  Simple virtual hosting module
+Description: Simple virtual hosting module

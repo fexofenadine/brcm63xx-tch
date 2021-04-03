@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: daniel.salzman@nic.cz
 Architecture: brcm63xx-tch
 Installed-Size: 42404
-Description:  Userspace Read-Copy-Update library.
+Description: Userspace Read-Copy-Update library.

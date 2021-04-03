@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Christian Beier <cb@shoutrlabs.com>
 Architecture: brcm63xx-tch
 Installed-Size: 21489925
-Description:  build a native toolchain for compiling on target
+Description: build a native toolchain for compiling on target

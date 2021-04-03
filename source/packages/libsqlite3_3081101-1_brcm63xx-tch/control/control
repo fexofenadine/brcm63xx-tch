@@ -8,7 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 367311
-Description:  SQLite is a small C library that implements a self-contained, embeddable,
- zero-configuration SQL database engine.
- This package contains the SQLite (v3.x) shared library, used by other
- programs.
+Description: SQLite is a small C library that implements a self-contained, embeddable, zero-configuration SQL database engine. This package contains the SQLite (v3.x) shared library, used by other programs.

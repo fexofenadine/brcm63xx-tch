@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 17055
-Description:  This package provides support for 'Simple Message Desk Interface capability' in Asterisk11.
+Description: This package provides support for 'Simple Message Desk Interface capability' in Asterisk11.

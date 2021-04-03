@@ -7,8 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: brcm63xx-tch
 Installed-Size: 323494
-Description:  LibTorrent is a BitTorrent library written in C++ for *nix, with a focus on
- high performance and good code. The library differentiates itself from other
- implementations by transfering directly from file pages to the network stack.
- On high-bandwidth connections it is able to seed at 3 times the speed of the
- official client.
+Description: LibTorrent is a BitTorrent library written in C++ for *nix, with a focus on high performance and good code. The library differentiates itself from other implementations by transfering directly from file pages to the network stack. On high-bandwidth connections it is able to seed at 3 times the speed of the official client.

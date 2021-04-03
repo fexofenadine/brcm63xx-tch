@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 16471
-Description:  Freifunk DHCP-Splash application
+Description: Freifunk DHCP-Splash application

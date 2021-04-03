@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
 Architecture: all
 Installed-Size: 1532
-Description:  Control BCP38 subnet blocking
+Description: Control BCP38 subnet blocking

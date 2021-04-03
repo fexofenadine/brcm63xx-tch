@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 467
-Description:  Translation for luci-app-voice-diag - English
+Description: Translation for luci-app-voice-diag - English

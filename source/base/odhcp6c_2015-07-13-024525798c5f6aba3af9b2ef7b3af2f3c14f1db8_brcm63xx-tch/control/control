@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <steven@midlink.org>
 Architecture: brcm63xx-tch
 Installed-Size: 23331
-Description:  Embedded DHCPv6-client for OpenWrt
+Description: Embedded DHCPv6-client for OpenWrt

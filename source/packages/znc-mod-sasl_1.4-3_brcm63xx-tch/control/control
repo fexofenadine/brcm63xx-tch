@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 24338
-Description:  The SASL module allows you to authenticate to an IRC network via SASL.
+Description: The SASL module allows you to authenticate to an IRC network via SASL.

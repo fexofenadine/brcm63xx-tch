@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 4439
-Description:  This package provides support for 'Math functions' in Asterisk.
+Description: This package provides support for 'Math functions' in Asterisk.

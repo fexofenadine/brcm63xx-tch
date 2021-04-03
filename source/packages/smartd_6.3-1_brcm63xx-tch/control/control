@@ -9,7 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 147256
-Description:  smartmontools contains utility programs (smartd) to
- control/monitor storage systems using the Self-Monitoring, Analysis
- and Reporting Technology System (S.M.A.R.T.) built into most modern
- ATA and SCSI disks. It is derived from smartsuite.
+Description: smartmontools contains utility programs (smartd) to control/monitor storage systems using the Self-Monitoring, Analysis and Reporting Technology System (S.M.A.R.T.) built into most modern ATA and SCSI disks. It is derived from smartsuite.

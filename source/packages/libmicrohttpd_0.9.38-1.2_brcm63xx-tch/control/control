@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Martijn Zilverschoon <martijn@friedzombie.com>
 Architecture: brcm63xx-tch
 Installed-Size: 53347
-Description:  GNU libmicrohttpd is a small C library that is supposed to make it easy
- to run an HTTP server as part of another application.
+Description: GNU libmicrohttpd is a small C library that is supposed to make it easy to run an HTTP server as part of another application.

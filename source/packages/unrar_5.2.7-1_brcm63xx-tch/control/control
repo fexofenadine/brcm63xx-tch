@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 121804
-Description:  UnRAR is an application that can decompress files and archives created using
- the RAR compression scheme
+Description: UnRAR is an application that can decompress files and archives created using the RAR compression scheme

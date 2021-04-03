@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 7129
-Description:  This module blocks the server's Message of the Day.
+Description: This module blocks the server's Message of the Day.

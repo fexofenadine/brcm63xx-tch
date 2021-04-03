@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 5511
-Description:  Lua binding for the OpenWrt RPC client
+Description: Lua binding for the OpenWrt RPC client

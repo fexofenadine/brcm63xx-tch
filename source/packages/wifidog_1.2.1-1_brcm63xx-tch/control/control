@@ -9,7 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Michael Haas <haas@computerlinguist.org>
 Architecture: brcm63xx-tch
 Installed-Size: 47230
-Description:  The Wifidog project is a complete and embeddable captive
- portal solution for wireless community groups or individuals
- who wish to open a free Hotspot while still preventing abuse
- of their Internet connection.
+Description: The Wifidog project is a complete and embeddable captive portal solution for wireless community groups or individuals who wish to open a free Hotspot while still preventing abuse of their Internet connection.

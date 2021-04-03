@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 5413
-Description:  The ovs-monitor-ipsec script provides support for encrypting GRE tunnels with 
- IPsec.
+Description: The ovs-monitor-ipsec script provides support for encrypting GRE tunnels with IPsec.

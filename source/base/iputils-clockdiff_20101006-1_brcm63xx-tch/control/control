@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4841
-Description:  Program clockdiff from iputils.
- Measures clock difference between hosts.
+Description: Program clockdiff from iputils. Measures clock difference between hosts.

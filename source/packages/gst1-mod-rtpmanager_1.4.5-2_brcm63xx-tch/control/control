@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: brcm63xx-tch
 Installed-Size: 112253
-Description:  GStreamer open source multimedia framework
- .
- This package contains the GStreamer RTP manager plugin.
+Description: GStreamer open source multimedia framework . This package contains the GStreamer RTP manager plugin.

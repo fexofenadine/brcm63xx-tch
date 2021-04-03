@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Zoltan HERPAI <wigyori@uid0.hu>
 Architecture: brcm63xx-tch
 Installed-Size: 6541
-Description:  Userland tools for GPS and DCF-77 Clock syncronization. PPS support in Kernel must be enabled.
+Description: Userland tools for GPS and DCF-77 Clock syncronization. PPS support in Kernel must be enabled.

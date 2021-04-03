@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: brcm63xx-tch
 Installed-Size: 794901
-Description:  Perl is a stable, cross platform programming language.
- It is used for mission critical projects in the public and private sectors
- and is widely used to program web applications of all needs.
+Description: Perl is a stable, cross platform programming language. It is used for mission critical projects in the public and private sectors and is widely used to program web applications of all needs.

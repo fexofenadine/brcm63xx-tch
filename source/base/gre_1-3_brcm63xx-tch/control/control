@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Hans Dedecker <dedeckeh@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 1318
-Description:  Generic Routing Encapsulation config support (IPv4 and IPv6) in /etc/config/network.
+Description: Generic Routing Encapsulation config support (IPv4 and IPv6) in /etc/config/network.

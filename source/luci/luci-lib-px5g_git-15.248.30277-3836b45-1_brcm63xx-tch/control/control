@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 29083
-Description:  RSA/X.509 Key Generator (required for LuCId SSL support)
+Description: RSA/X.509 Key Generator (required for LuCId SSL support)

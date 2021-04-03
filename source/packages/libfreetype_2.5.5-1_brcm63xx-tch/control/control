@@ -9,7 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 255942
-Description:  The FreeType project is a team of volunteers who develop free,
- portable and high-quality software solutions for digital typography.
- They specifically target embedded systems and focus on bringing small,
- efficient and ubiquitous products.
+Description: The FreeType project is a team of volunteers who develop free, portable and high-quality software solutions for digital typography. They specifically target embedded systems and focus on bringing small, efficient and ubiquitous products.

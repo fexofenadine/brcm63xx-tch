@@ -8,4 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 7399
-Description:  whereis locates source/binary and manuals sections for specified files
+Description: whereis locates source/binary and manuals sections for specified files

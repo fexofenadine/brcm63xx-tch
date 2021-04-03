@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Lukasz Baj <l.baj@radytek.com>
 Architecture: brcm63xx-tch
 Installed-Size: 15853
-Description:  A library to handle Apple Property List format whereas it's binary or XML
+Description: A library to handle Apple Property List format whereas it's binary or XML

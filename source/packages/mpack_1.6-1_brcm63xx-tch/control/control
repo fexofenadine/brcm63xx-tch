@@ -8,8 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Dmitry V. Zimin <pfzim@mail.ru>
 Architecture: brcm63xx-tch
 Installed-Size: 27527
-Description:  Mpack and munpack are utilities for encoding and decoding
- (respectively) binary files in MIME (Multipurpose Internet Mail
- Extensions) format mail messages.  For compatibility with older forms
- of transferring binary files, the munpack program can also decode
- messages in split-uuencoded format.
+Description: Mpack and munpack are utilities for encoding and decoding (respectively) binary files in MIME (Multipurpose Internet Mail Extensions) format mail messages. For compatibility with older forms of transferring binary files, the munpack program can also decode messages in split-uuencoded format.

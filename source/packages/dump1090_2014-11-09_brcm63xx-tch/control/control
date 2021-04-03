@@ -8,6 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 54163
-Description:  Dump1090 is a Mode S decoder specifically designed for RTLSDR devices.
- Embedded HTTP server that displays the currently detected aircrafts on
- Google Maps. Network output in Basestation and AVR formats.
+Description: Dump1090 is a Mode S decoder specifically designed for RTLSDR devices. Embedded HTTP server that displays the currently detected aircrafts on Google Maps. Network output in Basestation and AVR formats.

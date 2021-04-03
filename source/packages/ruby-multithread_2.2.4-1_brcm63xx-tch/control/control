@@ -9,13 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 14664
-Description:  Provides files for multithread usage:
- - io/nonblock.so
- - io/wait.so
- - thread.so (FYI, Thread is a core class)
- - monitor.rb
- - mutex_m.rb
- - sync.rb
- - thwait.rb
- - timeout.rb
- 
+Description: Provides files for multithread usage: - io/nonblock.so - io/wait.so - thread.so (FYI, Thread is a core class) - monitor.rb - mutex_m.rb - sync.rb - thwait.rb - timeout.rb 

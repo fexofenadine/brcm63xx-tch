@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 28997
-Description:  SANE (Scanner Access Now Easy) is a universal scanner interface.
- .
- This package contains the SANE backend for Hewlett-Packard 4500C/4570C/5500C/5550C/5590/7650 Workgroup/Document scanners.
+Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for Hewlett-Packard 4500C/4570C/5500C/5550C/5590/7650 Workgroup/Document scanners.

@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 2967
-Description:  Common files and scripts that are needed to run free wireless mesh networks.
+Description: Common files and scripts that are needed to run free wireless mesh networks.

@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 11594
-Description:  PostgrestSQL Backend DB module for yate
+Description: PostgrestSQL Backend DB module for yate

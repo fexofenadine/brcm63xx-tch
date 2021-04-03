@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 947
-Description:  Translation for luci-mod-freifunk - Português (Portuguese)
+Description: Translation for luci-mod-freifunk - Português (Portuguese)

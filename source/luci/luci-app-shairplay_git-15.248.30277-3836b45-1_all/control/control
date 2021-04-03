@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 1395
-Description:  LuCI Support for Shairplay
+Description: LuCI Support for Shairplay

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 36937
-Description:  OpenWrt system process manager
+Description: OpenWrt system process manager

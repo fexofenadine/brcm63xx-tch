@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Roger D <rogerdammit@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 33755
-Description:  Streaming application for Linux-UVC compatible webcams
+Description: Streaming application for Linux-UVC compatible webcams

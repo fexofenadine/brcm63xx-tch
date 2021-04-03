@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 3265
-Description:  Creates openssh ssh(1) Local and Remote tunnels configured in UCI file. Can be used to allow remote connections, possibly over NATed connections or without public IP/DNS
+Description: Creates openssh ssh(1) Local and Remote tunnels configured in UCI file. Can be used to allow remote connections, possibly over NATed connections or without public IP/DNS

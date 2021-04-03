@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 6753
-Description:  Open source MAC Telnet client and server utilities for connecting to
- Mikrotik RouterOS routers and Linux machines via MAC address.
+Description: Open source MAC Telnet client and server utilities for connecting to Mikrotik RouterOS routers and Linux machines via MAC address.

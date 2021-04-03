@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 5897
-Description:  kamailio4 Max-Forward processor module
+Description: kamailio4 Max-Forward processor module

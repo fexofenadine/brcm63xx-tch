@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 4506
-Description:  LuCI PBX Administration Voicemail Support
+Description: LuCI PBX Administration Voicemail Support

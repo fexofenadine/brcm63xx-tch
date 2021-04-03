@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: brcm63xx-tch
 Installed-Size: 347508
-Description:  Bash is an sh-compatible command language interpreter that executes
- commands read from the standard input or from a file. Bash also
- incorporates useful features from the Korn and C shells (ksh and csh).
+Description: Bash is an sh-compatible command language interpreter that executes commands read from the standard input or from a file. Bash also incorporates useful features from the Korn and C shells (ksh and csh).

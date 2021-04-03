@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Florian Fainelli <florian@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 14630
-Description:  Utilities to create and check HFS/HFS+ filesystems.
- (mkfs.hfs and mkfs.hfsplus for creating HFS/HFS+ volumes)
+Description: Utilities to create and check HFS/HFS+ filesystems. (mkfs.hfs and mkfs.hfsplus for creating HFS/HFS+ volumes)

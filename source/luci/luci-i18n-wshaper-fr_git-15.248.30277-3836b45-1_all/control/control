@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 687
-Description:  Translation for luci-app-wshaper - Français (French)
+Description: Translation for luci-app-wshaper - Français (French)

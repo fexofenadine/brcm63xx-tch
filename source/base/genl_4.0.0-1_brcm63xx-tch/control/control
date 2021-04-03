@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Russell Senior <russell@personaltelco.net>
 Architecture: brcm63xx-tch
 Installed-Size: 6869
-Description:  General netlink utility frontend
+Description: General netlink utility frontend

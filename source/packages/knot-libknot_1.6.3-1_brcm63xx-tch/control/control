@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Salzman <daniel.salzman@nic.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 90128
-Description:  Knot DNS library.
+Description: Knot DNS library.

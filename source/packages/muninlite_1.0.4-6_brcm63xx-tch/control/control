@@ -8,4 +8,4 @@ Section: admin
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 5811
-Description:  Munin node implemented in shell
+Description: Munin node implemented in shell

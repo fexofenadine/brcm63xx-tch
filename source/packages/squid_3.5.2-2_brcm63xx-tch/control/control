@@ -8,6 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 1611509
-Description:  Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more.
- It reduces bandwidth and improves response times by caching and reusing
- frequently-requested web pages.
+Description: Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more. It reduces bandwidth and improves response times by caching and reusing frequently-requested web pages.

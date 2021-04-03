@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 165356
-Description:  Validating XML parser library for C++ (samples)
+Description: Validating XML parser library for C++ (samples)

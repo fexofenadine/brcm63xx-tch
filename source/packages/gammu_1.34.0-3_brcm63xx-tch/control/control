@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Vitaly Protsko <villy@sft.ru>
 Architecture: brcm63xx-tch
 Installed-Size: 1611097
-Description:  Cell phone/modem SMS and control tool
+Description: Cell phone/modem SMS and control tool

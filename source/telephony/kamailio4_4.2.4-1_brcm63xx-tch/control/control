@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 1090485
-Description:  Mature and flexible open source SIP server, v4.2.4
+Description: Mature and flexible open source SIP server, v4.2.4

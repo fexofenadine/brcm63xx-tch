@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 602
-Description:  Translation for luci-app-voice-diag - 臺灣華語 (Taiwanese)
+Description: Translation for luci-app-voice-diag - 臺灣華語 (Taiwanese)

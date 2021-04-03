@@ -9,7 +9,4 @@ Require-User: _fdm=99:_fdm=99
 Old_Maintainer: Dmitry V. Zimin <pfzim@mail.ru>
 Architecture: brcm63xx-tch
 Installed-Size: 90012
-Description:  fdm is a simple, lightweight replacement for mail fetch, filter
- and delivery programs such as fetchmail and procmail. It can
- fetch using POP3 or IMAP (with SSL) or from stdin, and deliver
- to a pipe, file, maildir, mbox or SMTP server, based on PCRE
+Description: fdm is a simple, lightweight replacement for mail fetch, filter and delivery programs such as fetchmail and procmail. It can fetch using POP3 or IMAP (with SSL) or from stdin, and deliver to a pipe, file, maildir, mbox or SMTP server, based on PCRE

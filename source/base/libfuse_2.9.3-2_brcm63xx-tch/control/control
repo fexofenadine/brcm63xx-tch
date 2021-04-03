@@ -8,7 +8,4 @@ Section: libs
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 61112
-Description:  FUSE (Filesystem in UserSpacE)
- This package contains the FUSE shared libraries, needed by other programs.
- - libfuse
- - libulockmgr
+Description: FUSE (Filesystem in UserSpacE) This package contains the FUSE shared libraries, needed by other programs. - libfuse - libulockmgr

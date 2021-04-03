@@ -7,4 +7,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 2380
-Description:  This package contains a MAC address manipulation utility.
+Description: This package contains a MAC address manipulation utility.

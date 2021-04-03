@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 659
-Description:  Translation for luci-app-p2pblock - Italiano (Italian)
+Description: Translation for luci-app-p2pblock - Italiano (Italian)

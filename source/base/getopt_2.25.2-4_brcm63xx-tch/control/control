@@ -8,5 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 4805
-Description:  getopt is used to break up (parse) options in command lines for easy parsing
- by shell procedures, and to check for legal options
+Description: getopt is used to break up (parse) options in command lines for easy parsing by shell procedures, and to check for legal options

@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Bud <wrt_buddhay@gmx.net>
 Architecture: brcm63xx-tch
 Installed-Size: 195600
-Description:  ntfsprogs (ntfs-3g)
+Description: ntfsprogs (ntfs-3g)

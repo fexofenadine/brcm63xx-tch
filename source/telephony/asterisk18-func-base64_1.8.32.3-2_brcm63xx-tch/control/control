@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 2456
-Description:  This package provides support for 'support of base64 function' in Asterisk.
+Description: This package provides support for 'support of base64 function' in Asterisk.

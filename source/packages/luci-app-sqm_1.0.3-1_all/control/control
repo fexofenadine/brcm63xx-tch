@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
 Architecture: all
 Installed-Size: 3748
-Description:  Control the simple_qos SQM script
+Description: Control the simple_qos SQM script

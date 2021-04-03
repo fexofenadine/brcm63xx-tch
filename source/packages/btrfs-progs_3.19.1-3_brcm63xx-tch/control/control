@@ -9,7 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
 Installed-Size: 1449332
-Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
- advanced features while focusing on fault tolerance, repair and easy
- administration. Initially developed by Oracle, Btrfs is licensed under the
- GPL and open for contribution from anyone.
+Description: Btrfs is a new copy on write filesystem for Linux aimed at implementing advanced features while focusing on fault tolerance, repair and easy administration. Initially developed by Oracle, Btrfs is licensed under the GPL and open for contribution from anyone.

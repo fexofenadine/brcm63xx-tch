@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Roger D <rogerdammit@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 92738
-Description:  webcam motion sensing and logging
+Description: webcam motion sensing and logging

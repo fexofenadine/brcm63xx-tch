@@ -7,4 +7,4 @@ Section: base
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 32438
-Description:  This package contains a base filesystem and system scripts for OpenWrt.
+Description: This package contains a base filesystem and system scripts for OpenWrt.

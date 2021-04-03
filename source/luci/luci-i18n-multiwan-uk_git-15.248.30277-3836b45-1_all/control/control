@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 630
-Description:  Translation for luci-app-multiwan - украї́нська (Ukrainian)
+Description: Translation for luci-app-multiwan - украї́нська (Ukrainian)

@@ -6,4 +6,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 5826
-Description:  Ext2 Filesystem file fragmentation report utility
+Description: Ext2 Filesystem file fragmentation report utility

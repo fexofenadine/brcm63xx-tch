@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: David Bonnes <david.bonnes@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 24629
-Description:  Utilities to create and check MS-DOS FAT filesystems.
- (fatlabel for reading and writing labels of FAT volumes)
+Description: Utilities to create and check MS-DOS FAT filesystems. (fatlabel for reading and writing labels of FAT volumes)

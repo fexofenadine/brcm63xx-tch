@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 15787
-Description:  This package provides support for 'SMS support (ETSI ES 201 912 protocol 1)' in Asterisk.
+Description: This package provides support for 'SMS support (ETSI ES 201 912 protocol 1)' in Asterisk.

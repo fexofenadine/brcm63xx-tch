@@ -6,5 +6,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 188252
-Description:  This package contains essential ext2 filesystem utilities which consists of
- e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
+Description: This package contains essential ext2 filesystem utilities which consists of e2fsck, mke2fs and most of the other core ext2 filesystem utilities.

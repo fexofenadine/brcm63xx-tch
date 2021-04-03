@@ -8,9 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Markus Stenberg <fingon@iki.fi>
 Architecture: brcm63xx-tch
 Installed-Size: 6123
-Description:  This package contains a daemon which can be used to forward
- PCP (Port Control Protocol - RFC6887) requests requests to PCP remote servers.
- 
- In and of itself, it is not very useful, but combined with hnetd+miniupnpd
- it allows for control of NAT forwarding and firewall pinholes from multiple
- hops away.
+Description: This package contains a daemon which can be used to forward PCP (Port Control Protocol - RFC6887) requests requests to PCP remote servers. In and of itself, it is not very useful, but combined with hnetd+miniupnpd it allows for control of NAT forwarding and firewall pinholes from multiple hops away.

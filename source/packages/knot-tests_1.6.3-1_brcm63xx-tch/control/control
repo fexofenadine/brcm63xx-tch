@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Salzman <daniel.salzman@nic.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 1845397
-Description:  Unit tests for Knot DNS server.
- Usage: /usr/share/knot/runtests.sh
+Description: Unit tests for Knot DNS server. Usage: /usr/share/knot/runtests.sh

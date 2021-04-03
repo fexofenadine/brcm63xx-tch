@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Noah Meyerhans <frodo@morgul.net>
 Architecture: brcm63xx-tch
 Installed-Size: 19989
-Description:  bind dynamic DNS client
+Description: bind dynamic DNS client

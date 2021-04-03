@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: brcm63xx-tch
 Installed-Size: 608
-Description:  IMPLEMENT Syslog Protocol
+Description: IMPLEMENT Syslog Protocol

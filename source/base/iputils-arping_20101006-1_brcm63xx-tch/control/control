@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 5613
-Description:  Program arping from iputils.
- Sends ARP REQUEST to a neighbour host.
+Description: Program arping from iputils. Sends ARP REQUEST to a neighbour host.

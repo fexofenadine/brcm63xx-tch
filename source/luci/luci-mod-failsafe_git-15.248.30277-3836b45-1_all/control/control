@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 3928
-Description:  LuCI Fail-Safe - Fail-Safe sysupgrade module
+Description: LuCI Fail-Safe - Fail-Safe sysupgrade module

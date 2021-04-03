@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 33460
-Description:  This package provides support for 'Generic FAX resource for FAX technology resource modules' in Asterisk.
+Description: This package provides support for 'Generic FAX resource for FAX technology resource modules' in Asterisk.

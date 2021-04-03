@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 2620
-Description:  Support for PPP/PPPoE/PPPoA/PPtP
+Description: Support for PPP/PPPoE/PPPoA/PPtP

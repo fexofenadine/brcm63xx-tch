@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Noah Meyerhans <frodo@morgul.net>
 Architecture: brcm63xx-tch
 Installed-Size: 14421
-Description:  bind administration tools (named-checkconf and named-checkzone only)
+Description: bind administration tools (named-checkconf and named-checkzone only)

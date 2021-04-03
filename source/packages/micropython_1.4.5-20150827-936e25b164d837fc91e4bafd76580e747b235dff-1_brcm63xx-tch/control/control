@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Roger D <rogerdammit@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 135521
-Description:  This package contains Micro Python, a lean and fast implementation of the Python 3.4 programming language
- that is optimised to run on a microcontroller (and low power computers).
+Description: This package contains Micro Python, a lean and fast implementation of the Python 3.4 programming language that is optimised to run on a microcontroller (and low power computers).

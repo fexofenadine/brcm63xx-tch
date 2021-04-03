@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 7121
-Description:  Output plugin for logging to a PostgreSQL database
+Description: Output plugin for logging to a PostgreSQL database

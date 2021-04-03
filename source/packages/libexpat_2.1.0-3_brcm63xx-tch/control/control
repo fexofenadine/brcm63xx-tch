@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 53424
-Description:  A fast, non-validating, stream-oriented XML parsing library.
+Description: A fast, non-validating, stream-oriented XML parsing library.

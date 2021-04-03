@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Michael Heimpold <mhei@heimpold.de>
 Architecture: brcm63xx-tch
 Installed-Size: 2045
-Description:  Tool for controlling gpio pins using the sysfs api provided by the kernel.
+Description: Tool for controlling gpio pins using the sysfs api provided by the kernel.

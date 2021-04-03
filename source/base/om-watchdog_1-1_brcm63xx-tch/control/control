@@ -6,4 +6,4 @@ Section: base
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 630
-Description:  This package contains the hw watchdog script for the OM1P and OM2P device.
+Description: This package contains the hw watchdog script for the OM1P and OM2P device.

@@ -7,6 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Roger D <rogerdammit@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 18681
-Description:  The webcam-tools package contains the following two components:
- - libwebcam: Webcam Library (LGPL)
- - uvcdynctrl: Manage dynamic controls in uvcvideo (GPL)
+Description: The webcam-tools package contains the following two components: - libwebcam: Webcam Library (LGPL) - uvcdynctrl: Manage dynamic controls in uvcvideo (GPL)

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Axel Neumann <neumann@cgws.de>
 Architecture: brcm63xx-tch
 Installed-Size: 133868
-Description:  BMX6 layer 3 routing daemon supporting IPv4, IPv6, and IPv4 over IPv6
+Description: BMX6 layer 3 routing daemon supporting IPv4, IPv6, and IPv4 over IPv6

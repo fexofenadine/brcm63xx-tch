@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Othmar Truniger <github@truniger.ch>
 Architecture: brcm63xx-tch
 Installed-Size: 23351
-Description:  UPS control software CGI module
+Description: UPS control software CGI module

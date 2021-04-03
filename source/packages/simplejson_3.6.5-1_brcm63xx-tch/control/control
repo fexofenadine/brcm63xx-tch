@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Gergely Kiss <mail.gery@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 49057
-Description:  Simple, fast, extensible JSON encoder/decoder for Python
+Description: Simple, fast, extensible JSON encoder/decoder for Python

@@ -10,4 +10,4 @@ Require-User: dovecot=59:dovecot=59
 Old_Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: brcm63xx-tch
 Installed-Size: 1963812
-Description:  Dovecot is a program which provides POP3 and IMAP services.
+Description: Dovecot is a program which provides POP3 and IMAP services.

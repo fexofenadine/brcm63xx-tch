@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 8528
-Description:  Ncurses application to send ICMP echo request to network hosts
+Description: Ncurses application to send ICMP echo request to network hosts

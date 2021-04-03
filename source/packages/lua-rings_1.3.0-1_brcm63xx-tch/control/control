@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Dirk Chang <dirk@kooiot.com>
 Architecture: brcm63xx-tch
 Installed-Size: 4111
-Description:  Rings is a library which provides a way to create new Lua states from within Lua.
+Description: Rings is a library which provides a way to create new Lua states from within Lua.

@@ -8,14 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Sebastian Wendel <packages@sourceindex.de>
 Architecture: brcm63xx-tch
 Installed-Size: 25586
-Description:  Provide some examples shared functions like print, parity calculation, options parsing
- 
- * Emulates a NFC Forum Tag Type 4 v2.0 (or v1.0)
- * Jewel dump/restore tool
- * Lists the first target present of each founded device
- * MIFARE Classic manipulation example
- * MIFARE Ultralight dump/restore tool
- * Extract NDEF Message from a NFC Forum Tag Type 3
- * Relay example using two PN532 devices
- * Lists each available NFC device
- 
+Description: Provide some examples shared functions like print, parity calculation, options parsing * Emulates a NFC Forum Tag Type 4 v2.0 (or v1.0) * Jewel dump/restore tool * Lists the first target present of each founded device * MIFARE Classic manipulation example * MIFARE Ultralight dump/restore tool * Extract NDEF Message from a NFC Forum Tag Type 3 * Relay example using two PN532 devices * Lists each available NFC device 

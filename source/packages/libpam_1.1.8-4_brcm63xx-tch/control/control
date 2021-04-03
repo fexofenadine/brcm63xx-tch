@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 184393
-Description:  The Linux-PAM Pluggable Authentication Modules.
+Description: The Linux-PAM Pluggable Authentication Modules.

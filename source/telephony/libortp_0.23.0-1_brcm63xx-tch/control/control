@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 49141
-Description:  Real-time Transport Protocol (RTP) library
+Description: Real-time Transport Protocol (RTP) library

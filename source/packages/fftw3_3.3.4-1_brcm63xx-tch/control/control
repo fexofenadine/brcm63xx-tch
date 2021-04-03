@@ -8,7 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Vladimir Ulrich <admin@evl.su>
 Architecture: brcm63xx-tch
 Installed-Size: 559737
-Description:  FFTW is a collection of fast C routines for computing the
- Discrete Fourier Transform in one or more dimensions. It
- includes complex, real, and parallel transforms, and can
- handle arbitrary array sizes efficiently.
+Description: FFTW is a collection of fast C routines for computing the Discrete Fourier Transform in one or more dimensions. It includes complex, real, and parallel transforms, and can handle arbitrary array sizes efficiently.

@@ -10,5 +10,4 @@ Essential: yes
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 231089
-Description:  The Swiss Army Knife of embedded Linux.
- It slices, it dices, it makes Julian Fries.
+Description: The Swiss Army Knife of embedded Linux. It slices, it dices, it makes Julian Fries.

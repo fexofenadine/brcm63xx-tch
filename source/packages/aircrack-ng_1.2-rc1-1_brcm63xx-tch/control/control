@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Rick Farina <zerochaos@gentoo.org>
 Architecture: brcm63xx-tch
 Installed-Size: 401255
-Description:  WLAN tools for breaking 802.11 WEP/WPA keys
+Description: WLAN tools for breaking 802.11 WEP/WPA keys

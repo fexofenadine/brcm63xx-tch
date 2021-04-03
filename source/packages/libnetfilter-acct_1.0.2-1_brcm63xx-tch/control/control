@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 3070
-Description:  libnetfilter_acct is a userspace library providing a programming interface
- (API) to the extended accounting infrastructure.
+Description: libnetfilter_acct is a userspace library providing a programming interface (API) to the extended accounting infrastructure.

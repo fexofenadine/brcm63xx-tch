@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: brcm63xx-tch
 Installed-Size: 125265
-Description:  ALSA (Advanced Linux Sound Architecture) utilities
+Description: ALSA (Advanced Linux Sound Architecture) utilities

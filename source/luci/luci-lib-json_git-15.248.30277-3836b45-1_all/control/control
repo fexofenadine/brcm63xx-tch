@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 3112
-Description:  LuCI JSON library
+Description: LuCI JSON library

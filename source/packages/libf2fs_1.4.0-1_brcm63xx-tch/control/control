@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4369
-Description:  Library for Flash-Friendly File System (F2FS) tools
+Description: Library for Flash-Friendly File System (F2FS) tools

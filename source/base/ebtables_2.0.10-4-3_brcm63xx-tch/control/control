@@ -7,7 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 58489
-Description:  The ebtables program is a filtering tool for a bridging firewall. The
- filtering is focussed on the Link Layer Ethernet frame fields. Apart
- from filtering, it also gives the ability to alter the Ethernet MAC
- addresses and implement a brouter.
+Description: The ebtables program is a filtering tool for a bridging firewall. The filtering is focussed on the Link Layer Ethernet frame fields. Apart from filtering, it also gives the ability to alter the Ethernet MAC addresses and implement a brouter.

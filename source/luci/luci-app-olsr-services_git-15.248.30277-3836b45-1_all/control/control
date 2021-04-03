@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 2158
-Description:  Show services announced with the nameservice plugin
+Description: Show services announced with the nameservice plugin

@@ -10,4 +10,4 @@ Require-User: radicale=5232:radicale=5232
 Old_Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
 Architecture: all
 Installed-Size: 31137
-Description:  Radicale CalDAV/CardDAV server (Python 2) - Homepage: http://radicale.org/
+Description: Radicale CalDAV/CardDAV server (Python 2) - Homepage: http://radicale.org/

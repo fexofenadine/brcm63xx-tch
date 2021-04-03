@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: brcm63xx-tch
 Installed-Size: 44978
-Description:  A fast and secure FTP server (TLS)
+Description: A fast and secure FTP server (TLS)

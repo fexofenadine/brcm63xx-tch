@@ -9,9 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: brcm63xx-tch
 Installed-Size: 11732
-Description:  GNU Libidn is a fully documented implementation of the Stringprep,
- Punycode and IDNA specifications. Libidn's purpose is to encode and
- decode internationalized domain names.
- 
- Command line tool using libidn
- 
+Description: GNU Libidn is a fully documented implementation of the Stringprep, Punycode and IDNA specifications. Libidn's purpose is to encode and decode internationalized domain names. Command line tool using libidn 

@@ -8,4 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 94819
-Description:  cfdisk is a curses-based program for partitioning any hard disk drive
+Description: cfdisk is a curses-based program for partitioning any hard disk drive

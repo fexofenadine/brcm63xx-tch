@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 4465
-Description:  LuCI Support for OpenConnect VPN
+Description: LuCI Support for OpenConnect VPN

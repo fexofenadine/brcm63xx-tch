@@ -8,5 +8,4 @@ Section: libs
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 95238
-Description:  The libmount library is used to parse /etc/fstab, /etc/mtab and
- /proc/self/mountinfo files, manage the mtab file, evaluate mount options...
+Description: The libmount library is used to parse /etc/fstab, /etc/mtab and /proc/self/mountinfo files, manage the mtab file, evaluate mount options...

@@ -6,4 +6,4 @@ Section: base
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 185279
-Description:  System CA certificates
+Description: System CA certificates

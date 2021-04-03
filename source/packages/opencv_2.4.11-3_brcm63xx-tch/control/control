@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: WRTnode Team <pub@wrtnode.com>
 Architecture: brcm63xx-tch
 Installed-Size: 3469242
-Description:  opencv-2.4.11
+Description: opencv-2.4.11

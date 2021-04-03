@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
 Installed-Size: 11245
-Description:  Libp11 is a library implementing a small layer on top of PKCS#11 API
- to make using PKCS#11 implementations easier.
+Description: Libp11 is a library implementing a small layer on top of PKCS#11 API to make using PKCS#11 implementations easier.

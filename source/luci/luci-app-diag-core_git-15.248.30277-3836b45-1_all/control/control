@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 790
-Description:  LuCI Diagnostics Tools (Core)
+Description: LuCI Diagnostics Tools (Core)

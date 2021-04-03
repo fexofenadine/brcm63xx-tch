@@ -9,7 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: brcm63xx-tch
 Installed-Size: 105
-Description:  GStreamer open source multimedia framework
- .
- This meta package contains only dependencies to the other plugins from
- the good plugins collection.
+Description: GStreamer open source multimedia framework . This meta package contains only dependencies to the other plugins from the good plugins collection.

@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 480941
-Description:  ZNC is an IRC bouncer with many advanced features like detaching,
- multiple users, per channel playback buffer, SSL, IPv6, transparent DCC
- bouncing, and c++ module support to name a few.
+Description: ZNC is an IRC bouncer with many advanced features like detaching, multiple users, per channel playback buffer, SSL, IPv6, transparent DCC bouncing, and c++ module support to name a few.

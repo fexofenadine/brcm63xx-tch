@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 39065
-Description:  This package provides a config-compatible C implementation of the UCI firewall.
+Description: This package provides a config-compatible C implementation of the UCI firewall.

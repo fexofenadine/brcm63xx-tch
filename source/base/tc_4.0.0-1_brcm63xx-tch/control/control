@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Russell Senior <russell@personaltelco.net>
 Architecture: brcm63xx-tch
 Installed-Size: 95615
-Description:  Traffic control utility
+Description: Traffic control utility

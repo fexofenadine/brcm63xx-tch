@@ -6,4 +6,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 7424
-Description:  cfg802154 interface configuration utility
+Description: cfg802154 interface configuration utility

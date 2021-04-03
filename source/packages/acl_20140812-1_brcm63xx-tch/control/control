@@ -9,8 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 17959
-Description:  Access control list support
- This package provides ACL manipulation utilities
- - chacl
- - getfacl
- - setfacl
+Description: Access control list support This package provides ACL manipulation utilities - chacl - getfacl - setfacl

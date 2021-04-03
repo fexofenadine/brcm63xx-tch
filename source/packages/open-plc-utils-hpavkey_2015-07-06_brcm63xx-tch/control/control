@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Florian Fainelli <florian@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 5743
-Description:  Utility  from the Open PLC utilities package.
+Description: Utility from the Open PLC utilities package.

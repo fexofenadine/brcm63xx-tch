@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4296
-Description:  command-line flags module for Unix shell scripts
+Description: command-line flags module for Unix shell scripts

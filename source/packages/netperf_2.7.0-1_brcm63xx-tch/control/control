@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
 Architecture: brcm63xx-tch
 Installed-Size: 137738
-Description:  Network performance measurement tool
+Description: Network performance measurement tool

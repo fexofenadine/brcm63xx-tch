@@ -7,5 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 46332
-Description:  Nodogsplash offers a simple way to open a free hotspot providing
- restricted access to an internet connection.
+Description: Nodogsplash offers a simple way to open a free hotspot providing restricted access to an internet connection.

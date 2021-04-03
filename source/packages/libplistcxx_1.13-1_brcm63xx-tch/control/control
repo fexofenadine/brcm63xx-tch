@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Lukasz Baj <l.baj@radytek.com>
 Architecture: brcm63xx-tch
 Installed-Size: 16504
-Description:  A library to handle Apple Property List format whereas it's binary or XML
- This package contains the libplist C++ shared library.
+Description: A library to handle Apple Property List format whereas it's binary or XML This package contains the libplist C++ shared library.

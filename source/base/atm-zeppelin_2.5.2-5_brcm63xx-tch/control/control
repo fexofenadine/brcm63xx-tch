@@ -7,4 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 18198
-Description:  Linux ATM tool zeppelin.
+Description: Linux ATM tool zeppelin.

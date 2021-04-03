@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 21840
-Description:  This package contains a RADIUS (Remote Authentication Dial-In User Service)
- plugin for ppp.
+Description: This package contains a RADIUS (Remote Authentication Dial-In User Service) plugin for ppp.

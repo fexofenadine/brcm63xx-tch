@@ -8,4 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 35898
-Description:  contains: mount, umount, findmnt
+Description: contains: mount, umount, findmnt

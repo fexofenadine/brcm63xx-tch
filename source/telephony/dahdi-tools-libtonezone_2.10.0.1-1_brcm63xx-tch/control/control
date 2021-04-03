@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
 Architecture: brcm63xx-tch
 Installed-Size: 9670
-Description:  DAHDI tonezone library
+Description: DAHDI tonezone library

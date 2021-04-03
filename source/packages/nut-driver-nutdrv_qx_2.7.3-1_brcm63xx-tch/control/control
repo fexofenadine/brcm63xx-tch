@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 56822
-Description:  Driver for Q* protocol serial and USB based UPS equipment
+Description: Driver for Q* protocol serial and USB based UPS equipment

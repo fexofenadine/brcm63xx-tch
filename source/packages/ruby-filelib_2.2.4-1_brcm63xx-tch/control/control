@@ -9,12 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 29415
-Description:  Provides filesystem interaction files, including
- path and temp:
- - fileutils.rb
- - find.rb
- - pathname.rb
- - pathname.so
- - tempfile.rb
- - tmpdir.rb
- 
+Description: Provides filesystem interaction files, including path and temp: - fileutils.rb - find.rb - pathname.rb - pathname.so - tempfile.rb - tmpdir.rb 

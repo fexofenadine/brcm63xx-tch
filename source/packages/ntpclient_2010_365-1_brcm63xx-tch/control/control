@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: brcm63xx-tch
 Installed-Size: 12092
-Description:  NTP client for setting system time from NTP servers.
+Description: NTP client for setting system time from NTP servers.

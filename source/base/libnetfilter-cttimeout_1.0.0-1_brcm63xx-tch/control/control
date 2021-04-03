@@ -7,6 +7,4 @@ Section: libs
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 4014
-Description:  libnetfilter_cttimeout is a userspace library providing a programming
- interface (API) to the in-kernel connection tracking timeout handling.
- This library is currently used by conntrack-tools.
+Description: libnetfilter_cttimeout is a userspace library providing a programming interface (API) to the in-kernel connection tracking timeout handling. This library is currently used by conntrack-tools.

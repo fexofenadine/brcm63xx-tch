@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 3723
-Description:  The Lua plugin adds a CGI-like Lua runtime interface to uHTTPd.
+Description: The Lua plugin adds a CGI-like Lua runtime interface to uHTTPd.

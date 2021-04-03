@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 6492
-Description:  Extended attributes support
- This package provides libattr
+Description: Extended attributes support This package provides libattr

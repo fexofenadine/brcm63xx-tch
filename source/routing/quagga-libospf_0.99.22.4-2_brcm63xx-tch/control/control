@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 163430
-Description:  OSPF library
+Description: OSPF library

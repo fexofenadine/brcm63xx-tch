@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Vladimir Malyutin <first-leon@yandex.ru>
 Architecture: brcm63xx-tch
 Installed-Size: 38481
-Description:  Lanes is a lightweight, native, lazy evaluating multithreading library for Lua 5.1 and 5.2.
+Description: Lanes is a lightweight, native, lazy evaluating multithreading library for Lua 5.1 and 5.2.

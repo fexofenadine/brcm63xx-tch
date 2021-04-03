@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 5765
-Description:  Translation for luci-app-openvpn - Français (French)
+Description: Translation for luci-app-openvpn - Français (French)

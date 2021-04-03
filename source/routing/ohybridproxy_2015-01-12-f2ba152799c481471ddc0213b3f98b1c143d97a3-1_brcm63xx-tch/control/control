@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 10449
-Description:  This package provides a statically configured daemon for translating DNS
- requests to Multicast DNS and back again.
+Description: This package provides a statically configured daemon for translating DNS requests to Multicast DNS and back again.

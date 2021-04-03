@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 16574
-Description:  This module displays a list of all open sockets in ZNC.
+Description: This module displays a list of all open sockets in ZNC.

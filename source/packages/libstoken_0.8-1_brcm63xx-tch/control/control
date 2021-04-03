@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Florian Fainelli <florian@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 21675
-Description:  stoken is a tokencode generator compatible with RSA SecurID 128-bit (AES)
+Description: stoken is a tokencode generator compatible with RSA SecurID 128-bit (AES)

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Richard Kunze <richard.kunze@web.de>
 Architecture: brcm63xx-tch
 Installed-Size: 42221
-Description:  get/set SATA/IDE device parameters
+Description: get/set SATA/IDE device parameters

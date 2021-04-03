@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 3766
-Description:  SIIT IPv4-over-IPv6 configuration wizard
+Description: SIIT IPv4-over-IPv6 configuration wizard

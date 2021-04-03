@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 1367
-Description:  Utility to compare the results of Nmap scans
+Description: Utility to compare the results of Nmap scans

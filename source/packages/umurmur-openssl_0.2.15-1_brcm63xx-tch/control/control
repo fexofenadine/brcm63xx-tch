@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Martin Johansson <martin@fatbob.nu>
 Architecture: brcm63xx-tch
 Installed-Size: 36380
-Description:  Minimalistic Mumble server daemon.
- Uses OpenSSL library for SSL and crypto.
+Description: Minimalistic Mumble server daemon. Uses OpenSSL library for SSL and crypto.

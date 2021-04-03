@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
 Architecture: brcm63xx-tch
 Installed-Size: 47191
-Description:  A generic radius proxy for UDP/TLS (RadSec)
+Description: A generic radius proxy for UDP/TLS (RadSec)

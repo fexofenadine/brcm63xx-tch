@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4723
-Description:  EAP/MS-CHAPv2 module
+Description: EAP/MS-CHAPv2 module

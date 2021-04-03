@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 11978
-Description:  Generic OpenWrt 3G/4G proto handler
+Description: Generic OpenWrt 3G/4G proto handler

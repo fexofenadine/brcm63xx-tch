@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Roger D <rogerdammit@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 206688
-Description:  This package contains micropython-lib, a project to develop a non-monolothic
- standard library for Micro Python. Note that this is a work in progress and
- several libraries may be missing, incomplete or buggy.
+Description: This package contains micropython-lib, a project to develop a non-monolothic standard library for Micro Python. Note that this is a work in progress and several libraries may be missing, incomplete or buggy.

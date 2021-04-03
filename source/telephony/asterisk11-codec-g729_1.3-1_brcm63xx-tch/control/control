@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Alex Samorukov <samm@os2.kiev.ua>
 Architecture: brcm63xx-tch
 Installed-Size: 4122
-Description:  Asterisk G.729 codec based on bcg729 implementation.
+Description: Asterisk G.729 codec based on bcg729 implementation.

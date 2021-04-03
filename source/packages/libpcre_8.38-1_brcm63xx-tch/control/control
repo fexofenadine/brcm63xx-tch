@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: brcm63xx-tch
 Installed-Size: 83662
-Description:  A Perl Compatible Regular Expression library
+Description: A Perl Compatible Regular Expression library

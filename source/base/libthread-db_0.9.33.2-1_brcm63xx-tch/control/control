@@ -9,4 +9,4 @@ Essential: yes
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 7562
-Description:  POSIX thread library debugging support
+Description: POSIX thread library debugging support

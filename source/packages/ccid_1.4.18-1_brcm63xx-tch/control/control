@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
 Installed-Size: 37324
-Description:  Generic USB CCID (Chip/Smart Card Interface Devices) driver and ICCD
- (Integrated Circuit(s) Card Devices).
+Description: Generic USB CCID (Chip/Smart Card Interface Devices) driver and ICCD (Integrated Circuit(s) Card Devices).

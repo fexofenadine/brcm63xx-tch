@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 7065
-Description:  libnetfilter_queue is a userspace library providing an API to packets
- that have been queued by the kernel packet filter.
+Description: libnetfilter_queue is a userspace library providing an API to packets that have been queued by the kernel packet filter.

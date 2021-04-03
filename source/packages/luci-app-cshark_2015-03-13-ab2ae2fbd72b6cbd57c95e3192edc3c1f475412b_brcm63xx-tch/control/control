@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 3723
-Description:  Cloudshark capture tool Web UI
+Description: Cloudshark capture tool Web UI

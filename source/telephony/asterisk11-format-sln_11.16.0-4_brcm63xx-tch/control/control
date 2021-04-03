@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 3747
-Description:  This package provides support for 'support for raw slinear format' in Asterisk11.
+Description: This package provides support for 'support for raw slinear format' in Asterisk11.

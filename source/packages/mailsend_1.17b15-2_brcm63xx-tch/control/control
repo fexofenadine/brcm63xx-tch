@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: brcm63xx-tch
 Installed-Size: 36310
-Description:  Mailsend is a simple command line program to send mail via SMTP protocol.
- .
- SSL supported is provided by OpenSSL.
+Description: Mailsend is a simple command line program to send mail via SMTP protocol. . SSL supported is provided by OpenSSL.

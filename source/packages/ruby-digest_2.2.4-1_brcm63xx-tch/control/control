@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 26275
-Description:  Provides digest* files. Can be configured to use OpenSSL or
- bundled hash functions.
- 
+Description: Provides digest* files. Can be configured to use OpenSSL or bundled hash functions. 

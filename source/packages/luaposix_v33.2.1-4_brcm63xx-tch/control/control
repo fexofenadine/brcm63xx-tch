@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 31181
-Description:  luaposix is a general POSIX library for Lua providing access
- to various low level libc functions.
+Description: luaposix is a general POSIX library for Lua providing access to various low level libc functions.

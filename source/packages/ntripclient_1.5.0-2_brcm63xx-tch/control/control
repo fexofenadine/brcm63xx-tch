@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 12816
-Description:  Ntrip Version 2.0 Command Line Client, reading from Ntrip Version 1.0 or 2.0 Caster
+Description: Ntrip Version 2.0 Command Line Client, reading from Ntrip Version 1.0 or 2.0 Caster

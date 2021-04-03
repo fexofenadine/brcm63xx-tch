@@ -7,4 +7,4 @@ Section: devel
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 103117
-Description:  Linux trace command line utility
+Description: Linux trace command line utility

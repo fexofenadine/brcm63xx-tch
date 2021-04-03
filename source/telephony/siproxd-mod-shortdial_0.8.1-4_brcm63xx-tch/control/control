@@ -8,4 +8,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 2759
-Description:  siproxd shortdial plugin
+Description: siproxd shortdial plugin

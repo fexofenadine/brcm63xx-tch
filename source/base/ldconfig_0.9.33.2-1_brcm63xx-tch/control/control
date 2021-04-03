@@ -9,4 +9,4 @@ Essential: yes
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 8883
-Description:  Shared library path configuration
+Description: Shared library path configuration

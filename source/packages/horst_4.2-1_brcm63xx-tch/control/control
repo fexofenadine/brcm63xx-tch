@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Bruno Randolf <br1@einfach.org>
 Architecture: brcm63xx-tch
 Installed-Size: 34475
-Description:  [horst] is a scanning and analysis tool for 802.11 wireless networks
- and especially IBSS (ad-hoc) mode and mesh networks (OLSR).
+Description: [horst] is a scanning and analysis tool for 802.11 wireless networks and especially IBSS (ad-hoc) mode and mesh networks (OLSR).

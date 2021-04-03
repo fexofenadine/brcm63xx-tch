@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 1235053
-Description:  eSpeak is a compact open source software speech synthesizer for English and
- other languages.
+Description: eSpeak is a compact open source software speech synthesizer for English and other languages.

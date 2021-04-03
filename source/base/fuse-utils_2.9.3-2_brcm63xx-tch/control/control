@@ -8,7 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 13832
-Description:  FUSE (Filesystem in UserSpacE)
- This package contains the FUSE utilities.
- - fusermount
- - ulockmgr_server
+Description: FUSE (Filesystem in UserSpacE) This package contains the FUSE utilities. - fusermount - ulockmgr_server

@@ -6,4 +6,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 3930
-Description:  Ext2 Filesystem free space fragmentation information utility
+Description: Ext2 Filesystem free space fragmentation information utility

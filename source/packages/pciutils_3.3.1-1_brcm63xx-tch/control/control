@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 288517
-Description:  contains collection of programs for inspecting and manipulating configuration
- of PCI devices
+Description: contains collection of programs for inspecting and manipulating configuration of PCI devices

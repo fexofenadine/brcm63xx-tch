@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 18650
-Description:  Blocks certain users from using ZNC saying their account was disabled.
+Description: Blocks certain users from using ZNC saying their account was disabled.

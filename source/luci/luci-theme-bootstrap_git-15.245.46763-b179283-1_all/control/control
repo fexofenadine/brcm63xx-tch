@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 13041
-Description:  Bootstrap Theme (default)
+Description: Bootstrap Theme (default)

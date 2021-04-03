@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Mirko Vogt <mirko@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 155403
-Description:  Open source VPN solution using OpenSSL
+Description: Open source VPN solution using OpenSSL

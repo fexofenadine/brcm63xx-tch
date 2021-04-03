@@ -8,4 +8,4 @@ Section: libs
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 141288
-Description:  Terminal handling library (Unicode)
+Description: Terminal handling library (Unicode)

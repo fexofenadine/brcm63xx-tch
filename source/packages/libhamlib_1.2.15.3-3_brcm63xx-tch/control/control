@@ -9,8 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 34357
-Description:  Ham Radio Control Libraries is a development effort to provide a consistent
- interface for programmers wanting to incorporate radio control in their
- programs.
- 
- This package contains the hamlib shared library.
+Description: Ham Radio Control Libraries is a development effort to provide a consistent interface for programmers wanting to incorporate radio control in their programs. This package contains the hamlib shared library.

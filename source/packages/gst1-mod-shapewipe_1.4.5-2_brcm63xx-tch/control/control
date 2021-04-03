@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: brcm63xx-tch
 Installed-Size: 9846
-Description:  GStreamer open source multimedia framework
- .
- This package contains the GStreamer shapewipe support plugin.
+Description: GStreamer open source multimedia framework . This package contains the GStreamer shapewipe support plugin.

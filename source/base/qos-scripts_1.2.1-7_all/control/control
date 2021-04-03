@@ -7,6 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: all
 Installed-Size: 6346
-Description:  A set of scripts that abstract QoS configuration into a simple 
- configuration file supporting stanzas that specify any number of QoS 
- entries.
+Description: A set of scripts that abstract QoS configuration into a simple configuration file supporting stanzas that specify any number of QoS entries.

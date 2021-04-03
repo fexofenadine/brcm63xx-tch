@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 10457
-Description:  Firewall and Portforwarding application
+Description: Firewall and Portforwarding application

@@ -6,4 +6,4 @@ Section: libs
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 125250
-Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+Description: libext2fs is a library which can access ext2, ext3 and ext4 filesystems.

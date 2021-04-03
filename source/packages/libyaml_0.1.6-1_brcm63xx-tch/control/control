@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 40413
-Description:  Fast YAML 1.1 parser and emitter library
+Description: Fast YAML 1.1 parser and emitter library

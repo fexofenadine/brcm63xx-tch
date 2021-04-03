@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Dirk Chang <dirk@kooiot.com>
 Architecture: brcm63xx-tch
 Installed-Size: 17478
-Description:  MobDebug is a remote debugger for Lua (including Lua 5.1, Lua 5.2, Lua 5.3, and LuaJIT 2.x).
+Description: MobDebug is a remote debugger for Lua (including Lua 5.1, Lua 5.2, Lua 5.3, and LuaJIT 2.x).

@@ -9,7 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Mike Brady <mikebrady@eircom.net>
 Architecture: brcm63xx-tch
 Installed-Size: 98087
-Description:  Shairport Sync is server software that implements the Apple-originated RAOP protocol for
- playback of audio from a compatible remote client such as the iPhone, iTunes, Apple TV, Quicktime Player or forked-daapd.
- Shairport Sync implements audio synchronisation, supporting multi-room use.
- Shairport Sync supports audio only.
+Description: Shairport Sync is server software that implements the Apple-originated RAOP protocol for playback of audio from a compatible remote client such as the iPhone, iTunes, Apple TV, Quicktime Player or forked-daapd. Shairport Sync implements audio synchronisation, supporting multi-room use. Shairport Sync supports audio only.

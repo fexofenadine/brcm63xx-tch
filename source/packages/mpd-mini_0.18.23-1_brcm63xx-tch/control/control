@@ -10,10 +10,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: brcm63xx-tch
 Installed-Size: 145290
-Description:  Music Player Daemon (MPD) is a flexible, powerful, server-side
- application for playing music. It is typically controlled over a
- network using one of it's many clients including mpc (console),
- gmpc (gnome), phpmp (php), etc...
- .
- This package contains a minimal Music Player Daemon, with support for
- only Flac, MP3 & OGG media types & only file: & http: protocols.
+Description: Music Player Daemon (MPD) is a flexible, powerful, server-side application for playing music. It is typically controlled over a network using one of it's many clients including mpc (console), gmpc (gnome), phpmp (php), etc... . This package contains a minimal Music Player Daemon, with support for only Flac, MP3 & OGG media types & only file: & http: protocols.

@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 21110
-Description:  This module allows users to log in to ZNC via SSL client keys.
+Description: This module allows users to log in to ZNC via SSL client keys.

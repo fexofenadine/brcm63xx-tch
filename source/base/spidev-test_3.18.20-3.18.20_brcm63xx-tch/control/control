@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Florian Fainelli <florian@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 2880
-Description:  SPI testing utility.
+Description: SPI testing utility.

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 8498
-Description:  StrongSwan EAP MS-CHAPv2 EAP auth plugin
+Description: StrongSwan EAP MS-CHAPv2 EAP auth plugin

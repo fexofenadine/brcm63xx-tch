@@ -8,12 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Alessandro Di Marco <dmr@ethzero.com>
 Architecture: brcm63xx-tch
 Installed-Size: 4807776
-Description:  SVOX is an embedded speech technology company founded in 2000 and
- headquartered in Zurich, Switzerland. SVOX was acquired by Nuance
- Communications in 2011. Company's products included Automated Speech
- Recognition (ASR), Text-to-Speech (TTS) and Speech Dialog systems,
- with customers mostly being manufacturers and system integrators in
- automotive and mobile device industries.
- SVOX TTS technology is characterized by natural and clear sound as well
- as unique polyglot capability - the same voice can speak multiple
- languages like a native speaker.
+Description: SVOX is an embedded speech technology company founded in 2000 and headquartered in Zurich, Switzerland. SVOX was acquired by Nuance Communications in 2011. Company's products included Automated Speech Recognition (ASR), Text-to-Speech (TTS) and Speech Dialog systems, with customers mostly being manufacturers and system integrators in automotive and mobile device industries. SVOX TTS technology is characterized by natural and clear sound as well as unique polyglot capability - the same voice can speak multiple languages like a native speaker.

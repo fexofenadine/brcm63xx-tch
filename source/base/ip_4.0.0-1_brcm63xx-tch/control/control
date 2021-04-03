@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Russell Senior <russell@personaltelco.net>
 Architecture: brcm63xx-tch
 Installed-Size: 75305
-Description:  Routing control utility (Minimal)
+Description: Routing control utility (Minimal)

@@ -8,5 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 10445
-Description:  mcookie generates a 128-bit random hexadecimal number for use with the X
- authority system
+Description: mcookie generates a 128-bit random hexadecimal number for use with the X authority system

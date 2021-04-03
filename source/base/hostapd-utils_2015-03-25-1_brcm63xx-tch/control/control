@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 16298
-Description:  This package contains a command line utility to control the
- IEEE 802.1x/WPA/EAP/RADIUS Authenticator.
+Description: This package contains a command line utility to control the IEEE 802.1x/WPA/EAP/RADIUS Authenticator.

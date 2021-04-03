@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Henning Rogge <hrogge@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 91458
-Description:  Build DLEP Radio Agent
+Description: Build DLEP Radio Agent

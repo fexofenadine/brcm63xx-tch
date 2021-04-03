@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 6190
-Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
- backends.
+Description: This is the Lua binding for the iwinfo library. It provides access to all enabled backends.

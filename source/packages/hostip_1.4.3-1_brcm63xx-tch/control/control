@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 33072
-Description:  The DNSCrypt proxy ships with a simple tool named hostip that resolves a name
- to IPv4 or IPv6 addresses.
+Description: The DNSCrypt proxy ships with a simple tool named hostip that resolves a name to IPv4 or IPv6 addresses.

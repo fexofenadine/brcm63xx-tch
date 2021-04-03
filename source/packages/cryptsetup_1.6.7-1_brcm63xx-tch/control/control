@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
 Installed-Size: 83283
-Description:  Cryptsetup-luks
- linked against libgcrypt
+Description: Cryptsetup-luks linked against libgcrypt

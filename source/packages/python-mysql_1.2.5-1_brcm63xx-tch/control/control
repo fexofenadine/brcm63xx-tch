@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Gergely Kiss <mail.gery@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 36299
-Description:  MySQLdb is an thread-compatible interface to the popular MySQL database
- server that provides the Python database API.
+Description: MySQLdb is an thread-compatible interface to the popular MySQL database server that provides the Python database API.

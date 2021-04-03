@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Michael Heimpold <mhei@heimpold.de>
 Architecture: brcm63xx-tch
 Installed-Size: 14970
-Description:  A Modbus library for Linux, Mac OS X, FreeBSD, QNX and Win32.
+Description: A Modbus library for Linux, Mac OS X, FreeBSD, QNX and Win32.

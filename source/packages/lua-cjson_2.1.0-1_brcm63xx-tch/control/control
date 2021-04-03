@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Dirk Chang <dirk@kooiot.com>
 Architecture: brcm63xx-tch
 Installed-Size: 11887
-Description:  Lua CJSON is a fast JSON encoding/parsing module for Lua.
+Description: Lua CJSON is a fast JSON encoding/parsing module for Lua.

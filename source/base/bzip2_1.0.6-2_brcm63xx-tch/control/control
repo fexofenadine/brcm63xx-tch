@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 12426
-Description:  bzip2 is a freely available, patent free, high-quality
- data compressor. This package provides the binary.
+Description: bzip2 is a freely available, patent free, high-quality data compressor. This package provides the binary.

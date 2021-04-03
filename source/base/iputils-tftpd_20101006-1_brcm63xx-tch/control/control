@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 5047
-Description:  Program tftpd from iputils
- Trivial File Transfer Protocol server.
+Description: Program tftpd from iputils Trivial File Transfer Protocol server.

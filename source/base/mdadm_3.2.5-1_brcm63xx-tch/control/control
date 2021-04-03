@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 137156
-Description:  A tool for managing Linux Software RAID arrays.
+Description: A tool for managing Linux Software RAID arrays.

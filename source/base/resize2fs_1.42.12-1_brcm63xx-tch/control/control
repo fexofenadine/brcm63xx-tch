@@ -6,4 +6,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 23432
-Description:  Ext2 Filesystem resize utility
+Description: Ext2 Filesystem resize utility

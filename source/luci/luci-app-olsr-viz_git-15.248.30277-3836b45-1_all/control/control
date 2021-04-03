@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 11468
-Description:  OLSR Visualisation
+Description: OLSR Visualisation

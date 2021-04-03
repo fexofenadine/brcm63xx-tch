@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 16224
-Description:  Places the ident of a user to a file when they are trying to connect.
+Description: Places the ident of a user to a file when they are trying to connect.

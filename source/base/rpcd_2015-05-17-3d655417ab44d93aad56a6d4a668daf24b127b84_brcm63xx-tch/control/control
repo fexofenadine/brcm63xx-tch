@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 18683
-Description:  This package provides the UBUS RPC backend server to expose various
- functionality to frontend programs via JSON-RPC.
+Description: This package provides the UBUS RPC backend server to expose various functionality to frontend programs via JSON-RPC.

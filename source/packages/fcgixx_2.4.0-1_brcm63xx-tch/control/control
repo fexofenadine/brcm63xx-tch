@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jacob Siverskog <jacob@teenageengineering.com>
 Architecture: brcm63xx-tch
 Installed-Size: 5825
-Description:  Shared library of FastCGI++
+Description: Shared library of FastCGI++

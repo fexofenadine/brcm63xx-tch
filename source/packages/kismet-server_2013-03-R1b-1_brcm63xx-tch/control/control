@@ -8,6 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Sebastian Wendel <packages@sourceindex.de>
 Architecture: brcm63xx-tch
 Installed-Size: 354130
-Description:  An 802.11 layer2 wireless network detector, sniffer, and intrusion
- detection system.
- This package contains the kismet server.
+Description: An 802.11 layer2 wireless network detector, sniffer, and intrusion detection system. This package contains the kismet server.

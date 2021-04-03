@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Julen Landa Alustiza <julen@zokormazo.info>
 Architecture: brcm63xx-tch
 Installed-Size: 12482
-Description:  Bandwidth Monitor NG is a small and simple console-based live
- network and disk io bandwidth monitor.
+Description: Bandwidth Monitor NG is a small and simple console-based live network and disk io bandwidth monitor.

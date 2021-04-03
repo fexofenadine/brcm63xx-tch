@@ -9,11 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 79042
-Description:  Provides socket-related files:
- - gserver.rb
- - ipaddr.rb
- - resolv-replace.rb
- - resolv.rb
- - socket.rb
- - socket.so
- 
+Description: Provides socket-related files: - gserver.rb - ipaddr.rb - resolv-replace.rb - resolv.rb - socket.rb - socket.so 

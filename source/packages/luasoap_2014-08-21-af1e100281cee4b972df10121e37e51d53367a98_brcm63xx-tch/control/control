@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Liu Peng <pengliu@credosemi.com>
 Architecture: brcm63xx-tch
 Installed-Size: 9129
-Description:  LuaSOAP is a library of functions to deal with SOAP.
+Description: LuaSOAP is a library of functions to deal with SOAP.

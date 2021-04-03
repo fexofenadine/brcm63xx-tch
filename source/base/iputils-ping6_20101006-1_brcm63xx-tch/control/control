@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 12917
-Description:  Program ping6 from iputils.
- Sends ICMP ECHO_REQUEST to network hosts (IPv6).
+Description: Program ping6 from iputils. Sends ICMP ECHO_REQUEST to network hosts (IPv6).

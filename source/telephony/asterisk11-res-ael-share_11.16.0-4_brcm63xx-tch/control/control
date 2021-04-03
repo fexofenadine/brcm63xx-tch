@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 42050
-Description:  This package provides support for 'support for shareable AEL code mainly between internal and external modules' in Asterisk11.
+Description: This package provides support for 'support for shareable AEL code mainly between internal and external modules' in Asterisk11.

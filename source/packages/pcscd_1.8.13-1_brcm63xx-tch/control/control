@@ -9,8 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
 Installed-Size: 46726
-Description:  The purpose of PC/SC Lite is to provide a Windows(R) SCard
- interface in a very small form factor for communicating to
- smart cards and smart cards readers.
- .
- This package contains the PC/SC daemon.
+Description: The purpose of PC/SC Lite is to provide a Windows(R) SCard interface in a very small form factor for communicating to smart cards and smart cards readers. . This package contains the PC/SC daemon.

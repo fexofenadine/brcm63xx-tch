@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
 Architecture: all
 Installed-Size: 23635
-Description:  LuCI Support for Dynamic DNS Client (ddns-scripts)
+Description: LuCI Support for Dynamic DNS Client (ddns-scripts)

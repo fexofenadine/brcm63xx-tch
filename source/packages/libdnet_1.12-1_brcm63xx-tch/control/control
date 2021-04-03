@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 27071
-Description:  libdnet is a library of simplified, portable interface to several low-level
- networking routines.
+Description: libdnet is a library of simplified, portable interface to several low-level networking routines.

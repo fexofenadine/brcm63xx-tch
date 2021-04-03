@@ -8,4 +8,4 @@ Section: libs
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 5861
-Description:  Terminal Info Database (ncurses)
+Description: Terminal Info Database (ncurses)

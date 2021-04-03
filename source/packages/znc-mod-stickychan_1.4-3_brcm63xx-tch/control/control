@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 16414
-Description:  Keeps you sticked to specific channels.
+Description: Keeps you sticked to specific channels.

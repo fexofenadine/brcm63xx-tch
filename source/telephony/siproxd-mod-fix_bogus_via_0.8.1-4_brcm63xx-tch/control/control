@@ -8,4 +8,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 2288
-Description:  siproxd fix_bogus_via plugin
+Description: siproxd fix_bogus_via plugin

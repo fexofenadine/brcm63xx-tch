@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
 Installed-Size: 5000
-Description:  Tools for the Tracer MPPT solar charge controller.
+Description: Tools for the Tracer MPPT solar charge controller.

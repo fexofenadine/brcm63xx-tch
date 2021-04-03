@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 5042
-Description:  Utility lxc-monitord from the LXC userspace tools
+Description: Utility lxc-monitord from the LXC userspace tools

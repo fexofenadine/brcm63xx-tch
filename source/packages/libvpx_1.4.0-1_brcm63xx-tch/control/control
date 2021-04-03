@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 523585
-Description:  libvpx is a VP8/VP9 Codec SDK.
+Description: libvpx is a VP8/VP9 Codec SDK.

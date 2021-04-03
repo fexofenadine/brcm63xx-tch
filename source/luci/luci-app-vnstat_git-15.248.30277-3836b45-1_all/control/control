@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 2291
-Description:  LuCI Support for VnStat
+Description: LuCI Support for VnStat

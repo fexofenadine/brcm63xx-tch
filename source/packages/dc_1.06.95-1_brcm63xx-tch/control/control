@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Bruno Randolf <br1@einfach.org>
 Architecture: brcm63xx-tch
 Installed-Size: 15839
-Description:  dc is a reverse-polish desk calculator which supports unlimited
- precision arithmetic.
+Description: dc is a reverse-polish desk calculator which supports unlimited precision arithmetic.

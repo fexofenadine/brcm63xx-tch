@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 5881
-Description:  This package provides support for 'a high bit rate 48/56/64Kbps ITU standard codec' in Asterisk11.
+Description: This package provides support for 'a high bit rate 48/56/64Kbps ITU standard codec' in Asterisk11.

@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 7349
-Description:  This package provides support for 'Central Station Alarm receiver for Ademco Contact ID' in Asterisk11.
+Description: This package provides support for 'Central Station Alarm receiver for Ademco Contact ID' in Asterisk11.

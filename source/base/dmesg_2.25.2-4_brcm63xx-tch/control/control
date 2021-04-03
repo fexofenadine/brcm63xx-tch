@@ -8,4 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 17208
-Description:  dmesg  is used to examine or control the kernel ring buffer
+Description: dmesg is used to examine or control the kernel ring buffer

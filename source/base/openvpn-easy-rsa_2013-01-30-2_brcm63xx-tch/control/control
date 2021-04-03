@@ -7,4 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 10141
-Description:  Simple shell scripts to manage a Certificate Authority
+Description: Simple shell scripts to manage a Certificate Authority

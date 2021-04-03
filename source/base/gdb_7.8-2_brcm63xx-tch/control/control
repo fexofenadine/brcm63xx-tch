@@ -7,6 +7,4 @@ Section: devel
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 1712980
-Description:  GDB, the GNU Project debugger, allows you to see what is going on `inside'
- another program while it executes -- or what another program was doing at the
- moment it crashed.
+Description: GDB, the GNU Project debugger, allows you to see what is going on `inside' another program while it executes -- or what another program was doing at the moment it crashed.

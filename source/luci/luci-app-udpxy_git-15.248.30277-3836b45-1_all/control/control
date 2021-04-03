@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 1426
-Description:  LuCI Support for udpxy
+Description: LuCI Support for udpxy

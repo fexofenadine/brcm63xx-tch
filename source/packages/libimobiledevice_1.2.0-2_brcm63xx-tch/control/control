@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Lukasz Baj <l.baj@radytek.com>
 Architecture: brcm63xx-tch
 Installed-Size: 40720
-Description:  libimobiledevice is a software library that talks the protocols to support
- iPhone®, iPod Touch®, iPad® and Apple TV® devices.
+Description: libimobiledevice is a software library that talks the protocols to support iPhone®, iPod Touch®, iPad® and Apple TV® devices.

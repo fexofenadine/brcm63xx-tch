@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Espen Jürgensen <espenjurgensen+openwrt@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 534343
-Description:  This library provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard.
+Description: This library provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard.

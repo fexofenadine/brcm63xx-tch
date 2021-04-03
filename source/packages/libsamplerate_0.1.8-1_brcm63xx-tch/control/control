@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: brcm63xx-tch
 Installed-Size: 1341563
-Description:  Secret Rabbit Code (aka libsamplerate) is a Sample Rate
- Converter for audio.
+Description: Secret Rabbit Code (aka libsamplerate) is a Sample Rate Converter for audio.

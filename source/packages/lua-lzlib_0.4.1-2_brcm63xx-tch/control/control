@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Dirk Chang <dirk@kooiot.com>
 Architecture: brcm63xx-tch
 Installed-Size: 7956
-Description:  A library to access zlib library functions and also to read/write gzip files using an interface similar to the base io package. 
+Description: A library to access zlib library functions and also to read/write gzip files using an interface similar to the base io package. 

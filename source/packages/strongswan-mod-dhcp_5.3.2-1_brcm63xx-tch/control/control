@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 7277
-Description:  StrongSwan DHCP based attribute provider plugin
+Description: StrongSwan DHCP based attribute provider plugin

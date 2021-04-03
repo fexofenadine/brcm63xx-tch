@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 9631
-Description:  Implements auto-rejoin-on-kick.
+Description: Implements auto-rejoin-on-kick.

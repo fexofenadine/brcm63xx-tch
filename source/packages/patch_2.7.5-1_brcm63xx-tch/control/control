@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Russell Senior <russell@personaltelco.net>
 Architecture: brcm63xx-tch
 Installed-Size: 76425
-Description:  The Patch package contains a program for modifying or creating files
- by applying a "patch" file typically created by the diff program.
+Description: The Patch package contains a program for modifying or creating files by applying a "patch" file typically created by the diff program.

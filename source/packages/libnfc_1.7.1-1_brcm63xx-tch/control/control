@@ -8,8 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Sebastian Wendel <packages@sourceindex.de>
 Architecture: brcm63xx-tch
 Installed-Size: 48152
-Description:  libnfc is the first libre, platform-independent, low level NFC SDK and Programmers API
- 
- * manipulate Jewel Topaz tags using libnfc
- * manipulate MIFARE Classic and Ultralight tags using libnfc
- 
+Description: libnfc is the first libre, platform-independent, low level NFC SDK and Programmers API * manipulate Jewel Topaz tags using libnfc * manipulate MIFARE Classic and Ultralight tags using libnfc 

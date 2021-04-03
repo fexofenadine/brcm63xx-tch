@@ -11,4 +11,4 @@ Require-User: pulse=51:pulse=51
 Old_Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: brcm63xx-tch
 Installed-Size: 888039
-Description:  PulseAudio (formerly Polypaudio) is a cross-platform, networked sound server.
+Description: PulseAudio (formerly Polypaudio) is a cross-platform, networked sound server.

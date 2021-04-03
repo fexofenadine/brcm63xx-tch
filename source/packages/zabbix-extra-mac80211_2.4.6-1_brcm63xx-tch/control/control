@@ -10,6 +10,4 @@ Require-User: zabbix=53:zabbix=53
 Old_Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 2735
-Description:  An extra package for zabbix-agentd that adds a discovery rule for mac80211 wifi phy and many userparameters.
- It contains an suid helper to allow zabbix-agentd to still run as zabbix user and not as root.
- See http://wiki.openwrt.org/doc/howto/zabbix for ready to use zabbix templates.
+Description: An extra package for zabbix-agentd that adds a discovery rule for mac80211 wifi phy and many userparameters. It contains an suid helper to allow zabbix-agentd to still run as zabbix user and not as root. See http://wiki.openwrt.org/doc/howto/zabbix for ready to use zabbix templates.

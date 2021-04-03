@@ -7,4 +7,4 @@ Section: libs
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 1184
-Description:  IPv4/IPv6 firewall - shared libiptc library (compatibility stub)
+Description: IPv4/IPv6 firewall - shared libiptc library (compatibility stub)

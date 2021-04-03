@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
 Installed-Size: 7544
-Description:  pkcs15-crypt utility from opensc
+Description: pkcs15-crypt utility from opensc

@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 11680
-Description:  This package contains a library for manipulating
- "Linux Wireless Extensions".
+Description: This package contains a library for manipulating "Linux Wireless Extensions".

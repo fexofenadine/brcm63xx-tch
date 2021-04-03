@@ -8,9 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 103800
-Description:  Dante is a circuit-level firewall/proxy that can be used to provide convenient
- and secure network connectivity, requiring only that the server Dante runs on
- has external network connectivity. Dante is used daily by Fortune 100 companies
- and large international organizations, either as a standard SOCKS server or as
- a "reverse proxy". 
- This package provides the Dante sockd daemon.
+Description: Dante is a circuit-level firewall/proxy that can be used to provide convenient and secure network connectivity, requiring only that the server Dante runs on has external network connectivity. Dante is used daily by Fortune 100 companies and large international organizations, either as a standard SOCKS server or as a "reverse proxy". This package provides the Dante sockd daemon.

@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Johannes Morgenroth <jm@m-network.de>
 Architecture: brcm63xx-tch
 Installed-Size: 87531
-Description:  The IBR-DTN Tools include functionality for sending and receiving files (dtnsend/dtnrecv)
- and a tools to ping a DTN node (dtnping).
+Description: The IBR-DTN Tools include functionality for sending and receiving files (dtnsend/dtnrecv) and a tools to ping a DTN node (dtnping).

@@ -8,14 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 771339
-Description:  Bonjour, also known as zero-configuration networking, enables
- automatic discovery of computers, devices, and services on
- IP networks.
- .
- This package contains mDNS client utilities:
- - dns-sd
- - mDNSClient
- - mDNSIdentify
- - mDNSNetMonitor
- - mDNSProxyResponder
- - mDNSResponder
+Description: Bonjour, also known as zero-configuration networking, enables automatic discovery of computers, devices, and services on IP networks. . This package contains mDNS client utilities: - dns-sd - mDNSClient - mDNSIdentify - mDNSNetMonitor - mDNSProxyResponder - mDNSResponder

@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 8738
-Description:  This package provides support for 'multi-party software based channel mixing' in Asterisk.
+Description: This package provides support for 'multi-party software based channel mixing' in Asterisk.

@@ -9,7 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonathan McCrohan <jmccrohan@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 31307
-Description:  wavemon is a ncurses-based monitoring application for wireless network
- devices. It currently works under Linux with devices that are supported
- by the wireless extensions by Jean Tourrilhes (included in Kernel 2.4
- and higher), e.g. the Lucent Orinoco cards.
+Description: wavemon is a ncurses-based monitoring application for wireless network devices. It currently works under Linux with devices that are supported by the wireless extensions by Jean Tourrilhes (included in Kernel 2.4 and higher), e.g. the Lucent Orinoco cards.

@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 16445
-Description:  Cycles a channel when you are the only one in there and you don't have op.
+Description: Cycles a channel when you are the only one in there and you don't have op.

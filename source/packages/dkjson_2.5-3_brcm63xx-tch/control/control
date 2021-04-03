@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Lars Gierth <larsg@systemli.org>
 Architecture: brcm63xx-tch
 Installed-Size: 6689
-Description:  Lua JSON parser/serializer with UTF-8 support
+Description: Lua JSON parser/serializer with UTF-8 support

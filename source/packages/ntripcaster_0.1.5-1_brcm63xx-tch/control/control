@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 34080
-Description:  BKG Standard Ntrip Broadcaster
+Description: BKG Standard Ntrip Broadcaster

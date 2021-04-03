@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 7034
-Description:  A utility built upon libsysfs that lists devices by bus, class, and topology.
+Description: A utility built upon libsysfs that lists devices by bus, class, and topology.

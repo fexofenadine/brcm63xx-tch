@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
 Architecture: all
 Installed-Size: 731
-Description:  Dynamic DNS Client scripts extension for direct updates using Bind nsupdate
+Description: Dynamic DNS Client scripts extension for direct updates using Bind nsupdate

@@ -7,7 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: brcm63xx-tch
 Installed-Size: 2819
-Description:  This package contains the small usbreset utility which
- can be used to send a USB port reset to a USB device -
- useful for debugging or to force re-detection of particular
- devices.
+Description: This package contains the small usbreset utility which can be used to send a USB port reset to a USB device - useful for debugging or to force re-detection of particular devices.

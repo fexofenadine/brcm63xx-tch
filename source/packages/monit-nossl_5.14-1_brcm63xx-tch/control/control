@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 195952
-Description:  An utility for monitoring services on a Unix system
- This package is built without SSL support.
+Description: An utility for monitoring services on a Unix system This package is built without SSL support.

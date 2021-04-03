@@ -7,6 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: brcm63xx-tch
 Installed-Size: 5219
-Description:  This package contains the LuaFileSystem library, a set of portable
- functions for directory creation, listing and deletion and for file
- locking.
+Description: This package contains the LuaFileSystem library, a set of portable functions for directory creation, listing and deletion and for file locking.

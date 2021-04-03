@@ -6,5 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 5595
-Description:  A watchdog daemon that monitors wireless interfaces to ensure the correct bssid and channel.
- The process will initiate a wireless restart as soon as it detects a bssid or channel mismatch.
+Description: A watchdog daemon that monitors wireless interfaces to ensure the correct bssid and channel. The process will initiate a wireless restart as soon as it detects a bssid or channel mismatch.

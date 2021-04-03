@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 1343
-Description:  Translation for luci-app-ahcp - Español (Spanish)
+Description: Translation for luci-app-ahcp - Español (Spanish)

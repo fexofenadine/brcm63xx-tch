@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 44740
-Description:  Free portable AirPlay server implementation similar to ShairPort.
+Description: Free portable AirPlay server implementation similar to ShairPort.

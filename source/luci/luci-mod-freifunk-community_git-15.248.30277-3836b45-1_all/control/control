@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 104
-Description:  Freifunk Community Meta-Package
+Description: Freifunk Community Meta-Package

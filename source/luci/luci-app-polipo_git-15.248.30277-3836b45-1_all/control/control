@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 3077
-Description:  LuCI Support for the Polipo Proxy
+Description: LuCI Support for the Polipo Proxy

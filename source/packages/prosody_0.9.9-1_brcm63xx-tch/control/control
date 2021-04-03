@@ -9,6 +9,4 @@ Require-User: prosody=54:prosody=54
 Old_Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: brcm63xx-tch
 Installed-Size: 225723
-Description:  Prosody is an exciting new server for Jabber/XMPP
- written in Lua. It aims to be easy to use, and light
- on resources
+Description: Prosody is an exciting new server for Jabber/XMPP written in Lua. It aims to be easy to use, and light on resources

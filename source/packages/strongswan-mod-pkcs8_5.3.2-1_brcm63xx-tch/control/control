@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 2710
-Description:  StrongSwan PKCS8 key decoding plugin
+Description: StrongSwan PKCS8 key decoding plugin

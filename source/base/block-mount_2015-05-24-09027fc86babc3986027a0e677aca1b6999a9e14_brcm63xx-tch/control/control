@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 18008
-Description:  Block device mounting and checking
+Description: Block device mounting and checking

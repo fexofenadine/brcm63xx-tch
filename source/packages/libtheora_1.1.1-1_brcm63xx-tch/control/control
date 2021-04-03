@@ -9,9 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: brcm63xx-tch
 Installed-Size: 243876
-Description:  Theora is Xiph.Org's first publicly released video codec, intended
- for use within the Foundation's Ogg multimedia streaming system.
- Theora is derived directly from On2's VP3 codec; Currently the
- encoders are nearly identical, but Theora will make use of new
- features supported by the decoder to improve over what is
- is possible with VP3.
+Description: Theora is Xiph.Org's first publicly released video codec, intended for use within the Foundation's Ogg multimedia streaming system. Theora is derived directly from On2's VP3 codec; Currently the encoders are nearly identical, but Theora will make use of new features supported by the decoder to improve over what is is possible with VP3.

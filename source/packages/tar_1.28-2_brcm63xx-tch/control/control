@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 177467
-Description:  Tar is a program for packaging a set of files as a
- single archive in tar format.
+Description: Tar is a program for packaging a set of files as a single archive in tar format.

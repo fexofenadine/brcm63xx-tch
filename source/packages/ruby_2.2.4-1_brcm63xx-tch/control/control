@@ -9,8 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 1867
-Description:  Ruby is the interpreted scripting language for quick and easy
- object-oriented programming.  It has many features to process text files
- and to do system management tasks (as in perl).  It is simple,
- straight-forward, and extensible.
- 
+Description: Ruby is the interpreted scripting language for quick and easy object-oriented programming. It has many features to process text files and to do system management tasks (as in perl). It is simple, straight-forward, and extensible. 

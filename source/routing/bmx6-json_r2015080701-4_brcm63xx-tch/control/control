@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Axel Neumann <neumann@cgws.de>
 Architecture: brcm63xx-tch
 Installed-Size: 6377
-Description:  json plugin based on json-c
+Description: json plugin based on json-c

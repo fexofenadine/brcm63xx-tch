@@ -9,7 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Xiongfei Guo <xfguo@credosemi.com>
 Architecture: brcm63xx-tch
 Installed-Size: 21215
-Description:  smartsnmpd is an implementation of SNMP Agent. Its goal is "Easily
- writing boring SNMP MIB with Lua". This package add native support
- for OpenWrt. Include using ubus and uci to get system info/status. 
- And, it use libubox/uloop as low level event-driven library.
+Description: smartsnmpd is an implementation of SNMP Agent. Its goal is "Easily writing boring SNMP MIB with Lua". This package add native support for OpenWrt. Include using ubus and uci to get system info/status. And, it use libubox/uloop as low level event-driven library.

@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: brcm63xx-tch
 Installed-Size: 26189
-Description:  A stable, documented, asynchronous API library for interfacing MPD in the C, C++ & Objective C languages.
+Description: A stable, documented, asynchronous API library for interfacing MPD in the C, C++ & Objective C languages.

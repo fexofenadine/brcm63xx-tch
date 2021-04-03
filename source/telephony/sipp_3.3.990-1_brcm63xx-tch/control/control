@@ -8,7 +8,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 144947
-Description:  SIPp is a free Open Source test tool / traffic generator for the SIP
- protocol. It includes a few basic SipStone user agent scenarios (UAC and
- UAS) and establishes and releases multiple calls with the INVITE and BYE
- methods.
+Description: SIPp is a free Open Source test tool / traffic generator for the SIP protocol. It includes a few basic SipStone user agent scenarios (UAC and UAS) and establishes and releases multiple calls with the INVITE and BYE methods.

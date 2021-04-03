@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 9362
-Description:  Lua library for IP calculation and routing information
+Description: Lua library for IP calculation and routing information

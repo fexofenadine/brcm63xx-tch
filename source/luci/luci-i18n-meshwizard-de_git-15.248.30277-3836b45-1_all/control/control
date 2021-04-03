@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 1724
-Description:  Translation for luci-app-meshwizard - Deutsch (German)
+Description: Translation for luci-app-meshwizard - Deutsch (German)

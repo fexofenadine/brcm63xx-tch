@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 Architecture: brcm63xx-tch
 Installed-Size: 1016077
-Description:  PHP is a widely-used general-purpose scripting language that is especially
- suited for Web development and can be embedded into HTML.
- This package contains the FastCGI Process Manager of the PHP5 interpreter.
+Description: PHP is a widely-used general-purpose scripting language that is especially suited for Web development and can be embedded into HTML. This package contains the FastCGI Process Manager of the PHP5 interpreter.

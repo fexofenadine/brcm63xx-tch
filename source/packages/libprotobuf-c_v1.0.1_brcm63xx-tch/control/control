@@ -8,7 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jacob Siverskog <jacob@teenageengineering.com>
 Architecture: brcm63xx-tch
 Installed-Size: 10943
-Description:  Runtime library to use Google Protocol Buffers from C applications.
- Protocol Buffers are a way of encoding structured data in an efficient yet
- extensible format. Google uses Protocol Buffers for almost all of its
- internal RPC protocols and file formats.
+Description: Runtime library to use Google Protocol Buffers from C applications. Protocol Buffers are a way of encoding structured data in an efficient yet extensible format. Google uses Protocol Buffers for almost all of its internal RPC protocols and file formats.

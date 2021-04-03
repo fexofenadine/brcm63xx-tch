@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 3030
-Description:  This package provides support for 'support for headerless G.726 16/24/32/40kbps data format' in Asterisk.
+Description: This package provides support for 'support for headerless G.726 16/24/32/40kbps data format' in Asterisk.

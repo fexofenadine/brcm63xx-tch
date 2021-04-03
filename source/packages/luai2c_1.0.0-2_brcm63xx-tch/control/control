@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Frank Edelhaeuser <fedel@users.sourceforge.net>
 Architecture: brcm63xx-tch
 Installed-Size: 4520
-Description:  This is the Lua binding for I2C. It provides access to I2C slaves supported by the kernel.
+Description: This is the Lua binding for I2C. It provides access to I2C slaves supported by the kernel.

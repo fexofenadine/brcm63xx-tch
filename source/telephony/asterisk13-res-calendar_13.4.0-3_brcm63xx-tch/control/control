@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 19258
-Description:  This package provides support for 'Calendaring support (ICal and Google Calendar)' in Asterisk.
+Description: This package provides support for 'Calendaring support (ICal and Google Calendar)' in Asterisk.

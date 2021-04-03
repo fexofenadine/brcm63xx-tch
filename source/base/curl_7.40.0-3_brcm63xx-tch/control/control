@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Imre Kaloz <kaloz@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 38498
-Description:  A client-side URL transfer utility
+Description: A client-side URL transfer utility

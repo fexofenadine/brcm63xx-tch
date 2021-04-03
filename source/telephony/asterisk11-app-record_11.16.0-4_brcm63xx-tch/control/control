@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 4964
-Description:  This package provides support for 'to record a sound file' in Asterisk11.
+Description: This package provides support for 'to record a sound file' in Asterisk11.

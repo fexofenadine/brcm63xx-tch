@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: brcm63xx-tch
 Installed-Size: 24581
-Description:  Perl interface to bzip2 compression library
+Description: Perl interface to bzip2 compression library

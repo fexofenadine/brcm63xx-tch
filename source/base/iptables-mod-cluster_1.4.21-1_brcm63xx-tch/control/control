@@ -7,19 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 2012
-Description:  iptables extensions for matching cluster.
- 
- Netfilter (IPv4/IPv6) module for matching cluster
- This option allows you to build work-load-sharing clusters of
- network servers/stateful firewalls without having a dedicated
- load-balancing router/server/switch. Basically, this match returns
- true when the packet must be handled by this cluster node. Thus,
- all nodes see all packets and this match decides which node handles
- what packets. The work-load sharing algorithm is based on source
- address hashing.
- 
- This module is usable for ipv4 and ipv6.
- 
- If you select it, it enables kmod-ipt-cluster.
- 
- see `iptables -m cluster --help` for more information.
+Description: iptables extensions for matching cluster. Netfilter (IPv4/IPv6) module for matching cluster This option allows you to build work-load-sharing clusters of network servers/stateful firewalls without having a dedicated load-balancing router/server/switch. Basically, this match returns true when the packet must be handled by this cluster node. Thus, all nodes see all packets and this match decides which node handles what packets. The work-load sharing algorithm is based on source address hashing. This module is usable for ipv4 and ipv6. If you select it, it enables kmod-ipt-cluster. see `iptables -m cluster --help` for more information.

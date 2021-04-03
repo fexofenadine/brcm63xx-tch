@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: brcm63xx-tch
 Installed-Size: 22370
-Description:  ccrypt is a utility for encrypting and decrypting files and streams
+Description: ccrypt is a utility for encrypting and decrypting files and streams

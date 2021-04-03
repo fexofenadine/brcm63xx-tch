@@ -7,5 +7,4 @@ Section: devel
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 110335
-Description:  GDBSERVER is a program that allows you to run GDB on a different machine than the
- one which is running the program being debugged.
+Description: GDBSERVER is a program that allows you to run GDB on a different machine than the one which is running the program being debugged.

@@ -8,4 +8,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 2865
-Description:  siproxd prefix plugin
+Description: siproxd prefix plugin

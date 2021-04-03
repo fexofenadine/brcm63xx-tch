@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 10352
-Description:  This package provides support for 'Spandsp T.38 and G.711 FAX Resource' in Asterisk11.
+Description: This package provides support for 'Spandsp T.38 and G.711 FAX Resource' in Asterisk11.

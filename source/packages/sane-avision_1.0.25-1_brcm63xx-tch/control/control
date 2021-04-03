@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 66782
-Description:  SANE (Scanner Access Now Easy) is a universal scanner interface.
- .
- This package contains the SANE backend for Avision and Avision OEM scanners and possibly more flatbed and film scanners.
+Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for Avision and Avision OEM scanners and possibly more flatbed and film scanners.

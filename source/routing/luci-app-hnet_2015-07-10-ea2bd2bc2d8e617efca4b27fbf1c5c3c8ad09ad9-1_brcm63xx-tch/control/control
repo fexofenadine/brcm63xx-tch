@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 56771
-Description:  HNCP Homenet configuration and visualization
+Description: HNCP Homenet configuration and visualization

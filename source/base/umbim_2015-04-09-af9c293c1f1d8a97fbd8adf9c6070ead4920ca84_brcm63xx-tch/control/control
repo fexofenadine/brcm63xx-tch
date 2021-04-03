@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 13120
-Description:  umbim is a command line tool for controlling mobile broadband modems using
- the MBIM-protocol.
+Description: umbim is a command line tool for controlling mobile broadband modems using the MBIM-protocol.

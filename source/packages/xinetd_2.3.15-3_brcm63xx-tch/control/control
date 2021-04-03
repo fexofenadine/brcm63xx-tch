@@ -8,8 +8,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 57450
-Description:  xinetd has access control mechanisms, extensive logging capabilities,
- the ability to make services available based on time, can place limits
- on the number of servers that can be started, and has deployable
- defence mechanisms to protect against port scanners, among other
- things.
+Description: xinetd has access control mechanisms, extensive logging capabilities, the ability to make services available based on time, can place limits on the number of servers that can be started, and has deployable defence mechanisms to protect against port scanners, among other things.

@@ -9,8 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 91931
-Description:  Network UPS Tools (NUT) is a client/server monitoring system that
- allows computers to share uninterruptible power supply (UPS) and
- power distribution unit (PDU) hardware. Clients access the hardware
- through the server, and are notified whenever the power status
- changes.
+Description: Network UPS Tools (NUT) is a client/server monitoring system that allows computers to share uninterruptible power supply (UPS) and power distribution unit (PDU) hardware. Clients access the hardware through the server, and are notified whenever the power status changes.

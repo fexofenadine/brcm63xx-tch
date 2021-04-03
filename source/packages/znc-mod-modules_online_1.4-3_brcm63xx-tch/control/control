@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 11388
-Description:  This module fakes the online status of ZNC-*users.
+Description: This module fakes the online status of ZNC-*users.

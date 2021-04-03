@@ -6,4 +6,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 135375
-Description:  Utility for creating XFS filesystems
+Description: Utility for creating XFS filesystems

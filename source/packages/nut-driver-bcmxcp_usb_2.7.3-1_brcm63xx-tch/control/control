@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 32764
-Description:  Experimental driver for UPSes supporting the BCM/XCP protocol over USB
+Description: Experimental driver for UPSes supporting the BCM/XCP protocol over USB

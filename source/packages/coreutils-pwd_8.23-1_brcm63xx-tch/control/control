@@ -7,5 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 15046
-Description:  Full version of standard GNU pwd utility. Normally, you would not use this
- package, since the functionality in BusyBox is more than sufficient.
+Description: Full version of standard GNU pwd utility. Normally, you would not use this package, since the functionality in BusyBox is more than sufficient.

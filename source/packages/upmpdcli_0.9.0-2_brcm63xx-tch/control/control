@@ -10,4 +10,4 @@ Require-User: upmpdcli=89:upmpdcli=89
 Old_Maintainer: Petko Bordjukov <bordjukov@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 107198
-Description:  upmpdcli implements an UPnP Media Renderer, using MPD to perform the real work.
+Description: upmpdcli implements an UPnP Media Renderer, using MPD to perform the real work.

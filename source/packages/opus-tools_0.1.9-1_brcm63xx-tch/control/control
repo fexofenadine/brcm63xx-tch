@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 70293
-Description:  This package provides command-line utilities to encode, inspect, and decode 
- .opus files.
+Description: This package provides command-line utilities to encode, inspect, and decode .opus files.

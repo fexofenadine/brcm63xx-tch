@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: brcm63xx-tch
 Installed-Size: 6984
-Description:  Feeds the kernel entropy pool by timing CPU loops.
+Description: Feeds the kernel entropy pool by timing CPU loops.

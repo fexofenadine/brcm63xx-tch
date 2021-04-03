@@ -7,4 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 25405
-Description:  Linux ATM tool saaldump.
+Description: Linux ATM tool saaldump.

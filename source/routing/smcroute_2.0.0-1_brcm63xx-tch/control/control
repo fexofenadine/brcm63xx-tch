@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Leonardo Brondani Schenkel <leonardo@schenkel.net>
 Architecture: brcm63xx-tch
 Installed-Size: 13428
-Description:  SMCRoute is a command line tool to manipulate the multicast routes of the Linux kernel.
+Description: SMCRoute is a command line tool to manipulate the multicast routes of the Linux kernel.

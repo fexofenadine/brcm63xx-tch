@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Mike Brady <mikebrady@eircom.net>
 Architecture: brcm63xx-tch
 Installed-Size: 106965
-Description:  The SoX Resampler library
- High quality, one-dimensional sample-rate conversion library
+Description: The SoX Resampler library High quality, one-dimensional sample-rate conversion library

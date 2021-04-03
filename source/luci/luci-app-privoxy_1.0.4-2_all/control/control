@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
 Architecture: all
 Installed-Size: 11423
-Description:  LuCI Support for Privoxy WEB proxy
+Description: LuCI Support for Privoxy WEB proxy

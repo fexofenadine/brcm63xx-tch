@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 105
-Description:  This package contains the (almost) full Python install.
- It's python3-light + all other packages.
+Description: This package contains the (almost) full Python install. It's python3-light + all other packages.

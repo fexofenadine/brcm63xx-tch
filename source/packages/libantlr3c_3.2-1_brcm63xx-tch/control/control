@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Espen Jürgensen <espenjurgensen+openwrt@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 34259
-Description:  ANother Tool for Language Recognition, is a language tool that provides a framework for constructing recognizers,
- interpreters, compilers, and translators from grammatical descriptions containing actions in a variety of target languages.
+Description: ANother Tool for Language Recognition, is a language tool that provides a framework for constructing recognizers, interpreters, compilers, and translators from grammatical descriptions containing actions in a variety of target languages.

@@ -8,5 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 24873
-Description:  losetup is used to associate loop devices with regular files or block devices,
- to detach loop devices and to query the status of a loop device
+Description: losetup is used to associate loop devices with regular files or block devices, to detach loop devices and to query the status of a loop device

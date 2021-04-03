@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 3583
-Description:  for PRM80
+Description: for PRM80

@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: brcm63xx-tch
 Installed-Size: 196804
-Description:  CLI remote interface for transmission.
+Description: CLI remote interface for transmission.

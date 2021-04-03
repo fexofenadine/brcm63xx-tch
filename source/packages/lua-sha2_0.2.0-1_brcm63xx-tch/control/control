@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Lars Gierth <larsg@systemli.org>
 Architecture: brcm63xx-tch
 Installed-Size: 7646
-Description:  Lua Binding for the SHA-2 (SHA-256/384/512) BSD-licensed C implementation by Aaron Gifford.
- Also contains a HMAC implementation in Lua.
+Description: Lua Binding for the SHA-2 (SHA-256/384/512) BSD-licensed C implementation by Aaron Gifford. Also contains a HMAC implementation in Lua.

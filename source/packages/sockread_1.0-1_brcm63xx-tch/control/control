@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Moritz Warning <moritzwarning@web.de>
 Architecture: brcm63xx-tch
 Installed-Size: 2058
-Description:  sockread writes and reads data from a Unix domain socket
- represented as a special file on the file system.
+Description: sockread writes and reads data from a Unix domain socket represented as a special file on the file system.

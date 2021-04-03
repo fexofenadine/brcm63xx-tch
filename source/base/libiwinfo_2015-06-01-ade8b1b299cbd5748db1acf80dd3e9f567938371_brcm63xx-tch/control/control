@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 26648
-Description:  Wireless information library with consistent interface for proprietary Broadcom,
- madwifi, nl80211 and wext driver interfaces.
+Description: Wireless information library with consistent interface for proprietary Broadcom, madwifi, nl80211 and wext driver interfaces.

@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 2907
-Description:  Shellscript based wizard to setup mesh networks
+Description: Shellscript based wizard to setup mesh networks

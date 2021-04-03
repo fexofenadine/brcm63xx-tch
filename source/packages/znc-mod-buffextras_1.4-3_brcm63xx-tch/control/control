@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 11512
-Description:  Add nick changes, joins, parts, topic changes etc. to your playback buffer.
+Description: Add nick changes, joins, parts, topic changes etc. to your playback buffer.

@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 2562
-Description:  LuCI RPC - JSON-RPC API
+Description: LuCI RPC - JSON-RPC API

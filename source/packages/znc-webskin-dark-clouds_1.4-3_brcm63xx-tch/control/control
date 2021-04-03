@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 32489
-Description:  dark-clouds webskin for webadmin
+Description: dark-clouds webskin for webadmin

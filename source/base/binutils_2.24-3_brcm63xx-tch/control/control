@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 999136
-Description:  The Binutils package contains a linker, an assembler, and other tools for handling object files
+Description: The Binutils package contains a linker, an assembler, and other tools for handling object files

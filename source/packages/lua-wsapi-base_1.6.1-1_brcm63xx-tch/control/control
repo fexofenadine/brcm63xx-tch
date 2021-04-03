@@ -8,6 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Dirk Chang <dirk@kooiot.com>
 Architecture: brcm63xx-tch
 Installed-Size: 14033
-Description:  WSAPI is an API that abstracts the web server from Lua web applications
- .
- This package contains the basic stuff.
+Description: WSAPI is an API that abstracts the web server from Lua web applications . This package contains the basic stuff.

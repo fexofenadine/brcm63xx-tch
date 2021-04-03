@@ -8,4 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 23769
-Description:  lsblk lists information about all or the specified block devices
+Description: lsblk lists information about all or the specified block devices

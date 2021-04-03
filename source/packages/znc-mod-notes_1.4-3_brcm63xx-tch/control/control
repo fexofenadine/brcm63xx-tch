@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 17847
-Description:  This modules stores and displays short notes using a key/note pairs and shows them to you on connect.
+Description: This modules stores and displays short notes using a key/note pairs and shows them to you on connect.

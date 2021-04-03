@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 5878
-Description:  Accept Status from Installed Engine Monitors module for yate
+Description: Accept Status from Installed Engine Monitors module for yate

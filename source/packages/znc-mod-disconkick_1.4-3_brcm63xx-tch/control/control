@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 6774
-Description:  This module will kick your client from all channels where you are, in case if ZNC disconnects from server.
+Description: This module will kick your client from all channels where you are, in case if ZNC disconnects from server.

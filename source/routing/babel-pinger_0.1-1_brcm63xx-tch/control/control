@@ -7,6 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
 Architecture: brcm63xx-tch
 Installed-Size: 3772
-Description:  Babel-pinger is a hack to export a default route into Babel for people
- using DHCP to configure their routers rather than speaking to their
- upstream provider with a proper routing protocol.
+Description: Babel-pinger is a hack to export a default route into Babel for people using DHCP to configure their routers rather than speaking to their upstream provider with a proper routing protocol.

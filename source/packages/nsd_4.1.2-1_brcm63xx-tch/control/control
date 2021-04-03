@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 243888
-Description:  NSD is an authoritative only, high performance, simple and open source name
- server.
+Description: NSD is an authoritative only, high performance, simple and open source name server.

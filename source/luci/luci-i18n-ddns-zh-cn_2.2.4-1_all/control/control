@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
 Architecture: all
 Installed-Size: 6000
-Description:  Translation for luci-app-ddns - 普通话 (Chinese)
+Description: Translation for luci-app-ddns - 普通话 (Chinese)

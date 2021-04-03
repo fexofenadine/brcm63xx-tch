@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 8574
-Description:  MRCP v2 Voice/Tone Detector and Synthesizer module for yate
+Description: MRCP v2 Voice/Tone Detector and Synthesizer module for yate

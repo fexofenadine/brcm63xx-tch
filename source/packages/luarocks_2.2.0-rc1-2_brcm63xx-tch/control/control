@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Amr Hassan <amr.hassan@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 102194
-Description:  LuaRocks is a deployment and management system for Lua modules.
+Description: LuaRocks is a deployment and management system for Lua modules.

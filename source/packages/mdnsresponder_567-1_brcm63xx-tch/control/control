@@ -8,8 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 105
-Description:  Bonjour, also known as zero-configuration networking, enables
- automatic discovery of computers, devices, and services on
- IP networks.
- .
- This meta package contains only dependencies on other packages.
+Description: Bonjour, also known as zero-configuration networking, enables automatic discovery of computers, devices, and services on IP networks. . This meta package contains only dependencies on other packages.

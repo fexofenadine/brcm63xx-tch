@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: brcm63xx-tch
 Installed-Size: 682320
-Description:  Kerberos 5 Shared Libraries
+Description: Kerberos 5 Shared Libraries

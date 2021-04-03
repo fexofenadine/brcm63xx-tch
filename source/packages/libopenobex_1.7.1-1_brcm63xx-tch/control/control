@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 24949
-Description:  Open Source impl of the OBject EXchange protocol (library)
+Description: Open Source impl of the OBject EXchange protocol (library)

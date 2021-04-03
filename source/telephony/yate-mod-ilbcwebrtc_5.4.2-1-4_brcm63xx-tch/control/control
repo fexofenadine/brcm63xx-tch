@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 40534
-Description:  iLBC Codec from the WebRTC project module for yate
+Description: iLBC Codec from the WebRTC project module for yate

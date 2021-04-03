@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: brcm63xx-tch
 Installed-Size: 26948
-Description:  RIPNG routing engine
+Description: RIPNG routing engine

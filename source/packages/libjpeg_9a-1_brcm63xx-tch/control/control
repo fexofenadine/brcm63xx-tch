@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 98680
-Description:  The Independent JPEG Group's JPEG runtime library
+Description: The Independent JPEG Group's JPEG runtime library

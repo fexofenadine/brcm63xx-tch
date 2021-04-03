@@ -8,5 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 3261
-Description:  rename will rename the specified files by replacing the first occurrence of
- expression in their name by replacement
+Description: rename will rename the specified files by replacing the first occurrence of expression in their name by replacement

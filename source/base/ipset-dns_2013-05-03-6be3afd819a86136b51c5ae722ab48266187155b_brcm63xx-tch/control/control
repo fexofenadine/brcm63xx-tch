@@ -9,10 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4386
-Description:  The ipset-dns daemon is a lightweight DNS forwarding server that adds all
- resolved IPs to a given netfilter ipset. It is designed to be used in
- conjunction with dnsmasq's upstream server directive.
- 
- Practical use cases include routing over a given gateway traffic for
- particular web services or webpages that do not have a priori predictable
- IP addresses and instead rely on dizzying arrays of DNS resolutions.
+Description: The ipset-dns daemon is a lightweight DNS forwarding server that adds all resolved IPs to a given netfilter ipset. It is designed to be used in conjunction with dnsmasq's upstream server directive. Practical use cases include routing over a given gateway traffic for particular web services or webpages that do not have a priori predictable IP addresses and instead rely on dizzying arrays of DNS resolutions.

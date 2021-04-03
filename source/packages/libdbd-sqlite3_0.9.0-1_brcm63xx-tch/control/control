@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 13021
-Description:  SQLite3 database driver for libdbi
+Description: SQLite3 database driver for libdbi

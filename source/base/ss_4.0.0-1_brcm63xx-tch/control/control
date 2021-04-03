@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Russell Senior <russell@personaltelco.net>
 Architecture: brcm63xx-tch
 Installed-Size: 29399
-Description:  Socket statistics utility
+Description: Socket statistics utility

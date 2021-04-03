@@ -9,8 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 6019
-Description:  Provides design patterns helpers files:
- - forwardable.rb
- - observer.rb
- - singleton.rb
- 
+Description: Provides design patterns helpers files: - forwardable.rb - observer.rb - singleton.rb 

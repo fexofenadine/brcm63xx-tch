@@ -7,6 +7,4 @@ Section: libs
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 137385
-Description:  The aim of the PolarSSL project is to provide a quality, open-source
- cryptographic library written in C and targeted at embedded systems.
- This package contains the PolarSSL library.
+Description: The aim of the PolarSSL project is to provide a quality, open-source cryptographic library written in C and targeted at embedded systems. This package contains the PolarSSL library.

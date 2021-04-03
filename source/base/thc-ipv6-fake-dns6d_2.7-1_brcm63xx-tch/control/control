@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 24145
-Description:  This package contains the fake_dns6d utility of the THC-IPv6 toolkit.
+Description: This package contains the fake_dns6d utility of the THC-IPv6 toolkit.

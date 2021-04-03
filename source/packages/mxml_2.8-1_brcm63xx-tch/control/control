@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Espen Jürgensen <espenjurgensen+openwrt@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 17923
-Description:  A small xml library.
+Description: A small xml library.

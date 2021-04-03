@@ -9,8 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Gimpelevich <daniel@gimpelevich.san-francisco.ca.us>
 Architecture: brcm63xx-tch
 Installed-Size: 48497
-Description:  A VPN client compatible with Cisco's EasyVPN equipment.
- 
- Supports IPSec (ESP) with Mode Configuration and Xauth.  Supports only
- shared-secret IPSec authentication with Xauth, AES (256, 192, 128),
- 3DES, 1DES, MD5, SHA1, DH1/2/5 and IP tunneling.
+Description: A VPN client compatible with Cisco's EasyVPN equipment. Supports IPSec (ESP) with Mode Configuration and Xauth. Supports only shared-secret IPSec authentication with Xauth, AES (256, 192, 128), 3DES, 1DES, MD5, SHA1, DH1/2/5 and IP tunneling.

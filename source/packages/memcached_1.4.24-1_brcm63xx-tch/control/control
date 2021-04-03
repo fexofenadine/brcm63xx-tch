@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: brcm63xx-tch
 Installed-Size: 56855
-Description:  Free and open source, high-performance, distributed memory object caching system
+Description: Free and open source, high-performance, distributed memory object caching system

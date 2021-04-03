@@ -8,5 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 8549
-Description:  logger makes entries in the system log, it provides a shell command interface
- to the syslog system log module
+Description: logger makes entries in the system log, it provides a shell command interface to the syslog system log module

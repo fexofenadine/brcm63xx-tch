@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 15665
-Description:  This package contains a PPtP plugin for ppp.
+Description: This package contains a PPtP plugin for ppp.

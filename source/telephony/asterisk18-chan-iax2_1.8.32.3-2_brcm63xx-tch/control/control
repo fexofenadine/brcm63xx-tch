@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 133645
-Description:  This package provides support for 'An implementation of IAX2 channel' in Asterisk.
+Description: This package provides support for 'An implementation of IAX2 channel' in Asterisk.

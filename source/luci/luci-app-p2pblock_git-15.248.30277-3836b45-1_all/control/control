@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 1509
-Description:  LuCI Support for the Freifunk P2P-Block addon
+Description: LuCI Support for the Freifunk P2P-Block addon

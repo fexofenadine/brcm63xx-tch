@@ -6,4 +6,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 6944
-Description:  Ext2 Filesystem information dumping utility
+Description: Ext2 Filesystem information dumping utility

@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
 Architecture: brcm63xx-tch
 Installed-Size: 35879
-Description:  This package contains the seccomp library.
+Description: This package contains the seccomp library.

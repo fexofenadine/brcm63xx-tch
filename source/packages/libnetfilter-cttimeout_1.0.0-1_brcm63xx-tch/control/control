@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4002
-Description:  API to connection tracking timeout infrastructure
+Description: API to connection tracking timeout infrastructure

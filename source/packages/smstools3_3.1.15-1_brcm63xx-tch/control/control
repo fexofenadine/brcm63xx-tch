@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Gérald Kerma <dreagle@doukki.net>
 Architecture: brcm63xx-tch
 Installed-Size: 92167
-Description:  The SMS Server Tools 3 is a SMS Gateway software which can send and receive
- short messages through GSM modems and mobile phones.
+Description: The SMS Server Tools 3 is a SMS Gateway software which can send and receive short messages through GSM modems and mobile phones.

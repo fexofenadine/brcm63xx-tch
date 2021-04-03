@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: brcm63xx-tch
 Installed-Size: 28648
-Description:  A collection of modules that parse HTML text documents
+Description: A collection of modules that parse HTML text documents

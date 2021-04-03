@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: brcm63xx-tch
 Installed-Size: 6922
-Description:  LuaExpat is a SAX XML parser based on the Expat library.
+Description: LuaExpat is a SAX XML parser based on the Expat library.

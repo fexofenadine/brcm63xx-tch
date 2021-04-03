@@ -10,4 +10,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: brcm63xx-tch
 Installed-Size: 472921
-Description:  Berkeley DB library (4.7).
+Description: Berkeley DB library (4.7).

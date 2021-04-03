@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Johannes Morgenroth <jm@m-network.de>
 Architecture: brcm63xx-tch
 Installed-Size: 144779
-Description:  A library with common functions for C++.
+Description: A library with common functions for C++.

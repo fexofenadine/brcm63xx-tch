@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 5799
-Description:  LuaSQL is a simple interface from Lua to a DBMS.
- .
- This package contains the MySQL binding.
+Description: LuaSQL is a simple interface from Lua to a DBMS. . This package contains the MySQL binding.

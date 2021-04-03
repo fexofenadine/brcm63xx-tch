@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Vasileios Lakafosis <lakafv@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 85939
-Description:  This packet provides support for the Locator-ID Seperation Protocol.
+Description: This packet provides support for the Locator-ID Seperation Protocol.

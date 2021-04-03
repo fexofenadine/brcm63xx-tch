@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 1038
-Description:  Translation for luci-app-freifunk-policyrouting - Polski (Polish)
+Description: Translation for luci-app-freifunk-policyrouting - Polski (Polish)

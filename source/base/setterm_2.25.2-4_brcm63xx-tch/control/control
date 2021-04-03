@@ -8,5 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 11570
-Description:  setterm writes to standard output a character string that will invoke the
- specified terminal capabilities
+Description: setterm writes to standard output a character string that will invoke the specified terminal capabilities

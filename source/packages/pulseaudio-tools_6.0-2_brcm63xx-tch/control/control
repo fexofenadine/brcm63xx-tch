@@ -8,4 +8,4 @@ Section: sound
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 80774
-Description:  Tools for Pulseaudio
+Description: Tools for Pulseaudio

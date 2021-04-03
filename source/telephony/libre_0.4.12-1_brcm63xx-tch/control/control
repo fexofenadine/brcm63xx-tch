@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 148946
-Description:  Generic library for real-time communications with async IO support
+Description: Generic library for real-time communications with async IO support

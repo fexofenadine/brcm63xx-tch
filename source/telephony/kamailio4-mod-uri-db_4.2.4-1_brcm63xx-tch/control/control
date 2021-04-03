@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 6991
-Description:  kamailio4 Database-backend SIP URI checking module
+Description: kamailio4 Database-backend SIP URI checking module

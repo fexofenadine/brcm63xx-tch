@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Roger D <rogerdammit@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 18117
-Description:  This package contains libuvc is a cross-platform library for USB video devices, 
- built atop libusb.
+Description: This package contains libuvc is a cross-platform library for USB video devices, built atop libusb.

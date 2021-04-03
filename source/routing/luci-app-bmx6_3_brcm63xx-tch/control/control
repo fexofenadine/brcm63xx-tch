@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Pau Escrich <p4u@dabax.net>
 Architecture: brcm63xx-tch
 Installed-Size: 81367
-Description:  bmx6 web application (status and configuration) for LuCi web interface
+Description: bmx6 web application (status and configuration) for LuCi web interface

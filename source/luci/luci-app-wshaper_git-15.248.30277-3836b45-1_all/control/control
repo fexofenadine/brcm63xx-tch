@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 1214
-Description:  LuCI Support for wshaper
+Description: LuCI Support for wshaper

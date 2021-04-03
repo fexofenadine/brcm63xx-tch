@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Karl Palsson <karlp@remake.is>
 Architecture: brcm63xx-tch
 Installed-Size: 5813
-Description:  Lua bindings to libmosquitto
+Description: Lua bindings to libmosquitto

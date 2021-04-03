@@ -7,16 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 12184
-Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
- with support of modern routing protocols, easy to use configuration
- interface and powerful route filtering language. It is lightweight and
- efficient and therefore appropriate for small embedded routers.
- 
- This is a BIRD command-line client. It is used to send commands to BIRD,
- commands can perform simple actions such as enabling/disabling of
- protocols, telling BIRD to show various information, telling it to show
- a routing table filtered by a filter, or asking BIRD to reconfigure.
- 
- Unless you can't afford dependency on ncurses and readline, you
- should install BIRD command-line client together with BIRD.
- 
+Description: BIRD is an internet routing daemon which manages TCP/IP routing tables with support of modern routing protocols, easy to use configuration interface and powerful route filtering language. It is lightweight and efficient and therefore appropriate for small embedded routers. This is a BIRD command-line client. It is used to send commands to BIRD, commands can perform simple actions such as enabling/disabling of protocols, telling BIRD to show various information, telling it to show a routing table filtered by a filter, or asking BIRD to reconfigure. Unless you can't afford dependency on ncurses and readline, you should install BIRD command-line client together with BIRD. 

@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: brcm63xx-tch
 Installed-Size: 94635
-Description:  Zile is a small Emacs clone. Zile is a customizable, self-documenting
- real-time display editor. Zile was written to be as similar as possible
- to Emacs; every Emacs user should feel at home with Zile.
+Description: Zile is a small Emacs clone. Zile is a customizable, self-documenting real-time display editor. Zile was written to be as similar as possible to Emacs; every Emacs user should feel at home with Zile.

@@ -6,5 +6,4 @@ Section: kernel
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 13327
-Description:  This package contains an utility for initializing the proprietary Broadcom 
- wl driver.
+Description: This package contains an utility for initializing the proprietary Broadcom wl driver.

@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Henning Rogge <hrogge@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 148905
-Description:  Build Olsrd V2 Routing Agent
+Description: Build Olsrd V2 Routing Agent

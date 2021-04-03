@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
 Architecture: brcm63xx-tch
 Installed-Size: 28296
-Description:  GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
- of the Pico text editor.
+Description: GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone of the Pico text editor.

@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 4384
-Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite/aiccu
+Description: Support for DHCPv6/6in4/6to4/6rd/DS-Lite/aiccu

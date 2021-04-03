@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 14440
-Description:  This package provides support for 'simple client/server model for supporting policy control over QoS signaling protocols' in Asterisk11.
+Description: This package provides support for 'simple client/server model for supporting policy control over QoS signaling protocols' in Asterisk11.

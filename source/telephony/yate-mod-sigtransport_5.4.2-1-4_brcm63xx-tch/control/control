@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 20885
-Description:  SIGTRAN (SS7 over IP) connection provider module for yate
+Description: SIGTRAN (SS7 over IP) connection provider module for yate

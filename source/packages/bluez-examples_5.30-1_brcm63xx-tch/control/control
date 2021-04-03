@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 26089
-Description:  contains many examples apps for bluetooth, requiring python
+Description: contains many examples apps for bluetooth, requiring python

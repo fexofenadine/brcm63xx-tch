@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 3257
-Description:  LuCI Support for miniDLNA
+Description: LuCI Support for miniDLNA

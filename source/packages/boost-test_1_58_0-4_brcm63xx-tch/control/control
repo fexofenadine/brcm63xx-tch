@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 172133
-Description:  Boost C++ source library (test)
+Description: Boost C++ source library (test)

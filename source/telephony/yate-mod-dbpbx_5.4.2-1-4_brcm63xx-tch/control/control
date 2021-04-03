@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 9630
-Description:  PBX IVR and Multi-routing from Database module for yate
+Description: PBX IVR and Multi-routing from Database module for yate

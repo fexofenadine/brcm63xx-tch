@@ -7,7 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: brcm63xx-tch
 Installed-Size: 87173
-Description:  CTorrent is a BitTorrent client written in the C programming language,
- known to be a very robust and mature programming language, which produces
- fast and optimized application.
- This package is built with builtin (Steve Reid's public-domain) SHA-1 support
+Description: CTorrent is a BitTorrent client written in the C programming language, known to be a very robust and mature programming language, which produces fast and optimized application. This package is built with builtin (Steve Reid's public-domain) SHA-1 support

@@ -9,6 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: brcm63xx-tch
 Installed-Size: 72619
-Description:  Programming library for writing an XML-RPC server or client in C or C++.
- XML-RPC is a standard network protocol to allow a client program to make
- a simple remote procedure call (RPC) type request of a server. Uses internal expat variant (stripped down)
+Description: Programming library for writing an XML-RPC server or client in C or C++. XML-RPC is a standard network protocol to allow a client program to make a simple remote procedure call (RPC) type request of a server. Uses internal expat variant (stripped down)

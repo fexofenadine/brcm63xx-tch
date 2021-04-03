@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Lars Gierth <larsg@systemli.org>
 Architecture: brcm63xx-tch
 Installed-Size: 1456
-Description:  This is a module for the lua programming language for decoding and encoding
- bencoded data which can be used to read and write torrent files for bittorrent.
+Description: This is a module for the lua programming language for decoding and encoding bencoded data which can be used to read and write torrent files for bittorrent.

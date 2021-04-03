@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 20067
-Description:  This package provides support for 'MySQL support' in Asterisk.
+Description: This package provides support for 'MySQL support' in Asterisk.

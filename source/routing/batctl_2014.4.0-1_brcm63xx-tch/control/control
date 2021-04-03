@@ -8,7 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Marek Lindner <mareklindner@neomailbox.ch>
 Architecture: brcm63xx-tch
 Installed-Size: 23012
-Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
- It is an easier method for configuring batman-adv and provides some
- additional tools for debugging as well. This package builds
- version 2014.4.0 of the user space utility.
+Description: batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced. It is an easier method for configuring batman-adv and provides some additional tools for debugging as well. This package builds version 2014.4.0 of the user space utility.

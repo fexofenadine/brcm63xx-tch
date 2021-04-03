@@ -8,8 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 167502
-Description:  libnetconf is the NETCONF library in C intended for building NETCONF clients and servers.
- 
- libnetconf provides basic functions to connect NETCONF client and server to each other via
- SSH, to send and receive NETCONF messages and to store and work with the configuration data 
- in a datastore.
+Description: libnetconf is the NETCONF library in C intended for building NETCONF clients and servers. libnetconf provides basic functions to connect NETCONF client and server to each other via SSH, to send and receive NETCONF messages and to store and work with the configuration data in a datastore.

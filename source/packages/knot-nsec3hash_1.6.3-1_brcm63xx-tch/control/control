@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Salzman <daniel.salzman@nic.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 18850
-Description:  Knot DNS simple utility to compute NSEC3 hash.
+Description: Knot DNS simple utility to compute NSEC3 hash.

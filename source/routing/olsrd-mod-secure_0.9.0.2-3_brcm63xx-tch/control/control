@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 9606
-Description:  Message signing plugin to secure routing domain
+Description: Message signing plugin to secure routing domain

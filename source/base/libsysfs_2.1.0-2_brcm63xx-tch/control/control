@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 10834
-Description:  The library's purpose is to provide a consistant and stable interface for
- querying system device information exposed through sysfs.
+Description: The library's purpose is to provide a consistant and stable interface for querying system device information exposed through sysfs.

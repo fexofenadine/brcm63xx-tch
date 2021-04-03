@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Knyazkov Dmitry <medavedik@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 114797
-Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
- being fully compliant with DLNA/UPnP-AV clients.
+Description: MiniDLNA (aka ReadyDLNA) is server software with the aim of being fully compliant with DLNA/UPnP-AV clients.

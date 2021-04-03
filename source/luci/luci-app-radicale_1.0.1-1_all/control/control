@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
 Architecture: all
 Installed-Size: 9457
-Description:  LuCI Support for Radicale CardDAV/CalDAV
+Description: LuCI Support for Radicale CardDAV/CalDAV

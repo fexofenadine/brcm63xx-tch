@@ -6,5 +6,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 5415
-Description:  This package contains an utility for configuring the Broadcom BCM5325E/536x 
- based switches.
+Description: This package contains an utility for configuring the Broadcom BCM5325E/536x based switches.

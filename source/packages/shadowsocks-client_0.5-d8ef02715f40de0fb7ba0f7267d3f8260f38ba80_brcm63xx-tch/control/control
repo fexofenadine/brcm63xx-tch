@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Zhao, Gang <gang.zhao.42@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 12142
-Description:  shadowsocks client for router
+Description: shadowsocks client for router

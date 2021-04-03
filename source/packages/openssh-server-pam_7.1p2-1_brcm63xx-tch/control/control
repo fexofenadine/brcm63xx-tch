@@ -10,4 +10,4 @@ Require-User: sshd=22:sshd=22
 Old_Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: brcm63xx-tch
 Installed-Size: 323980
-Description:  OpenSSH server (with PAM support).
+Description: OpenSSH server (with PAM support).

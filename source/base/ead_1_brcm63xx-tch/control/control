@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 50140
-Description:  Provides remote access to your device even if IP and firewall
- configuration settings are defunct
+Description: Provides remote access to your device even if IP and firewall configuration settings are defunct

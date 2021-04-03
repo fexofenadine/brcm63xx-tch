@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Michael Hanselmann <public@hansmi.ch>
 Architecture: brcm63xx-tch
 Installed-Size: 123273
-Description:  This package contains the Unbound daemon.
+Description: This package contains the Unbound daemon.

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 105
-Description:  Virtual kernel package
+Description: Virtual kernel package

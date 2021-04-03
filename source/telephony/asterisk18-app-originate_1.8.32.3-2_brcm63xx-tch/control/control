@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 3123
-Description:  This package provides support for 'originating an outbound call and connecting it to a specified extension or application' in Asterisk.
+Description: This package provides support for 'originating an outbound call and connecting it to a specified extension or application' in Asterisk.

@@ -9,8 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Paul Fertser <fercerpav@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 11838
-Description:  HIDAPI is a multi-platform library which allows an application to interface
- with USB and Bluetooth HID-Class devices on Windows, Linux, FreeBSD, and Mac
- OS X.  HIDAPI can be either built as a shared library (.so or .dll) or
- can be embedded directly into a target application by adding a single source
- file (per platform) and a single header.
+Description: HIDAPI is a multi-platform library which allows an application to interface with USB and Bluetooth HID-Class devices on Windows, Linux, FreeBSD, and Mac OS X. HIDAPI can be either built as a shared library (.so or .dll) or can be embedded directly into a target application by adding a single source file (per platform) and a single header.

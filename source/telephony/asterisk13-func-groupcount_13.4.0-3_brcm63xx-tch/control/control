@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 3600
-Description:  This package provides support for 'for counting number of channels in the specified group' in Asterisk.
+Description: This package provides support for 'for counting number of channels in the specified group' in Asterisk.

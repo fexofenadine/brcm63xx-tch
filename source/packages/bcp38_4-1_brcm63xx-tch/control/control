@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
 Architecture: brcm63xx-tch
 Installed-Size: 1857
-Description:  bcp38 implements IETF BCP38 for home routers. See https://tools.ietf.org/html/bcp38.
+Description: bcp38 implements IETF BCP38 for home routers. See https://tools.ietf.org/html/bcp38.

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 5417
-Description:  Provides ubus calls for file and directory operations.
+Description: Provides ubus calls for file and directory operations.

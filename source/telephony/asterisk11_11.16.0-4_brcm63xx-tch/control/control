@@ -9,7 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 1246812
-Description:  Asterisk is a complete PBX in software. It provides all of the features
- you would expect from a PBX and more. Asterisk does voice over IP in three
- protocols, and can interoperate with almost all standards-based telephony
- equipment using relatively inexpensive hardware.
+Description: Asterisk is a complete PBX in software. It provides all of the features you would expect from a PBX and more. Asterisk does voice over IP in three protocols, and can interoperate with almost all standards-based telephony equipment using relatively inexpensive hardware.

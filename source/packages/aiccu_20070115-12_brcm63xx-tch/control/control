@@ -9,4 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Ondrej Caletka <ondrej@caletka.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 26575
-Description:  SixXS Automatic IPv6 Connectivity Client Utility
+Description: SixXS Automatic IPv6 Connectivity Client Utility

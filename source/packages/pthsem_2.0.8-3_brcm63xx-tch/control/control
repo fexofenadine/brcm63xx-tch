@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Othmar Truniger <github@truniger.ch>
 Architecture: brcm63xx-tch
 Installed-Size: 25862
-Description:  GNU pth is a user mode multi threading library.
- pthsem is an extend version, with support for semaphores added. It can be installed parallel to a normal pth.
+Description: GNU pth is a user mode multi threading library. pthsem is an extend version, with support for semaphores added. It can be installed parallel to a normal pth.

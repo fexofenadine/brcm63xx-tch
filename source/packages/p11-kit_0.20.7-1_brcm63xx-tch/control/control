@@ -7,6 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 62461
-Description:  Provides a way to load and enumerate PKCS11 modules. Provides a
- standard configuration setup for installing PKCS11 modules in such a
- way that they are discoverable.
+Description: Provides a way to load and enumerate PKCS11 modules. Provides a standard configuration setup for installing PKCS11 modules in such a way that they are discoverable.

@@ -8,5 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 8365
-Description:  namei uses its arguments as pathnames to any type of Unix file (symlinks,
- files, directories, and so forth)
+Description: namei uses its arguments as pathnames to any type of Unix file (symlinks, files, directories, and so forth)

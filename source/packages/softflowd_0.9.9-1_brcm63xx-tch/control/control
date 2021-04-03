@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Ross Vandegrift <ross@kallisti.us>
 Architecture: brcm63xx-tch
 Installed-Size: 20297
-Description:  Software netflow exporter
+Description: Software netflow exporter

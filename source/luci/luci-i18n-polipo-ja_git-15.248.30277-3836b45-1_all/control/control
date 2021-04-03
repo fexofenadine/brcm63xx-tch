@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 2394
-Description:  Translation for luci-app-polipo - 日本語 (Japanese)
+Description: Translation for luci-app-polipo - 日本語 (Japanese)

@@ -7,4 +7,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 2448
-Description:  Linux ATM tool svc_recv.
+Description: Linux ATM tool svc_recv.

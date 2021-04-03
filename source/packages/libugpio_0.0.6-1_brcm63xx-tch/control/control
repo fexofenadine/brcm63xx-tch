@@ -9,5 +9,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Michael Heimpold <mhei@heimpold.de>
 Architecture: brcm63xx-tch
 Installed-Size: 4395
-Description:  libugpio is a library to ease the use of linux kernel's sysfs
- gpio interface from C programs and/or other libraries.
+Description: libugpio is a library to ease the use of linux kernel's sysfs gpio interface from C programs and/or other libraries.

@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Marek Lindner <lindner_marek@yahoo.de>
 Architecture: brcm63xx-tch
 Installed-Size: 10014
-Description:  visualization server for B.A.T.M.A.N. layer 3
+Description: visualization server for B.A.T.M.A.N. layer 3

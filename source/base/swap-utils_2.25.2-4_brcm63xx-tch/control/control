@@ -8,4 +8,4 @@ Section: utils
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 26854
-Description:  contains: mkswap, swaplabel
+Description: contains: mkswap, swaplabel

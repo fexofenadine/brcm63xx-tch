@@ -8,6 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 42619
-Description:  Bottle is a fast, simple and lightweight WSGI micro web-framework for Python.
- It is distributed as a single file module and has no dependencies other than the
- Python Standard Library.
+Description: Bottle is a fast, simple and lightweight WSGI micro web-framework for Python. It is distributed as a single file module and has no dependencies other than the Python Standard Library.

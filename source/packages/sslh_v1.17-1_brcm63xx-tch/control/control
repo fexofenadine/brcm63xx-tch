@@ -8,4 +8,4 @@ Section: net
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: brcm63xx-tch
 Installed-Size: 10172
-Description:  SSL/SSH multiplexer
+Description: SSL/SSH multiplexer

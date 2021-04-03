@@ -7,5 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
 Architecture: brcm63xx-tch
 Installed-Size: 747997
-Description:  Vim is an almost compatible version of the UNIX editor Vi.
- (Normal build)
+Description: Vim is an almost compatible version of the UNIX editor Vi. (Normal build)

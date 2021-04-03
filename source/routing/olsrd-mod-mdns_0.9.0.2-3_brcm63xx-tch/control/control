@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 7839
-Description:  MDNS/Zeroconf/Bonjour packet distribution 
+Description: MDNS/Zeroconf/Bonjour packet distribution 

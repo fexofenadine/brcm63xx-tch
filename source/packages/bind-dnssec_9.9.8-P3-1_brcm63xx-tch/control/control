@@ -8,4 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Noah Meyerhans <frodo@morgul.net>
 Architecture: brcm63xx-tch
 Installed-Size: 59585
-Description:  bind administration tools (dnssec-keygen and dnssec-signzone only)
+Description: bind administration tools (dnssec-keygen and dnssec-signzone only)

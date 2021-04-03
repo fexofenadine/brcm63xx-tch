@@ -8,5 +8,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Roger D <rogerdammit@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 138196
-Description:  The Diffutils package contains programs that show the differences between
- files or directories.
+Description: The Diffutils package contains programs that show the differences between files or directories.

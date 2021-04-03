@@ -7,4 +7,4 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 Old_Maintainer: Daniel Golle <dgolle@allnet.de>
 Architecture: brcm63xx-tch
 Installed-Size: 3628
-Description:  A small process written in C to update the signal-strength indicator LEDs
+Description: A small process written in C to update the signal-strength indicator LEDs

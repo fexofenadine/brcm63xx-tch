@@ -9,4 +9,4 @@ Essential: yes
 Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 254152
-Description:  GNU Standard C++ Library v3
+Description: GNU Standard C++ Library v3

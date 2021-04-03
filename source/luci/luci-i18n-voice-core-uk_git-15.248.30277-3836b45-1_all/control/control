@@ -6,4 +6,4 @@ Section: luci
 Maintainer: fexofenadine (github.com/fexofenadine)
 Architecture: all
 Installed-Size: 446
-Description:  Translation for luci-app-voice-core - украї́нська (Ukrainian)
+Description: Translation for luci-app-voice-core - украї́нська (Ukrainian)
