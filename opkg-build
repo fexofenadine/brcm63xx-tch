@@ -108,8 +108,8 @@ You probably want to chown these to a system user: " >&2
 	disallowed_filename=`disallowed_field Filename`
 	[ "$?" -ne 0 ] && PKG_ERROR=1
 
-	if echo $pkg | grep '[^a-z0-9.+-]'; then
-		echo "*** Error: Package name $pkg contains illegal characters, (other than [a-z0-9.+-])" >&2
+	if echo $pkg | grep '[^a-z0-9.+-_]'; then #added underscore, might be a bad idea
+		echo "*** Error: Package name $pkg contains illegal characters, (other than [a-z0-9.+-_])" >&2
 		PKG_ERROR=1;
 	fi
 

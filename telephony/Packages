@@ -76,6 +76,19 @@ Source: feeds/telephony/net/asterisk-11.x
 Description: This package provides support for 'support for executing an ISDN RAS using DAHDI' in Asterisk11.
 License: GPL-2.0
 
+Package: asterisk11-app-directed_pickup
+Version: 11.16.0-4
+Depends: libc, asterisk11
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 2fb25c051704e3158961badef549dcce
+Size: 4746
+Filename: asterisk11-app-directed_pickup_11.16.0-4_brcm63xx-tch.ipk
+Source: feeds/telephony/net/asterisk-11.x
+Description: This package provides support for 'support for directed call pickup' in Asterisk11.
+License: GPL-2.0
+
 Package: asterisk11-app-disa
 Version: 11.16.0-4
 Depends: libc, asterisk11
@@ -1335,6 +1348,19 @@ Size: 45776
 Filename: asterisk13-app-confbridge_13.4.0-3_brcm63xx-tch.ipk
 Source: feeds/telephony/net/asterisk-13.x
 Description: This package provides support for 'Software bridge for multi-party audio conferencing' in Asterisk.
+License: GPL-2.0
+
+Package: asterisk13-app-directed_pickup
+Version: 13.4.0-3
+Depends: libc, asterisk13
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 921e376fc15107336afe81ca2362de3b
+Size: 4802
+Filename: asterisk13-app-directed_pickup_13.4.0-3_brcm63xx-tch.ipk
+Source: feeds/telephony/net/asterisk-13.x
+Description: This package provides support for 'support for directed call pickup' in Asterisk.
 License: GPL-2.0
 
 Package: asterisk13-app-disa
@@ -2700,6 +2726,19 @@ Size: 10030
 Filename: asterisk18-app-chanspy_1.8.32.3-2_brcm63xx-tch.ipk
 Source: feeds/telephony/net/asterisk-1.8.x
 Description: This package provides support for 'support for listening in on any channel' in Asterisk.
+License: GPL-2.0
+
+Package: asterisk18-app-directed_pickup
+Version: 1.8.32.3-2
+Depends: libc, asterisk18
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 70204ed6097d00b06df7c572a5563792
+Size: 4660
+Filename: asterisk18-app-directed_pickup_1.8.32.3-2_brcm63xx-tch.ipk
+Source: feeds/telephony/net/asterisk-1.8.x
+Description: This package provides support for 'support for directed call pickup' in Asterisk.
 License: GPL-2.0
 
 Package: asterisk18-app-disa
@@ -6719,6 +6758,19 @@ Source: feeds/telephony/net/siproxd
 Description: siproxd demo plugin
 License: GPL-2.0+
 
+Package: siproxd-mod-fix_bogus_via
+Version: 0.8.1-4
+Depends: libc, siproxd
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 7d9a38d983c5c9fdd123325563c5baec
+Size: 2936
+Filename: siproxd-mod-fix_bogus_via_0.8.1-4_brcm63xx-tch.ipk
+Source: feeds/telephony/net/siproxd
+Description: siproxd fix_bogus_via plugin
+License: GPL-2.0+
+
 Package: siproxd-mod-logcall
 Version: 0.8.1-4
 Depends: libc, siproxd
@@ -7549,6 +7601,19 @@ Size: 21530
 Filename: yate-mod-sigtransport_5.4.2-1-4_brcm63xx-tch.ipk
 Source: feeds/telephony/net/yate
 Description: SIGTRAN (SS7 over IP) connection provider module for yate
+License: GPL-2.0
+
+Package: yate-mod-sip_cnam_lnp
+Version: 5.4.2-1-4
+Depends: libc, yate
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: e6c5123d23abfe7de1be0cd373ccce2e
+Size: 10636
+Filename: yate-mod-sip_cnam_lnp_5.4.2-1-4_brcm63xx-tch.ipk
+Source: feeds/telephony/net/yate
+Description: Query CNAM and LNP databases using SIP INVITE module for yate
 License: GPL-2.0
 
 Package: yate-mod-sipfeatures

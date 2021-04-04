@@ -336,6 +336,32 @@ Source: package/network/utils/linux-atm
 Description: Linux ATM tool sonetdiag.
 License: GPL-2.0+
 
+Package: atm-svc_recv
+Version: 2.5.2-5
+Depends: libc, linux-atm
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 1ef4e0aa4e06bf6c4a17f58f088ff389
+Size: 3086
+Filename: atm-svc_recv_2.5.2-5_brcm63xx-tch.ipk
+Source: package/network/utils/linux-atm
+Description: Linux ATM tool svc_recv.
+License: GPL-2.0+
+
+Package: atm-svc_send
+Version: 2.5.2-5
+Depends: libc, linux-atm
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 5b1a81db04c09f628096b3bede69e5bf
+Size: 2812
+Filename: atm-svc_send_2.5.2-5_brcm63xx-tch.ipk
+Source: package/network/utils/linux-atm
+Description: Linux ATM tool svc_send.
+License: GPL-2.0+
+
 Package: atm-tools
 Version: 2.5.2-5
 Depends: libc, linux-atm
@@ -347,6 +373,19 @@ Size: 18040
 Filename: atm-tools_2.5.2-5_brcm63xx-tch.ipk
 Source: package/network/utils/linux-atm
 Description: This package contains the Linux ATM tools.
+License: GPL-2.0+
+
+Package: atm-ttcp_atm
+Version: 2.5.2-5
+Depends: libc, linux-atm
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: a3fc31c1e925129adbd5c71d36fb140c
+Size: 8630
+Filename: atm-ttcp_atm_2.5.2-5_brcm63xx-tch.ipk
+Source: package/network/utils/linux-atm
+Description: Linux ATM tool ttcp_atm.
 License: GPL-2.0+
 
 Package: atm-zeppelin

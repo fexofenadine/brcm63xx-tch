@@ -600,6 +600,19 @@ Source: feeds/packages/libs/boost
 Description: Boost provides free peer-reviewed portable C++ source libraries . This package contains the Boost coroutine library.
 License: Boost Software License <http://www.boost.org/users/license.html>
 
+Package: boost-date_time
+Version: 1_58_0-4
+Depends: libc, libstdcpp, libpthread, librt
+Section: libs
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 084c9d946c89212121f0fcbe9eaa0260
+Size: 15108
+Filename: boost-date_time_1_58_0-4_brcm63xx-tch.ipk
+Source: feeds/packages/libs/boost
+Description: Boost provides free peer-reviewed portable C++ source libraries . This package contains the Boost date_time library.
+License: Boost Software License <http://www.boost.org/users/license.html>
+
 Package: boost-filesystem
 Version: 1_58_0-4
 Depends: libc, libstdcpp, libpthread, librt, boost-system
@@ -689,6 +702,19 @@ Size: 392964
 Filename: boost-math_1_58_0-4_brcm63xx-tch.ipk
 Source: feeds/packages/libs/boost
 Description: Boost provides free peer-reviewed portable C++ source libraries . This package contains the Boost math library.
+License: Boost Software License <http://www.boost.org/users/license.html>
+
+Package: boost-program_options
+Version: 1_58_0-4
+Depends: libc, libstdcpp, libpthread, librt
+Section: libs
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: f5b00c5b7ea8247db99dd2f21fe8de62
+Size: 97512
+Filename: boost-program_options_1_58_0-4_brcm63xx-tch.ipk
+Source: feeds/packages/libs/boost
+Description: Boost provides free peer-reviewed portable C++ source libraries . This package contains the Boost program_options library.
 License: Boost Software License <http://www.boost.org/users/license.html>
 
 Package: boost-python
@@ -3001,6 +3027,45 @@ Source: feeds/packages/net/ddns-scripts
 Description: Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
 License: GPL-2.0
 
+Package: ddns-scripts_cloudflare
+Version: 2.4.3-1
+Depends: ddns-scripts
+Section: net
+Architecture: all
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 2c5aeff9db58da86ac6128f684004cf6
+Size: 35316
+Filename: ddns-scripts_cloudflare_2.4.3-1_all.ipk
+Source: feeds/packages/net/ddns-scripts
+Description: Dynamic DNS Client scripts extension for CloudFlare
+License: GPL-2.0
+
+Package: ddns-scripts_no-ip_com
+Version: 2.4.3-1
+Depends: ddns-scripts
+Section: net
+Architecture: all
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: e197307a3fc836dcf77de849e86b3607
+Size: 1584
+Filename: ddns-scripts_no-ip_com_2.4.3-1_all.ipk
+Source: feeds/packages/net/ddns-scripts
+Description: Dynamic DNS Client scripts extension for No-IP.com
+License: GPL-2.0
+
+Package: ddns-scripts_nsupdate
+Version: 2.4.3-1
+Depends: ddns-scripts, bind-client
+Section: net
+Architecture: all
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 722d490e5d717dd975add17d780efc7b
+Size: 1582
+Filename: ddns-scripts_nsupdate_2.4.3-1_all.ipk
+Source: feeds/packages/net/ddns-scripts
+Description: Dynamic DNS Client scripts extension for direct updates using Bind nsupdate
+License: GPL-2.0
+
 Package: debootstrap
 Version: 1.0.67-1
 Depends: libc, coreutils, coreutils-chroot, coreutils-sha1sum, ar
@@ -3193,6 +3258,19 @@ Size: 363808
 Filename: emailrelay_1.9-1_brcm63xx-tch.ipk
 Source: feeds/packages/net/emailrelay
 Description: Emailrelay is a simple SMTP proxy and store-and-forward message transfer agent (MTA).  When running as a proxy all e-mail messages can be passed through a user-defined program, such as a spam filter, which can drop, re-address or edit messages as they pass through. When running as a store-and-forward MTA incoming messages are stored in a local spool directory, and then forwarded to the next SMTP server on request. This package is built with OpenSSL support (SSMTP is supported).
+
+Package: engine_pkcs11
+Version: 20131021-5abdc7e0d6d519d2514e3eccc116b335bc427254
+Depends: libc, libopenssl, libp11
+Section: libs
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 42fdee7c26f0fabc047ea49a0621dea1
+Size: 7564
+Filename: engine_pkcs11_20131021-5abdc7e0d6d519d2514e3eccc116b335bc427254_brcm63xx-tch.ipk
+Source: feeds/packages/libs/engine_pkcs11
+Description: engine_pkcs11 is an implementation of OpenSSL engine interface.
+License: LGPL-2.1+
 
 Package: erlang-asn1
 Version: 3.0.4
@@ -4022,6 +4100,19 @@ Filename: fswebcam_20140113-1_brcm63xx-tch.ipk
 Source: feeds/packages/multimedia/fswebcam
 Description: fswebcam is a neat and simple webcam app. It captures images from a V4L1/V4L2 compatible device or file, averages them to reduce noise and draws a caption using the GD Graphics Library which also handles compressing the image to PNG or JPEG. The resulting image is saved to a file or sent to stdio where it can be piped to something like ncftpput or scp.
 License: GPL-2.0
+
+Package: ftdi_eeprom
+Version: 1.2-3
+Depends: libc, confuse, libftdi1
+Section: utils
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 28bb519e86f6d137503daed3fac51a92
+Size: 5996
+Filename: ftdi_eeprom_1.2-3_brcm63xx-tch.ipk
+Source: feeds/packages/libs/libftdi1
+Description: ftdi_eeprom is a small tool for reading/erasing/flashing FTDI USB chip eeproms. It uses libftdi to access the chip, so you will need to have the required permissions on the device. The ftdi_sio module should not be loaded. You have to unplug and replug your device to get the new values to be read. Otherwise, you will still get the old values.
+License: LGPL-2.0
 
 Package: fwknop
 Version: 2.6.6-3
@@ -9649,6 +9740,19 @@ Source: feeds/packages/net/lighttpd
 Description: FastCGI module
 License: BSD-3c
 
+Package: lighttpd-mod-flv_streaming
+Version: 1.4.36-1
+Depends: libc, lighttpd
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 190f5da86bfe398bad4f573fe17c511a
+Size: 3870
+Filename: lighttpd-mod-flv_streaming_1.4.36-1_brcm63xx-tch.ipk
+Source: feeds/packages/net/lighttpd
+Description: FLV streaming module
+License: BSD-3c
+
 Package: lighttpd-mod-magnet
 Version: 1.4.36-1
 Depends: libc, lighttpd, liblua
@@ -9660,6 +9764,19 @@ Size: 9074
 Filename: lighttpd-mod-magnet_1.4.36-1_brcm63xx-tch.ipk
 Source: feeds/packages/net/lighttpd
 Description: Magnet module
+License: BSD-3c
+
+Package: lighttpd-mod-mysql_vhost
+Version: 1.4.36-1
+Depends: libc, lighttpd, libmysqlclient
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: e08a821b0c20f28faf61cfa3d8a48227
+Size: 5062
+Filename: lighttpd-mod-mysql_vhost_1.4.36-1_brcm63xx-tch.ipk
+Source: feeds/packages/net/lighttpd
+Description: Mysql virtual hosting module
 License: BSD-3c
 
 Package: lighttpd-mod-proxy
@@ -9753,6 +9870,19 @@ Source: feeds/packages/net/lighttpd
 Description: Environment variable setting module
 License: BSD-3c
 
+Package: lighttpd-mod-simple_vhost
+Version: 1.4.36-1
+Depends: libc, lighttpd
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: bf3ecb0ce9176d00b8cfb9552d9b8c8a
+Size: 4152
+Filename: lighttpd-mod-simple_vhost_1.4.36-1_brcm63xx-tch.ipk
+Source: feeds/packages/net/lighttpd
+Description: Simple virtual hosting module
+License: BSD-3c
+
 Package: lighttpd-mod-ssi
 Version: 1.4.36-1
 Depends: libc, lighttpd, libpcre
@@ -9777,6 +9907,19 @@ Size: 8312
 Filename: lighttpd-mod-status_1.4.36-1_brcm63xx-tch.ipk
 Source: feeds/packages/net/lighttpd
 Description: Server status display module
+License: BSD-3c
+
+Package: lighttpd-mod-trigger_b4_dl
+Version: 1.4.36-1
+Depends: libc, lighttpd, libpcre
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: c45880b5abbe94cdd784a5ac206b7c95
+Size: 4332
+Filename: lighttpd-mod-trigger_b4_dl_1.4.36-1_brcm63xx-tch.ipk
+Source: feeds/packages/net/lighttpd
+Description: Trigger before download module
 License: BSD-3c
 
 Package: lighttpd-mod-userdir
@@ -11746,6 +11889,19 @@ Source: feeds/packages/utils/ntfs-3g
 Description: Ntfs-3g is a NTFS driver, which can create, remove, rename, move files, directories, hard links, and streams. It can read and write files, including streams and sparse files. It can handle special files like symbolic links, devices, and FIFOs. Moreover it can also read transparently compressed files. Contains: - ntfs-3g - ntfs-3g.probe - mount.ntfs-3g (symlink to ntfs-3g)
 License: GPL-2.0 LGPL-2.0
 
+Package: ntfsprogs_ntfs-3g
+Version: 2014.2.15-1-fuseint
+Depends: libc, ntfs-3g, libgcrypt, libuuid
+Section: utils
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 8b9877e90a9a91bfec1b4ae600e1bbfd
+Size: 200166
+Filename: ntfsprogs_ntfs-3g_2014.2.15-1-fuseint_brcm63xx-tch.ipk
+Source: feeds/packages/utils/ntfs-3g
+Description: ntfsprogs (ntfs-3g)
+License: GPL-2.0 LGPL-2.0
+
 Package: ntp-keygen
 Version: 4.2.8p2-2
 Depends: libc, libopenssl, libpthread
@@ -11849,6 +12005,97 @@ Filename: ntripserver_1.5.1-2_brcm63xx-tch.ipk
 Source: feeds/packages/net/ntripserver
 Description: Ntrip Version 2.0 Command Line Server, reading from SISNeT Server, TCP/UDP IP Port, Serial port, or NtripCaster to support an Ntrip Version 1.0 or 2.0 Caster
 License: GPL-2.0+
+
+Package: nut-driver-bcmxcp_usb
+Version: 2.7.3-1
+Depends: libc, nut
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 17d80f4b91d857700fa39d5426f666d9
+Size: 33486
+Filename: nut-driver-bcmxcp_usb_2.7.3-1_brcm63xx-tch.ipk
+Source: feeds/packages/net/nut
+Description: Experimental driver for UPSes supporting the BCM/XCP protocol over USB
+License: GPL-2.0
+
+Package: nut-driver-blazer_usb
+Version: 2.7.3-1
+Depends: libc, nut
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: e6cb9594265042c33023d7361cfa9ebe
+Size: 29710
+Filename: nut-driver-blazer_usb_2.7.3-1_brcm63xx-tch.ipk
+Source: feeds/packages/net/nut
+Description: Driver for Megatec/Q1 protocol USB based UPS equipment
+License: GPL-2.0
+
+Package: nut-driver-nutdrv_atcl_usb
+Version: 2.7.3-1
+Depends: libc, nut
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 16fc98fb653392865fbf81415c163273
+Size: 21010
+Filename: nut-driver-nutdrv_atcl_usb_2.7.3-1_brcm63xx-tch.ipk
+Source: feeds/packages/net/nut
+Description: Driver for ATCL FOR UPS equipment
+License: GPL-2.0
+
+Package: nut-driver-nutdrv_qx
+Version: 2.7.3-1
+Depends: libc, nut
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: e91074161a59259e961ade1e75d31acd
+Size: 57534
+Filename: nut-driver-nutdrv_qx_2.7.3-1_brcm63xx-tch.ipk
+Source: feeds/packages/net/nut
+Description: Driver for Q* protocol serial and USB based UPS equipment
+License: GPL-2.0
+
+Package: nut-driver-richcomm_usb
+Version: 2.7.3-1
+Depends: libc, nut
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 8655cae79be468997e59f8d7f0e1a4f6
+Size: 20612
+Filename: nut-driver-richcomm_usb_2.7.3-1_brcm63xx-tch.ipk
+Source: feeds/packages/net/nut
+Description: Driver for UPS equipment using Richcomm dry-contact to USB solution
+License: GPL-2.0
+
+Package: nut-driver-riello_usb
+Version: 2.7.3-1
+Depends: libc, nut
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: cc72db19ff955eb199a62ef55adeb700
+Size: 29104
+Filename: nut-driver-riello_usb_2.7.3-1_brcm63xx-tch.ipk
+Source: feeds/packages/net/nut
+Description: Driver for Riello UPS Protocol UPS equipment via USB
+License: GPL-2.0
+
+Package: nut-driver-tripplite_usb
+Version: 2.7.3-1
+Depends: libc, nut
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 2b6ec19cf1e3413b2779adb63327efe3
+Size: 27568
+Filename: nut-driver-tripplite_usb_2.7.3-1_brcm63xx-tch.ipk
+Source: feeds/packages/net/nut
+Description: Driver for older Tripp Lite USB UPSes (not PDC HID)
+License: GPL-2.0
 
 Package: nut-driver-usbhid-ups
 Version: 2.7.3-1
@@ -12080,6 +12327,71 @@ Maintainer: fexofenadine (github.com/fexofenadine)
 MD5Sum: 3bb9ee1bf7ef3ccda9170098af19271d
 Size: 4182
 Filename: open-plc-utils-config2cfg_2015-07-06_brcm63xx-tch.ipk
+Source: feeds/packages/utils/open-plc-utils
+Description: Utility from the Open PLC utilities package.
+License: ISC
+
+Package: open-plc-utils-coqos_add
+Version: 2015-07-06
+Depends: libc, open-plc-utils
+Section: utils
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 0a88f1a5fd8c36912fb350e75a3dbfde
+Size: 13408
+Filename: open-plc-utils-coqos_add_2015-07-06_brcm63xx-tch.ipk
+Source: feeds/packages/utils/open-plc-utils
+Description: Utility from the Open PLC utilities package.
+License: ISC
+
+Package: open-plc-utils-coqos_info
+Version: 2015-07-06
+Depends: libc, open-plc-utils
+Section: utils
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 627359522b8f63bf5fe712fb955cd8cf
+Size: 12136
+Filename: open-plc-utils-coqos_info_2015-07-06_brcm63xx-tch.ipk
+Source: feeds/packages/utils/open-plc-utils
+Description: Utility from the Open PLC utilities package.
+License: ISC
+
+Package: open-plc-utils-coqos_man
+Version: 2015-07-06
+Depends: libc, open-plc-utils
+Section: utils
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 6fbcf52f9d45f48b346bd2d14faf7166
+Size: 11184
+Filename: open-plc-utils-coqos_man_2015-07-06_brcm63xx-tch.ipk
+Source: feeds/packages/utils/open-plc-utils
+Description: Utility from the Open PLC utilities package.
+License: ISC
+
+Package: open-plc-utils-coqos_mod
+Version: 2015-07-06
+Depends: libc, open-plc-utils
+Section: utils
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 79e0d1c653bf7c09a054a38f19daa34d
+Size: 11696
+Filename: open-plc-utils-coqos_mod_2015-07-06_brcm63xx-tch.ipk
+Source: feeds/packages/utils/open-plc-utils
+Description: Utility from the Open PLC utilities package.
+License: ISC
+
+Package: open-plc-utils-coqos_rel
+Version: 2015-07-06
+Depends: libc, open-plc-utils
+Section: utils
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: e5a0bdcc4f9063c2d06fc03ad00a144c
+Size: 11202
+Filename: open-plc-utils-coqos_rel_2015-07-06_brcm63xx-tch.ipk
 Source: feeds/packages/utils/open-plc-utils
 Description: Utility from the Open PLC utilities package.
 License: ISC
@@ -18029,6 +18341,19 @@ Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
 Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for Artec flatbed scanners.
 License: GPL-2.0 GPL-2.0+
 
+Package: sane-artec_eplus48u
+Version: 1.0.25-1
+Depends: libc, libsane
+Section: opt
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 7da89eb0aee400aaca2198b440429330
+Size: 37182
+Filename: sane-artec_eplus48u_1.0.25-1_brcm63xx-tch.ipk
+Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
+Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for Artec E+ 48U and re-badged models.
+License: GPL-2.0 GPL-2.0+
+
 Package: sane-as6e
 Version: 1.0.25-1
 Depends: libc, libsane
@@ -18105,6 +18430,19 @@ Size: 39234
 Filename: sane-canon_1.0.25-1_brcm63xx-tch.ipk
 Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
 Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for Canon SCSI scanners.
+License: GPL-2.0 GPL-2.0+
+
+Package: sane-canon_dr
+Version: 1.0.25-1
+Depends: libc, libsane
+Section: opt
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: b58b27714214216b20b39e5c7b0ae9b8
+Size: 58990
+Filename: sane-canon_dr_1.0.25-1_brcm63xx-tch.ipk
+Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
+Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for Canon DR-series scanners.
 License: GPL-2.0 GPL-2.0+
 
 Package: sane-cardscan
@@ -18209,6 +18547,19 @@ Size: 19394
 Filename: sane-dc25_1.0.25-1_brcm63xx-tch.ipk
 Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
 Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for Kodak DC20/DC25 Digital Cameras.
+License: GPL-2.0 GPL-2.0+
+
+Package: sane-dell1600n_net
+Version: 1.0.25-1
+Depends: libc, libsane, libtiff
+Section: opt
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 628392ac9eb2a118e4f02b2c6959e4f2
+Size: 15484
+Filename: sane-dell1600n_net_1.0.25-1_brcm63xx-tch.ipk
+Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
+Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for Dell 1600n.
 License: GPL-2.0 GPL-2.0+
 
 Package: sane-dmc
@@ -18614,6 +18965,32 @@ Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
 Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for Mustek SCSI flatbed scanners and some other devices.
 License: GPL-2.0 GPL-2.0+
 
+Package: sane-mustek_usb2
+Version: 1.0.25-1
+Depends: libc, libsane
+Section: opt
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 4fada7edf5bdd1d411bdf77d0e9748f4
+Size: 58908
+Filename: sane-mustek_usb2_1.0.25-1_brcm63xx-tch.ipk
+Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
+Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for SQ113 based USB flatbed scanners.
+License: GPL-2.0 GPL-2.0+
+
+Package: sane-mustek_usb
+Version: 1.0.25-1
+Depends: libc, libsane
+Section: opt
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 40abc200d2b7d1b20c20c0b96b479865
+Size: 51492
+Filename: sane-mustek_usb_1.0.25-1_brcm63xx-tch.ipk
+Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
+Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for Mustek USB flatbed scanners.
+License: GPL-2.0 GPL-2.0+
+
 Package: sane-nec
 Version: 1.0.25-1
 Depends: libc, libsane
@@ -18716,6 +19093,19 @@ Size: 88182
 Filename: sane-plustek_1.0.25-1_brcm63xx-tch.ipk
 Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
 Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for LM983[1/2/3] based USB flatbed scanners.
+License: GPL-2.0 GPL-2.0+
+
+Package: sane-plustek_pp
+Version: 1.0.25-1
+Depends: libc, libsane
+Section: opt
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: a6678912e769dee71aef6e6b262448b1
+Size: 74878
+Filename: sane-plustek_pp_1.0.25-1_brcm63xx-tch.ipk
+Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
+Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for Plustek parallel port flatbed scanners.
 License: GPL-2.0 GPL-2.0+
 
 Package: sane-ricoh
@@ -18965,6 +19355,19 @@ Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
 Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for UMAX scanners.
 License: GPL-2.0 GPL-2.0+
 
+Package: sane-umax_pp
+Version: 1.0.25-1
+Depends: libc, libsane
+Section: opt
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 7a681adb4e9e39bc537c22d990616296
+Size: 79040
+Filename: sane-umax_pp_1.0.25-1_brcm63xx-tch.ipk
+Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
+Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for Umax Astra parallel port flatbed scanners.
+License: GPL-2.0 GPL-2.0+
+
 Package: sane-v4l
 Version: 1.0.25-1
 Depends: libc, libsane, libv4l, libjpeg
@@ -18976,6 +19379,19 @@ Size: 13398
 Filename: sane-v4l_1.0.25-1_brcm63xx-tch.ipk
 Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
 Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for Video for Linux API.
+License: GPL-2.0 GPL-2.0+
+
+Package: sane-xerox_mfp
+Version: 1.0.25-1
+Depends: libc, libsane
+Section: opt
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: ece3149a580e98e58386f2f0c0a9a04e
+Size: 25846
+Filename: sane-xerox_mfp_1.0.25-1_brcm63xx-tch.ipk
+Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
+Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for Xerox Phaser 3200MFP device.
 License: GPL-2.0 GPL-2.0+
 
 Package: sbc
@@ -22255,6 +22671,19 @@ Size: 17036
 Filename: znc-mod-log_1.4-3_brcm63xx-tch.ipk
 Source: feeds/packages/net/znc
 Description: Log conversations to file.
+License: Apache-2.0
+
+Package: znc-mod-modules_online
+Version: 1.4-3
+Depends: libc, znc
+Section: net
+Architecture: brcm63xx-tch
+Maintainer: fexofenadine (github.com/fexofenadine)
+MD5Sum: 909440dc3bbd3c8bfedcc0282b6604ca
+Size: 12084
+Filename: znc-mod-modules_online_1.4-3_brcm63xx-tch.ipk
+Source: feeds/packages/net/znc
+Description: This module fakes the online status of ZNC-*users.
 License: Apache-2.0
 
 Package: znc-mod-nickserv
