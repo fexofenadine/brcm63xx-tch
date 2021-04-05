@@ -1,0 +1,11 @@
+Package: squid
+Version: 3.5.2-2
+Depends: libc, libopenssl, libpthread, librt, libltdl, libstdcpp, libgnutls
+Source: feeds/packages/net/squid
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 1611509
+Description: Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more. It reduces bandwidth and improves response times by caching and reusing frequently-requested web pages.

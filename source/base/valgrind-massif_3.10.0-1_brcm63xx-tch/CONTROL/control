@@ -1,0 +1,11 @@
+Package: valgrind-massif
+Version: 3.10.0-1
+Depends: libc, valgrind
+Source: package/devel/valgrind
+License: GPL-2.0+
+Section: devel
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 1189714
+Description: debugging and profiling tools for Linux (heap profiling)

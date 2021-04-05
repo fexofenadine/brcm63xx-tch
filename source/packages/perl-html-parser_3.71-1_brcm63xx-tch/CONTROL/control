@@ -1,0 +1,11 @@
+Package: perl-html-parser
+Version: 3.71-1
+Depends: libc, perl, perl-html-tagset, perl-uri
+Source: feeds/packages/lang/perl-html-parser
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm63xx-tch
+Installed-Size: 28648
+Description: A collection of modules that parse HTML text documents

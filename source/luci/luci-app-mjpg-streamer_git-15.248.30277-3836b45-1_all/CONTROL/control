@@ -1,0 +1,9 @@
+Package: luci-app-mjpg-streamer
+Version: git-15.248.30277-3836b45-1
+Depends: libc, mjpg-streamer
+Source: feeds/luci/applications/luci-app-mjpg-streamer
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 3043
+Description: MJPG-Streamer service configuration module

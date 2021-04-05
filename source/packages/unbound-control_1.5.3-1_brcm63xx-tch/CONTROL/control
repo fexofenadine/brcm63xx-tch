@@ -1,0 +1,12 @@
+Package: unbound-control
+Version: 1.5.3-1
+Depends: libc, libopenssl, unbound
+Source: feeds/packages/net/unbound
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Michael Hanselmann <public@hansmi.ch>
+Architecture: brcm63xx-tch
+Installed-Size: 42751
+Description: This package contains the Unbound control utility.

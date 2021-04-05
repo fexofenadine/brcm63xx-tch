@@ -1,0 +1,11 @@
+Package: knot-libknot
+Version: 1.6.3-1
+Depends: libc, libopenssl, liburcu
+Source: feeds/packages/net/knot
+License: GPL-2.0+
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Daniel Salzman <daniel.salzman@nic.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 90128
+Description: Knot DNS library.

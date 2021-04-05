@@ -1,0 +1,11 @@
+Package: seafile-seahub
+Version: 4.1.2-3fb1288f920de03a4e2e6a06b60671ce98971742
+Depends: libc, python, simplejson, python-imglib, python-setuptools
+Source: feeds/packages/net/seafile-seahub
+License: Apache-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 11459337
+Description: The web end of seafile server. NOTE: in order to have better performance, language support is turned off by default. Please set 'USE_I18N = True' in seahub_settings.py to support multiple languages.

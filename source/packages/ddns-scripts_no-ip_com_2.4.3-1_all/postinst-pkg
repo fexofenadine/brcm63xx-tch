@@ -1,0 +1,3 @@
+	#!/bin/sh
+	echo -e '"No-IP.com"\t"update_No-IP.com.sh"' >> ${IPKG_INSTROOT}/usr/lib/ddns/services
+	echo -e '"NoIP.com"\t"update_No-IP.com.sh"' >> ${IPKG_INSTROOT}/usr/lib/ddns/services

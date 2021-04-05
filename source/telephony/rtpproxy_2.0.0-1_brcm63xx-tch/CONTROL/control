@@ -1,0 +1,11 @@
+Package: rtpproxy
+Version: 2.0.0-1
+Depends: libc, libpthread, librt
+Source: feeds/telephony/net/rtpproxy
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 39614
+Description: RTP (Realtime Transport Protocol) proxy

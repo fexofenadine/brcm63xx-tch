@@ -1,0 +1,12 @@
+Package: natpmpc
+Version: 20140401-1
+Depends: libc, libnatpmp
+Source: feeds/packages/libs/libnatpmp
+License: BSD-3c
+LicenseFiles: LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Hauke Mehrtens <hauke@hauke-m.de>
+Architecture: brcm63xx-tch
+Installed-Size: 3384
+Description: libnatpmp is an attempt to make a portable and fully compliant implementation of the protocol for the client side. It is based on non blocking sockets and all calls of the API are asynchronous. It is therefore very easy to integrate the NAT-PMP code to any event driven code. This package contains the natpmp client.

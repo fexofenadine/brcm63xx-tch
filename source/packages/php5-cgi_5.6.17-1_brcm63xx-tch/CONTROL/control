@@ -1,0 +1,12 @@
+Package: php5-cgi
+Version: 5.6.17-1
+Depends: libc, php5
+Source: /home/jow/relman-cc/.cache/feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
+Architecture: brcm63xx-tch
+Installed-Size: 974514
+Description: PHP is a widely-used general-purpose scripting language that is especially suited for Web development and can be embedded into HTML. This package contains the CGI version of the PHP5 interpreter.

@@ -1,0 +1,3 @@
+#!/bin/sh
+/bin/busybox less -h 2>&1 | grep -q BusyBox && ln -sf ../../bin/busybox /usr/bin/less
+exit 0

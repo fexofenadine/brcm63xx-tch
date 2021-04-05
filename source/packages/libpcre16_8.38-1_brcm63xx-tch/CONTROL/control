@@ -1,0 +1,12 @@
+Package: libpcre16
+Version: 8.38-1
+Depends: libc
+Source: /home/jow/relman-cc/.cache/feeds/packages/libs/pcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm63xx-tch
+Installed-Size: 76687
+Description: A Perl Compatible Regular Expression library (16bit support)

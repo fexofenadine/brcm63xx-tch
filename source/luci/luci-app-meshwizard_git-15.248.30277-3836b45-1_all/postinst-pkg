@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/meshwizard) && rm -f /etc/uci-defaults/meshwizard
+	exit 0
+}

@@ -1,0 +1,12 @@
+Package: perlbase-essential
+Version: 5.20.2-1
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm63xx-tch
+Installed-Size: 18279
+Description: essential perl module

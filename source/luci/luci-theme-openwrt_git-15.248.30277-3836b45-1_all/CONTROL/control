@@ -1,0 +1,9 @@
+Package: luci-theme-openwrt
+Version: git-15.248.30277-3836b45-1
+Depends: libc
+Source: feeds/luci/themes/luci-theme-openwrt
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 6923
+Description: LuCI OpenWrt.org theme

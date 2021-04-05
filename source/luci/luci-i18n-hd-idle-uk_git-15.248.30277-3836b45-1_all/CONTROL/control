@@ -1,0 +1,9 @@
+Package: luci-i18n-hd-idle-uk
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-hd-idle
+Source: feeds/luci/applications/luci-app-hd-idle
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 570
+Description: Translation for luci-app-hd-idle - украї́нська (Ukrainian)

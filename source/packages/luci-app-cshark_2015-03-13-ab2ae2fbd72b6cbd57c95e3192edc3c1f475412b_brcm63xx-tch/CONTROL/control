@@ -1,0 +1,10 @@
+Package: luci-app-cshark
+Version: 2015-03-13-ab2ae2fbd72b6cbd57c95e3192edc3c1f475412b
+Depends: libc, cshark, luci
+Source: feeds/packages/net/cshark
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 3723
+Description: Cloudshark capture tool Web UI

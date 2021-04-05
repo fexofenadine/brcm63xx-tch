@@ -1,0 +1,11 @@
+Package: mountd
+Version: 0.1-6
+Depends: libc, uci, kmod-usb-storage, kmod-fs-autofs4
+Source: package/system/mountd
+License: GPL-2.0
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 10498
+Description: openwrt automount daemon

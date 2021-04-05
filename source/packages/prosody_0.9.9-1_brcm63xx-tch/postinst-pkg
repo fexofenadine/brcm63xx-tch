@@ -1,0 +1,13 @@
+#!/bin/sh
+[ -n "${IPKG_INSTROOT}" ] || {
+	echo "Fixing lua with paxctl if needed!!!"
+	[ -f /sbin/paxctl ] && {
+		paxctl  -v /usr/bin/ > /dev/null  2>&1
+		[ $? -ne 0 ] && {
+			cp /usr/bin/lua /tmp
+			paxctl -c -m /tmp/lua > /dev/null  2>&1 
+			cp -f /tmp/lua /usr/bin/lua
+		}
+	}
+	exit 0
+}

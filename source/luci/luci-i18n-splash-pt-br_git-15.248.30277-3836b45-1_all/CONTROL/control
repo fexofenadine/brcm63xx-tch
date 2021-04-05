@@ -1,0 +1,9 @@
+Package: luci-i18n-splash-pt-br
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-splash
+Source: feeds/luci/applications/luci-app-splash
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 3830
+Description: Translation for luci-app-splash - Português do Brasil (Brazialian Portuguese)

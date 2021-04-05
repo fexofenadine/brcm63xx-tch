@@ -1,0 +1,4 @@
+	[ -e ${IPKG_INSTROOT}/usr/sbin/sendmail ] || {
+		mkdir -p ${IPKG_INSTROOT}/usr/sbin
+		ln -sf ../bin/msmtp ${IPKG_INSTROOT}/usr/sbin/sendmail
+	}

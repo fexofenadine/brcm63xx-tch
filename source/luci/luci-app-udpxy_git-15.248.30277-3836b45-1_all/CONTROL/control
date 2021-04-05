@@ -1,0 +1,9 @@
+Package: luci-app-udpxy
+Version: git-15.248.30277-3836b45-1
+Depends: libc, udpxy
+Source: feeds/luci/applications/luci-app-udpxy
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 1426
+Description: LuCI Support for udpxy

@@ -1,0 +1,10 @@
+Package: oonf-olsrd2
+Version: 0.9.1-r2
+Depends: libc, librt, libnl-tiny, libuci, oonf-init-scripts
+Source: feeds/routing/oonf-olsrd2
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Henning Rogge <hrogge@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 148905
+Description: Build Olsrd V2 Routing Agent

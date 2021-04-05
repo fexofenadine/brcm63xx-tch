@@ -1,0 +1,11 @@
+Package: quagga-ripngd
+Version: 0.99.22.4-2
+Depends: libc, quagga, quagga-libzebra
+Source: feeds/routing/quagga
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: brcm63xx-tch
+Installed-Size: 26948
+Description: RIPNG routing engine

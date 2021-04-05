@@ -1,0 +1,12 @@
+Package: mpc
+Version: 0.26-2
+Depends: libc, libmpdclient
+Source: feeds/packages/sound/mpc
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: sound
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 18783
+Description: MPD is a music player supporting flac, mp3 and ogg files. It is typically controlled over a network using one of it's many clients including mpc(console), gmpc(gnome), phpmp(php) etc. this is MPC

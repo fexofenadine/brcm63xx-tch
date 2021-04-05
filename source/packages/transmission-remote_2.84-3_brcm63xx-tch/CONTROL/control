@@ -1,0 +1,10 @@
+Package: transmission-remote
+Version: 2.84-3
+Depends: libc, libcurl, libopenssl, libpthread, libevent2, librt
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: brcm63xx-tch
+Installed-Size: 196804
+Description: CLI remote interface for transmission.

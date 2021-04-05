@@ -1,0 +1,11 @@
+Package: olsrd-mod-pud
+Version: 0.9.0.2-3
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 52406
+Description: Position Update Distribution plugin

@@ -1,0 +1,11 @@
+Package: 6in4
+Version: 21-2
+Depends: libc, kmod-ipv6, kmod-sit
+Source: package/network/ipv6/6in4
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: all
+Installed-Size: 1556
+Description: Provides support for 6in4 tunnels in /etc/config/network. Refer to http://wiki.openwrt.org/doc/uci/network for configuration details.

@@ -1,0 +1,11 @@
+Package: 464xlat
+Version: 6
+Depends: libc, kmod-nat46
+Source: feeds/routing/nat46
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 4241
+Description: 464xlat CLAT support

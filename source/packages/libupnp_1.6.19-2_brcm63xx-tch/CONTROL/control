@@ -1,0 +1,10 @@
+Package: libupnp
+Version: 1.6.19-2
+Depends: libc, libpthread
+Source: feeds/packages/libs/libupnp
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 85314
+Description: The portable SDK for UPnP Devices (libupnp) provides developers with an API and open source code for building control points, devices, and bridges that are compliant with Version 1.0 of the Universal Plug and Play Device Architecture Specification.

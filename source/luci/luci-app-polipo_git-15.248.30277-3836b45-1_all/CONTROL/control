@@ -1,0 +1,9 @@
+Package: luci-app-polipo
+Version: git-15.248.30277-3836b45-1
+Depends: libc, polipo
+Source: feeds/luci/applications/luci-app-polipo
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 3077
+Description: LuCI Support for the Polipo Proxy

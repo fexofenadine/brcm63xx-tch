@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-base-el) && rm -f /etc/uci-defaults/luci-i18n-base-el
+		exit 0
+	}

@@ -1,0 +1,12 @@
+Package: xmlrpc-c-client
+Version: 1.39.0-1
+Depends: libc, xmlrpc-c, libcurl
+Source: feeds/packages/libs/xmlrpc-c
+License: VARIOUS
+LicenseFiles: doc/COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 98546
+Description: XML-RPC library - client

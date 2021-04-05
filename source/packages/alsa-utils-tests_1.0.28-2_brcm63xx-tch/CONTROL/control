@@ -1,0 +1,10 @@
+Package: alsa-utils-tests
+Version: 1.0.28-2
+Depends: libc, alsa-lib, libpthread
+Source: feeds/packages/utils/alsa-utils
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 897241
+Description: ALSA utilities test data (adds ~1.3M to image)

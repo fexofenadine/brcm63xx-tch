@@ -1,0 +1,11 @@
+Package: dbus-utils
+Version: 1.9.14-1
+Depends: libc, dbus
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 14744
+Description: Simple interprocess messaging system (utilities)

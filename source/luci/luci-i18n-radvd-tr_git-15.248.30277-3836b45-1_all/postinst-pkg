@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-radvd-tr) && rm -f /etc/uci-defaults/luci-i18n-radvd-tr
+		exit 0
+	}

@@ -1,0 +1,12 @@
+Package: luasql-mysql
+Version: 2.3.0-1
+Depends: libc, lua, libmysqlclient
+Source: feeds/packages/lang/luasql
+License: MIT
+LicenseFiles: docs/us/license.html
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 5799
+Description: LuaSQL is a simple interface from Lua to a DBMS. . This package contains the MySQL binding.

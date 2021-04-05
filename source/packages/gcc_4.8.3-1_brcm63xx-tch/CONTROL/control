@@ -1,0 +1,10 @@
+Package: gcc
+Version: 4.8.3-1
+Depends: libc, binutils, libstdcpp
+Source: feeds/packages/devel/gcc
+Section: devel
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Christian Beier <cb@shoutrlabs.com>
+Architecture: brcm63xx-tch
+Installed-Size: 21489925
+Description: build a native toolchain for compiling on target

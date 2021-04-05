@@ -1,0 +1,9 @@
+Package: luci-i18n-freifunk-policyrouting-it
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-freifunk-policyrouting
+Source: feeds/luci/applications/luci-app-freifunk-policyrouting
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 1073
+Description: Translation for luci-app-freifunk-policyrouting - Italiano (Italian)

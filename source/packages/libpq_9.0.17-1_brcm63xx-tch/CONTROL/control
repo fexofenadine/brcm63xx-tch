@@ -1,0 +1,11 @@
+Package: libpq
+Version: 9.0.17-1
+Depends: libc, zlib, libreadline, libpthread, libncurses, shadow-utils, shadow-su
+Source: feeds/packages/libs/postgresql
+License: PostgreSQL
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 54528
+Description: PostgreSQL client library.

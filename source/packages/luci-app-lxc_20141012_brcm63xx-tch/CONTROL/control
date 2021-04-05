@@ -1,0 +1,11 @@
+Package: luci-app-lxc
+Version: 20141012
+Depends: libc, luci-mod-admin-full, lxc, lxc-create, liblxc, rpcd-mod-lxc
+Source: feeds/packages/utils/luci-app-lxc
+License: Apache-2.0
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Petar Koretic <petar.koretic@sartura.hr>
+Architecture: brcm63xx-tch
+Installed-Size: 6031
+Description: This package will install LXC management Web UI.

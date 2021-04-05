@@ -1,0 +1,12 @@
+Package: libsndfile
+Version: 1.0.25-2
+Depends: libc
+Source: feeds/packages/libs/libsndfile
+License: LGPLv2.1
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 143183
+Description: libsndfile is a library of C routines for reading and writing files containing sampled audio data.

@@ -1,0 +1,44 @@
+{% extends "sysadmin/base.html" %}
+{% load i18n seahub_tags %}
+
+{% block cur_links %}tab-cur{% endblock %}
+
+{% block right_panel %}
+<h3 class="hd">{% trans "All Public Links" %}</h3>
+
+{% if publinks %}
+<table>
+    <tr>
+        <th width="25%">{% trans "Name" %}</th>
+        <th width="25%">{% trans "Owner" %}</th>
+        <th width="20%">{% trans "Create At" %}</th>
+        <th width="12%">{% trans "Count" %}</th>
+        <th width="18%">{% trans "Operations" %}</th>
+    </tr>
+    {% for publink in publinks %}
+    <tr>
+        <td>{{ publink.name }}</td>
+        <td><a href="{{ SITE_ROOT }}useradmin/info/{{ publink.username }}/">{{ publink.username }}</a></td>
+        <td>{{ publink.ctime|translate_seahub_time }} </td>
+        <td>{{ publink.view_cnt }}</td>
+        <td>
+            <a class="op-icon vh" href="{% url 'remove_shared_link' %}?t={{ publink.token }}" title="{% trans "Remove" %}">
+                <img src="{{MEDIA_URL}}img/rm.png" alt="" />
+            </a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% include "snippets/admin_paginator.html" %}
+{% else %}
+<p>{% trans "Empty" %}</p>
+{% endif %}
+{% endblock %}
+
+{% block extra_script %}
+<script type="text/javascript">
+
+</script>
+{% endblock %}
+ 

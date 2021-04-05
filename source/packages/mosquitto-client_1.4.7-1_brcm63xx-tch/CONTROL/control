@@ -1,0 +1,13 @@
+Package: mosquitto-client
+Version: 1.4.7-1
+Depends: libc, librt, libuuid, libcares, libmosquitto
+Source: /home/jow/relman-cc/.cache/feeds/packages/net/mosquitto
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Require-User: mosquitto=200:mosquitto=200
+Old_Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: brcm63xx-tch
+Installed-Size: 15556
+Description: Command line client tools for publishing messages to MQTT servers and subscribing to topics. This package is built with SSL support

@@ -1,0 +1,2 @@
+#!/bin/sh
+grep zsh ${IPKG_INSTROOT}/etc/shells || echo "/bin/zsh" >> ${IPKG_INSTROOT}/etc/shells

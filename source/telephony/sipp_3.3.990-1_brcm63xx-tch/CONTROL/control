@@ -1,0 +1,11 @@
+Package: sipp
+Version: 3.3.990-1
+Depends: libc, libncurses, libpthread, uclibcxx
+Source: feeds/telephony/net/sipp
+License: GPL-2.0+ BSD-3-Clause Zlib
+LicenseFiles: LICENSE.txt
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 144947
+Description: SIPp is a free Open Source test tool / traffic generator for the SIP protocol. It includes a few basic SipStone user agent scenarios (UAC and UAS) and establishes and releases multiple calls with the INVITE and BYE methods.

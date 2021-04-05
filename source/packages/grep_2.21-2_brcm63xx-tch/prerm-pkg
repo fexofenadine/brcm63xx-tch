@@ -1,0 +1,2 @@
+${IPKG_INSTROOT}/bin/busybox grep -h 2>&1 | grep -q BusyBox && ln -sf busybox ${IPKG_INSTROOT}/bin/grep
+exit 0

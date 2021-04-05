@@ -1,0 +1,10 @@
+{% load i18n %}{% autoescape off %}
+{% blocktrans %}{{ user }} want to join to Group "{{ group_name }}", here is the verification message: {% endblocktrans %}
+
+{{ group_join_msg }}
+
+{% trans "Thanks for using our site!" %}
+
+{% blocktrans %}The {{ site_name }} team{% endblocktrans %}
+
+{% endautoescape %}

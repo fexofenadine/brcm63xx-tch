@@ -1,0 +1,9 @@
+Package: luci-i18n-mmc-over-gpio-sk
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-mmc-over-gpio
+Source: feeds/luci/applications/luci-app-mmc-over-gpio
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 327
+Description: Translation for luci-app-mmc-over-gpio - Slovenčina (Slovene)

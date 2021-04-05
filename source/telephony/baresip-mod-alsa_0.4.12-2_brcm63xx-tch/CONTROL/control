@@ -1,0 +1,12 @@
+Package: baresip-mod-alsa
+Version: 0.4.12-2
+Depends: libc, baresip, alsa-lib
+Source: feeds/telephony/net/baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 3367
+Description: baresip ALSA audio driver module

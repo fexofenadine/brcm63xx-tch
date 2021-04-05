@@ -1,0 +1,12 @@
+Package: shairplay
+Version: 2014-10-27-2
+Depends: libc, libao, libavahi-compat-libdnssd, libltdl, libpthread
+Source: feeds/packages/sound/shairplay
+License: MIT
+LicenseFiles: LICENSE
+Section: sound
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 44740
+Description: Free portable AirPlay server implementation similar to ShairPort.

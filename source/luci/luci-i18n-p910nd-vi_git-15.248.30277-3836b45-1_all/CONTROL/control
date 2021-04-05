@@ -1,0 +1,9 @@
+Package: luci-i18n-p910nd-vi
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-p910nd
+Source: feeds/luci/applications/luci-app-p910nd
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 574
+Description: Translation for luci-app-p910nd - Tiếng Việt (Vietnamese)

@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-dump1090) && rm -f /etc/uci-defaults/luci-dump1090
+	exit 0
+}

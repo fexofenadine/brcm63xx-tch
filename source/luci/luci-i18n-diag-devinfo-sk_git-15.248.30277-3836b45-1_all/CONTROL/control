@@ -1,0 +1,9 @@
+Package: luci-i18n-diag-devinfo-sk
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-diag-devinfo
+Source: feeds/luci/applications/luci-app-diag-devinfo
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 325
+Description: Translation for luci-app-diag-devinfo - Slovenčina (Slovene)

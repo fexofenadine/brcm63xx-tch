@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-voice-core-pt) && rm -f /etc/uci-defaults/luci-i18n-voice-core-pt
+		exit 0
+	}

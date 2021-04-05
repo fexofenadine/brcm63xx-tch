@@ -1,0 +1,11 @@
+Package: perl-www
+Version: 5.837-2
+Depends: libc, perl, perl-html-parser, perl-html-tagset, perl-uri
+Source: feeds/packages/lang/perl-www
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: brcm63xx-tch
+Installed-Size: 91103
+Description: WWW client/server library for Perl (aka LWP)

@@ -1,0 +1,12 @@
+Package: libssh2
+Version: 1.6.0-1
+Depends: libc, libopenssl, zlib
+Source: feeds/packages/libs/libssh2
+License: BSD
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 61160
+Description: libssh2 is a client-side C library implementing the SSH2 protocol.

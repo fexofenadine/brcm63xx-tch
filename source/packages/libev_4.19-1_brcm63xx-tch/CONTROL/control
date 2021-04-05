@@ -1,0 +1,11 @@
+Package: libev
+Version: 4.19-1
+Depends: libc
+Source: feeds/packages/libs/libev
+License: BSD-2-Clause
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: brcm63xx-tch
+Installed-Size: 20033
+Description: A full-featured and high-performance event loop that is loosely modelled after libevent, but without its limitations and bugs.

@@ -1,0 +1,11 @@
+Package: muninlite
+Version: 1.0.4-6
+Depends: libc, xinetd
+Source: feeds/packages/admin/muninlite
+License: GPL-2.0+
+LicenseFiles: LICENSE
+Section: admin
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 5811
+Description: Munin node implemented in shell

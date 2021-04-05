@@ -1,0 +1,11 @@
+Package: lm-sensors-detect
+Version: 3.3.5-1
+Depends: libc, sysfsutils, lm-sensors, perl, perlbase-essential, perlbase-fcntl, perlbase-file, perlbase-xsloader
+Source: feeds/packages/utils/lm-sensors
+License: GPL-2.0+ LGPL-2.1+
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 44363
+Description: script to autodetect sensor hardware

@@ -1,0 +1,3 @@
+	rm -rf /usr/sbin/httpd
+	ln -s /bin/busybox /usr/sbin/httpd
+	echo -e "You may need to change your initscripts back for the use \n with busybox's httpd."

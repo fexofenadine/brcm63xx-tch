@@ -1,0 +1,9 @@
+Package: luci-app-dump1090
+Version: git-15.248.30277-3836b45-1
+Depends: libc, dump1090
+Source: feeds/luci/applications/luci-app-dump1090
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 2111
+Description: LuCI Support for dump1090

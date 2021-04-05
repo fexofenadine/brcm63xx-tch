@@ -1,0 +1,2 @@
+#!/bin/sh
+[ -n "${IPKG_INSTROOT}" ] || /etc/init.d/wlunbind enable || true

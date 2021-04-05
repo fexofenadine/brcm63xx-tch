@@ -1,0 +1,5 @@
+#!/bin/sh
+cd "${IPKG_INSTROOT}/usr/lib/python2.7/site-packages"
+mv -f easy-install.pth easy-install.pth.old
+mv -f site.py site.py.old
+exit 0

@@ -1,0 +1,10 @@
+Package: nfs-kernel-server-utils
+Version: 1.3.2-2
+Depends: libc, nfs-kernel-server
+Source: feeds/packages/net/nfs-kernel-server
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 12709
+Description: NFS server utils

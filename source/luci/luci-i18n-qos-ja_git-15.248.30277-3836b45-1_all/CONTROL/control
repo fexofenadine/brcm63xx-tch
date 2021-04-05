@@ -1,0 +1,9 @@
+Package: luci-i18n-qos-ja
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-qos
+Source: feeds/luci/applications/luci-app-qos
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 1050
+Description: Translation for luci-app-qos - 日本語 (Japanese)

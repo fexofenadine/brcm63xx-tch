@@ -1,0 +1,11 @@
+Package: oping
+Version: 1.6.2-1
+Depends: libc, liboping
+Source: feeds/packages/libs/liboping
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 6946
+Description: Send ICMP echo request to network hosts

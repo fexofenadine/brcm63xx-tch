@@ -1,0 +1,7 @@
+#!/bin/sh
+if [ -z ${IPKG_INSTROOT} ] ; then
+	( . /etc/uci-defaults/cjdns ) && rm -f /etc/uci-defaults/cjdns
+	# TODO: we should have an 'Enable' button instead
+	/etc/init.d/cjdns enabled || /etc/init.d/cjdns enable
+	exit 0
+fi

@@ -1,0 +1,9 @@
+Package: luci-mod-rpc
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-lib-json
+Source: feeds/luci/modules/luci-mod-rpc
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 2562
+Description: LuCI RPC - JSON-RPC API

@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ -z "${IPKG_INSTROOT}" ]; then
+	echo "Don't forget disable cron job!"
+	echo "# crontab -r -u _fdm"
+fi
+exit 0

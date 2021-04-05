@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-pbx-en) && rm -f /etc/uci-defaults/luci-i18n-pbx-en
+		exit 0
+	}

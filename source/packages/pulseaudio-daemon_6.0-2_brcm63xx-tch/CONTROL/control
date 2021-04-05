@@ -1,0 +1,14 @@
+Package: pulseaudio-daemon
+Version: 6.0-2
+Depends: libc, libspeexdsp, libsndfile, libltdl, libpthread, librt, alsa-lib, libopenssl, libwrap, libcap, libjson-c
+Provides: pulseaudio
+Source: feeds/packages/sound/pulseaudio
+License: LGPL-2.1+
+LicenseFiles: GPL LICENSE
+Section: sound
+Maintainer: fexofenadine (github.com/fexofenadine)
+Require-User: pulse=51:pulse=51
+Old_Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 888039
+Description: PulseAudio (formerly Polypaudio) is a cross-platform, networked sound server.

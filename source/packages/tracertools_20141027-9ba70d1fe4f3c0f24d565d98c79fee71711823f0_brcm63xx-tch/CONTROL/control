@@ -1,0 +1,11 @@
+Package: tracertools
+Version: 20141027-9ba70d1fe4f3c0f24d565d98c79fee71711823f0
+Depends: libc
+Source: feeds/packages/utils/tracertools
+License: GPL-3.0
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: brcm63xx-tch
+Installed-Size: 5000
+Description: Tools for the Tracer MPPT solar charge controller.

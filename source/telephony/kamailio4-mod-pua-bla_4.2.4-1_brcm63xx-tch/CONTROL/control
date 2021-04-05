@@ -1,0 +1,12 @@
+Package: kamailio4-mod-pua-bla
+Version: 4.2.4-1
+Depends: libc, kamailio4, kamailio4-mod-presence, kamailio4-mod-pua, kamailio4-mod-usrloc
+Source: feeds/telephony/net/kamailio-4.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 9360
+Description: kamailio4 Bridged Line Appearence PUA module

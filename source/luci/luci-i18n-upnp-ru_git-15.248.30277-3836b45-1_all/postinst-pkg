@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-upnp-ru) && rm -f /etc/uci-defaults/luci-i18n-upnp-ru
+		exit 0
+	}

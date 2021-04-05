@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-freifunk-hu) && rm -f /etc/uci-defaults/luci-i18n-freifunk-hu
+		exit 0
+	}

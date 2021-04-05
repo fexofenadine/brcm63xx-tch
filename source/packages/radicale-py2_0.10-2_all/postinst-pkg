@@ -1,0 +1,3 @@
+	#!/bin/sh
+	# patch /usr/bin/radicale force run using python2
+	/bin/sed -i 's/python/python2/' ${IPKG_INSTROOT}/usr/bin/radicale

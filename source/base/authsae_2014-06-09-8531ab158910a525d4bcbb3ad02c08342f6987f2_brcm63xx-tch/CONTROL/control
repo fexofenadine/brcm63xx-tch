@@ -1,0 +1,11 @@
+Package: authsae
+Version: 2014-06-09-8531ab158910a525d4bcbb3ad02c08342f6987f2
+Depends: libc, libopenssl, libconfig, libnl-tiny
+Source: package/network/services/authsae
+License: BSD-4-Clause
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 61252
+Description: 80211s mesh security

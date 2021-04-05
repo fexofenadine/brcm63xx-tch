@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-ddns-sv) && rm -f /etc/uci-defaults/luci-i18n-ddns-sv
+		exit 0
+	}

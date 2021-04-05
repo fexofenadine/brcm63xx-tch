@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-multiwan-cs) && rm -f /etc/uci-defaults/luci-i18n-multiwan-cs
+		exit 0
+	}

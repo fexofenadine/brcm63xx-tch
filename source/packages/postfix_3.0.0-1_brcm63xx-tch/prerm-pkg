@@ -1,0 +1,3 @@
+#!/bin/sh
+ ps | grep "postfix/master" | grep -cvq grep >/dev/null && postfix stop
+ /etc/init.d/postfix disable

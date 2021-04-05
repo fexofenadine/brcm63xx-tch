@@ -1,0 +1,11 @@
+Package: ohybridproxy
+Version: 2015-01-12-f2ba152799c481471ddc0213b3f98b1c143d97a3-1
+Depends: libc, libubox, mdnsd
+Source: feeds/routing/ohybridproxy
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 10449
+Description: This package provides a statically configured daemon for translating DNS requests to Multicast DNS and back again.

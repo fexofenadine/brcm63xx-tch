@@ -1,0 +1,7 @@
+#!/bin/sh
+which uci > /dev/null || exit 0
+uci -q get ucitrack.@sqm[0] > /dev/null && {
+  uci delete ucitrack.@sqm[0]
+  uci del_list ucitrack.@firewall[0].affects=sqm
+  uci commit
+}

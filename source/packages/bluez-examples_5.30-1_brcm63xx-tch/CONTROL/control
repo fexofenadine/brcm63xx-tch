@@ -1,0 +1,12 @@
+Package: bluez-examples
+Version: 5.30-1
+Depends: libc, python
+Source: feeds/packages/utils/bluez
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 26089
+Description: contains many examples apps for bluetooth, requiring python

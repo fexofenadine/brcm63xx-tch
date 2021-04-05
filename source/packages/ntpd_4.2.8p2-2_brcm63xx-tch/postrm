@@ -1,0 +1,3 @@
+#!/bin/sh
+/bin/busybox ntpd -h 2>&1 | grep -q BusyBox && ln -sf ../../bin/busybox /usr/sbin/ntpd
+exit 0

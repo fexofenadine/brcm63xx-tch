@@ -1,0 +1,3 @@
+#!/bin/sh
+grep tcsh ${IPKG_INSTROOT}/etc/shells || echo "/bin/tcsh" >> ${IPKG_INSTROOT}/etc/shells
+	echo "/bin/csh" >> ${IPKG_INSTROOT}/etc/shells

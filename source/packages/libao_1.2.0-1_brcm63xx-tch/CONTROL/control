@@ -1,0 +1,12 @@
+Package: libao
+Version: 1.2.0-1
+Depends: libc, alsa-lib
+Source: feeds/packages/libs/libao
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 21411
+Description: Libao is a cross-platform audio library that allows programs to output audio using a simple API on a wide variety of platforms.

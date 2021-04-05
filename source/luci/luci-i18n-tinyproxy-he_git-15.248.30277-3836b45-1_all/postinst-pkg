@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-tinyproxy-he) && rm -f /etc/uci-defaults/luci-i18n-tinyproxy-he
+		exit 0
+	}

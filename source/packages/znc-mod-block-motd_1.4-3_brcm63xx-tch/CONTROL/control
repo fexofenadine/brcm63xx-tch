@@ -1,0 +1,12 @@
+Package: znc-mod-block-motd
+Version: 1.4-3
+Depends: libc, znc
+Source: feeds/packages/net/znc
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 7129
+Description: This module blocks the server's Message of the Day.

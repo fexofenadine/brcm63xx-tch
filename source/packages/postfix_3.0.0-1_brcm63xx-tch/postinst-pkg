@@ -1,0 +1,36 @@
+#!/bin/sh
+
+ if [ -f "${IPKG_INSTROOT}/usr/sbin/sendmail" -a "$(readlink "${IPKG_INSTROOT}/usr/sbin/sendmail")" != "/usr/sbin/sendmail.postfix" ]; then
+  mv "${IPKG_INSTROOT}/usr/sbin/sendmail" "${IPKG_INSTROOT}/usr/sbin/sendmail.old"
+  echo "Warning: ${IPKG_INSTROOT}/usr/sbin/sendmail saved as ${IPKG_INSTROOT}/usr/sbin/sendmail.old"
+ fi
+ if [ ! -f "${IPKG_INSTROOT}/usr/sbin/sendmail" ]; then
+  ln -s "${IPKG_INSTROOT}/usr/sbin/sendmail.postfix" "/usr/sbin/sendmail"
+ fi
+
+ if [ -f "${IPKG_INSTROOT}/usr/bin/newaliases" -a "$(readlink "${IPKG_INSTROOT}/usr/bin/newaliases")" != "/usr/bin/newaliases.postfix" ]; then
+  mv "${IPKG_INSTROOT}/usr/bin/newaliases" "${IPKG_INSTROOT}/usr/bin/newaliases.old"
+  echo "Warning: ${IPKG_INSTROOT}/usr/bin/newaliases saved as ${IPKG_INSTROOT}/usr/bin/newaliases.old"
+ fi
+ if [ ! -f "${IPKG_INSTROOT}/usr/bin/newaliases" ]; then
+  ln -s "${IPKG_INSTROOT}/usr/bin/newaliases.postfix" "/usr/bin/newaliases"
+ fi
+
+ if [ -f "${IPKG_INSTROOT}/usr/bin/mailq" -a "$(readlink "${IPKG_INSTROOT}/usr/bin/mailq")" != "/usr/bin/mailq.postfix" ]; then
+  mv "${IPKG_INSTROOT}/usr/bin/mailq" "${IPKG_INSTROOT}/usr/bin/mailq.old"
+  echo "Warning: ${IPKG_INSTROOT}/usr/bin/mailq saved as ${IPKG_INSTROOT}/usr/bin/mailq.old"
+ fi
+ if [ ! -f "/usr/bin/mailq" ]; then
+  ln -s "${IPKG_INSTROOT}/usr/bin/mailq.postfix" "/usr/bin/mailq"
+ fi
+
+ grep -qc main\.cf "${IPKG_INSTROOT}"/etc/sysupgrade.conf >/dev/null || echo "/etc/postfix/main.cf" >> "${IPKG_INSTROOT}"/etc/sysupgrade.conf
+ grep -qc master\.cf "${IPKG_INSTROOT}"/etc/sysupgrade.conf >/dev/null || echo "/etc/postfix/master.cf" >> "${IPKG_INSTROOT}"/etc/sysupgrade.conf
+ grep -qc aliases "${IPKG_INSTROOT}"/etc/sysupgrade.conf >/dev/null || echo "/etc/postfix/aliases" >> "${IPKG_INSTROOT}"/etc/sysupgrade.conf
+
+ touch "${IPKG_INSTROOT}/etc/postfix"/opkg_postinst
+
+ if [ -z "${IPKG_INSTROOT}" ]; then
+  ps | grep "postfix/master" | grep -cvq grep >/dev/null && /etc/init.d/postfix reload
+ fi
+

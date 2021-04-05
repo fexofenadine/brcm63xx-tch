@@ -1,0 +1,11 @@
+Package: lua-xavante
+Version: 2.3.0-1
+Depends: libc, lua
+Source: feeds/packages/lang/lua-xavante
+License: MIT
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Dirk Chang <dirk@kooiot.com>
+Architecture: brcm63xx-tch
+Installed-Size: 11087
+Description: Xavante is a Lua HTTP 1.1 Web server that uses a modular architecture based on URI mapped handlers.

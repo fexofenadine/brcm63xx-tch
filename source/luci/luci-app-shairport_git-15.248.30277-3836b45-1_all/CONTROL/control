@@ -1,0 +1,9 @@
+Package: luci-app-shairport
+Version: git-15.248.30277-3836b45-1
+Depends: libc, shairport
+Source: feeds/luci/applications/luci-app-shairport
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 1942
+Description: LuCI Support for Shairport

@@ -1,0 +1,2 @@
+#!/bin/sh
+ln -sf ssmtp ${IPKG_INSTROOT}/usr/sbin/sendmail

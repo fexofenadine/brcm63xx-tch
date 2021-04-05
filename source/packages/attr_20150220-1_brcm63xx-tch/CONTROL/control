@@ -1,0 +1,12 @@
+Package: attr
+Version: 20150220-1
+Depends: libc, libattr
+Source: feeds/packages/utils/attr
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 12574
+Description: Extended attributes support This package provides xattr manipulation utilities - attr - getfattr - setfattr

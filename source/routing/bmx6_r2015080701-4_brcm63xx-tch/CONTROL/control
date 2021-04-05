@@ -1,0 +1,11 @@
+Package: bmx6
+Version: r2015080701-4
+Depends: libc, kmod-ip6-tunnel, kmod-iptunnel6, kmod-tun
+Source: feeds/routing/bmx6
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Axel Neumann <neumann@cgws.de>
+Architecture: brcm63xx-tch
+Installed-Size: 133868
+Description: BMX6 layer 3 routing daemon supporting IPv4, IPv6, and IPv4 over IPv6

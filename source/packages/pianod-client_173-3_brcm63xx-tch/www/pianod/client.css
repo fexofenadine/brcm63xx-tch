@@ -1,0 +1,403 @@
+/* pianod web client - communication class
+   Copr. 2013-2014 Perette Barella/Devious Fish
+   All rights reserved.
+*/
+
+/* Default/general setup */
+body {
+	font-family: sans-serif;
+	line-height: 1.3;
+}
+table {
+	border-collapse: collapse;
+}
+.note {
+	font-size: 80%;
+}
+.add {
+	color: green;
+}
+.remove {
+	color: red;
+}
+h1 {
+	font-size:110%;
+	margin:0 0 0.5ex 0;
+}
+h2, h3 {
+	font-size:100%;
+	margin: 0 0 0.5ex 0;
+}
+#footer {
+	display:none;
+}
+.error {
+	color:red;
+}
+label + select,
+label + input {
+	display:block;
+	margin-bottom:1ex;
+	width:90%;
+}
+.pager {
+	width:100%;
+	padding:0.5ex;
+}
+.pagenumber {
+	display:block;
+	float:right;
+}
+ul.actions {
+	list-style-type: none;
+	padding-left: 0;
+}
+div.accordion ul.actions {
+	padding-left: 1em;
+}
+ul.actions li {
+	margin: 1ex 0;
+}
+
+/* Pop-up related styles */
+div.popup {
+	display: none;
+	background: black;
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	top: 2.5em;
+	opacity: 0.9;
+	border: thin solid #aaa;
+	border-radius: 1ex;
+	z-index: 6;
+}
+div.popup > div {
+	color: white;
+	padding: 0 1ex;
+}
+div.popup > div > span.close {
+	color: red;
+	display: block;
+	float: right;
+	cursor: pointer
+}
+
+
+/* Navigation: buttons and accordions (h3) */
+a span.value {
+	color: blue;
+	text-decoration: underline;
+}
+a.disabled span.value {
+	color: black;
+	text-decoration: none;
+	pointer-events: none;
+}
+
+h3,
+.button {
+	padding: 0.2ex 0.5ex;
+	margin: 0 1px;
+	border: thin solid #888;
+	background: #ccc;
+	border-radius: 0.8ex;
+	cursor: pointer;
+	color: black;
+}
+h3 {
+	font-weight:normal;
+	width: 90%;
+	padding:0.5ex 4%;
+	margin:1ex 0 0;
+}
+h3:before {
+	content: '▶ ';
+}
+h3.selected:before {
+	content: '▼ ';
+}
+h3.disabled,
+.button.disabled {
+	opacity: 0.3;
+	pointer-events: none;
+}
+.button.selected {
+	color: green;
+}
+
+
+#switcher {
+	line-height:1.8;
+}
+#switcher.button.disabled {
+	display: none;
+}
+
+/* View management */
+#views {
+	display: table;
+}
+#views > div {
+	display: table-row;
+}
+#views > div > div {
+	display: table-cell;
+	width:240px;
+	padding:5px;
+	position:relative;
+}
+#views > div > div.columns-2 {
+	width: 480px;
+}
+#views > div > div.columns-3 {
+	width: 720px;
+}
+#views > div > div.columns-4 {
+	width: 960px;
+}
+#views > div > div.columns-6 {
+	width: 1200px;
+}
+.columnar {
+	columns: 220px auto;
+	-moz-columns: 220px auto;
+	margin: 0.5ex 0;
+
+}
+.columns-2 .columnar,
+.columns-3 .columnar,
+.columns-4 .columnar,
+.columns-5 .columnar,
+.columns-6 .columnar {
+	/* Chrome botches one column, so don't apply style in that case. */
+	-webkit-columns: 220px auto;
+}
+
+/* Status message area below views */
+#status {
+	clear:left;
+}
+
+
+
+/* Track view pagers, track controls */
+#trackviewtitle {
+	width:100%;
+	padding:0.5ex;
+}
+#previoustrack,
+#nexttrack {
+	position:absolute;
+	visibility:visible;
+	bottom:4em;
+	color:white;
+	background:rgba(0, 0, 0, 0.4);
+}
+#previoustrack {
+	left: 5%;
+}
+#nexttrack {
+	right: 5%;
+}
+
+/* Track view */
+#trackview {
+	background-color:#ccf;
+	background: linear-gradient(30deg, #aad, #ccf);
+}
+#trackcontrols { /* Play/pause, skip */
+	float:right;
+	margin-right:3px;
+}
+#albumcover {
+	position:relative;
+	visibility:visible;
+}
+#albumart {
+	width: 230px;
+	background: black;
+	padding: 4px;
+	height: auto;
+}
+
+#why,
+.statusoverlay,
+#controller {
+	position: absolute;
+	width:214px;
+	left:10px;
+	padding:3px;
+	border-radius:1ex;
+	background: rgba(0,0,0,.4);
+	text-align:center;
+}
+.statusoverlay {
+	width:90%;
+	left:4%;
+	top:10px;
+	color:white;
+}
+.statusoverlay span {
+	font-size: 300%;
+}
+#why {
+	width: auto;
+	top: 10px;
+	left: auto;
+	right: 10px;
+	color: white;
+	min-width: 1em;
+}
+
+#controller { /* Ratings controller */
+	bottom:21px;
+	text-align: center;
+}
+#controller > span > span {
+	white-space:nowrap;
+}
+#controller .button {
+	font-size: 120%;
+	min-width: 5em;
+	border-radius: 1ex;
+	border-color:#000;
+}
+
+#timepoint, #duration { /* Time display at bottom of album art */
+	font-size:70%;
+	color:#fff;
+}
+#statusbar { /* The background of the progress bar */
+	margin-top:3px;
+	position:relative;
+	left: 5%;
+	width:90%;
+	height:3px;
+	background:#ccc;
+}
+#progressbar { /* The progress of the status bar */
+	height:3px;
+	background:#A4F;
+}
+
+.button.seed {
+	display:block;
+	float:right;
+}
+#trackdetails > div {
+	clear:right;
+}
+#volume {
+	width: 100%;
+}
+
+/* Activity View */
+#activityview {
+	background:#ffc;
+	background: linear-gradient(30deg, #dda, #ffc);
+}
+#yellmessage {
+	width: 95%;
+}
+#recentactivity {
+	list-style-position: inside;
+	padding-left: 0;
+	margin: 0.3ex;
+}
+
+
+/* Station View */
+#stationview {
+	background:#cfc;
+	background: linear-gradient(30deg, #ada, #cfc);
+}
+.pending {
+	color: red;
+}
+#stationlist {
+	list-style-type: none;
+	padding-left: 0;
+}
+#stationlist input,
+#stationlist a.button {
+	display:none;
+}
+#stationlist.showmix input {
+	display: inline;
+}
+#stationlist.showratings {
+	line-height: 1.6;
+}
+#stationlist.showratings a.button {
+	display: inline;
+}
+#stationlist.showratings.disabled a.button {
+	opacity: 0.7;
+}
+#stationlist.showratings.disabled label {
+	color: #888;
+}
+#stationlist.showratings a.button.selected + a.button + a.button + input + label {
+	color: #bbb;
+}
+#stationlist.showratings a.button.selected + input + label {
+	font-weight: bold;
+}
+
+/* Administration view */
+#adminview {
+	background:#eee;
+	background: linear-gradient(30deg, #aaa, #eee);
+}
+
+/* User view */
+#userview {
+	background: #fcc;
+	background: linear-gradient(30deg, #daa, #fcc);
+}
+ul.privilegelist {
+	margin-top:0;
+	padding-left:0;
+	list-style-type: none;
+}
+ul.privilegelist li {
+	margin: 0;
+}
+
+/* SeedView */
+#seedview {
+	background:#cff;
+	background: linear-gradient(30deg, #add, #cff);
+}
+#seedview:not(.columns-1) h3+div {
+	overflow-y: scroll;
+}
+
+#seedview.columns-1 h3+div {
+	height: auto !important;
+}
+#seedview.columns-1 table {
+	height: auto;
+	overflow-y: visible;
+	display: block;
+}
+#seedview.columns-1 tr {
+	display: block;
+}
+#seedview.columns-1 tr:nth-child(even) {
+	background: white;
+}
+#seedview.columns-1 td
+{
+	display: block;
+}
+#seedview.columns td:empty
+{
+	display: none;
+}
+#seedview.columns-1 thead
+{
+	display:none;
+}
+

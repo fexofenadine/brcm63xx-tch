@@ -1,0 +1,9 @@
+Package: freifunk-common
+Version: 1
+Depends: libc
+Source: feeds/luci/contrib/package/freifunk-common
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: brcm63xx-tch
+Installed-Size: 2967
+Description: Common files and scripts that are needed to run free wireless mesh networks.

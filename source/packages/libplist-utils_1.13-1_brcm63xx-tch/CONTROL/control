@@ -1,0 +1,12 @@
+Package: libplist-utils
+Version: 1.13-1
+Depends: libc, libplist
+Source: feeds/packages/libs/libplist
+License: LGPL-2.1+
+LicenseFiles: COPYING.LESSER
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Lukasz Baj <l.baj@radytek.com>
+Architecture: brcm63xx-tch
+Installed-Size: 2397
+Description: A library to handle Apple Property List format whereas it's binary or XML This package contains the libplist utilities.

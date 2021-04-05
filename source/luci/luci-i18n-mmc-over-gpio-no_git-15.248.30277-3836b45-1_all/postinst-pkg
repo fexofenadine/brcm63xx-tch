@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-mmc-over-gpio-no) && rm -f /etc/uci-defaults/luci-i18n-mmc-over-gpio-no
+		exit 0
+	}

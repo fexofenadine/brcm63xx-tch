@@ -1,0 +1,12 @@
+Package: nmap
+Version: 6.47-2
+Depends: libc, libpcap, libstdcpp
+Source: feeds/packages/net/nmap
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 1769640
+Description: Utility for network exploration or security auditing

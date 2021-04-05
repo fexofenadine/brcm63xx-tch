@@ -1,0 +1,10 @@
+Package: transmission-daemon
+Version: 2.84-3
+Depends: libc, libcurl, libopenssl, libpthread, libevent2, librt
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: brcm63xx-tch
+Installed-Size: 189484
+Description: Transmission is a simple BitTorrent client. It features a very simple, intuitive interface on top on an efficient, cross-platform back-end. This package contains the daemon itself.

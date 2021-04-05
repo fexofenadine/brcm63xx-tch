@@ -1,0 +1,18 @@
+{% extends base_template %}
+{% load seahub_tags i18n %}
+
+{% block main_panel %}
+<div class="narrow-panel">
+    <h3>{% trans "Update file " %}
+            {% for name, link in zipped %}
+                {% if not forloop.last %}
+                <a href="{{ SITE_ROOT }}repo/{{ repo.id }}/?p={{ link|urlencode }}">{{ name }}</a> / 
+		{% else %}
+		<a href="{{ SITE_ROOT }}repo/{{ repo.id }}/?p={{ link|urlencode }}">{{ name }}</a>
+	        {% endif %}
+            {% endfor %}
+        {% trans "error: " %}
+    </h3>
+    <p>{{ err_msg }}</p>
+</div>
+{% endblock %}

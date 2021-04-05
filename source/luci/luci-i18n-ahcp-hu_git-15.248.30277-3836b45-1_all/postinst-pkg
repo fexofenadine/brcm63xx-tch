@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-ahcp-hu) && rm -f /etc/uci-defaults/luci-i18n-ahcp-hu
+		exit 0
+	}

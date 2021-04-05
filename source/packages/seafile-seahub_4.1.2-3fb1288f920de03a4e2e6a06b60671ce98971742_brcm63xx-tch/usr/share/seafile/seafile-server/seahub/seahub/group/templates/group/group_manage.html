@@ -1,0 +1,178 @@
+{% extends 'group/group_base.html' %}
+{% load seahub_tags avatar_tags group_avatar_tags i18n %}
+
+{% block cur_admin %}tab-cur{% endblock %}
+
+{% block right_panel %}
+<div id="tabs" class="tab-tabs">
+    <div class="hd ovhd">
+    <ul class="tab-tabs-nav fleft">
+        <li class="tab"><a href="#members" class="a" id="members-tab">{% trans "Members" %}</a></li>
+        <li class="tab"><a href="#administrators" class="a" id="admin-tab">{% trans "Admins" %}</a></li>
+        <li class="tab"><a href="#settings" class="a" id="settings-tab">{% trans "Settings" %}</a></li>
+    </ul>
+    <div class="fright">
+        <button id="group-member-add" class="hide"><img src="{{ MEDIA_URL }}img/add.png" alt="" class="add vam" /><span class="vam">{% trans "Add Members"%}</span></button>
+        <button id="group-admin-add" class="hide"><img src="{{ MEDIA_URL }}img/add.png" alt="" class="add vam" /><span class="vam">{% trans "Add Admins"%}</span></button>
+    </div>
+    </div>
+    <div id="members">
+        {% if members %}
+        <table>
+            <tr>
+                <th width="4%"></th>
+                <th width="71%">{% trans "Email"%}</th>
+                <th width="25%">{% trans "Operations"%}</th>
+            </tr>
+
+            {% for member in members %}
+            <tr>
+                <td>{% avatar member.user_name 20 %}</td>
+                <td>{{ member.user_name }}</td>
+                <td>
+                    {% if member.user_name != request.user.username %}
+                    <img src="{{MEDIA_URL}}img/rm.png" alt="" data-url="{{ SITE_ROOT }}group/{{ group.id }}/member/{{ member.user_name|urlencode }}/?op=delete" data-target="{{ member.user_name }}" class="rm-member op-icon vh" title="{% trans "Delete" %}" />
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
+    </div>
+
+    <div class="hide" id="administrators">
+        {% if admins %}
+        <table>
+            <tr>
+                <th width="4%"></th>
+                <th width="71%">{% trans "Email"%}</th>
+                <th width="25%">{% trans "Operations"%}</th>
+            </tr>
+
+            {% for member in admins %}
+            <tr>
+                <td>{% avatar member.user_name 20 %}</td>
+                <td>{{ member.user_name }}</td>
+                <td>
+                    {% if member.user_name != request.user.username %}
+                    <img src="{{MEDIA_URL}}img/rm.png" alt="" data-url="{% url 'group_remove_admin' group.id %}?u={{ member.user_name|urlencode }}" data-target="{{ member.user_name }}" class="rm-member op-icon vh" title="{% trans "Delete"%}" />
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
+    </div>
+
+    <div class="hide" id="settings">
+        <div class="setting-item" style="margin-top:40px;">
+            <h3>{% trans "Avatar" %}</h3>
+            <div class="ovhd">
+                <div class="fleft">{% grp_avatar group.props.id 48 %}</div>
+                <form id="grp-avatar-form" enctype="multipart/form-data" method="post" action="{% url 'avatar_group_add' group.id %}" class="fleft">{% csrf_token %}
+                    <button type="button" id="grp-avatar-chg-btn">{% trans "Change" %}</button>
+                    <input type="file" name="avatar" id="grp-avatar-input" />
+                </form>
+            </div>
+        </div>
+        <div class="setting-item">
+            <h3>{% trans "Operations" %}</h3>
+            <ul class="op-list">
+                <li><a id="group-rename" href="#" data-url="{% url 'group_rename' group.id %}">{% trans "Rename" %}</a></li>
+                {% if group.is_pub %}
+                <li><a href="{% url 'group_revoke_pub' group.id %}">{% trans "Revoke Public" %}</a></li>
+                {% else %}
+                  {% if can_make_group_public %}                  
+                  <li><a href="{% url 'group_make_pub' group.id %}">{% trans "Make Public" %}</a></li>
+                  {% endif %}
+                {% endif %}
+                <li><a id="group-transfer" href="#" >{% trans "Transfer" %}</a></li>
+                <li><a id="group-dismiss" href="#" data-url="{% url 'group_dismiss' group.id %}">{% trans "Dismiss" %}</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<form id="group-transfer-form" method="post" action="{% url 'group_transfer' group.id %}" class="hide">{% csrf_token %}
+    <h3>{% trans "Transfer Group To"%}</h3>
+    <input type="text" name="email" value="" placeholder="{% trans "email"%}" class="input" />
+    <p class="tip">{% trans "Tip: the email should be already registered."%}</p>
+    <p class="error hide"></p>
+    <input type="submit" value="{% trans "Submit"%}" />
+</form>
+
+<form id="group-rename-form" method="post" action="{% url 'group_rename' group.id %}" class="hide">{% csrf_token %}
+    <h3>{% trans "Rename Group To"%}</h3>
+    <input type="text" name="new_name" value="" class="input" />
+    <br />
+    <p class="error hide"></p>
+    <input type="submit" value="{% trans "Submit"%}" />
+</form>
+
+{% include 'group/grpmember_add_form.html' %} {# for member/admin add #}
+{% endblock %}
+
+{% block extra_script %}{{block.super}}
+{% include "snippets/avatar_upload_js.html" %}
+<script type="text/javascript">
+var cur_tab = $('.ui-tabs-selected .a');    
+var member_add_btn = $('#group-member-add'),
+    admin_add_btn = $('#group-admin-add');
+if (cur_tab.attr('id') == 'members-tab') {
+    member_add_btn.removeClass('hide');
+}
+if (cur_tab.attr('id') == 'admin-tab') {
+    admin_add_btn.removeClass('hide');
+}
+$('#members-tab').click(function() {
+    member_add_btn.removeClass('hide');
+    admin_add_btn.addClass('hide');
+});
+$('#admin-tab').click(function() {
+    member_add_btn.addClass('hide');
+    admin_add_btn.removeClass('hide');
+});
+$('#settings-tab').click(function() {
+    changeAvatar($('#grp-avatar-chg-btn'), $('#grp-avatar-input'), $('#grp-avatar-form'));
+    member_add_btn.addClass('hide');
+    admin_add_btn.addClass('hide');
+});
+addConfirmTo($("#group-dismiss"), {
+        'title':"{% trans "Dismiss Group" %}",
+        'con':"{% trans "Really want to dismiss this group?" %}"
+});
+addConfirmTo($(".rm-member"), {
+        'title':"{% trans "Delete Member" %}",
+        'con':"{% trans "Really want to delete %s ?" %}"
+});
+var contact_list = [], contact_email;
+{% for contact in contacts %}
+contact_email = '{{ contact.contact_email }}';
+contact_list.push({value:contact_email, label:contact_email});
+{% endfor %}
+
+{# for member/admin add #}
+{% include 'group/grpmember_add_js.html' %}
+
+$('#group-transfer').click(function() {
+    $('#group-transfer-form').modal({appendTo: "#main", focus:false});
+    return false;
+});
+$('#group-transfer-form').submit(function() {
+    if (!$.trim($('[name="email"]', $(this)).val())) {
+        return false;
+    }
+});
+
+$('#group-rename').click(function() {
+    $('#group-rename-form').modal({appendTo: "#main", focus:false});
+    return false;
+});
+$('#group-rename-form').submit(function() {
+    if (!$.trim($('[name="new_name"]', $(this)).val())) {
+        return false;
+    }
+});
+</script>
+{% endblock %}

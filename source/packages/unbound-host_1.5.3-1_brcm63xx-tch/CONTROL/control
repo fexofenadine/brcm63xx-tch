@@ -1,0 +1,12 @@
+Package: unbound-host
+Version: 1.5.3-1
+Depends: libc, libopenssl, libunbound
+Source: feeds/packages/net/unbound
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Michael Hanselmann <public@hansmi.ch>
+Architecture: brcm63xx-tch
+Installed-Size: 36435
+Description: This package contains the Unbound DNS lookup utility.

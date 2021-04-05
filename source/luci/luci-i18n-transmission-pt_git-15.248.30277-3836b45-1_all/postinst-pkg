@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-transmission-pt) && rm -f /etc/uci-defaults/luci-i18n-transmission-pt
+		exit 0
+	}

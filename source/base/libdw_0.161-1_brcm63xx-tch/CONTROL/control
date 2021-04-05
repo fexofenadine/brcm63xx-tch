@@ -1,0 +1,12 @@
+Package: libdw
+Version: 0.161-1
+Depends: libc, libelf1, zlib, libbz2
+Source: package/libs/elfutils
+License: GPL-3.0+
+LicenseFiles: COPYING COPYING-GPLV2 COPYING-LGPLV3
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 126371
+Description: ELF manipulation libraries (libdw)

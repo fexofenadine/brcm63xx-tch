@@ -1,0 +1,11 @@
+Package: rpcd-mod-lxc
+Version: 20141012
+Depends: libc, rpcd, liblxc
+Source: feeds/packages/utils/rpcd-mod-lxc
+License: ISC
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 3030
+Description: LXC rpcd module

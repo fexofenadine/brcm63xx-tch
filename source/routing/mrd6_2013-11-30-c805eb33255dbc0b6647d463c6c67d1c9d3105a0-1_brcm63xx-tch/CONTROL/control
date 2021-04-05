@@ -1,0 +1,11 @@
+Package: mrd6
+Version: 2013-11-30-c805eb33255dbc0b6647d463c6c67d1c9d3105a0-1
+Depends: libc, libstdcpp
+Source: feeds/routing/mrd6
+License: GPL-2.0+
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 269369
+Description: Multicast is becoming a major component in next generation networks, used in several scenarios, from video broadcasting to multimedia conferencing. In order to be implemented, new technology needs supporting hardware and software across a set of devices and systems. MRD6 is an implementation of a modular IPv6 Multicast Routing Framework for the Linux operating system and provides MLDv2 (as well as MLDv1), PIM-SM and MBGP support.

@@ -1,0 +1,48 @@
+#!/bin/sh
+# check if we are on real system
+if [ -z "${IPKG_INSTROOT}" ]; then
+
+ if [ `postconf alias_maps | grep -ci mailman` -eq 0 ]
+ then
+  postconf -e "`postconf alias_maps`, cdb:/usr/local/mailman/data/aliases"
+ fi
+ cd /usr/local/mailman
+ hostname=`cat /proc/sys/kernel/hostname`
+ if [ ! -f data/aliases ]
+ then
+  ./bin/genaliases
+ fi
+ newaliases
+ if [ `grep -c DEFAULT_URL_HOST Mailman/mm_cfg.py` -eq 0 ]
+ then
+  echo "DEFAULT_EMAIL_HOST = '$hostname'" >> Mailman/mm_cfg.py
+  echo "DEFAULT_URL_HOST = '$hostname'" >> Mailman/mm_cfg.py
+  echo "add_virtualhost(DEFAULT_URL_HOST, DEFAULT_EMAIL_HOST)" >> Mailman/mm_cfg.py
+  echo "QRUNNERS.remove(('NewsRunner',1))" >> Mailman/mm_cfg.py
+ fi
+ if [ `./bin/list_lists | grep -ci mailman` -eq 0 ]
+ then
+  ./bin/newlist --urlhost=$hostname --emailhost=$hostname --quiet mailman root@$hostname mailman
+  ./bin/config_list -i data/sitelist.cfg mailman
+  echo "NOTE: A default site-wide mailing list Mailman with password 'mailman' has been created. Please review it and change the password."
+  ./bin/mmsitepass mailman
+  echo "NOTE: The default site password 'mailman' has been created."
+ fi
+ # /etc/init.d/mailman enable
+ if [ `ps | grep "mailman/bin/qrunner" | grep -cv grep` -gt 0 ]
+ then
+  /usr/local/mailman/bin/mailmanctl -q restart
+ fi
+ if [ `grep -c mailman /etc/config/uhttpd` -eq 0 ]
+ then #we assume that the server is not configured yet, thus print out some help for the first time:
+  echo "NOTE: Please set the site password using /usr/local/mailman/bin/mmsitepass <your-site-password>"
+  echo "Please add uhttpd config section to your /etc/config/uhttpd like this:"
+  echo "config uhttpd mailman"
+  echo "	list listen_http	0.0.0.0:80"
+  echo "	option home		/usr/www"
+  echo "	option cgi_prefix	/mailman"
+  echo "	no_symlinks		0"
+  echo "Don't forget to setup firewall for accessing this website!"
+  echo "To add a mailing list go to http://$hostname/mailman/create."
+ fi
+fi

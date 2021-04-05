@@ -1,0 +1,12 @@
+Package: sane-snapscan
+Version: 1.0.25-1
+Depends: libc, libsane
+Source: /home/jow/relman-cc/.cache/feeds/packages/utils/sane-backends
+License: GPL-2.0 GPL-2.0+
+LicenseFiles: COPYING LICENSE
+Section: opt
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 89594
+Description: SANE (Scanner Access Now Easy) is a universal scanner interface. . This package contains the SANE backend for AGFA SnapScan flatbed scanners.

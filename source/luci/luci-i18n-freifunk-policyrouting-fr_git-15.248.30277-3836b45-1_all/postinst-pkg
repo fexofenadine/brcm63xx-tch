@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-freifunk-policyrouting-fr) && rm -f /etc/uci-defaults/luci-i18n-freifunk-policyrouting-fr
+		exit 0
+	}

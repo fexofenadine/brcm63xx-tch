@@ -1,0 +1,12 @@
+Package: python-codecs
+Version: 2.7.9-5
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 884630
+Description: Python 2.7 codecs + unicode support

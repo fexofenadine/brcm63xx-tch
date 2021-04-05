@@ -1,0 +1,7 @@
+#!/bin/sh
+rm -f ${IPKG_INSTROOT}/usr/bin/ssh ${IPKG_INSTROOT}/usr/bin/scp;
+if [ -x ${IPKG_INSTROOT}/usr/sbin/dropbear ] ; then
+	ln -s /usr/sbin/dropbear ${IPKG_INSTROOT}/usr/bin/ssh;
+	ln -s /usr/sbin/dropbear ${IPKG_INSTROOT}/usr/bin/scp;
+fi
+exit 0

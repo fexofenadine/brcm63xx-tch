@@ -1,0 +1,12 @@
+Package: libimobiledevice-utils
+Version: 1.2.0-2
+Depends: libc, libimobiledevice
+Source: feeds/packages/libs/libimobiledevice
+License: LGPL-2.1+
+LicenseFiles: COPYING.LESSER
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Lukasz Baj <l.baj@radytek.com>
+Architecture: brcm63xx-tch
+Installed-Size: 84699
+Description: libimobiledevice is a software library that talks the protocols to support iPhone®, iPod Touch®, iPad® and Apple TV® devices. This package contains the libimobiledevice utilities.

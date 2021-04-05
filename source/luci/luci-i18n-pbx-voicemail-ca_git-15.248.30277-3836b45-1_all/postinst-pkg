@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-pbx-voicemail-ca) && rm -f /etc/uci-defaults/luci-i18n-pbx-voicemail-ca
+		exit 0
+	}

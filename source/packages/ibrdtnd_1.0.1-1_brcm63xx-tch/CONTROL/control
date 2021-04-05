@@ -1,0 +1,11 @@
+Package: ibrdtnd
+Version: 1.0.1-1
+Depends: libc, dtndht, ibrdtn, libsqlite3
+Source: feeds/packages/net/ibrdtnd
+License: Apache-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Johannes Morgenroth <jm@m-network.de>
+Architecture: brcm63xx-tch
+Installed-Size: 576712
+Description: The implementation of the bundle protocol of the IBR (TU Braunschweig).

@@ -1,0 +1,9 @@
+#!/bin/sh
+# check if we are on real system
+if [ -z "${IPKG_INSTROOT}" ]; then
+
+ if [ `ps | grep "mailman/bin/qrunner" | grep -cv grep` -gt 0 ]
+ then
+  /usr/local/mailman/bin/mailmanctl stop
+ fi
+fi

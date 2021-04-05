@@ -1,0 +1,11 @@
+Package: libustream-cyassl
+Version: 2015-07-09-c2d73c22618e8ee444e8d346695eca908ecb72d3
+Depends: libc, libubox, libcyassl
+Source: package/libs/ustream-ssl
+License: ISC
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 3473
+Description: ustream SSL Library (cyassl)

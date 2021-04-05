@@ -1,0 +1,9 @@
+Package: luci-i18n-voice-core-en
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-app-voice-core
+Source: feeds/luci/applications/luci-app-voice-core
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 310
+Description: Translation for luci-app-voice-core - English

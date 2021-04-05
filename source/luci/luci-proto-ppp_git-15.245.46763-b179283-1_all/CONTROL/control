@@ -1,0 +1,9 @@
+Package: luci-proto-ppp
+Version: git-15.245.46763-b179283-1
+Depends: libc
+Source: feeds/luci/protocols/luci-proto-ppp
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 2620
+Description: Support for PPP/PPPoE/PPPoA/PPtP

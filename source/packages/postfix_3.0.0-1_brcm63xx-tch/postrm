@@ -1,0 +1,17 @@
+#!/bin/sh
+ rm -f ${IPKG_INSTROOT}/etc/postfix/aliases.cdb ${IPKG_INSTROOT}/etc/postfix/aliases.db ${IPKG_INSTROOT}/usr/var/lib/postfix/master.lock
+
+ rm -f "${IPKG_INSTROOT}/usr/sbin/sendmail" "${IPKG_INSTROOT}/usr/bin/newaliases" "${IPKG_INSTROOT}/usr/bin/mailq"
+
+ if [ -f "${IPKG_INSTROOT}/usr/sbin/sendmail.old" ]; then
+  mv "${IPKG_INSTROOT}/usr/sbin/sendmail.old" "${IPKG_INSTROOT}/usr/sbin/sendmail"
+  echo "Warning: ${IPKG_INSTROOT}/usr/sbin/sendmail restored from ${IPKG_INSTROOT}/usr/sbin/sendmail.old"
+ fi
+ if [ -f "${IPKG_INSTROOT}/usr/bin/newaliases.old" ]; then
+  mv "${IPKG_INSTROOT}/usr/bin/newaliases.old" "${IPKG_INSTROOT}/usr/bin/newaliases"
+  echo "Warning: ${IPKG_INSTROOT}/usr/bin/newaliases restored from ${IPKG_INSTROOT}/usr/bin/newaliases.old"
+ fi
+ if [ -f "${IPKG_INSTROOT}/usr/bin/mailq.old" ]; then
+  mv "${IPKG_INSTROOT}/usr/bin/mailq.old" "${IPKG_INSTROOT}/usr/bin/mailq"
+  echo "Warning: ${IPKG_INSTROOT}/usr/bin/mailq restored from ${IPKG_INSTROOT}/usr/bin/mailq.old"
+ fi

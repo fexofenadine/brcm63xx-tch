@@ -1,0 +1,5 @@
+$ORIGIN .
+$TTL	1
+
+; KO
+$INCLUDE @TMPDIR@/file-doesnt-exist		; File doesn't exist

@@ -1,0 +1,11 @@
+Package: ahcpd
+Version: 0.53-2
+Depends: libc, kmod-ipv6, ip, librt
+Source: feeds/routing/ahcpd
+License: MIT
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
+Architecture: brcm63xx-tch
+Installed-Size: 21265
+Description: Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc Configuration Protocol (AHCP). AHCP is designed for wireless mesh networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may also be used on wired networks.

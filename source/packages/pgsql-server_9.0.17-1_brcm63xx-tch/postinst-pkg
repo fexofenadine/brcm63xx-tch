@@ -1,0 +1,23 @@
+#!/bin/sh
+grep -q '^postgres:' /etc/passwd && exit 0
+group=$(grep '^postgres:' /etc/group | cut -f3 -d:)
+if [ -z "${group}" ] ; then
+	group=1000
+	tst=$(cat /etc/group | grep ":${group}:")
+	while [ -n "${tst}" ] ; do
+		group=$((${group}+1))
+		tst=$(cat /etc/group | grep ":${group}:")
+	done
+	echo "postgres:x:${group}:" >>/etc/group
+fi
+
+user=$(cat /etc/passwd | grep "^postgres:")
+if [ -z "${user}" ] ; then
+	num="${group}"
+	tst=$(cat /etc/passwd | grep ":.*:${num}:")
+	while [ -n "${tst}" ] ; do
+		num=$((${num}+1))
+		tst=$(cat /etc/passwd | grep ":.*:${num}:")
+	done
+	echo "postgres:*:${num}:${group}:PostgreSQL administrator:/tmp:/bin/ash" >>/etc/passwd
+fi

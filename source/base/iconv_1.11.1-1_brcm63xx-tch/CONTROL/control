@@ -1,0 +1,10 @@
+Package: iconv
+Version: 1.11.1-1
+Depends: libc, libiconv-full, libcharset
+Source: package/libs/libiconv-full
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 10043
+Description: Character set conversion utility

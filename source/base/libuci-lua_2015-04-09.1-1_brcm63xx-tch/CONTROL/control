@@ -1,0 +1,11 @@
+Package: libuci-lua
+Version: 2015-04-09.1-1
+Depends: libc, libuci, liblua
+Source: package/system/uci
+License: LGPL-2.1
+Section: libs
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 6259
+Description: Lua plugin for UCI

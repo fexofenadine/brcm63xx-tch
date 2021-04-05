@@ -1,0 +1,12 @@
+Package: lua-cjson
+Version: 2.1.0-1
+Depends: libc, lua, libzmq
+Source: feeds/packages/lang/lua-cjson
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Dirk Chang <dirk@kooiot.com>
+Architecture: brcm63xx-tch
+Installed-Size: 11887
+Description: Lua CJSON is a fast JSON encoding/parsing module for Lua.

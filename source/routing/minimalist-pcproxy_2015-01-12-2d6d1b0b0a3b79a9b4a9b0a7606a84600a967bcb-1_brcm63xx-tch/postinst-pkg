@@ -1,0 +1,5 @@
+#!/bin/sh
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/x-minimalist-pcproxy.defaults) && rm -f /etc/uci-defaults/x-minimalist-pcproxy.defaults
+}
+exit 0

@@ -1,0 +1,10 @@
+Package: cshark
+Version: 2015-03-13-ab2ae2fbd72b6cbd57c95e3192edc3c1f475412b
+Depends: libc, libjson-c, libpcap, libuci, libubox, libuclient, libustream-polarssl
+Source: feeds/packages/net/cshark
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 8875
+Description: CloudShark capture tool

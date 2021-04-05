@@ -1,0 +1,11 @@
+Package: iputils-ping
+Version: 20101006-1
+Depends: libc
+Source: package/network/utils/iputils
+License: GPL-2.0+
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 14642
+Description: Program ping from iputils. Sends ICMP ECHO_REQUEST to network hosts (IPv4).

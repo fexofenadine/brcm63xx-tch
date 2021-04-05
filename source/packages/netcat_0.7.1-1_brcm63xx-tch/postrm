@@ -1,0 +1,5 @@
+#!/bin/sh
+rm ${IPKG_INSTROOT}/usr/bin/nc
+ln -s ../../bin/busybox ${IPKG_INSTROOT}/usr/bin/nc
+${IPKG_INSTROOT}/usr/bin/nc 2>&1 | grep 'applet not found' > /dev/null 2>&1 && rm ${IPKG_INSTROOT}/usr/bin/nc
+exit 0

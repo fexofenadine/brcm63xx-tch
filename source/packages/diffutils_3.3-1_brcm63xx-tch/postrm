@@ -1,0 +1,5 @@
+#!/bin/sh
+for x in sdiff diff3 diff cmp; do
+  /bin/busybox $x -h 2>&1 | grep -q BusyBox && ln -sf ../../bin/busybox /usr/bin/$x
+done
+exit 0

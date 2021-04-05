@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/luci-mjpg-streamer) && rm -f /etc/uci-defaults/luci-mjpg-streamer
+	exit 0
+}

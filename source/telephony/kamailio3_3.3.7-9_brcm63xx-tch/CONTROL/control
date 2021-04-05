@@ -1,0 +1,12 @@
+Package: kamailio3
+Version: 3.3.7-9
+Depends: libc, libncurses, libpthread, libreadline
+Source: feeds/telephony/net/kamailio-3.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: brcm63xx-tch
+Installed-Size: 838891
+Description: Mature and flexible open source SIP server, v3.3.7

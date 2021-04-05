@@ -1,0 +1,9 @@
+Package: luci-i18n-freifunk-en
+Version: git-15.248.30277-3836b45-1
+Depends: libc, luci-mod-freifunk
+Source: feeds/luci/modules/luci-mod-freifunk
+Section: luci
+Maintainer: fexofenadine (github.com/fexofenadine)
+Architecture: all
+Installed-Size: 308
+Description: Translation for luci-mod-freifunk - English

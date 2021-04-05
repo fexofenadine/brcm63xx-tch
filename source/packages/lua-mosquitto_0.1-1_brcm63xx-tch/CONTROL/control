@@ -1,0 +1,12 @@
+Package: lua-mosquitto
+Version: 0.1-1
+Depends: libc, libmosquitto, lua
+Source: feeds/packages/lang/lua-mosquitto
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: brcm63xx-tch
+Installed-Size: 5813
+Description: Lua bindings to libmosquitto

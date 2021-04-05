@@ -1,0 +1,11 @@
+Package: sockread
+Version: 1.0-1
+Depends: libc
+Source: feeds/packages/utils/sockread
+License: CC0-1.0
+Section: utils
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Moritz Warning <moritzwarning@web.de>
+Architecture: brcm63xx-tch
+Installed-Size: 2058
+Description: sockread writes and reads data from a Unix domain socket represented as a special file on the file system.

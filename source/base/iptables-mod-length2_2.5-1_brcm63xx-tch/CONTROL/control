@@ -1,0 +1,11 @@
+Package: iptables-mod-length2
+Version: 2.5-1
+Depends: libc, iptables, kmod-ipt-length2
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 2339
+Description: length2 iptables extension

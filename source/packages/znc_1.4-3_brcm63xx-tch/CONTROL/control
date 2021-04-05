@@ -1,0 +1,12 @@
+Package: znc
+Version: 1.4-3
+Depends: libc, libopenssl, libpthread, libstdcpp
+Source: feeds/packages/net/znc
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+Maintainer: fexofenadine (github.com/fexofenadine)
+Old_Maintainer: Jonas Gorski <jogo@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 480941
+Description: ZNC is an IRC bouncer with many advanced features like detaching, multiple users, per channel playback buffer, SSL, IPv6, transparent DCC bouncing, and c++ module support to name a few.
