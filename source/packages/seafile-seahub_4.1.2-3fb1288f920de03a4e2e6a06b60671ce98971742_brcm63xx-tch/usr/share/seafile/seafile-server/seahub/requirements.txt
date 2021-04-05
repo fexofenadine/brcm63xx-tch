@@ -1,6 +1,0 @@
-python-dateutil
-chardet
-six
-Image
-Django==1.11.29
-Djblets==0.6.14

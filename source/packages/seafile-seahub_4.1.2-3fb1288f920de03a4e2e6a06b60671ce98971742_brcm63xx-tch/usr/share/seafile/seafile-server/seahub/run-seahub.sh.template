@@ -1,5 +1,0 @@
-#!/bin/bash
-
-. setenv.sh
-
-./manage.py runserver
