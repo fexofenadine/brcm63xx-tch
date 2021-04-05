@@ -24,7 +24,10 @@
 1617502193 atm-mpcd_2.5.2-5_brcm63xx-tch.ipk
 1617502193 atm-saaldump_2.5.2-5_brcm63xx-tch.ipk
 1617502193 atm-sonetdiag_2.5.2-5_brcm63xx-tch.ipk
+1617579852 atm-svc_recv_2.5.2-5_brcm63xx-tch.ipk
+1617579852 atm-svc_send_2.5.2-5_brcm63xx-tch.ipk
 1617502193 atm-tools_2.5.2-5_brcm63xx-tch.ipk
+1617579852 atm-ttcp_atm_2.5.2-5_brcm63xx-tch.ipk
 1617502193 atm-zeppelin_2.5.2-5_brcm63xx-tch.ipk
 1617502193 authsae_2014-06-09-8531ab158910a525d4bcbb3ad02c08342f6987f2_brcm63xx-tch.ipk
 1617502193 badblocks_1.42.12-1_brcm63xx-tch.ipk
@@ -410,6 +413,3 @@
 1617502197 xfs-mkfs_3.1.7-1_brcm63xx-tch.ipk
 1617502197 zlib_1.2.8-1_brcm63xx-tch.ipk
 1617502197 zram-swap_1-2_all.ipk
-1617579852 atm-svc_recv_2.5.2-5_brcm63xx-tch.ipk
-1617579852 atm-svc_send_2.5.2-5_brcm63xx-tch.ipk
-1617579852 atm-ttcp_atm_2.5.2-5_brcm63xx-tch.ipk

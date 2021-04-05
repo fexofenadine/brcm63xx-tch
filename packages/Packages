@@ -19446,19 +19446,6 @@ Source: feeds/packages/net/lksctp-tools
 Description: SCTP user-land (meta)
 License: GPL-2.0
 
-Package: seafile-seahub
-Version: 4.1.2-3fb1288f920de03a4e2e6a06b60671ce98971742
-Depends: libc, python, simplejson, python-imglib, python-setuptools
-Section: net
-Architecture: brcm63xx-tch
-Maintainer: fexofenadine (github.com/fexofenadine)
-MD5Sum: 7f1753ffce7e183bf07eb8b022b40f24
-Size: 11406410
-Filename: seafile-seahub_4.1.2-3fb1288f920de03a4e2e6a06b60671ce98971742_brcm63xx-tch.ipk
-Source: feeds/packages/net/seafile-seahub
-Description: The web end of seafile server. NOTE: in order to have better performance, language support is turned off by default. Please set 'USE_I18N = True' in seahub_settings.py to support multiple languages.
-License: Apache-2.0
-
 Package: ser2net
 Version: 2.10.0-2
 Depends: libc
